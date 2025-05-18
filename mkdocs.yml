@@ -41,7 +41,7 @@ theme:
         - navigation.tabs
         - navigation.tabs.sticky
         - search.suggest
-        - search.highlight
+        - search. ghlight
 # Extensions
 markdown_extensions:
   - footnotes
@@ -138,8 +138,12 @@ extra:
   attachments: '_assets/img/'
   no-auto-h1: True
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/Enveloppe/
+    - icon: fontawesome/solid/envelope
+      link: mailto:yifuding.twp@gmail.com
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/yifu-ding/
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/yifu_ding_/
   blog_list:
     pagination: true
     pagination_message: true
