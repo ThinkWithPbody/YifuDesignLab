@@ -16,7 +16,7 @@ theme:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
-        icon: material/brightness-auto
+        icon: material/lightbulb
         name: Switch to light mode
     # Light mode
     - media: "(prefers-color-scheme: light)"
@@ -24,7 +24,7 @@ theme:
       primary: black
       accent: amber
       toggle:
-        icon: material/lightbulb
+        icon: material/lightbulb-outline
         name: Switch to dark mode
 
     # Dark mode
@@ -33,7 +33,7 @@ theme:
       primary: blue grey
       accent: light blue
       toggle:
-        icon: material/lightbulb-outline
+        icon: material/brightness-auto
         name: Switch to system preference
     features:
         - navigation.indexes
