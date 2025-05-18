@@ -1,0 +1,37 @@
+  h1 {
+      color: #d04255;
+  }
+
+  h2 {
+      color: #d5763f;
+  }
+
+  h3 {
+      color: #e5b567;
+  }
+
+  h4 {
+      color: #a8c373;
+  }
+
+  h5 {
+      color: #6c99bb;
+  }
+
+  h6 {
+      color: #9e86c8;
+  }
+
+  :root {
+      /* Code highlighting color shades */
+      /* --md-code-hl-color: hsla(#{hex2hsl($clr-blue-a200)}, 1); */
+      --md-code-hl-color: var(--md-accent-fg-color);
+      /* --md-code-hl-color--light: hsla(#{hex2hsl($clr-blue-a200)}, 0.1); */
+      --md-code-hl-color--light: var(--md-accent-fg-color);
+  }
+
+  [data-md-color-scheme="slate"] {
+  --md-hue: 210; 
+
+
+}
