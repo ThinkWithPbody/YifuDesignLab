@@ -13,14 +13,19 @@ theme:
         code: Fira Code
     # language: en
     palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: teal
-      accent: light blue
+      primary: black
+      accent: amber
       toggle:
-        icon: material/weather-night
-        name: Passer au mode sombre
+        icon: material/lightbulb
+        name: Switch to dark mode
 
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
@@ -28,8 +33,8 @@ theme:
       primary: blue grey
       accent: light blue
       toggle:
-        icon: material/weather-sunny
-        name: Passer en mode clair
+        icon: material/lightbulb-outline
+        name: Switch to system preference
     features:
         - navigation.indexes
         - navigation.top
