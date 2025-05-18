@@ -9,9 +9,9 @@ theme:
     favicon: _assets/meta/favicons.png
     custom_dir: overrides
     font:
-        text: Karla
-        code: Ubuntu Mono
-    language: EN
+        text: Fira Code
+        code: Fira Code
+    # language: en
     palette:
     # Light mode
     - media: "(prefers-color-scheme: light)"
