@@ -16,7 +16,7 @@ theme:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       scheme: default
-      primary: black
+      primary: custom
       accent: amber
       toggle:
         icon: material/lightbulb
@@ -24,7 +24,7 @@ theme:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: black
+      primary: custom
       accent: amber
       toggle:
         icon: material/lightbulb-outline
@@ -33,7 +33,7 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: black
+      primary: custom
       accent: amber
       toggle:
         icon: material/brightness-auto
