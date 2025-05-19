@@ -3,6 +3,7 @@ excalidraw-plugin: parsed
 excalidraw-open-md: true
 tags:
   - note_atomic
+  - course
 title: 2025-02-12_Assignment 03
 description: 
 date: 2025-02-12
@@ -14,16 +15,16 @@ time:
 share: true
 hidden: true
 ---
-%%[parents:: [2025-02-12_Assignment 03](index.md)]%%
+%%[parents:: [[index|2025-02-12_Assignment 03]]]%%
 ### Assignment 03
 
-![2025-02-12_Assignment 03.png](Periodic%20Notes/Atomic/2025/2025-02-12_Assignment%2003/2025-02-12_Assignment%2003.png)
+![[Periodic Notes/Atomic/2025/2025-02-12_Assignment 03/2025-02-12_Assignment 03.png|Periodic Notes/Atomic/2025/2025-02-12_Assignment 03/2025-02-12_Assignment 03.png]]
 
 Scored 22/24
 
 **Question 1**
 Solve the following:
-![200](./Attachments/2025-02-12_Assignment%2003/Pasted%20image%2020250122151527.png)
+![[./Attachments/2025-02-12_Assignment 03/Pasted image 20250122151527.png|200]]
 P = 95 kN  
 w = 59 mm  
 l = 59 mm  
@@ -48,7 +49,7 @@ $A=\frac{P}{\sigma}=264000/38=6947$
 
 **Question 3**
 You are designing a baseplate for a column that sits on a concrete foundation wall with f’c = 25 MPa. You know f’c is another term for maximum stress, and that your column in supporting 750 kN. The wall is 200mm wide, so you have to limit your baseplate to be 150 mm wide. How long does your baseplate need to be to support P but not over-stress the concrete?
-![300](./Attachments/2025-02-12_Assignment%2003/Pasted%20image%2020250122151628.png)
+![[./Attachments/2025-02-12_Assignment 03/Pasted image 20250122151628.png|300]]
 0.20 mm
 125 mm
 ✔️200 mm
@@ -233,7 +234,7 @@ $\Delta L=2m\times0.00129375\times1000mm/m=2.59mm$
 ---
 
 For the next few questions, refer to the following Stress-Strain Curve
-![400](./Attachments/2025-02-12_Assignment%2003/Pasted%20image%2020250122152152.png)
+![[./Attachments/2025-02-12_Assignment 03/Pasted image 20250122152152.png|400]]
 
 **Question 21**
 Is the material Brittle?
@@ -277,7 +278,7 @@ Not enough information
 This question is not marked. Feel free to recopy this and complete it in excel or on a piece of paper.
 
 You’ve been in the lab testing dog-bone samples of that new material  from question 3 to help prove the Modulus of Elasticity we calculated in question 12. You know what the area of your sample is (10mm x 40mm) and you know how long it is (200mm). As you apply load, you measure how much the sample stretches. Calculate the stress and strain for each stage of the test, then plot the stress-strain curve for the data you have. What is the Modulus of Elasticity?
-![500](./Attachments/2025-02-12_Assignment%2003/Pasted%20image%2020250122152258.png)
+![[./Attachments/2025-02-12_Assignment 03/Pasted image 20250122152258.png|500]]
 
 
 ---
