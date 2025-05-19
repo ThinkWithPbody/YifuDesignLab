@@ -6,7 +6,7 @@ hide:
 tags:
   - navigation
   - note
-icon: ":FarCalendar:"
+icon: FarCalendar
 parents: "[[index]]"
 ---
 
