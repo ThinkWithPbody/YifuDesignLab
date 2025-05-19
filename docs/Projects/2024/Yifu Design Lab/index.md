@@ -6,7 +6,7 @@ title: Yifu Design Lab
 status: DONE
 ---
 
-%%[parents:: [Yifu Ding](Yifu%20Ding.md)]%%
+%%[parents:: [Yifu Ding](../../../../Yifu%20Ding.md)]%%
 %%<https://bit.ly/45WKQSC%%>
 %%<https://thinkwithpbody.github.io/Yifu-Pages/Projects/2024/Yifu-Design-Lab/Yifu-Design-Lab%%>
 
@@ -61,89 +61,89 @@ Pick up at Daniels or 404-Major Mackenzie Dr E.
 **Easy | Brittle | Workable | Renewable**
 
 - **Basic Silver**
-    ![Yifu Design Lab_Sliver](docs/Projects/2024/Yifu%20Design%20Lab/Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab_Sliver.webp)
+    ![Yifu Design Lab_Sliver](./Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab_Sliver.webp)
     Color: Basic Silver
     Hex Code: `#A6A9AA`
     Price: $22.59/kg
     Stock: 1 kg
     
 - **Basic Bambu Green**
-    ![Yifu Design Lab-Bambu_Green](docs/Projects/2024/Yifu%20Design%20Lab/Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab-Bambu_Green.webp)
+    ![Yifu Design Lab-Bambu_Green](./Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab-Bambu_Green.webp)
     Color: Basic Bambu Green
     Hex Code: `#00AE42`
     Price: $22.59/kg
     Stock: 0.2 kg
     
 - **Matte Ivory White**
-	![128](docs/Projects/2024/Yifu%20Design%20Lab/Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab-650946feb4e04feda77bc4e5b2c38202.webp)
+	![128](./Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab-650946feb4e04feda77bc4e5b2c38202.webp)
 	Color: Matte Ivory White
     Hex Code: `#FFFFFF`
     Price: $22.59/kg
     Stock: 3 kg
     
 - **Matte Charcoal Black**
-    ![Yifu Design Lab-a1b596fe17af44feb9b6af51c3b6985d](docs/Projects/2024/Yifu%20Design%20Lab/Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab-a1b596fe17af44feb9b6af51c3b6985d.webp)
+    ![Yifu Design Lab-a1b596fe17af44feb9b6af51c3b6985d](./Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab-a1b596fe17af44feb9b6af51c3b6985d.webp)
     Color: Matte Charcoal Black
     Hex Code: `#000000`
     Price: $22.59/kg
     Stock: 2 kg
     
 - **Matte Sakura Pink**
-    ![Yifu Design Lab-374401f869f3479aa30ba8cdaf8def1d](docs/Projects/2024/Yifu%20Design%20Lab/Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab-374401f869f3479aa30ba8cdaf8def1d.webp)
+    ![Yifu Design Lab-374401f869f3479aa30ba8cdaf8def1d](./Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab-374401f869f3479aa30ba8cdaf8def1d.webp)
     Color: Matte Sakura Pink
     Hex Code: `#E8AFCF`
     Price: $22.59/kg
     Stock: 1 kg
     
 - **Matte Lilac Purple**
-    ![Yifu Design Lab-4db28960ac6d445a9920cb1133ef6c39](docs/Projects/2024/Yifu%20Design%20Lab/Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab-4db28960ac6d445a9920cb1133ef6c39.webp)
+    ![Yifu Design Lab-4db28960ac6d445a9920cb1133ef6c39](./Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab-4db28960ac6d445a9920cb1133ef6c39.webp)
     Color: Matte Lilac Purple
     Hex Code: `#AE96D4`
     Price: $22.59/kg
     Stock: 0.8 kg
     
 - **Silk Gold**
-    ![Yifu Design Lab-15bee911c43d40828e932f7397d55097](docs/Projects/2024/Yifu%20Design%20Lab/Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab-15bee911c43d40828e932f7397d55097.webp)
+    ![Yifu Design Lab-15bee911c43d40828e932f7397d55097](./Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab-15bee911c43d40828e932f7397d55097.webp)
     Color: Silk Gold
     Hex Code: `#E5B03D`
     Price: $36.15/kg
     Stock: 0.8 kg
     
 - **Sparkle Crimson Red**
-    ![Yifu Design Lab-faf72eb685014a1b94f4048c2388fe0a-1](docs/Projects/2024/Yifu%20Design%20Lab/Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab-faf72eb685014a1b94f4048c2388fe0a-1.webp)
+    ![Yifu Design Lab-faf72eb685014a1b94f4048c2388fe0a-1](./Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab-faf72eb685014a1b94f4048c2388fe0a-1.webp)
     Color: Sparkle Crimson Red
     Hex Code: `#792B36`
     Price: $36.15/kg
     Stock: 0.8 kg
     
 - **Metal Iron Gray**
-    ![Yifu Design Lab-1fdb0b2166d3450ea180a6c83d4acbc6](docs/Projects/2024/Yifu%20Design%20Lab/Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab-1fdb0b2166d3450ea180a6c83d4acbc6.webp)
+    ![Yifu Design Lab-1fdb0b2166d3450ea180a6c83d4acbc6](./Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab-1fdb0b2166d3450ea180a6c83d4acbc6.webp)
     Color: Metal Iron Gray
     Hex Code: `#43403D`
     Price: $36.15/kg
     Stock: 0.8 kg
     
 - **Marble White**
-    ![Yifu Design Lab-ca48e1d56ed042b7920cba9912fe5977](docs/Projects/2024/Yifu%20Design%20Lab/Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab-ca48e1d56ed042b7920cba9912fe5977.webp)
+    ![Yifu Design Lab-ca48e1d56ed042b7920cba9912fe5977](./Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab-ca48e1d56ed042b7920cba9912fe5977.webp)
     Color: Marble White
     Hex Code: `#F7F3F0`
     Price: $36.15/kg
     Stock: 1 kg
     
 - **Breakaway Support PLA**
-    ![Yifu Design Lab-Support_3](docs/Projects/2024/Yifu%20Design%20Lab/Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab-Support_3.webp)
+    ![Yifu Design Lab-Support_3](./Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab-Support_3.webp)
     Color: Breakaway Support PLA
     Price: $67.78/kg
     Stock: 0 kg
     
 - **Breakaway Support PLA/PETG**
-    ![Yifu Design Lab-df26d3f606fc46d4bcef831a68970a62](docs/Projects/2024/Yifu%20Design%20Lab/Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab-df26d3f606fc46d4bcef831a68970a62.webp)
+    ![Yifu Design Lab-df26d3f606fc46d4bcef831a68970a62](./Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab-df26d3f606fc46d4bcef831a68970a62.webp)
     Color: Breakaway Support PLA/PETG
     Price: $101.68/kg
     Stock: 0.5 kg
     
 - **PVA Water-soluble Support**
-    ![Yifu Design Lab-9e8efe4a411a461eb30248adf214376e](docs/Projects/2024/Yifu%20Design%20Lab/Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab-9e8efe4a411a461eb30248adf214376e.webp)
+    ![Yifu Design Lab-9e8efe4a411a461eb30248adf214376e](./Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab-9e8efe4a411a461eb30248adf214376e.webp)
     Color: PVA Water-soluble Support
     Price: $115.24/kg
     Stock: 0 kg
@@ -153,28 +153,28 @@ Pick up at Daniels or 404-Major Mackenzie Dr E.
 **Fair | Durable | Impact-resistant | Food-safe**
 
 - **Basic White**
-    ![Yifu Design Lab_6f0f3ffb6bdb459f97d0f44a6d83fbf6-1](docs/Projects/2024/Yifu%20Design%20Lab/Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab_6f0f3ffb6bdb459f97d0f44a6d83fbf6-1.webp)
+    ![Yifu Design Lab_6f0f3ffb6bdb459f97d0f44a6d83fbf6-1](./Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab_6f0f3ffb6bdb459f97d0f44a6d83fbf6-1.webp)
     Color: Basic White
     Hex Code: `#FFFFFF`
     Price: $22.59/kg
     Stock: 0.5 kg
     
 - **HF White**
-    ![Yifu Design Lab_6f0f3ffb6bdb459f97d0f44a6d83fbf6](docs/Projects/2024/Yifu%20Design%20Lab/Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab_6f0f3ffb6bdb459f97d0f44a6d83fbf6.webp)
+    ![Yifu Design Lab_6f0f3ffb6bdb459f97d0f44a6d83fbf6](./Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab_6f0f3ffb6bdb459f97d0f44a6d83fbf6.webp)
     Color: HF White
     Hex Code: `#FFFFFF`
     Price: $22.59/kg
     Stock: 1 kg
     
 - **Translucent Clear**
-    ![Yifu Design Lab_1a74ea492a6f4b8ea23c7d84b145d316](docs/Projects/2024/Yifu%20Design%20Lab/Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab_1a74ea492a6f4b8ea23c7d84b145d316.webp)
+    ![Yifu Design Lab_1a74ea492a6f4b8ea23c7d84b145d316](./Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab_1a74ea492a6f4b8ea23c7d84b145d316.webp)
     Color: Translucent Clear
     Hex Code: `#F2F2F2`
     Price: $22.59/kg
     Stock: 1 kg
     
 - **Translucent Grey**
-    ![Yifu Design Lab_18fb283d551c418f9246a22beec492ce](docs/Projects/2024/Yifu%20Design%20Lab/Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab_18fb283d551c418f9246a22beec492ce.webp)
+    ![Yifu Design Lab_18fb283d551c418f9246a22beec492ce](./Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab_18fb283d551c418f9246a22beec492ce.webp)
     Color: Translucent Grey
     Hex Code: `#8E8E8E`
     Price: $22.59/kg
@@ -185,7 +185,7 @@ Pick up at Daniels or 404-Major Mackenzie Dr E.
 **Difficult | Strong | Chemical-resistant | Industrial**
 
 - **Basic White**
-    ![Yifu Design Lab_dcc84bbb1ebb4feab8e7fa3c6776d603-1](docs/Projects/2024/Yifu%20Design%20Lab/Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab_dcc84bbb1ebb4feab8e7fa3c6776d603-1.webp)
+    ![Yifu Design Lab_dcc84bbb1ebb4feab8e7fa3c6776d603-1](./Attachments/Yifu%20Design%20Lab/Yifu%20Design%20Lab_dcc84bbb1ebb4feab8e7fa3c6776d603-1.webp)
     Color: Basic White
     Hex Code: `#FFFFFF`
     Price: $22.59/kg
@@ -359,16 +359,16 @@ For 1 inch hollow cube with 2 walls:
 > - Rhino files or incorrectly scaled STL will not be accepted.
 > - **Each separated body should be one .stl file** to maximize nesting potential.
 > 	- When relative positioning is important but adding a base plate is too costly, add a small flat connecting bridge with a height of 1 to 2 `LayerHeight` directly on the print bed and `BooleanUnion` all connected bodies.
-> - To export objects, use `RunPythonScript` with the [BatchExportSTLByObj.py](docs/Projects/2024/Yifu%20Design%20Lab/Attachments/Yifu%20Design%20Lab/BatchExportSTLByObj.py) to export all selected files at once.
+> - To export objects, use `RunPythonScript` with the [BatchExportSTLByObj.py](./Attachments/Yifu%20Design%20Lab/BatchExportSTLByObj.py) to export all selected files at once.
 > - Deliver more than one .stl files as a **ZIP**.
 
 > [!green]- Demonstration
-> ![2024-04-10T21_01_21-05_00_TWP-X570-WIN10(Rhino)](docs/Projects/2024/Yifu%20Design%20Lab/Attachments/Yifu%20Design%20Lab/2024-04-10T21_01_21-05_00_TWP-X570-WIN10(Rhino).webp)
+> ![2024-04-10T21_01_21-05_00_TWP-X570-WIN10(Rhino)](./Attachments/Yifu%20Design%20Lab/2024-04-10T21_01_21-05_00_TWP-X570-WIN10(Rhino).webp)
 > *The pricing calculation in this demonstration is outdated.*
 
 ### Showcase
 
-![400](docs/Projects/2024/Yifu%20Design%20Lab/Attachments/Yifu%20Design%20Lab/DSCF4947.webp)
+![400](./Attachments/Yifu%20Design%20Lab/DSCF4947.webp)
 <iframe title="Speckle" src="https://app.speckle.systems/projects/aefb5374cb/models/a8a8bbe12f#embed=%7B%22isEnabled%22%3Atrue%7D" width="800" height="400" frameborder="0"></iframe>
 
 by Arjay Asuncion - 2024
@@ -380,7 +380,7 @@ by Mudabber Chughtai and Minghan Wei - 2025
 ###### Why is there a Setup Fee
 
 Our machine time and filament pricing reflects the bare minimum machine and material cost. This setup fee compensates me for my continued presence and allows me to take more care optimizing your print file. Print file optimizations can massively reduce your print time and filament use, lowering total cost, but each job is different and it takes time. I try my best to provide affordable and environmentally responsible printing service, which is why I offer my time and expertise at a modest fee. You'll always have the option to slice it by yourself and I am pleased to waive the setup fee for such cases, but current success rate for this option is only 0%.
-![400](docs/Projects/2024/Yifu%20Design%20Lab/Attachments/Yifu%20Design%20Lab/2024-04-10T00_15_05.webp)
+![400](./Attachments/Yifu%20Design%20Lab/2024-04-10T00_15_05.webp)
 
 %%
 

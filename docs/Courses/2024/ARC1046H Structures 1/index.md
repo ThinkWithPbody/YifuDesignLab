@@ -282,7 +282,7 @@ The state of being stable, or the opposite of in-stable. Instability can be elas
 
 ### Module 2
 
-![Assignment 02-6](docs/Courses/2024/ARC1046H%20Structures%201/Attachments/Assignment%2002-6.jpg)
+![Assignment 02-6](./Attachments/Assignment%2002-6.jpg)
 
 Structural drawing
 one should be able to build the entire structure from structural drawings
@@ -321,7 +321,7 @@ Steel and concrete building:
 			- Left
 		- Geo datum as cardinal, others as ordinal
 	- Put the grids in the most convenient place to offset from foundations
-		- [x] ![ARC1046H Structures 1 2024-01-17](docs/Courses/2024/ARC1046H%20Structures%201/Attachments/ARC1046H%20Structures%201%202024-01-17.png)%%[🖋 Edit in Excalidraw](ARC1046H%20Structures%201%202024-01-17.md)%% [completion:: 2024-04-10]
+		- [x] ![ARC1046H Structures 1 2024-01-17](./Attachments/ARC1046H%20Structures%201%202024-01-17.png)%%[🖋 Edit in Excalidraw](../../../../ARC1046H%20Structures%201%202024-01-17.md)%% [completion:: 2024-04-10]
 	- Only describe the extent when it's not obvious
 	- Describe top of steel / beam everywhere (sometimes indicated on schedule)
 		- sometimes, indicate under side of deck, and top of steel is at underside of deck unless noted
@@ -402,7 +402,7 @@ Alternative Construction Techniques (Glass, Fabric, Straw Bale, Rammed Earth)
 	- Multiple storey column lifts (steel)
 	- Minimize transfers
 - Cold and hot rolled steel
-	- [x] ![ARC1046H Structures 1 2024-01-24](docs/Courses/2024/ARC1046H%20Structures%201/Attachments/ARC1046H%20Structures%201%202024-01-24.png)%%[🖋 Edit in Excalidraw](ARC1046H%20Structures%201%202024-01-24.md)%% [completion:: 2024-04-10]
+	- [x] ![ARC1046H Structures 1 2024-01-24](./Attachments/ARC1046H%20Structures%201%202024-01-24.png)%%[🖋 Edit in Excalidraw](../../../../ARC1046H%20Structures%201%202024-01-24.md)%% [completion:: 2024-04-10]
 	- Flange thickness and web thickness not necessarily same width, not working as hard as flange
 
 Steel construction
@@ -501,13 +501,13 @@ ULS: Ultimate Limit State
 SLS: Serviceability Limit State
 
 ULS: Strength
-![2024-03-05T15_12_48-05_00_TWP-X570-WIN10(vlc)](docs/Periodic%20Notes/Atomic/2025/2025-02/2025-02-12_Module%2002%20ARC1046%20Review/Attachments/2025-02-12_Module%2002%20ARC1046%20Review/2024-03-05T15_12_48-05_00_TWP-X570-WIN10(vlc).jpg)
+![2024-03-05T15_12_48-05_00_TWP-X570-WIN10(vlc)](../../../Periodic%20Notes/Atomic/2025/2025-02/2025-02-12_Module%2002%20ARC1046%20Review/Attachments/2025-02-12_Module%2002%20ARC1046%20Review/2024-03-05T15_12_48-05_00_TWP-X570-WIN10(vlc).jpg)
 
 SLS: Serviceability
 Stiffness, Deflection
 
 Use SLS Snow Load Importance Factor
-![2024-03-05T16_07_18-05_00_TWP-X570-WIN10(vlc)](docs/Courses/2024/ARC1046H%20Structures%201/Attachments/2024-03-05T16_07_18-05_00_TWP-X570-WIN10(vlc).jpg)
+![2024-03-05T16_07_18-05_00_TWP-X570-WIN10(vlc)](./Attachments/2024-03-05T16_07_18-05_00_TWP-X570-WIN10(vlc).jpg)
 
 ### Module 8
 
@@ -563,7 +563,7 @@ Mos @ 3/4 L:
 V = -1/2 P
 M = 1/8 PL
 
-![Pasted image 20240401222128](docs/Courses/2024/ARC1046H%20Structures%201/Attachments/Pasted%20image%2020240401222128.png)
+![Pasted image 20240401222128](./Attachments/Pasted%20image%2020240401222128.png)
 
 ---
 
