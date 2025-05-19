@@ -21,7 +21,7 @@ theme:
   font:
       text: Roboto
       code: Fira Code
-  # language: en
+  language: en
   palette:
   # Palette toggle for automatic mode
   - media: "(prefers-color-scheme)"
