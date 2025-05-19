@@ -15,7 +15,7 @@ time:
 share: true
 hidden: true
 ---
-%%[parents:: [ARC2046H](../../../../../Courses/2025/ARC2046H/ARC2046H-Structures_2.md)]%%
+%%[parents:: [ARC2046H](../../../../../Courses/2025/ARC2046H/index.md)]%%
 ### Wood - Beam Design
 
 ![2025-03-05_Module 08 Wood - Beam Design.svg](Periodic%20Notes/Atomic/2025/2025-03-05_Module%2008%20Wood%20-%20Beam%20Design/2025-03-05_Module%2008%20Wood%20-%20Beam%20Design.svg)
