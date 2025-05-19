@@ -15,7 +15,7 @@ time:
 share: true
 hidden: true
 ---
-%%[parents:: [ARC2046H](../../../../../Courses/2025/ARC2046H/ARC2046H-Structures_2.md)]%%
+%%[parents:: [ARC2046H](../../../../../Courses/2025/ARC2046H/index.md)]%%
 ### Assignment 10
 
 ![2025-03-18_Assignment 10.svg](Periodic%20Notes/Atomic/2025/2025-03/2025-03-18_Assignment%2010/2025-03-18_Assignment%2010.svg)

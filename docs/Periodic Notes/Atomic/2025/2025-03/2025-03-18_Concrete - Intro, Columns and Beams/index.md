@@ -16,7 +16,7 @@ time:
 share: true
 hidden: true
 ---
-%%[parents:: [ARC2046H](../../../../../Courses/2025/ARC2046H/ARC2046H-Structures_2.md)]%%
+%%[parents:: [ARC2046H](../../../../../Courses/2025/ARC2046H/index.md)]%%
 ### Concrete - Intro, Columns and Beams
 
 ![2025-03-18_Concrete - Intro, Columns and Beams.svg](Periodic%20Notes/Atomic/2025/2025-03-18_Concrete%20-%20Intro,%20Columns%20and%20Beams/2025-03-18_Concrete%20-%20Intro,%20Columns%20and%20Beams.svg)
