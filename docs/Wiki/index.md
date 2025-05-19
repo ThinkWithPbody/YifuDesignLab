@@ -4,27 +4,28 @@ hidden: false
 tags:
   - navigation
   - wiki
+icon: ":FasBook:"
 parents: "[[index]]"
 ---
 
 # Shared Wiki
 
-- [Rhino](./Rhino.md)
-- [ComfyUI](./ComfyUI.md)
+- [[./Rhino|Rhino]]
+- [[./ComfyUI|ComfyUI]]
 
 
 # Other Wiki
 
-- [UTOR](../../UTOR.md)
-- [Windows OS](../../Windows%20OS.md)
-- [Software Licenses](../../Software%20Licenses.md)
-- [Sao Paulo Museum of Art](../../Sao%20Paulo%20Museum%20of%20Art.md)
-- [MJMA](../../MJMA.md)
-- [Koffler Arts](../../Koffler%20Arts.md)
-- [Fæt Lab](../../F%C3%A6t%20Lab.md)
-- [Font Family](../../Font%20Family.md)
-- [Blender](../../Blender.md)
-- [Blackwell](../../Blackwell.md)
-- [BDP Quadrangle](../../BDP%20Quadrangle.md)
-- [Above Ground](../../Above%20Ground.md)
+- [[../../UTOR|UTOR]]
+- [[../../Windows OS|Windows OS]]
+- [[../../Software Licenses|Software Licenses]]
+- [[../../Sao Paulo Museum of Art|Sao Paulo Museum of Art]]
+- [[../../MJMA|MJMA]]
+- [[../../Koffler Arts|Koffler Arts]]
+- [[../../Fæt Lab|Fæt Lab]]
+- [[../../Font Family|Font Family]]
+- [[../../Blender|Blender]]
+- [[../../Blackwell|Blackwell]]
+- [[../../BDP Quadrangle|BDP Quadrangle]]
+- [[../../Above Ground|Above Ground]]
 
