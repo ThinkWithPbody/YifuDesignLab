@@ -4,6 +4,7 @@ excalidraw-open-md: true
 tags:
   - note_atomic
   - Courses_2025_ARC2046H_Exam
+  - course
 title: 
 description: 
 date: 2025-03-12
@@ -16,10 +17,10 @@ time:
 share: true
 hidden: true
 ---
-%%[parents:: [ARC2046H](../../../../../Courses/2025/ARC2046H/index.md)]%%
+%%[parents:: [[../../../../../Courses/2025/ARC2046H/index|ARC2046H]]]%%
 ### Composite Materials
 
-![2025-03-12_Module 09 Composite Materials.svg](Periodic%20Notes/Atomic/2025/2025-03-12_Module%2009%20Composite%20Materials/2025-03-12_Module%2009%20Composite%20Materials.svg)
+![[Periodic Notes/Atomic/2025/2025-03-12_Module 09 Composite Materials/2025-03-12_Module 09 Composite Materials.svg|Periodic Notes/Atomic/2025/2025-03-12_Module 09 Composite Materials/2025-03-12_Module 09 Composite Materials.svg]]
 
 - Load Sharing
 	- When two element or materials are arranged so that they mutually support load they are said to be sharing the load.
@@ -30,7 +31,7 @@ hidden: true
 	- To share load at all, they need to move (squash) together
 		1. $\sigma=F/A$ | $F=\sigma \times A$
 		2. $\varepsilon=\Delta L/L$
-			1. [Periodic Notes/Atomic/2025/2025-02/2025-02-12_Stress and Strain/2025-02-12_Stress and Strain](../../2025-02/2025-02-12_Stress%20and%20Strain/index.md#881997)
+			1. [[../../2025-02/2025-02-12_Stress and Strain/index#^881997|Periodic Notes/Atomic/2025/2025-02/2025-02-12_Stress and Strain/2025-02-12_Stress and Strain > ^881997]]
 		3. $E=\sigma / \varepsilon$ | $\sigma=E \times \varepsilon$
 	- Rearrange 3 into 1
 	- $F=E \times \varepsilon \times A$
@@ -83,8 +84,8 @@ hidden: true
 			- $I_{composite} = 4 \times I_{sharing}$
 
 - Composite Structural Construction
-	- ![640x232](./Attachments/2025-03-12_Module%2009%20Composite%20Materials/image.webp)
-	- ![355x298](./Attachments/2025-03-12_Module%2009%20Composite%20Materials/image-1.webp)
+	- ![[./Attachments/2025-03-12_Module 09 Composite Materials/image.webp|640x232]]
+	- ![[./Attachments/2025-03-12_Module 09 Composite Materials/image-1.webp|355x298]]
 
 
 ---
