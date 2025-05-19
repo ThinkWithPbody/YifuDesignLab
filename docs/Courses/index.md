@@ -5,7 +5,7 @@ tags:
   - navigation
   - course
 title: Courses
-icon: ":FasBoxArchive:"
+icon: FasBoxArchive
 parents: "[[index]]"
 ---
 
