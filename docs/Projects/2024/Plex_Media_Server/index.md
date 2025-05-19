@@ -1,19 +1,21 @@
 ---
-title: Plex Media Server
+share: true
 tags:
   - project
+title: Plex_Media_Server
 status: DONE
 priority: medium
 start: 2024-07-10
 due: 
 completion: 2024-07-10
-share: true
 ---
+
 ## Install
 
 ### Snap Repo
 
 Add the snappy repository
+
 ```
 sudo zypper addrepo --refresh \
   https://download.opensuse.org/repositories/system:/snappy/openSUSE_Tumbleweed \
@@ -21,11 +23,13 @@ sudo zypper addrepo --refresh \
 ```
 
 Import GPG key
+
 ```
 sudo zypper --gpg-auto-import-keys refresh
 ```
 
 Upgrade the package cache
+
 ```
 sudo zypper dup --from snappy
 ```
@@ -33,6 +37,7 @@ sudo zypper dup --from snappy
 ### Snap
 
 Install snap
+
 ```
 sudo zypper install snapd
 ```
@@ -40,11 +45,13 @@ sudo zypper install snapd
 Run `source /etc/profile` to have /snap/bin added to PATH.
 
 Start the snapd service
+
 ```
 sudo systemctl enable --now snapd
 ```
 
 Enable and start the service
+
 ```
 sudo systemctl enable --now snapd.apparmor
 ```
@@ -55,9 +62,7 @@ sudo systemctl enable --now snapd.apparmor
 sudo snap install plexmediaserver
 ```
 
-
 Page WIP...
-
 
 ## Moving Plex Media Server to Pi4
 
@@ -80,5 +85,3 @@ Page WIP...
 15. `sudo reboot`
 16. `sudo service plexmediaserver start`
 17. [Command Line Loudness Analysis](https://www.reddit.com/r/PleX/comments/yytqdy/forcing_loudness_analysis/), [via cron](https://forums.plex.tv/t/make-media-analysis-stop-wasting-cpu-on-duplicate-repeated-analysis/853275)
-
-

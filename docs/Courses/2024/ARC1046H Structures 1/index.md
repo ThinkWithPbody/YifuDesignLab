@@ -1,6 +1,8 @@
 ---
+share: true
 tags:
   - course
+title: ARC1046H Structures 1
 start: 2024-01-05
 due: 
 completion: 2024-04-01
@@ -10,13 +12,11 @@ people:
 location: DA200
 weekday: 5
 time: 900
-share: true
-title: ARC1046H-Structures_1
 ---
+
 ## Course Brief
 
 [code:: ARC1046H]
-[title:: Structures 1]
 
 ## Sizing Guidelines
 
@@ -25,11 +25,11 @@ title: ARC1046H-Structures_1
 | Steel    | Deck Corrugated Metal             | d: **38**, 76mm                                                                                                                                                                                    | d = l / 50              |                                                                     |
 | Steel    | Deck Concrete on Corrugated Metal | d: **38**, 76 mm + **64** mm                                                                                                                                                                       | d = l / 20              | Concrete is usually normal density                                  |
 | Steel    | Joists Open Web Steel             | d: n * **50** mm (2")                                                                                                                                                                              | d = l / 16              |                                                                     |
-| Steel    | Purlins                           | [Standard Steel Sizes](ARC1046H-Structures_1.md#Standard%20Steel%20Sizes)                                                                                                                                                                          | d = l / 25; b = d / 2-3 |                                                                     |
-| Steel    | Beams                             | [Standard Steel Sizes](ARC1046H-Structures_1.md#Standard%20Steel%20Sizes)                                                                                                                                                                          | d = l / 20; b = d / 2-3 |                                                                     |
-| Steel    | Girders                           | [Standard Steel Sizes](ARC1046H-Structures_1.md#Standard%20Steel%20Sizes)                                                                                                                                                                          | d = l / 15; b = d / 2-3 |                                                                     |
+| Steel    | Purlins                           | [Standard Steel Sizes](index.md#Standard%20Steel%20Sizes)                                                                                                                                                                          | d = l / 25; b = d / 2-3 |                                                                     |
+| Steel    | Beams                             | [Standard Steel Sizes](index.md#Standard%20Steel%20Sizes)                                                                                                                                                                          | d = l / 20; b = d / 2-3 |                                                                     |
+| Steel    | Girders                           | [Standard Steel Sizes](index.md#Standard%20Steel%20Sizes)                                                                                                                                                                          | d = l / 15; b = d / 2-3 |                                                                     |
 | Steel    | Trusses                           | d: n * **50** mm                                                                                                                                                                                   | d = l / 12; b = d / 2-3 |                                                                     |
-| Steel    | Columns                           | [Standard Steel Sizes](ARC1046H-Structures_1.md#Standard%20Steel%20Sizes)                                                                                                                                                                          | w = h / **20**-40       |                                                                     |
+| Steel    | Columns                           | [Standard Steel Sizes](index.md#Standard%20Steel%20Sizes)                                                                                                                                                                          | w = h / **20**-40       |                                                                     |
 | Wood     | Deck Plywood                      | c/c: 12, **16**, 20, 24; Subfloors: 6.4, 9.5 mm (1/4, 3/8"); Walls: **12.7**, 15.9, 19.1, 22.2, 25.4 mm (**1/2**, 5/8, 3/4, 7/8, 1"); Roof: **12.7** mm (**1/2**"); Floors: **19.1** mm (**3/4**") |                         | 4'x8' sheets                                                        |
 | Wood     | Deck Tongue and Groove            | d: **38**, 64, 89 mm                                                                                                                                                                               | d = l / 40              | Standard size matches wood joists                                   |
 | Wood     | Joists Lumber                     | w: **38**, 89 mm; d: 89, 140, **184**, 235, 286 mm                                                                                                                                                 | d = l / 16              | 16"/400mm c/c                                                       |
@@ -55,6 +55,7 @@ title: ARC1046H-Structures_1
 ## Standard Steel Sizes
 
 ### W Sections
+
 - W100
 - W150
 - W200
@@ -73,6 +74,7 @@ title: ARC1046H-Structures_1
 - W1100
 
 ### Channels
+
 - C75
 - C100
 - C130
@@ -85,6 +87,7 @@ title: ARC1046H-Structures_1
 - C380
 
 ### Square / Rectangle
+
 - HSS76x
 - HSS89x
 - HSS102x
@@ -99,6 +102,7 @@ title: ARC1046H-Structures_1
 Example: HSS152x102
 
 ### Round
+
 - HSS76ø
 - HSS89ø
 - HSS102ø
@@ -135,6 +139,7 @@ Bf = Pf "Factored Loads" / A (m^2) "Area of Bearing"
 | Till | 200 |
 | Clay Shale | 300 |
 | Sound Rock | 500 |
+
 Typical slab on grade: Br > 24 kPa
 
 ## Modules
@@ -147,53 +152,70 @@ Typical slab on grade: Br > 24 kPa
 Safe, stable building that is the cheapest possible, while meeting constraints, needs, demands, [NBCC](Wiki/NBCC/NBCC.md)
 Engineers working iteratively with Architects
 
-- [x] Buy reading: Science Builders Structural Engineering  [completion:: 2024-04-09]
+- [x] Buy reading: Science Builders Structural Engineering [completion:: 2024-04-09]
 
-Structural engineering considers [Strength](ARC1046H-Structures_1.md#Strength), [Structure](ARC1046H-Structures_1.md#Structure), [Stiffness](ARC1046H-Structures_1.md#Stiffness), [Stability](ARC1046H-Structures_1.md#Stability).
+Structural engineering considers [Strength](index.md#Strength), [Structure](index.md#Structure), [Stiffness](index.md#Stiffness), [Stability](index.md#Stability).
 
 #### Structure
+
 #### Strength
+
 The amount of load a structure can sustain prior to failure.
 
-Load on the system has to be less than the load capacity of the system that sustains load. 
-##### Load factor
+Load on the system has to be less than the load capacity of the system that sustains load.
+
+##### Load Factor
 
 **Factor of safety** of 2: the system can sustain twice the load expected.
 
 Pf: factor of load
 Vf: factor of shear
 Mf: factor of moment
-Tf: 
+Tf:
 
-##### Capacity reduced
+##### Capacity Reduced
 
 Pr: resistance of load
 Vr: resistance of shear
 Mr: resistance of moment
 
-##### Types of forces
+##### Types of Forces
+
 ###### Compression
+
 Always a secondary factor resulting tension failure.
+
 ###### Tension
+
 ###### Shear
+
 V.F *kN*
-On concrete, it’s a tension failure on the diagonal.
+On concrete, it's a tension failure on the diagonal.
 *Concrete Punching Shear*
+
 ###### Bending
+
 Compression and Tension acting on either sides, a tension failure on the tension side.
 Steel beam fails by yielding both in compression and tension.
+
 ###### Torsion
-Shear around the perimeter. 
+
+Shear around the perimeter.
+
 ###### Moment
+
 M.F *kNm*
 Distance moved * force = 1 kNm = 1,000,000 Nmm
+
 ###### Connection Failures
+
 - Screws shearing, bending.
 - Plate in tension.
 - Anchor pullout
 
 #### Stiffness
-The amount of force required to make a structure deflect by some fixed increment. 
+
+The amount of force required to make a structure deflect by some fixed increment.
 Represented by symbol **K**.
 Flexibility is the amount that a structure will deflect or rotate under a fixed amount of load.
 
@@ -225,14 +247,14 @@ Continuous vibrations
 
 Transient vibrations
 - Heel drop
-- Load is damped by mass of building and 
+- Load is damped by mass of building and
 - Limit the acceleration to 1% of gravity
 
 Amplified vibrations (resonance)
 
-
 #### Stability
-The state of being stable, or the opposite of in-stable. Instability can be elastic, ponding, tipping, or sliding. 
+
+The state of being stable, or the opposite of in-stable. Instability can be elastic, ponding, tipping, or sliding.
 
 **Sliding**
 - Resistance by friction
@@ -260,7 +282,7 @@ The state of being stable, or the opposite of in-stable. Instability can be elas
 
 ### Module 2
 
-![Assignment 02-6](./Attachments/Assignment%2002-6.jpg)
+![Assignment 02-6](docs/Courses/2024/ARC1046H%20Structures%201/Attachments/Assignment%2002-6.jpg)
 
 Structural drawing
 one should be able to build the entire structure from structural drawings
@@ -271,9 +293,7 @@ one should be able to build the entire structure from structural drawings
 - Framing
 - Gravity system
 - Lateral Load resisting system (LLRS)
-- Cantilevers 
-
-
+- Cantilevers
 - Steel
 	- Single line on plans
 - Wood
@@ -281,12 +301,12 @@ one should be able to build the entire structure from structural drawings
 	- Cross in section
 - Open web steel joist (generic truss, not typically what we refer to when we say truss)
 
-Steel and concrete building: 
+Steel and concrete building:
 - Foundation and basement plan
 	- Plans are drawn:
 		- mostly cut above and look down
 			- More standard practice
-			- Doesn’t necessarily make sense because it’s more useful to see the beams supporting floors than this floor 
+			- Doesn't necessarily make sense because it's more useful to see the beams supporting floors than this floor
 		- Cut below and look up
 		- Like a reflected ceiling plan (used to be the standard practice in 70s, now replaced by more rigorous standards)
 	- Note elevations on drawing
@@ -301,18 +321,18 @@ Steel and concrete building:
 			- Left
 		- Geo datum as cardinal, others as ordinal
 	- Put the grids in the most convenient place to offset from foundations
-		- [x] ![ARC1046H Structures 1 2024-01-17](./Attachments/ARC1046H%20Structures%201%202024-01-17.png)%%[🖋 Edit in Excalidraw](../../../../ARC1046H%20Structures%201%202024-01-17.md)%%  [completion:: 2024-04-10]
-	- Only describe the extent when it’s not obvious
+		- [x] ![ARC1046H Structures 1 2024-01-17](docs/Courses/2024/ARC1046H%20Structures%201/Attachments/ARC1046H%20Structures%201%202024-01-17.png)%%[🖋 Edit in Excalidraw](ARC1046H%20Structures%201%202024-01-17.md)%% [completion:: 2024-04-10]
+	- Only describe the extent when it's not obvious
 	- Describe top of steel / beam everywhere (sometimes indicated on schedule)
 		- sometimes, indicate under side of deck, and top of steel is at underside of deck unless noted
-	- Don’t detail the connections unless it’s special
+	- Don't detail the connections unless it's special
 	- Horizontal or vertical text for horizontal or vertical elements
 		- 45 degrees for elements going in and out of the page
 	- Show the information in the first and most useful place to show for the contractor
-		- show information on footing and column schedule when there’s no space
+		- show information on footing and column schedule when there's no space
 	- Factor loads
 	- Service level loads for foundations (to estimate settlement)
-	- If it’s not in the price, it’s not in the contract; don’t bury scope,  are sure every piece is in the price making the project easier to build
+	- If it's not in the price, it's not in the contract; don't bury scope, are sure every piece is in the price making the project easier to build
 		- Describe as much scope as you can in plan
 		- Most things in sections
 		- Half in details
@@ -322,7 +342,7 @@ Concrete buildings:
 - Working steel (load bearing) in one direction, nominal or non-working steel in the other for temperature changes
 - Pour a diamond on slab on grade to prevent reentering corner (inverted, inside corner) from forming cracks in concrete where it connects
 
-Tributary area: 
+Tributary area:
 - Beams:
 	- Purlin
 	- Joist
@@ -382,7 +402,7 @@ Alternative Construction Techniques (Glass, Fabric, Straw Bale, Rammed Earth)
 	- Multiple storey column lifts (steel)
 	- Minimize transfers
 - Cold and hot rolled steel
-	- [x] ![ARC1046H Structures 1 2024-01-24](./Attachments/ARC1046H%20Structures%201%202024-01-24.png)%%[🖋 Edit in Excalidraw](../../../../ARC1046H%20Structures%201%202024-01-24.md)%%  [completion:: 2024-04-10]
+	- [x] ![ARC1046H Structures 1 2024-01-24](docs/Courses/2024/ARC1046H%20Structures%201/Attachments/ARC1046H%20Structures%201%202024-01-24.png)%%[🖋 Edit in Excalidraw](ARC1046H%20Structures%201%202024-01-24.md)%% [completion:: 2024-04-10]
 	- Flange thickness and web thickness not necessarily same width, not working as hard as flange
 
 Steel construction
@@ -400,7 +420,7 @@ Steel construction
 		- d = 38 or 76mm + concrete
 		- d = l / 20
 	- Open web steel joist OWSJ
-		- 50mm increments 
+		- 50mm increments
 		- d = l / 16
 	- Steel beams
 		- Purlins d = l / 25
@@ -416,8 +436,8 @@ Steel construction
 	- Cantilever
 		- Half of regular rule of thumb
 
-Steel is deepest or longest because it’s strongest
-Concrete is the shallowest system because it’s weak
+Steel is deepest or longest because it's strongest
+Concrete is the shallowest system because it's weak
 The structural system with the least expensive deck is the least expensive system because there is more deck than anything else
 Deeper is cheaper
 
@@ -427,13 +447,14 @@ Transfer: load taken to the nearest possible columns
 
 ### Module 4
 
-- [x] Share answer with Tim  [due:: 2024-02-06]  [completion:: 2024-02-07]
+- [x] Share answer with Tim [due:: 2024-02-06] [completion:: 2024-02-07]
 
 ### Module 5
 
 Footing Thickness = MAX(Footing Projection, 200mm)
 
 Caisson and Belled Caisson in Edminton
+
 ### Module 6
 
 **Types of Loads**
@@ -480,19 +501,19 @@ ULS: Ultimate Limit State
 SLS: Serviceability Limit State
 
 ULS: Strength
-![2024-03-05T15_12_48-05_00_TWP-X570-WIN10(vlc)](../../../Periodic%20Notes/Atomic/2025/2025-02/2025-02-12_Module%2002%20ARC1046%20Review/Attachments/2025-02-12_Module%2002%20ARC1046%20Review/2024-03-05T15_12_48-05_00_TWP-X570-WIN10(vlc).jpg)
+![2024-03-05T15_12_48-05_00_TWP-X570-WIN10(vlc)](docs/Periodic%20Notes/Atomic/2025/2025-02/2025-02-12_Module%2002%20ARC1046%20Review/Attachments/2025-02-12_Module%2002%20ARC1046%20Review/2024-03-05T15_12_48-05_00_TWP-X570-WIN10(vlc).jpg)
 
 SLS: Serviceability
 Stiffness, Deflection
 
 Use SLS Snow Load Importance Factor
-![2024-03-05T16_07_18-05_00_TWP-X570-WIN10(vlc)](./Attachments/2024-03-05T16_07_18-05_00_TWP-X570-WIN10(vlc).jpg)
+![2024-03-05T16_07_18-05_00_TWP-X570-WIN10(vlc)](docs/Courses/2024/ARC1046H%20Structures%201/Attachments/2024-03-05T16_07_18-05_00_TWP-X570-WIN10(vlc).jpg)
 
 ### Module 8
 
 ### Module 9
 
-6 Degrees of Freedom: 
+6 Degrees of Freedom:
 - Translation XYZ
 - Rotation XYZ
 
@@ -542,11 +563,11 @@ Mos @ 3/4 L:
 V = -1/2 P
 M = 1/8 PL
 
-![Pasted image 20240401222128](./Attachments/Pasted%20image%2020240401222128.png)
+![Pasted image 20240401222128](docs/Courses/2024/ARC1046H%20Structures%201/Attachments/Pasted%20image%2020240401222128.png)
 
 ---
 
-**Analogous Point Load Free Body Diagram (APL):** 
+**Analogous Point Load Free Body Diagram (APL):**
 Representing distributed loads (UDL) as an equivalent point load can help simplify the diagram. It will have the same effect on the equilibrium of the Free Body Diagram (FBD) (so also the reactions). But not the TOTAL shear and bending moment diagram.
 
 ---
@@ -583,16 +604,13 @@ M = 0
 
 ### Module 12
 
-
 ## Projects
 
 ### [Project 1](Projects/Structures%201%20-%20Project%201/Structures%201%20-%20Project%201.md)
 
-- [x] [ARC1046 Project Description.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5C2024-01%5CARC1046H%5CAssignments%5CARC1046%20Project%20Description.pdf)  [due:: 2024-04-30]  [completion:: 2024-04-18]
+- [x] [ARC1046 Project Description.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5C2024-01%5CARC1046H%5CAssignments%5CARC1046%20Project%20Description.pdf) [due:: 2024-04-30] [completion:: 2024-04-18]
 [ARC1046 Project Drawings.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5C2024-01%5CARC1046H%5CAssignments%5CARC1046%20Project%20Drawings.pdf)
 [ARC1046 Project Part 01 Quick Example.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5C2024-01%5CARC1046H%5CAssignments%5CARC1046%20Project%20Part%2001%20Quick%20Example.pdf)
-
-
 
 ### [Project 2](Projects/Structures%201%20-%20Project%202/Structures%201%20-%20Project%202.md)
 
