@@ -5,6 +5,7 @@ excalidraw-plugin: parsed
 excalidraw-open-md: true
 tags:
   - note_atomic
+  - course
 title: 2025-02-12_Assignment 01
 description: 
 name: Assignment 01
@@ -15,11 +16,11 @@ weekday:
 time: 
 ---
 
-%%[parents:: [ARC2046H](../../../../../Courses/2025/ARC2046H/index.md)]%%
+%%[parents:: [[../../../../../Courses/2025/ARC2046H/index|ARC2046H]]]%%
 
 ### Assignment 01
 
-![2025-02-12_Assignment 01.png](Periodic%20Notes/Atomic/2025/2025-02-12_Assignment%2001/2025-02-12_Assignment%2001.png)
+![[Periodic Notes/Atomic/2025/2025-02-12_Assignment 01/2025-02-12_Assignment 01.png|Periodic Notes/Atomic/2025/2025-02-12_Assignment 01/2025-02-12_Assignment 01.png]]
 
 **Question 1**
 What method of design did we use to use in Canada, but don't any more?
@@ -59,7 +60,7 @@ Cracked Finishes
 For a beam that is 7.6 meters long (L), what deflection is allowed if the steel beam is part of a roof, supporting finishes that can be easily damaged and are susceptible to cracking for Snow Load?
 Provide an answer in mm to one (XX.X) decimal place. Do not write the units.
 
-[SERVICEABILITY LIMITS](Periodic%20Notes/Atomic/2025/2025-02/2025-02-12_Assignment%2001/Attachments/2025-02-12_Assignment%2001/SERVICEABILITY%20LIMITS.pdf)
+[[Periodic Notes/Atomic/2025/2025-02/2025-02-12_Assignment 01/Attachments/2025-02-12_Assignment 01/SERVICEABILITY LIMITS.pdf|SERVICEABILITY LIMITS]]
 7.6 * 1000 / 360 = 21.1
 
 **Question 5**
@@ -83,7 +84,7 @@ Provide an answer in **mm** to one (XX.X) decimal place. Do not write the unit
 **Question 8**
 What type of failure do you think this is?
 Group of answer choices
-![300](./Attachments/2025-02-12_Assignment%2001/Pasted%20image%2020250108182017.png)
+![[./Attachments/2025-02-12_Assignment 01/Pasted image 20250108182017.png|300]]
 
 Strength
 Stiffness
@@ -92,7 +93,7 @@ Stiffness
 **Question 9**
 What type of failure do you think this is?
 Group of answer choices
-![300](./Attachments/2025-02-12_Assignment%2001/Pasted%20image%2020250108182058.png)
+![[./Attachments/2025-02-12_Assignment 01/Pasted image 20250108182058.png|300]]
 
 Strength
 Stability
@@ -135,7 +136,7 @@ Group of answer choices
 **Question 14**
 What is the value of z if:
 y=8.62 and x=4.11
-![200](./Attachments/2025-02-12_Assignment%2001/Pasted%20image%2020250108182513.png)
+![[./Attachments/2025-02-12_Assignment 01/Pasted image 20250108182513.png|200]]
 Write the answer to two decimal places.
 
 $\sqrt[2]{8.62^2+4.11^2}=9.55$
@@ -143,7 +144,7 @@ $\sqrt[2]{8.62^2+4.11^2}=9.55$
 **Question 15**
 What is the value of θ if:
 y=16.4 and x=10.9
-![200](./Attachments/2025-02-12_Assignment%2001/Pasted%20image%2020250108182602.png)
+![[./Attachments/2025-02-12_Assignment 01/Pasted image 20250108182602.png|200]]
 Note: NEW x and y values from Question 14
 Write the answer in degrees to one decimal place.
 
@@ -152,7 +153,7 @@ $\theta=\arcsin\left(\frac{10.9}{16.4}\right)=41.7$
 
 **Question 16**
 The following chart shows the Compressive Capacity (Cr) of different steel columns at various effective lengths (KL). What is the Compressive Capacity of a W310x74 with a KL=5,116mm?
-![600](./Attachments/2025-02-12_Assignment%2001/Pasted%20image%2020250108182629.png)
+![[./Attachments/2025-02-12_Assignment 01/Pasted image 20250108182629.png|600]]
 TIP: Interpolate
 Provide an answer in kN to zero (XXXX) decimal places. Do not write the units.
 
