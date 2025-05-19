@@ -5,6 +5,7 @@ excalidraw-plugin: parsed
 excalidraw-open-md: true
 tags:
   - note_atomic
+  - course
 title: 2025-02-12_Assignment 02
 description: 
 name: Assignment 02
@@ -15,11 +16,11 @@ weekday:
 time: 
 ---
 
-%%[parents:: [ARC2046H](../../../../../Courses/2025/ARC2046H/index.md)]%%
+%%[parents:: [[../../../../../Courses/2025/ARC2046H/index|ARC2046H]]]%%
 
 ### Assignment 02
 
-![2025-02-12_Assignment 02.png](Periodic%20Notes/Atomic/2025/2025-02-12_Assignment%2002/2025-02-12_Assignment%2002.png)
+![[Periodic Notes/Atomic/2025/2025-02-12_Assignment 02/2025-02-12_Assignment 02.png|Periodic Notes/Atomic/2025/2025-02-12_Assignment 02/2025-02-12_Assignment 02.png]]
 
 **Question 1**
 What live load would be required for the design of living room floor members in a residential unit?
@@ -66,7 +67,7 @@ Group of answer choices
 **Question 4**
 The following is a part plan from a project under construction. What is the Length of 2WB04?
 Provide your answers in meters.
-![400](./Attachments/2025-02-12_Assignment%2002/Part%20Plan%20NFX.jpg)
+![[./Attachments/2025-02-12_Assignment 02/Part Plan NFX.jpg|400]]
 
 	12
 
@@ -83,7 +84,7 @@ Provide your answers in m2.
 	48
 
 **Image for question 7-11**
-![Pasted image 20250115172052](./Attachments/2025-02-12_Assignment%2002/Pasted%20image%2020250115172052.png)
+![[./Attachments/2025-02-12_Assignment 02/Pasted image 20250115172052.png|Pasted image 20250115172052]]
 *Dumbest answers are provided for when you can't trust your instincts.*
 
 **Question 7**
@@ -197,7 +198,7 @@ L = 13 m
 
 **Question 12**
 What is the worst Cf (kN) on the following column?
-![300](./Attachments/2025-02-12_Assignment%2002/Pasted%20image%2020250115172353.png)
+![[./Attachments/2025-02-12_Assignment 02/Pasted image 20250115172353.png|300]]
 296 kN
 182 kN
 ✔️263 kN
