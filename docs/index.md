@@ -1,6 +1,6 @@
 ---
 share: true
-tags: 
+tags: []
 title: index
 ---
 
@@ -11,15 +11,15 @@ My name is Yifu, and this is a small part of my digital lab where I organize, re
 **I am a creative offering:**
 
 Architecture & Design Services
-[Peer 3D Printing Service](docs/Projects/2024/Yifu%20Design%20Lab/index.md)
+[Peer 3D Printing Service](./Projects/2024/Yifu%20Design%20Lab/index.md)
 [Blender Files & Scripts](https://30salt.gumroad.com/)
 
 **Or... you might be looking for:**
 
-My [Rhino](docs/Wiki/Rhino.md) custom settings and scripts
-My [Resonant Orbit Calculator](docs/Configs/Files/Resonant%20Orbit%20Calculator.py) for KSP
-A guide on using [SPT](docs/Projects/2024/Escape%20From%20Tarkov/index.md)
-Or some Obsidian related [Guides](Guides.md)
+My [Rhino](./Wiki/Rhino.md) custom settings and scripts
+My [Resonant Orbit Calculator](./Configs/Files/Resonant%20Orbit%20Calculator.py) for KSP
+A guide on using [SPT](./Projects/2024/Escape%20From%20Tarkov/index.md)
+Or some Obsidian related [Guides](../Guides.md)
 
 **What have I been up to?**
 
