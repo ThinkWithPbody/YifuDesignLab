@@ -46,30 +46,31 @@ title: ComfyUI
 
 ## Module Manager
 
-| ID   | Title                                                                                                                   |
-| ---- | ----------------------------------------------------------------------------------------------------------------------- |
-| 1    | [**TAEF1 Decoder**](https://github.com/madebyollin/taesd)                                                               |
-| 2    | [**TAEF1 Encoder**](https://github.com/madebyollin/taesd)                                                               |
-| 3    | [**TAESD3 Decoder**](https://github.com/madebyollin/taesd)                                                              |
-| 4    | [**TAESD3 Encoder**](https://github.com/madebyollin/taesd)                                                              |
-| 5    | [**TAESDXL Decoder**](https://github.com/madebyollin/taesd)                                                             |
-| 6    | [**TAESDXL Encoder**](https://github.com/madebyollin/taesd)                                                             |
-| 7    | [**TAESD Decoder**](https://github.com/madebyollin/taesd)                                                               |
-| 8    | [**TAESD Encoder**](https://github.com/madebyollin/taesd)                                                               |
-| 9    | [**RealESRGAN x2**](https://huggingface.co/ai-forever/Real-ESRGAN)                                                      |
-| 10   | [**RealESRGAN x4**](https://huggingface.co/ai-forever/Real-ESRGAN)                                                      |
-| 13   | [**4x-AnimeSharp**](https://huggingface.co/Kim2091/AnimeSharp/)                                                         |
-| 14   | [**4x-UltraSharp**](https://huggingface.co/Kim2091/UltraSharp/)                                                         |
-| 16   | [**8x_NMKD-Superscale_150000_G**](https://huggingface.co/uwg/upscaler)                                                  |
-| 94   | [**city96/t5-v1_1-xxl-encoder-Q8_0.gguf**](https://huggingface.co/city96/t5-v1_1-xxl-encoder-gguf)                      |
-| 143? | [**CLIPVision model (openai/clip-vit-large)**](https://huggingface.co/openai/clip-vit-large-patch14)                    |
-| 178? | [**ViT-B SAM model**](https://github.com/facebookresearch/segment-anything#model-checkpoints)                           |
-| 182? | [**face_yolov8m (bbox)**](https://huggingface.co/Bingsu/adetailer/tree/main)                                            |
-| 180  | [**hand_yolov8s (bbox)**](https://huggingface.co/Bingsu/adetailer/tree/main)                                            |
-| 187? | [**person_yolov8m (segm)**](https://huggingface.co/Bingsu/adetailer/tree/main)                                          |
-| 312  | [**Shakker-Labs/FLUX.1-dev-ControlNet-Union-Pro**](https://huggingface.co/Shakker-Labs/FLUX.1-dev-ControlNet-Union-Pro) |
-| 313  | [**Shakker-Labs/FLUX.1-dev-ControlNet-Union-Pro (fp8_e4m3fn) by Kijai**](https://huggingface.co/Kijai/flux-fp8)         |
-| 366  | [**kijai/FLUX.1 [dev] Diffusion model (float8_e4m3fn)**](https://huggingface.co/Kijai/flux-fp8)                         |
-| 367  | [**Comfy Org/FLUX.1 [dev] Checkpoint model (fp8)**](https://huggingface.co/Comfy-Org/flux1-dev/tree/main)               |
-| 379  | [**city96/flux1-dev-Q8_0.gguf**](https://huggingface.co/city96/FLUX.1-dev-gguf)                                         |
-| 391  | [**ViT-L-14-TEXT-detail-improved-hiT-GmP-HF.safetensors [Long CLIP L]**](https://huggingface.co/zer0int)                |
+| ID    | Title                                                                                                                          |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------ |
+| 1     | [**TAEF1 Decoder**](https://github.com/madebyollin/taesd)                                                                      |
+| 2     | [**TAEF1 Encoder**](https://github.com/madebyollin/taesd)                                                                      |
+| 3     | [**TAESD3 Decoder**](https://github.com/madebyollin/taesd)                                                                     |
+| 4     | [**TAESD3 Encoder**](https://github.com/madebyollin/taesd)                                                                     |
+| 5     | [**TAESDXL Decoder**](https://github.com/madebyollin/taesd)                                                                    |
+| 6     | [**TAESDXL Encoder**](https://github.com/madebyollin/taesd)                                                                    |
+| 7     | [**TAESD Decoder**](https://github.com/madebyollin/taesd)                                                                      |
+| 8     | [**TAESD Encoder**](https://github.com/madebyollin/taesd)                                                                      |
+| 9     | [**RealESRGAN x2**](https://huggingface.co/ai-forever/Real-ESRGAN)                                                             |
+| 10    | [**RealESRGAN x4**](https://huggingface.co/ai-forever/Real-ESRGAN)                                                             |
+| 13    | [**4x-AnimeSharp**](https://huggingface.co/Kim2091/AnimeSharp/)                                                                |
+| 14    | [**4x-UltraSharp**](https://huggingface.co/Kim2091/UltraSharp/)                                                                |
+| 16    | [**8x_NMKD-Superscale_150000_G**](https://huggingface.co/uwg/upscaler)                                                         |
+| 76    | [**comfyanonymous/==flux==_text_encoders - t5xxl (==fp8==_e4m3fn)**](https://huggingface.co/comfyanonymous/flux_text_encoders) |
+| 94    | [**city96/t5-v1_1-xxl-encoder-Q8_0.gguf**](https://huggingface.co/city96/t5-v1_1-xxl-encoder-gguf)                             |
+| 143?? | [**CLIPVision model (openai/clip-vit-large)**](https://huggingface.co/openai/clip-vit-large-patch14)                           |
+| 178?? | [**ViT-B SAM model**](https://github.com/facebookresearch/segment-anything#model-checkpoints)                                  |
+| 182?? | [**face_yolov8m (bbox)**](https://huggingface.co/Bingsu/adetailer/tree/main)                                                   |
+| 180   | [**hand_yolov8s (bbox)**](https://huggingface.co/Bingsu/adetailer/tree/main)                                                   |
+| 187?? | [**person_yolov8m (segm)**](https://huggingface.co/Bingsu/adetailer/tree/main)                                                 |
+| 312   | [**Shakker-Labs/FLUX.1-dev-ControlNet-Union-Pro**](https://huggingface.co/Shakker-Labs/FLUX.1-dev-ControlNet-Union-Pro)        |
+| 313   | [**Shakker-Labs/FLUX.1-dev-ControlNet-Union-Pro (fp8_e4m3fn) by Kijai**](https://huggingface.co/Kijai/flux-fp8)                |
+| 366   | [**kijai/FLUX.1 [dev] Diffusion model (float8_e4m3fn)**](https://huggingface.co/Kijai/flux-fp8)                                |
+| 367   | [**Comfy Org/FLUX.1 [dev] Checkpoint model (fp8)**](https://huggingface.co/Comfy-Org/flux1-dev/tree/main)                      |
+| 379   | [**city96/flux1-dev-Q8_0.gguf**](https://huggingface.co/city96/FLUX.1-dev-gguf)                                                |
+| 391?  | [**ViT-L-14-TEXT-detail-improved-hiT-GmP-HF.safetensors [Long CLIP L]**](https://huggingface.co/zer0int)                       |
