@@ -24,10 +24,12 @@ h6 {
 
 [data-md-color-scheme="default"] {
     --md-hue: 45deg;
+    --md-code-hl-color: var(--md-accent-fg-color);
 }
 
 [data-md-color-scheme="slate"] {
     --md-hue: 45deg;
+    --md-code-hl-color: var(--md-accent-fg-color);
 }
 
 :root>* {
