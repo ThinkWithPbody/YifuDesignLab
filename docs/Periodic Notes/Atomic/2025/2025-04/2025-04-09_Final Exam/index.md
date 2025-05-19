@@ -15,7 +15,7 @@ time:
 share: true
 hidden: true
 ---
-%%[parents:: [ARC2046H](../../../../../Courses/2025/ARC2046H/ARC2046H-Structures_2.md)]%%
+%%[parents:: [ARC2046H](../../../../../Courses/2025/ARC2046H/index.md)]%%
 ### Final Exam
 
 ![2025-04-09_Final Exam.svg](Periodic%20Notes/Atomic/2025/2025-04/2025-04-09_Final%20Exam/2025-04-09_Final%20Exam.svg)
