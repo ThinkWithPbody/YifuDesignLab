@@ -7,10 +7,10 @@
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="Shared pages by Yifu" name="description"/>
 <meta content="Yifu" name="author"/>
-<link href="https://thinkwithpbody.github.io/YifuDesignLab/Guides/Guide%20Templater/" rel="canonical"/>
+<link href="https://thinkwithpbody.github.io/YifuDesignLab/Guides/Obsidian%20Quartz/" rel="canonical"/>
 <link href="../../_assets/meta/favicons.png" rel="icon"/>
 <meta content="mkdocs-1.6.1, mkdocs-material-9.5.49" name="generator"/>
-<title>Guide Templater - Yifu Design Lab</title>
+<title>Obsidian Quartz - Yifu Design Lab</title>
 <link href="../../assets/stylesheets/main.6f8fc17f.min.css" rel="stylesheet"/>
 <link href="../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -32,11 +32,11 @@
 <meta content="https://thinkwithpbody.github.io/YifuDesignLab/_assets/meta/logo.png" property="og:image"/>
 <meta content="https://thinkwithpbody.github.io/YifuDesignLab/_assets/meta/logo.png" name="twitter:image"/>
 <meta content="https://thinkwithpbody.github.io/YifuDesignLab/" name="site_url"/>
-<meta content="Guide Templater" property="og:title"/>
-<meta content="Guide Templater" name="twitter:title"/>
+<meta content="Obsidian Quartz" property="og:title"/>
+<meta content="Obsidian Quartz" name="twitter:title"/>
 <meta content="Shared pages by Yifu" name="og:description"/>
 <meta content="Shared pages by Yifu" name="twitter:description"/>
-<script> document.title = "Guide Templater" </script>
+<script> document.title = "Obsidian Quartz" </script>
 <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
     html.glightbox-open { overflow: initial; height: 100%; }
     .gslide-title { margin-top: 0px; user-select: text; }
@@ -76,7 +76,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              Guide Templater
+              Obsidian Quartz
             
           </span>
 </div>
@@ -233,48 +233,9 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#date">
+<a class="md-nav__link" href="#explorer">
 <span class="md-ellipsis">
-      Date
-    </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#examples">
-<span class="md-ellipsis">
-      Examples
-    </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#templates">
-<span class="md-ellipsis">
-      Templates
-    </span>
-</a>
-<nav aria-label="Templates" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#rename-move">
-<span class="md-ellipsis">
-      Rename Move
-    </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#file-link-display">
-<span class="md-ellipsis">
-      File Link Display
-    </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#yearly-tasks">
-<span class="md-ellipsis">
-      Yearly Tasks
+      Explorer
     </span>
 </a>
 </li>
@@ -316,96 +277,39 @@
   page title (or respectively site name) is used as the main headline.
 -->
 <!-- Page content -->
-<h3 id="date">Date<a class="headerlink" href="#date" title="Permanent link">¶</a></h3>
-<p><a href="https://silentvoid13.github.io/Templater/internal-functions/internal-modules/date-module.html">Date Module</a><br/>
-<a href="https://en.wikipedia.org/wiki/ISO_8601#Durations">ISO 8601 Durations</a><br/>
-<a href="https://momentjs.com/docs/#/parsing/string-format/">moment.js String Format</a></p>
-<h3 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">¶</a></h3>
-<p><a href="https://github.com/SilentVoid13/Templater/discussions/categories/templates-showcase">Templates Showcase</a><br/>
-<a href="https://zachyoung.dev/posts/templater-snippets">zachyoung Templater snippets</a><br/>
-<a href="https://github.com/chhoumann/Templater_Templates">Christian’s Templater Templates</a></p>
-<h3 id="templates">Templates<a class="headerlink" href="#templates" title="Permanent link">¶</a></h3>
-<p><code>&lt;% tp.file.cursor() %&gt;</code></p>
-<h4 id="rename-move">Rename Move<a class="headerlink" href="#rename-move" title="Permanent link">¶</a></h4>
-<div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a>&lt;%*
-<a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a>let filename = tp.file.title;
-<a href="#__codelineno-0-3" id="__codelineno-0-3" name="__codelineno-0-3"></a>if (filename.startsWith("Untitled")) {
-<a href="#__codelineno-0-4" id="__codelineno-0-4" name="__codelineno-0-4"></a>	filename = await tp.system.prompt("Course Title [code-title]", "ARC0000Y-Course Title");
-<a href="#__codelineno-0-5" id="__codelineno-0-5" name="__codelineno-0-5"></a>	filename = filename.replace(/[^a-zA-Z0-9\/-]+/g, "_");
-<a href="#__codelineno-0-6" id="__codelineno-0-6" name="__codelineno-0-6"></a>	await tp.file.rename(filename);
-<a href="#__codelineno-0-7" id="__codelineno-0-7" name="__codelineno-0-7"></a>};
-<a href="#__codelineno-0-8" id="__codelineno-0-8" name="__codelineno-0-8"></a>await new Promise(resolve =&gt; setTimeout(resolve, 1000));
-<a href="#__codelineno-0-9" id="__codelineno-0-9" name="__codelineno-0-9"></a>const filepath = "Courses/" + tp.date.now("YYYY") + "/" + filename;
-<a href="#__codelineno-0-10" id="__codelineno-0-10" name="__codelineno-0-10"></a>await tp.file.move(filepath + "/" + filename);
-<a href="#__codelineno-0-11" id="__codelineno-0-11" name="__codelineno-0-11"></a>await tp.file.rename(filename);
-<a href="#__codelineno-0-12" id="__codelineno-0-12" name="__codelineno-0-12"></a>const tag = "#" + filepath;
-<a href="#__codelineno-0-13" id="__codelineno-0-13" name="__codelineno-0-13"></a>
-<a href="#__codelineno-0-14" id="__codelineno-0-14" name="__codelineno-0-14"></a>let words = await filename.split("-");
-<a href="#__codelineno-0-15" id="__codelineno-0-15" name="__codelineno-0-15"></a>let code = words[0];
-<a href="#__codelineno-0-16" id="__codelineno-0-16" name="__codelineno-0-16"></a>let title = words.slice(1).join("-");
-<a href="#__codelineno-0-17" id="__codelineno-0-17" name="__codelineno-0-17"></a>_%&gt;
-</code></pre></div>
-<h3 id="file-link-display">File Link Display<a class="headerlink" href="#file-link-display" title="Permanent link">¶</a></h3>
-<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-1-1" id="__codelineno-1-1" name="__codelineno-1-1"></a>`&lt;%*
-<a href="#__codelineno-1-2" id="__codelineno-1-2" name="__codelineno-1-2"></a>const fileName = "This is the name of a file";
-<a href="#__codelineno-1-3" id="__codelineno-1-3" name="__codelineno-1-3"></a>const existing = tp.file.find_tfile(fileName);
-<a href="#__codelineno-1-4" id="__codelineno-1-4" name="__codelineno-1-4"></a>let createdFileDisplay;
-<a href="#__codelineno-1-5" id="__codelineno-1-5" name="__codelineno-1-5"></a>if (existing) {
-<a href="#__codelineno-1-6" id="__codelineno-1-6" name="__codelineno-1-6"></a>  createdFileDisplay = existing.basename;
-<a href="#__codelineno-1-7" id="__codelineno-1-7" name="__codelineno-1-7"></a>} else {
-<a href="#__codelineno-1-8" id="__codelineno-1-8" name="__codelineno-1-8"></a>  createdFileDisplay = (await tp.file.create_new(tp.file.find_tfile("template-name"), fileName)).basename;
-<a href="#__codelineno-1-9" id="__codelineno-1-9" name="__codelineno-1-9"></a>}
-<a href="#__codelineno-1-10" id="__codelineno-1-10" name="__codelineno-1-10"></a>_%&gt;`
-</code></pre></div><br/>
-<code>[[&lt;% createdFileDisplay %&gt;]]</code></p>
-<h3 id="yearly-tasks">Yearly Tasks<a class="headerlink" href="#yearly-tasks" title="Permanent link">¶</a></h3>
-<div class="highlight"><pre><span></span><code><a href="#__codelineno-2-1" id="__codelineno-2-1" name="__codelineno-2-1"></a>&lt;%*
-<a href="#__codelineno-2-2" id="__codelineno-2-2" name="__codelineno-2-2"></a>const lastMonthOfYear = tp.date.now("YYYY-MM-DD", "P1Y-1M", tp.file.title, "YYYY");
-<a href="#__codelineno-2-3" id="__codelineno-2-3" name="__codelineno-2-3"></a>
-<a href="#__codelineno-2-4" id="__codelineno-2-4" name="__codelineno-2-4"></a>let currentMonth = tp.date.now("YYYY-MM-DD", 0, tp.file.title, "YYYY");
-<a href="#__codelineno-2-5" id="__codelineno-2-5" name="__codelineno-2-5"></a>while (currentMonth &lt;= lastMonthOfYear) {
-<a href="#__codelineno-2-6" id="__codelineno-2-6" name="__codelineno-2-6"></a>	let currentMonthNum = tp.date.now("MM", 0, currentMonth, "YYYY-MM-DD")
-<a href="#__codelineno-2-7" id="__codelineno-2-7" name="__codelineno-2-7"></a>	if ( (currentMonthNum - 1) % 3 == 0) {
-<a href="#__codelineno-2-8" id="__codelineno-2-8" name="__codelineno-2-8"></a>	// Quarterly
-<a href="#__codelineno-2-9" id="__codelineno-2-9" name="__codelineno-2-9"></a>	_%&gt;
-<a href="#__codelineno-2-10" id="__codelineno-2-10" name="__codelineno-2-10"></a>### Q&lt;% Math.floor(currentMonthNum / 3) + 1 %&gt;
-<a href="#__codelineno-2-11" id="__codelineno-2-11" name="__codelineno-2-11"></a>- [ ] Pay Parking: &lt;% tp.date.now("YYYY MMM", "P3M", currentMonth, "YYYY-MM-DD") %&gt; - &lt;% tp.date.now("MMM", "P5M", currentMonth, "YYYY-MM-DD") %&gt; [due:: &lt;% tp.date.now("YYYY-MM-DD", "P3M-1W", currentMonth, "YYYY-MM-DD") %&gt;] [start:: &lt;% tp.date.now("YYYY-MM-DD", "P3M-2W", currentMonth, "YYYY-MM-DD") %&gt;]
-<a href="#__codelineno-2-12" id="__codelineno-2-12" name="__codelineno-2-12"></a>&lt;%*
-<a href="#__codelineno-2-13" id="__codelineno-2-13" name="__codelineno-2-13"></a>	}
-<a href="#__codelineno-2-14" id="__codelineno-2-14" name="__codelineno-2-14"></a>	// Monthly
-<a href="#__codelineno-2-15" id="__codelineno-2-15" name="__codelineno-2-15"></a>_%&gt;
-<a href="#__codelineno-2-16" id="__codelineno-2-16" name="__codelineno-2-16"></a>#### &lt;% tp.date.now("MMMM", 0, currentMonth, "YYYY-MM-DD")%&gt;
-<a href="#__codelineno-2-17" id="__codelineno-2-17" name="__codelineno-2-17"></a>- [ ] Pay Rent: &lt;% tp.date.now("YYYY MMMM", "P1M", currentMonth, "YYYY-MM-DD") %&gt;  [due:: &lt;% tp.date.now("YYYY-MM-DD", "P1M", currentMonth, "YYYY-MM-DD") %&gt;] [start:: &lt;% tp.date.now("YYYY-MM-DD", "P1M-1W", currentMonth, "YYYY-MM-DD") %&gt;]
-<a href="#__codelineno-2-18" id="__codelineno-2-18" name="__codelineno-2-18"></a>&lt;%*
-<a href="#__codelineno-2-19" id="__codelineno-2-19" name="__codelineno-2-19"></a>	let lastDayOfMonth = tp.date.now("YYYY-MM-DD", "P1M-1D", currentMonth, "YYYY-MM-DD");
-<a href="#__codelineno-2-20" id="__codelineno-2-20" name="__codelineno-2-20"></a>	let mondays = [];
-<a href="#__codelineno-2-21" id="__codelineno-2-21" name="__codelineno-2-21"></a>	let currentDay = tp.date.now("YYYY-MM-DD", 0, currentMonth, "YYYY-MM-DD");
-<a href="#__codelineno-2-22" id="__codelineno-2-22" name="__codelineno-2-22"></a>	let foundFirstMonday = false;
-<a href="#__codelineno-2-23" id="__codelineno-2-23" name="__codelineno-2-23"></a>	
-<a href="#__codelineno-2-24" id="__codelineno-2-24" name="__codelineno-2-24"></a>	while (currentDay &lt;= lastDayOfMonth) {
-<a href="#__codelineno-2-25" id="__codelineno-2-25" name="__codelineno-2-25"></a>		let dayOfWeek = tp.date.now("E", 0, currentDay, "YYYY-MM-DD");
-<a href="#__codelineno-2-26" id="__codelineno-2-26" name="__codelineno-2-26"></a>		
-<a href="#__codelineno-2-27" id="__codelineno-2-27" name="__codelineno-2-27"></a>		if (foundFirstMonday) {
-<a href="#__codelineno-2-28" id="__codelineno-2-28" name="__codelineno-2-28"></a>			mondays.push(currentDay);
-<a href="#__codelineno-2-29" id="__codelineno-2-29" name="__codelineno-2-29"></a>			currentDay = tp.date.now("YYYY-MM-DD", 7, currentDay, "YYYY-MM-DD");
-<a href="#__codelineno-2-30" id="__codelineno-2-30" name="__codelineno-2-30"></a>			} else if (!foundFirstMonday &amp;&amp; dayOfWeek === "1") {
-<a href="#__codelineno-2-31" id="__codelineno-2-31" name="__codelineno-2-31"></a>			mondays.push(currentDay);
-<a href="#__codelineno-2-32" id="__codelineno-2-32" name="__codelineno-2-32"></a>			foundFirstMonday = true;
-<a href="#__codelineno-2-33" id="__codelineno-2-33" name="__codelineno-2-33"></a>			currentDay = tp.date.now("YYYY-MM-DD", 7, currentDay, "YYYY-MM-DD");
-<a href="#__codelineno-2-34" id="__codelineno-2-34" name="__codelineno-2-34"></a>			} else {
-<a href="#__codelineno-2-35" id="__codelineno-2-35" name="__codelineno-2-35"></a>			currentDay = tp.date.now("YYYY-MM-DD", 1, currentDay, "YYYY-MM-DD");
-<a href="#__codelineno-2-36" id="__codelineno-2-36" name="__codelineno-2-36"></a>		}
-<a href="#__codelineno-2-37" id="__codelineno-2-37" name="__codelineno-2-37"></a>	}
-<a href="#__codelineno-2-38" id="__codelineno-2-38" name="__codelineno-2-38"></a>	
-<a href="#__codelineno-2-39" id="__codelineno-2-39" name="__codelineno-2-39"></a>	for (let monday of mondays) { 
-<a href="#__codelineno-2-40" id="__codelineno-2-40" name="__codelineno-2-40"></a>	// Weekly
-<a href="#__codelineno-2-41" id="__codelineno-2-41" name="__codelineno-2-41"></a>_%&gt;
-<a href="#__codelineno-2-42" id="__codelineno-2-42" name="__codelineno-2-42"></a>- [ ] Check TD My Advantage [due:: &lt;% tp.date.now("YYYY-MM-DD", "P-1D", monday, "YYYY-MM-DD") %&gt;] [start:: &lt;% tp.date.now("YYYY-MM-DD", "P-2D", monday, "YYYY-MM-DD") %&gt;]
-<a href="#__codelineno-2-43" id="__codelineno-2-43" name="__codelineno-2-43"></a>&lt;%* }
-<a href="#__codelineno-2-44" id="__codelineno-2-44" name="__codelineno-2-44"></a>	
-<a href="#__codelineno-2-45" id="__codelineno-2-45" name="__codelineno-2-45"></a>	currentMonth = tp.date.now("YYYY-MM-DD", "P1M", currentMonth, "YYYY-MM-DD");
-<a href="#__codelineno-2-46" id="__codelineno-2-46" name="__codelineno-2-46"></a>}
-<a href="#__codelineno-2-47" id="__codelineno-2-47" name="__codelineno-2-47"></a>_%&gt;
+<h4 id="explorer">Explorer<a class="headerlink" href="#explorer" title="Permanent link">¶</a></h4>
+<p>I use the following settings to hide notes with any tag, and notes with the frontmatter hide: true along with their parent folder. If a folder has only one file, that folder is renamed and linked to the note instead, hiding the original file from the Explorer.</p>
+<p><code>quartz.layout.ts</code></p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a>Component.Explorer({
+<a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a>            folderClickBehavior: "link",
+<a href="#__codelineno-0-3" id="__codelineno-0-3" name="__codelineno-0-3"></a>            folderDefaultState: "open",
+<a href="#__codelineno-0-4" id="__codelineno-0-4" name="__codelineno-0-4"></a>
+<a href="#__codelineno-0-5" id="__codelineno-0-5" name="__codelineno-0-5"></a>            filterFn: (node) =&gt; {
+<a href="#__codelineno-0-6" id="__codelineno-0-6" name="__codelineno-0-6"></a>                // Hide files with hide: true
+<a href="#__codelineno-0-7" id="__codelineno-0-7" name="__codelineno-0-7"></a>                if (node.file?.frontmatter?.tags?.includes("badtag")) {
+<a href="#__codelineno-0-8" id="__codelineno-0-8" name="__codelineno-0-8"></a>                    return false;
+<a href="#__codelineno-0-9" id="__codelineno-0-9" name="__codelineno-0-9"></a>                }
+<a href="#__codelineno-0-10" id="__codelineno-0-10" name="__codelineno-0-10"></a>
+<a href="#__codelineno-0-11" id="__codelineno-0-11" name="__codelineno-0-11"></a>                if (node.file?.frontmatter?.hide === true) {
+<a href="#__codelineno-0-12" id="__codelineno-0-12" name="__codelineno-0-12"></a>                    return false;
+<a href="#__codelineno-0-13" id="__codelineno-0-13" name="__codelineno-0-13"></a>                }
+<a href="#__codelineno-0-14" id="__codelineno-0-14" name="__codelineno-0-14"></a>                // Hide folders with a single hidden file
+<a href="#__codelineno-0-15" id="__codelineno-0-15" name="__codelineno-0-15"></a>                if (node.children?.length === 1 &amp;&amp; node.children[0].file?.frontmatter?.hide === true) {
+<a href="#__codelineno-0-16" id="__codelineno-0-16" name="__codelineno-0-16"></a>                    return false;
+<a href="#__codelineno-0-17" id="__codelineno-0-17" name="__codelineno-0-17"></a>                }
+<a href="#__codelineno-0-18" id="__codelineno-0-18" name="__codelineno-0-18"></a>                return true;
+<a href="#__codelineno-0-19" id="__codelineno-0-19" name="__codelineno-0-19"></a>            },
+<a href="#__codelineno-0-20" id="__codelineno-0-20" name="__codelineno-0-20"></a>            mapFn: (node) =&gt; {
+<a href="#__codelineno-0-21" id="__codelineno-0-21" name="__codelineno-0-21"></a>                if (node.children?.length === 1 &amp;&amp;
+<a href="#__codelineno-0-22" id="__codelineno-0-22" name="__codelineno-0-22"></a>                    node.children[0].file &amp;&amp;
+<a href="#__codelineno-0-23" id="__codelineno-0-23" name="__codelineno-0-23"></a>                    node.name === node.children[0].name.replace(/\.md$/, '')) {
+<a href="#__codelineno-0-24" id="__codelineno-0-24" name="__codelineno-0-24"></a>                    node.file = node.children[0].file;
+<a href="#__codelineno-0-25" id="__codelineno-0-25" name="__codelineno-0-25"></a>                    node.displayName = node.children[0].displayName;
+<a href="#__codelineno-0-26" id="__codelineno-0-26" name="__codelineno-0-26"></a>                    node.children = [];
+<a href="#__codelineno-0-27" id="__codelineno-0-27" name="__codelineno-0-27"></a>                }
+<a href="#__codelineno-0-28" id="__codelineno-0-28" name="__codelineno-0-28"></a>                return node;
+<a href="#__codelineno-0-29" id="__codelineno-0-29" name="__codelineno-0-29"></a>            },
+<a href="#__codelineno-0-30" id="__codelineno-0-30" name="__codelineno-0-30"></a>        }),
 </code></pre></div>
 <!-- Source file information -->
 <!-- taken from 
@@ -415,12 +319,15 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <small>
 <!-- mkdocs-git-revision-date-localized-plugin -->
 <u>Last update</u> :
-        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">18 mai 2025</span>
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">19 mai 2025</span>
 <!-- mkdocs-git-revision-date-plugin -->
 <br/>
 <u>Created</u> :
-        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">18 mai 2025</span>
-</small>
+        Feb 20, 2025
+        
+        
+        
+    </small>
 </div>
 <!-- Was this page helpful? -->
 <!-- Comment system -->
@@ -432,7 +339,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
     try {
       const index = document.querySelector('h1').innerHTML;
       if (index === "Index") {
-        document.querySelector('h1').innerHTML = "Guide Templater";
+        document.querySelector('h1').innerHTML = "Obsidian Quartz";
       }
     } catch (error) {
       // console.log(error);

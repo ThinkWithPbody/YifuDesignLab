@@ -7,10 +7,10 @@
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="Shared pages by Yifu" name="description"/>
 <meta content="Yifu" name="author"/>
-<link href="https://thinkwithpbody.github.io/YifuDesignLab/Guides/Guide%20Quartz/" rel="canonical"/>
+<link href="https://thinkwithpbody.github.io/YifuDesignLab/Guides/Obsidian%20Excalibrain/" rel="canonical"/>
 <link href="../../_assets/meta/favicons.png" rel="icon"/>
 <meta content="mkdocs-1.6.1, mkdocs-material-9.5.49" name="generator"/>
-<title>Guide Quartz - Yifu Design Lab</title>
+<title>Obsidian Excalibrain - Yifu Design Lab</title>
 <link href="../../assets/stylesheets/main.6f8fc17f.min.css" rel="stylesheet"/>
 <link href="../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -32,11 +32,11 @@
 <meta content="https://thinkwithpbody.github.io/YifuDesignLab/_assets/meta/logo.png" property="og:image"/>
 <meta content="https://thinkwithpbody.github.io/YifuDesignLab/_assets/meta/logo.png" name="twitter:image"/>
 <meta content="https://thinkwithpbody.github.io/YifuDesignLab/" name="site_url"/>
-<meta content="Guide Quartz" property="og:title"/>
-<meta content="Guide Quartz" name="twitter:title"/>
+<meta content="Obsidian Excalibrain" property="og:title"/>
+<meta content="Obsidian Excalibrain" name="twitter:title"/>
 <meta content="Shared pages by Yifu" name="og:description"/>
 <meta content="Shared pages by Yifu" name="twitter:description"/>
-<script> document.title = "Guide Quartz" </script>
+<script> document.title = "Obsidian Excalibrain" </script>
 <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
     html.glightbox-open { overflow: initial; height: 100%; }
     .gslide-title { margin-top: 0px; user-select: text; }
@@ -76,7 +76,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              Guide Quartz
+              Obsidian Excalibrain
             
           </span>
 </div>
@@ -233,9 +233,9 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#explorer">
+<a class="md-nav__link" href="#ontology">
 <span class="md-ellipsis">
-      Explorer
+      Ontology
     </span>
 </a>
 </li>
@@ -269,6 +269,7 @@
 -->
 <!-- Tags -->
 <nav class="md-tags">
+<a class="md-tag" href="../../tags/#guide">guide</a>
 </nav>
 <!-- Actions -->
 <!--
@@ -276,40 +277,19 @@
   page title (or respectively site name) is used as the main headline.
 -->
 <!-- Page content -->
-<h4 id="explorer">Explorer<a class="headerlink" href="#explorer" title="Permanent link">¶</a></h4>
-<p>I use the following settings to hide notes with any tag, and notes with the frontmatter hide: true along with their parent folder. If a folder has only one file, that folder is renamed and linked to the note instead, hiding the original file from the Explorer.</p>
-<p><code>quartz.layout.ts</code></p>
-<div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a>Component.Explorer({
-<a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a>            folderClickBehavior: "link",
-<a href="#__codelineno-0-3" id="__codelineno-0-3" name="__codelineno-0-3"></a>            folderDefaultState: "open",
-<a href="#__codelineno-0-4" id="__codelineno-0-4" name="__codelineno-0-4"></a>
-<a href="#__codelineno-0-5" id="__codelineno-0-5" name="__codelineno-0-5"></a>            filterFn: (node) =&gt; {
-<a href="#__codelineno-0-6" id="__codelineno-0-6" name="__codelineno-0-6"></a>                // Hide files with hide: true
-<a href="#__codelineno-0-7" id="__codelineno-0-7" name="__codelineno-0-7"></a>                if (node.file?.frontmatter?.tags?.includes("badtag")) {
-<a href="#__codelineno-0-8" id="__codelineno-0-8" name="__codelineno-0-8"></a>                    return false;
-<a href="#__codelineno-0-9" id="__codelineno-0-9" name="__codelineno-0-9"></a>                }
-<a href="#__codelineno-0-10" id="__codelineno-0-10" name="__codelineno-0-10"></a>
-<a href="#__codelineno-0-11" id="__codelineno-0-11" name="__codelineno-0-11"></a>                if (node.file?.frontmatter?.hide === true) {
-<a href="#__codelineno-0-12" id="__codelineno-0-12" name="__codelineno-0-12"></a>                    return false;
-<a href="#__codelineno-0-13" id="__codelineno-0-13" name="__codelineno-0-13"></a>                }
-<a href="#__codelineno-0-14" id="__codelineno-0-14" name="__codelineno-0-14"></a>                // Hide folders with a single hidden file
-<a href="#__codelineno-0-15" id="__codelineno-0-15" name="__codelineno-0-15"></a>                if (node.children?.length === 1 &amp;&amp; node.children[0].file?.frontmatter?.hide === true) {
-<a href="#__codelineno-0-16" id="__codelineno-0-16" name="__codelineno-0-16"></a>                    return false;
-<a href="#__codelineno-0-17" id="__codelineno-0-17" name="__codelineno-0-17"></a>                }
-<a href="#__codelineno-0-18" id="__codelineno-0-18" name="__codelineno-0-18"></a>                return true;
-<a href="#__codelineno-0-19" id="__codelineno-0-19" name="__codelineno-0-19"></a>            },
-<a href="#__codelineno-0-20" id="__codelineno-0-20" name="__codelineno-0-20"></a>            mapFn: (node) =&gt; {
-<a href="#__codelineno-0-21" id="__codelineno-0-21" name="__codelineno-0-21"></a>                if (node.children?.length === 1 &amp;&amp;
-<a href="#__codelineno-0-22" id="__codelineno-0-22" name="__codelineno-0-22"></a>                    node.children[0].file &amp;&amp;
-<a href="#__codelineno-0-23" id="__codelineno-0-23" name="__codelineno-0-23"></a>                    node.name === node.children[0].name.replace(/\.md$/, '')) {
-<a href="#__codelineno-0-24" id="__codelineno-0-24" name="__codelineno-0-24"></a>                    node.file = node.children[0].file;
-<a href="#__codelineno-0-25" id="__codelineno-0-25" name="__codelineno-0-25"></a>                    node.displayName = node.children[0].displayName;
-<a href="#__codelineno-0-26" id="__codelineno-0-26" name="__codelineno-0-26"></a>                    node.children = [];
-<a href="#__codelineno-0-27" id="__codelineno-0-27" name="__codelineno-0-27"></a>                }
-<a href="#__codelineno-0-28" id="__codelineno-0-28" name="__codelineno-0-28"></a>                return node;
-<a href="#__codelineno-0-29" id="__codelineno-0-29" name="__codelineno-0-29"></a>            },
-<a href="#__codelineno-0-30" id="__codelineno-0-30" name="__codelineno-0-30"></a>        }),
-</code></pre></div>
+<h4 id="ontology">Ontology<a class="headerlink" href="#ontology" title="Permanent link">¶</a></h4>
+<p><strong>Parents</strong><br/>
+inception, North, origin, Parent, parent domain, parents, people, source, u, up</p>
+<p><strong>Children</strong><br/>
+Child, children, contributes to, d, down, leads to, nurtures, South</p>
+<p><strong>Left-Side Friends</strong><br/>
+advantages, alternatives, Friend, friends, j, Jump, Jumps, pros, similar, supports</p>
+<p><strong>Right-Side Friends</strong><br/>
+cons, disadvantages, missing, opposes</p>
+<p><strong>Previous (Friends)</strong><br/>
+Before, prev, Previous, w, West</p>
+<p><strong>Next (Friends)</strong><br/>
+After, e, East, n, next</p>
 <!-- Source file information -->
 <!-- taken from 
 https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-file.html -->
@@ -322,11 +302,8 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <!-- mkdocs-git-revision-date-plugin -->
 <br/>
 <u>Created</u> :
-        Feb 20, 2025
-        
-        
-        
-    </small>
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">18 mai 2025</span>
+</small>
 </div>
 <!-- Was this page helpful? -->
 <!-- Comment system -->
@@ -338,7 +315,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
     try {
       const index = document.querySelector('h1').innerHTML;
       if (index === "Index") {
-        document.querySelector('h1').innerHTML = "Guide Quartz";
+        document.querySelector('h1').innerHTML = "Obsidian Excalibrain";
       }
     } catch (error) {
       // console.log(error);
