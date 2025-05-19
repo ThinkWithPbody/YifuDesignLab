@@ -3,11 +3,68 @@
 }
 
 [data-md-color-accent="amber"] {
-  --md-accent-fg-color: hsla(var(--md-hue), 100%, 50%, 1.00);
-  --md-accent-fg-color--transparent: hsla(var(--md-hue), 100%, 50%, 0.50);
-  --md-accent-bg-color: hsla(var(--md-hue), 100%, 00%, 0.75);
-  --md-accent-bg-color--light: hsla(var(--md-hue), 100%, 00%, 0.50);
+    --md-accent-fg-color: hsla(var(--md-hue), 100%, 50%, 1.00);
+    --md-accent-fg-color--transparent: hsla(var(--md-hue), 100%, 50%, 0.50);
+    --md-accent-bg-color: hsla(var(--md-hue), 100%, 00%, 0.75);
+    --md-accent-bg-color--light: hsla(var(--md-hue), 100%, 00%, 0.50);
 }
+
+
+
+[data-md-color-scheme="default"] {
+    --md-hue: 45deg;
+
+    --md-primary-fg-color: hsla(var(--md-hue), 5%, 9%, 1.00);
+    --md-primary-fg-color--light: hsla(var(--md-hue), 5%, 9%, 0.55);
+    --md-primary-fg-color--dark: hsla(var(--md-hue), 5%, 9%, 1.00);
+    --md-primary-bg-color: hsla(var(--md-hue), 5%, 100%, 1.00);
+    --md-primary-bg-color--light: hsla(var(--md-hue), 5%, 100%, 0.70);
+
+    --md-default-fg-color: hsla(var(--md-hue), 5%, 10%, 0.90);
+    --md-default-fg-color--light: hsla(var(--md-hue), 5%, 10%, 0.60);
+    --md-default-fg-color--lighter: hsla(var(--md-hue), 5%, 10%, 0.35);
+    --md-default-fg-color--lightest: hsla(var(--md-hue), 5%, 10%, 0.10);
+    --md-default-bg-color: hsla(var(--md-hue), 5%, 100%, 1.00);
+    --md-default-bg-color--light: hsla(var(--md-hue), 5%, 100%, 0.70);
+    --md-default-bg-color--lighter: hsla(var(--md-hue), 5%, 100%, 0.40);
+    --md-default-bg-color--lightest: hsla(var(--md-hue), 5%, 100%, 0.10);
+
+    --md-typeset-a-color: var(--md-default-fg-color);
+}
+
+[data-md-color-scheme="default"] ::selection {
+    background-color: var(--md-accent-fg-color--transparent);
+    color: hsla(var(--md-hue), 100%, 0%, 1.00);
+}
+
+[data-md-color-scheme="slate"] {
+    --md-hue: 45deg;
+
+    --md-primary-fg-color: hsla(var(--md-hue), 5%, 9%, 1.00);
+    --md-primary-fg-color--light: hsla(var(--md-hue), 5%, 9%, 0.55);
+    --md-primary-fg-color--dark: hsla(var(--md-hue), 5%, 9%, 1.00);
+    --md-primary-bg-color: hsla(var(--md-hue), 5%, 100%, 1.00);
+    --md-primary-bg-color--light: hsla(var(--md-hue), 5%, 100%, 0.70);
+
+    --md-default-fg-color: hsla(var(--md-hue), 5%, 90%, 0.90);
+    --md-default-fg-color--light: hsla(var(--md-hue), 5%, 90%, 0.60);
+    --md-default-fg-color--lighter: hsla(var(--md-hue), 5%, 90%, 0.35);
+    --md-default-fg-color--lightest: hsla(var(--md-hue), 5%, 90%, 0.10);
+    --md-default-bg-color: hsla(var(--md-hue), 5%, 14%, 1.00);
+    --md-default-bg-color--light: hsla(var(--md-hue), 5%, 14%, 0.60);
+    --md-default-bg-color--lighter: hsla(var(--md-hue), 5%, 14%, 0.35);
+    --md-default-bg-color--lightest: hsla(var(--md-hue), 5%, 14%, 0.10);
+
+
+    --md-typeset-a-color: var(--md-default-fg-color);
+}
+
+[data-md-color-scheme="slate"] ::selection {
+    background-color: var(--md-accent-fg-color--transparent);
+    color: hsla(var(--md-hue), 100%, 100%, 1.00);
+}
+
+
 
 .md-typeset h2 {
     color: #d04255;
@@ -46,58 +103,11 @@
 }
 
 .md-typeset a {
-  font-weight: 500;
-  font-variation-settings: "wght" 500;
-  text-decoration: underline dotted;
+    font-weight: 500;
+    font-variation-settings: "wght" 500;
+    text-decoration: underline dotted;
+    color: var(--md-typeset-a-color);
 }
-
-
-
-[data-md-color-scheme="default"] {
-    --md-hue: 45deg;
-    
-    --md-primary-fg-color: hsla(var(--md-hue), 15%, 9%, 1);
-    --md-primary-fg-color--light: hsla(var(--md-hue), 15%, 9%, 0.55);
-    --md-primary-fg-color--lighter: hsla(var(--md-hue), 15%, 9%, 0.35);
-    --md-primary-fg-color--lightest: hsla(var(--md-hue), 15%, 9%, 0.15);
-    --md-primary-fg-color--dark: hsla(var(--md-hue), 15%, 9%, 1);
-    --md-primary-bg-color: hsla(var(--md-hue), 15%, 100%, 1);
-    --md-primary-bg-color--light: hsla(var(--md-hue), 15%, 100%, 0.7);
-    --md-primary-bg-color--lighter: hsla(var(--md-hue), 15%, 100%, 0.3);
-    --md-primary-bg-color--lightest: hsla(var(--md-hue), 15%, 100%, 0.1);
-    
-    --md-typeset-a-color: var(--md-primary-fg-color);
-}
-
-[data-md-color-scheme="default"] ::selection {
-    background-color: var(--md-accent-fg-color--transparent);
-    color: hsla(var(--md-hue), 100%, 0%, 1.00);
-}
-
-[data-md-color-scheme="slate"] {
-    --md-hue: 45deg;
-    
-    --md-primary-fg-color: hsla(var(--md-hue), 15%, 9%, 1);
-    --md-primary-fg-color--light: hsla(var(--md-hue), 15%, 9%, 0.55);
-    --md-primary-fg-color--lighter: hsla(var(--md-hue), 15%, 9%, 0.35);
-    --md-primary-fg-color--lightest: hsla(var(--md-hue), 15%, 9%, 0.15);
-    --md-primary-fg-color--dark: hsla(var(--md-hue), 15%, 9%, 1);
-    --md-primary-bg-color: hsla(var(--md-hue), 15%, 100%, 1);
-    --md-primary-bg-color--light: hsla(var(--md-hue), 15%, 100%, 0.7);
-    --md-primary-bg-color--lighter: hsla(var(--md-hue), 15%, 100%, 0.3);
-    --md-primary-bg-color--lightest: hsla(var(--md-hue), 15%, 100%, 0.1);
-    
-    
-    --md-typeset-a-color: var(--md-primary-bg-color);
-}
-
-[data-md-color-scheme="slate"] ::selection {
-    background-color: var(--md-accent-fg-color--transparent);
-    color: hsla(var(--md-hue), 100%, 100%, 1.00);
-}
-
-
-
 
 
 
@@ -108,20 +118,19 @@
 
 
 
-
 /* Define primary colors for black */
 /* [data-md-color-primary="black"] {
     /* --md-primary-fg-color: hsla(var(--md-hue), 15%, 9%, 1); */
-    /* --md-primary-fg-color--light: hsla(var(--md-hue), 15%, 9%, 0.54); */
-    /* --md-primary-fg-color--dark: hsla(var(--md-hue), 15%, 9%, 1); */
-    /* --md-primary-bg-color: hsla(var(--md-hue), 15%, 100%, 1); */
-    /* --md-primary-bg-color--light: hsla(var(--md-hue), 15%, 100%, 0.7); */
+/* --md-primary-fg-color--light: hsla(var(--md-hue), 15%, 9%, 0.54); */
+/* --md-primary-fg-color--dark: hsla(var(--md-hue), 15%, 9%, 1); */
+/* --md-primary-bg-color: hsla(var(--md-hue), 15%, 100%, 1); */
+/* --md-primary-bg-color--light: hsla(var(--md-hue), 15%, 100%, 0.7); */
 
-    /* Typeset `a` color shades */
-    /* --md-typeset-a-color: hsl(40, 50%, 50%); */
+/* Typeset `a` color shades */
+/* --md-typeset-a-color: hsl(40, 50%, 50%); */
 
-    /* Form button */
-    /* .md-button {
+/* Form button */
+/* .md-button {
         color: var(--md-typeset-a-color);
 
         // Primary button
@@ -132,13 +141,13 @@
         }
     } */
 
-    /* Header */
-    /* .md-header {
+/* Header */
+/* .md-header {
         background-color: hsla(var(--md-hue), 15%, 9%, 1);
     } */
 
-    /* [tablet portrait -]: Layered navigation */
-    /* @include break-to-device(tablet portrait) {
+/* [tablet portrait -]: Layered navigation */
+/* @include break-to-device(tablet portrait) {
 
         // Repository information container
         .md-nav__source {
@@ -146,8 +155,8 @@
         }
     } */
 
-    /* [tablet -]: Layered navigation */
-    /* @include break-to-device(tablet) {
+/* [tablet -]: Layered navigation */
+/* @include break-to-device(tablet) {
 
         // Site title in main navigation
         html & .md-nav--primary .md-nav__title[for="__drawer"] {
@@ -155,8 +164,8 @@
         }
     } */
 
-    /* [screen +]: Set background color for tabs */
-    /* @include break-from-device(screen) {
+/* [screen +]: Set background color for tabs */
+/* @include break-from-device(screen) {
 
         // Navigation tabs
         .md-tabs {
