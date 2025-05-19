@@ -5,7 +5,7 @@ hide:
   - navigation
 tags:
   - navigation
-title: 
+title: Home
 icon: ":FasHouse:"
 ---
 
