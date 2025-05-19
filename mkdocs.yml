@@ -63,7 +63,7 @@ theme:
       note: fontawesome/regular/calendar
       note_atomic: fontawesome/regular/calendar-plus
     
-features:
+  features:
     - navigation.indexes
     - navigation.top
     - navigation.tabs
@@ -72,6 +72,7 @@ features:
     - toc.follow
     - search.suggest
     - search.highlight
+
 # Extensions
 markdown_extensions:
   - footnotes
