@@ -3,6 +3,7 @@ excalidraw-plugin: parsed
 excalidraw-open-md: true
 tags:
   - note_atomic
+  - course
 title: 
 description: 
 date: 2025-02-26
@@ -15,10 +16,10 @@ time:
 share: true
 hidden: true
 ---
-%%[parents:: [ARC2046H](../../../../../Courses/2025/ARC2046H/index.md)]%%
+%%[parents:: [[../../../../../Courses/2025/ARC2046H/index|ARC2046H]]]%%
 ### Wood - Intro and Column Design
 
-![2025-02-26_Module 07 Wood - Intro and Column Design.svg](Periodic%20Notes/Atomic/2025/2025-02-26_Module%2007%20Wood%20-%20Intro%20and%20Column%20Design/2025-02-26_Module%2007%20Wood%20-%20Intro%20and%20Column%20Design.svg)
+![[Periodic Notes/Atomic/2025/2025-02-26_Module 07 Wood - Intro and Column Design/2025-02-26_Module 07 Wood - Intro and Column Design.svg|Periodic Notes/Atomic/2025/2025-02-26_Module 07 Wood - Intro and Column Design/2025-02-26_Module 07 Wood - Intro and Column Design.svg]]
 
 #### Properties
 
@@ -97,54 +98,54 @@ hidden: true
 	- Chemicals (Preservation, Fire Retardant)
 	- Lateral Stability (Buckling)
 - Typical Construction
-	- ![468x260](./Attachments/2025-02-26_Module%2007%20Wood%20-%20Intro%20and%20Column%20Design/image.webp)
-	- ![308x466](./Attachments/2025-02-26_Module%2007%20Wood%20-%20Intro%20and%20Column%20Design/image-1.webp)
-	- ![293x399](./Attachments/2025-02-26_Module%2007%20Wood%20-%20Intro%20and%20Column%20Design/image-1-1.webp)
+	- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image.webp|468x260]]
+	- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-1.webp|308x466]]
+	- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-1-1.webp|293x399]]
 - Lumber Visual Grades
 	- Select Structural
 	- No. 1
 	- No. 2
 	- No. 3
 	- Stud
-	- ![image-2](./Attachments/2025-02-26_Module%2007%20Wood%20-%20Intro%20and%20Column%20Design/image-2.webp)
+	- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-2.webp|image-2]]
 - Strength and Modulus of Elasticity
-	- Look up table A-D [SAWN LUMBER, p.5](../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SAWN%20LUMBER.pdf.md#page5)
-		- ![640x384](./Attachments/2025-02-26_Module%2007%20Wood%20-%20Intro%20and%20Column%20Design/image-8.webp)
-		- ![640x306](./Attachments/2025-02-26_Module%2007%20Wood%20-%20Intro%20and%20Column%20Design/image-9.webp)
-		- ![640x384](./Attachments/2025-02-26_Module%2007%20Wood%20-%20Intro%20and%20Column%20Design/image-10.webp)
-		- ![640x379](./Attachments/2025-02-26_Module%2007%20Wood%20-%20Intro%20and%20Column%20Design/image-11.webp)
+	- Look up table A-D [[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SAWN LUMBER.pdf#page=5|SAWN LUMBER, p.5]]
+		- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-8.webp|640x384]]
+		- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-9.webp|640x306]]
+		- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-10.webp|640x384]]
+		- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-11.webp|640x379]]
 	- Governed by Applications, Species, Grades
 - $K_D$: Load Duration Factor
 	- Short Term = 1.15
 	- Standard Term = 1.00
 	- Long Term = 0.65
-	- ![640x407](./Attachments/2025-02-26_Module%2007%20Wood%20-%20Intro%20and%20Column%20Design/image-2-1.webp)
+	- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-2-1.webp|640x407]]
 - $K_H$: System Factor
 	- 1.0 if not part of a system - Post / Beam
 	- More if part of a system sharing some loads - Joist / Stud
-	- ![640x275](./Attachments/2025-02-26_Module%2007%20Wood%20-%20Intro%20and%20Column%20Design/image-7.webp)
+	- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-7.webp|640x275]]
 	- Case 1 | Case 2
 		- Most floors and walls are Case 2
-		- ![640x375](./Attachments/2025-02-26_Module%2007%20Wood%20-%20Intro%20and%20Column%20Design/image-3.webp)
+		- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-3.webp|640x375]]
 - $K_S$: Service Condition Factor
 	- Outside use or a pool would be wet
 	- Always 1.0 if dry
-	- ![640x278](./Attachments/2025-02-26_Module%2007%20Wood%20-%20Intro%20and%20Column%20Design/image-6.webp)
+	- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-6.webp|640x278]]
 - $K_T$: Treatment Factor
 	- Pressure treated unincised lumber doesn't lose strength
 		- Lumber bathed in a preservative solution and pressurized
 		- Incised meaning punching little holes in the lumber
 	- Fire retardant treated
-	- ![640x403](./Attachments/2025-02-26_Module%2007%20Wood%20-%20Intro%20and%20Column%20Design/image-5.webp)
+	- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-5.webp|640x403]]
 - $K_Z$: Size Factor
 	- The chances of a hidden defect becomes greater as lumber size increase
 	- Built up members use individual member size to determine size factor - better performance than if the member was full-sized
-	- ![640x428](./Attachments/2025-02-26_Module%2007%20Wood%20-%20Intro%20and%20Column%20Design/image-12.webp)
+	- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-12.webp|640x428]]
 - Wood and Steel
 	- $P_r=\phi \sigma A + Factors/Buckling$
 	- $C_r=\phi \sigma A + Factors/Buckling$
 	- Essentially the same
-	- ![352x274](./Attachments/2025-02-26_Module%2007%20Wood%20-%20Intro%20and%20Column%20Design/image-4.webp)
+	- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-4.webp|352x274]]
 
 #### Calculations
 
@@ -152,7 +153,7 @@ hidden: true
 	- Calculate both $P_{rb}$ and $P_{rd}$ using different $K_{ZC}$ and $K_{C}$ for strong and weak axis
 	- $\phi(Unitless)=0.8$: Resistance Factor for wood compression
 	- $F_c(MPa)=f_c(K_D K_H K_{SC} K_T)$
-		- $f_c$: Specified strength (stress) in compression parallel to grain, looked up from Table A-D [SAWN LUMBER, p.5](../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SAWN%20LUMBER.pdf.md#page5)
+		- $f_c$: Specified strength (stress) in compression parallel to grain, looked up from Table A-D [[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SAWN LUMBER.pdf#page=5|SAWN LUMBER, p.5]]
 		- $K_D K_H K_{SC} K_T$: Duration, system, service condition, treatment
 	- $A(mm^2)$: Cross sectional area ($b\times d$ for rectangular section)
 	- $K_{C}(Unitless)=(1.0+\frac{F_C K_{ZC} {C_{C}}^3}{35 E_{05} K_{SE} K_T})^{-1}$: Slenderness Factor ($\lambda$)

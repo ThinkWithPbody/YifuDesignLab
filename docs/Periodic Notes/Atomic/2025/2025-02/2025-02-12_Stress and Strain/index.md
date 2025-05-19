@@ -4,6 +4,7 @@ excalidraw-open-md: true
 tags:
   - note_atomic
   - Courses_2025_ARC2046H_Exam
+  - course
 title: 2025-02-12_Stress and Strain
 description: 
 date: 2025-02-12
@@ -15,10 +16,10 @@ time:
 share: true
 hidden: true
 ---
-%%[parents:: [2025-02-12_Stress and Strain](index.md)]%%
+%%[parents:: [[index|2025-02-12_Stress and Strain]]]%%
 ### Stress and Strain
 
-![2025-02-12_Stress and Strain.png](Periodic%20Notes/Atomic/2025/2025-02-12_Stress%20and%20Strain/2025-02-12_Stress%20and%20Strain.png)
+![[Periodic Notes/Atomic/2025/2025-02-12_Stress and Strain/2025-02-12_Stress and Strain.png|Periodic Notes/Atomic/2025/2025-02-12_Stress and Strain/2025-02-12_Stress and Strain.png]]
 
 - Stress is defined as force per unit area
 	- $\sigma(N/mm^2|MPa)=\frac{P(N)}{A(mm^2)}$

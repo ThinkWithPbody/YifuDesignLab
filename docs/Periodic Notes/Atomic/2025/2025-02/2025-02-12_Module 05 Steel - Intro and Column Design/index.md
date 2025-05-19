@@ -1,31 +1,34 @@
 ---
+share: true
+hidden: true
 excalidraw-plugin: parsed
 excalidraw-open-md: true
 tags:
   - note_atomic
   - Courses_2025_ARC2046H_Exam
+  - course
 title: 2025-02-12_Module 05 Steel - Intro and Column Design
 description: 
-date: 2025-02-12
 name: Module 05 Steel - Intro and Column Design
+date: 2025-02-12
 people: 
 location: 
 weekday: 
 time: 
-share: true
-hidden: true
 ---
-%%[parents:: [2025-02-12_Module 05 Steel - Intro and Column Design](index.md)]%%
+
+%%[parents:: [[index|2025-02-12_Module 05 Steel - Intro and Column Design]]]%%
+
 ### Steel - Intro and Column Design
 
-![2025-02-12_Module 05 Steel - Intro and Column Design.png](Periodic%20Notes/Atomic/2025/2025-02-12_Module%2005%20Steel%20-%20Intro%20and%20Column%20Design/2025-02-12_Module%2005%20Steel%20-%20Intro%20and%20Column%20Design.png)
+![[Periodic Notes/Atomic/2025/2025-02-12_Module 05 Steel - Intro and Column Design/2025-02-12_Module 05 Steel - Intro and Column Design.png|Periodic Notes/Atomic/2025/2025-02-12_Module 05 Steel - Intro and Column Design/2025-02-12_Module 05 Steel - Intro and Column Design.png]]
 
 - Steel Sections and Properties
 	- Hot Rolled
 		- 345 MPa
 	- Cold Rolled
 		- 350 MPa
-		- Manufactured from plate 
+		- Manufactured from plate
 	- Naming Convention
 		- W150x30
 			- ~150mm Deep
@@ -50,7 +53,7 @@ hidden: true
 		- fy = 345 MPa for W, C, L sections (Hot Rolled)
 		- fu = 450 MPa
 		- E = 200,000 MPa
-		- G = 77,000 MPa      
+		- G = 77,000 MPa
 	- Typical Steel Reduction Factors
 		- HP Shapes (heavy I-shapes)
 		- M Shapes (very light I-shapes)
@@ -88,7 +91,7 @@ hidden: true
 		- $f_y(MPa)$: the yield strength of the steel (350)
 		- $\lambda = \sqrt{f_y/f_{cr}}$
 			- $\lambda = \frac{kL}{r}\cdot\sqrt{\frac{f_y}{\pi^2 \cdot E}}$
-		- $f_\text{cr}=P_\text{cr}/A$ or the stress at $P_\text{cr}$  ($f$ is the same as $\sigma$)
+		- $f_\text{cr}=P_\text{cr}/A$ or the stress at $P_\text{cr}$ ($f$ is the same as $\sigma$)
 		- $n=1.34$ (for W shapes and HSS shapes)
 		- $r$ = radius of gyration (Shape or Section Property)
 			- probably $r_y$ if buckling is in the weak axis
@@ -98,8 +101,11 @@ hidden: true
 # Excalidraw Data
 
 ## Text Elements
+
 %%
+
 ## Drawing
+
 ```compressed-json
 N4KAkARALgngDgUwgLgAQQQDwMYEMA2AlgCYBOuA7hADTgQBuCpAzoQPYB2KqATLZMzYBXUtiRoIACyhQ4zZAHoFAc0JRJQgEYA6bGwC2CgF7N6hbEcK4OCtptbErHALRY8RMpWdx8Q1TdIEfARcZgRmBShcZQUebQA2bQAOGjoghH0EDihmbgBtcDBQMBKIEm4IAHlneIBFSoBHAGsGgGEAVQaAKwARdopNAGZamDYYVJLIWEQK3FJSNip+Usxu
 
@@ -117,4 +123,5 @@ SKsE072OYgMETUtdSif0fuPNSmltJmT0pJEe89U4HmlCZHSsCJDWUWLPB+C8UEUEivAdukg5hwDjswbA
 
 GEkJYSdinAAJRmkXggZQBY5gVH8UEyE9JeCDUiTk1AMT4kKPvsfCeCAd5QD7MrP2WYr4IESSWUgClJHSQ4A4pxm5SDbnRNgIgpjUBS3RK0z2aABlBmEFAL8mUpZFNKHYLoCAcrMD1K0uA1jbH2McY5K2rjICigqYwSK4j8DNJjBlae6Qcp9jNAnRkBh8EzBNirM2AEWTOJcjss2TENKXIOUcyS7lwAeToNqYIKZgC2zckAA=
 ```
+
 %%

@@ -3,6 +3,7 @@ excalidraw-plugin: parsed
 excalidraw-open-md: true
 tags:
   - note_atomic
+  - course
 title: 
 description: 
 date: 2025-03-05
@@ -15,12 +16,12 @@ time:
 share: true
 hidden: true
 ---
-%%[parents:: [ARC2046H](../../../../../Courses/2025/ARC2046H/index.md)]%%
+%%[parents:: [[../../../../../Courses/2025/ARC2046H/index|ARC2046H]]]%%
 ### Wood - Beam Design
 
-![2025-03-05_Module 08 Wood - Beam Design.svg](Periodic%20Notes/Atomic/2025/2025-03-05_Module%2008%20Wood%20-%20Beam%20Design/2025-03-05_Module%2008%20Wood%20-%20Beam%20Design.svg)
+![[Periodic Notes/Atomic/2025/2025-03-05_Module 08 Wood - Beam Design/2025-03-05_Module 08 Wood - Beam Design.svg|Periodic Notes/Atomic/2025/2025-03-05_Module 08 Wood - Beam Design/2025-03-05_Module 08 Wood - Beam Design.svg]]
 
-Refer to details outlined in [Module 07 Wood - Intro and Column Design](../../2025-02/2025-02-26_Module%2007%20Wood%20-%20Intro%20and%20Column%20Design/index.md#module-07-wood-intro-and-column-design)
+Refer to details outlined in [[../../2025-02/2025-02-26_Module 07 Wood - Intro and Column Design/index#Module 07 Wood - Intro and Column Design|Module 07 Wood - Intro and Column Design]]
 #### Bending Design
 
 - $M_{r}(Nmm)=\phi_b \times F_b \times S \times K_{zb} \times K_L$: **Bending Design**
@@ -34,7 +35,7 @@ Refer to details outlined in [Module 07 Wood - Intro and Column Design](../../20
 			- $K_{Se}$ = Service Factor for stiffness
 			- $K_T$ = Treatment Factor
 	- $S(mm3)$ = Elastic section modulus
-		- Refer to [SECTION PROPERTIES](../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SECTION%20PROPERTIES.pdf)
+		- Refer to [[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SECTION PROPERTIES.pdf|SECTION PROPERTIES]]
 		- Typically rectangles
 			- $S=\frac{bd^2}{6}$
 	- $K_{zb}$ = the size factor in bending
@@ -62,7 +63,7 @@ Refer to details outlined in [Module 07 Wood - Intro and Column Design](../../20
 	- $K_{Zv}$ = is the size factor in shear
 	- $1,000N=1kN$
 
-![640x364](./Attachments/2025-03-05_Module%2008%20Wood%20-%20Beam%20Design/image.webp)
+![[./Attachments/2025-03-05_Module 08 Wood - Beam Design/image.webp|640x364]]
 
 #### Stiffness | Serviceability
 

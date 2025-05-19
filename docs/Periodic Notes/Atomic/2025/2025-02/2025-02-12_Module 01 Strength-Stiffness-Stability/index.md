@@ -1,26 +1,28 @@
 ---
+share: true
+hidden: true
 excalidraw-plugin: parsed
 excalidraw-open-md: true
 tags:
   - note_atomic
+  - course
 title: 2025-02-12_Module 01 Strength-Stiffness-Stability
 description: 
-date: 2025-02-12
 name: Module 01 Strength-Stiffness-Stability
+date: 2025-02-12
 people: 
 location: 
 weekday: 
 time: 
-share: true
-hidden: true
 ---
-%%[parents:: [2025-02-12_Module 01 Strength-Stiffness-Stability](index.md)]%%
+
+%%[parents:: [[index|2025-02-12_Module 01 Strength-Stiffness-Stability]]]%%
+
 ### Module 01 Strength-Stiffness-Stability
 
-![2025-02-12_Module 01 Strength-Stiffness-Stability.png](Periodic%20Notes/Atomic/2025/2025-02-12_Module%2001%20Strength-Stiffness-Stability/2025-02-12_Module%2001%20Strength-Stiffness-Stability.png)
+![[Periodic Notes/Atomic/2025/2025-02-12_Module 01 Strength-Stiffness-Stability/2025-02-12_Module 01 Strength-Stiffness-Stability.png|Periodic Notes/Atomic/2025/2025-02-12_Module 01 Strength-Stiffness-Stability/2025-02-12_Module 01 Strength-Stiffness-Stability.png]]
 
 #### Intro
-
 
 - Weekly assignments 30%
 	- Due next week end of class - 2 tutorials for questions for TAs
@@ -37,7 +39,7 @@ hidden: true
 	- Can do at home
 	- Timed
 	- Appendix PDF will be provided
-	- Listen to tips on “this is a great exam question”
+	- Listen to tips on "this is a great exam question"
 - Classes
 	- First slide outline learning points
 	- Last slide important items
@@ -145,8 +147,11 @@ hidden: true
 # Excalidraw Data
 
 ## Text Elements
+
 %%
+
 ## Drawing
+
 ```compressed-json
 N4KAkARALgngDgUwgLgAQQQDwMYEMA2AlgCYBOuA7hADTgQBuCpAzoQPYB2KqATLZMzYBXUtiRoIACyhQ4zZAHoFAc0JRJQgEYA6bGwC2CgF7N6hbEcK4OCtptbErHALRY8RMpWdx8Q1TdIEfARcZgRmBShcZQUebQA2bQAOGjoghH0EDihmbgBtcDBQMBKIEm4IAHlneIBFSoBHAGsGgGEAVQaAKwARdopNAGZamDYYVJLIWEQK3FJSNip+Usxu
 
@@ -164,4 +169,5 @@ SKsE072OYgMETUtdSif0fuPNSmltJmT0pJEe89U4HmlCZHSsCJDWUWLPB+C8UEUEivAdukg5hwDjswbA
 
 GEkJYSdinAAJRmkXggZQBY5gVH8UEyE9JeCDUiTk1AMT4kKPvsfCeCAd5QD7MrP2WYr4IESSWUgClJHSQ4A4pxm5SDbnRNgIgpjUBS3RK0z2aABlBmEFAL8mUpZFNKHYLoCAcrMD1K0uA1jbH2McY5K2rjICigqYwSK4j8DNJjBlae6Qcp9jNAnRkBh8EzBNirM2AEWTOJcjss2TENKXIOUcyS7lwAeToNqYIKZgC2zckAA=
 ```
+
 %%

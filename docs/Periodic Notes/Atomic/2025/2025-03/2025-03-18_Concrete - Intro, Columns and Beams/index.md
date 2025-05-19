@@ -4,6 +4,7 @@ excalidraw-open-md: true
 tags:
   - note_atomic
   - Courses_2025_ARC2046H_Exam
+  - course
 title: 
 description: 
 date: 2025-03-18
@@ -16,10 +17,10 @@ time:
 share: true
 hidden: true
 ---
-%%[parents:: [ARC2046H](../../../../../Courses/2025/ARC2046H/index.md)]%%
+%%[parents:: [[../../../../../Courses/2025/ARC2046H/index|ARC2046H]]]%%
 ### Concrete - Intro, Columns and Beams
 
-![2025-03-18_Concrete - Intro, Columns and Beams.svg](Periodic%20Notes/Atomic/2025/2025-03-18_Concrete%20-%20Intro,%20Columns%20and%20Beams/2025-03-18_Concrete%20-%20Intro,%20Columns%20and%20Beams.svg)
+![[Periodic Notes/Atomic/2025/2025-03-18_Concrete - Intro, Columns and Beams/2025-03-18_Concrete - Intro, Columns and Beams.svg|Periodic Notes/Atomic/2025/2025-03-18_Concrete - Intro, Columns and Beams/2025-03-18_Concrete - Intro, Columns and Beams.svg]]
 
 - Concrete Mix
 	- Aggregate
@@ -123,13 +124,7 @@ hidden: true
 	- Concrete Compression with Moment
 	- Concrete columns end up taking Moment. Column design needs to account for Axial load and Bending Moment
 	- Interaction Diagram
-		- ### Interaction Diagram
-		
-		![2025-03-19_Interaction Diagram.svg](Periodic%20Notes/Atomic/2025/2025-03/2025-03-19_Interaction%20Diagram/2025-03-19_Interaction%20Diagram.svg)
-		
-		
-		
-		---
+		- ![[../../../../../../2025-03-19_Interaction Diagram#Interaction Diagram|Periodic Notes/Atomic/2025/2025-03/2025-03-19_Interaction Diagram/2025-03-19_Interaction Diagram > Interaction Diagram]]
 		- Calculation
 			- $\gamma h=h - 2\times(Cover + \unicode{x2300}Ties + \frac{1}{2}\unicode{x2300}Bars)$ ^adc004
 			- $\gamma = \gamma h \div h$
@@ -150,7 +145,7 @@ hidden: true
 			- M1 = Smaller End Moment
 			- M2 = Larger End Moment
 - Bending
-	- ![2025-03-18_Concrete - Intro, Columns and Beams-image](./Attachments/2025-03-18_Concrete%20-%20Intro,%20Columns%20and%20Beams/2025-03-18_Concrete%20-%20Intro,%20Columns%20and%20Beams-image.webp)
+	- ![[./Attachments/2025-03-18_Concrete - Intro, Columns and Beams/2025-03-18_Concrete - Intro, Columns and Beams-image.webp|2025-03-18_Concrete - Intro, Columns and Beams-image]]
 		- Cover = Fire protection, from code
 		- Bottom Steel = “Tension” bars
 		- Top Steel = Holds stirrup. Unless reverse bending, As’
@@ -171,19 +166,19 @@ hidden: true
 			- The parabolic stress profile in the concrete can be approximated by a rectangular one.
 			- The diagrams show the stress distribution in concrete at various states of loading.
 		- Stress Profile
-			- ![2025-03-18_Concrete - Intro, Columns and Beams-image-1-1](./Attachments/2025-03-18_Concrete%20-%20Intro,%20Columns%20and%20Beams/2025-03-18_Concrete%20-%20Intro,%20Columns%20and%20Beams-image-1-1.webp)
-			- ![2025-03-18_Concrete - Intro, Columns and Beams-image-2](./Attachments/2025-03-18_Concrete%20-%20Intro,%20Columns%20and%20Beams/2025-03-18_Concrete%20-%20Intro,%20Columns%20and%20Beams-image-2.webp)
-			- ![2025-03-18_Concrete - Intro, Columns and Beams-image-3](./Attachments/2025-03-18_Concrete%20-%20Intro,%20Columns%20and%20Beams/2025-03-18_Concrete%20-%20Intro,%20Columns%20and%20Beams-image-3.webp)
+			- ![[./Attachments/2025-03-18_Concrete - Intro, Columns and Beams/2025-03-18_Concrete - Intro, Columns and Beams-image-1-1.webp|2025-03-18_Concrete - Intro, Columns and Beams-image-1-1]]
+			- ![[./Attachments/2025-03-18_Concrete - Intro, Columns and Beams/2025-03-18_Concrete - Intro, Columns and Beams-image-2.webp|2025-03-18_Concrete - Intro, Columns and Beams-image-2]]
+			- ![[./Attachments/2025-03-18_Concrete - Intro, Columns and Beams/2025-03-18_Concrete - Intro, Columns and Beams-image-3.webp|2025-03-18_Concrete - Intro, Columns and Beams-image-3]]
 				- #Courses/2025/ARC2046H/Exam 
 				- $T(N)=\phi_S \times A_S \times f_y$
 				- $C_c(N) = \alpha_1 \times \phi_c \times f’_c \times A_c$
 				- $A_c(mm^2) = b \times \beta_1c$
 				- $\beta_1c(mm)= T/ (\alpha_1 \times \phi_c \times f’_c \times b)$: Height Of Stress Profile 
 				- $M_r(Nmm) = T \times (d-(\beta_1c)/2)$
-				- [^eb0569](index.md#eb0569)
-				- [^5616de](index.md#5616de)
-				- [^f452bc](index.md#f452bc)
-				- [^273812](index.md#273812)
+				- [[index#^eb0569|^eb0569]]
+				- [[index#^5616de|^5616de]]
+				- [[index#^f452bc|^f452bc]]
+				- [[index#^273812|^273812]]
 	- Beam Tips
 		- A slab is a wide flat beam.
 		- Concrete beams are not always rectangular.  T-shaped beams use the slab in compression. The design basis for a T-beam is the same as that for a rectangular beam.
@@ -202,8 +197,8 @@ hidden: true
 			- Note that a typical stirrup has two vertical legs and they both count separately so that Av equals the cross sectional area of the bar times the number of vertical legs.
 		- $s$ = the spacing of the stirrups
 - Continuous Beams
-	- ![2025-03-18_Concrete - Intro, Columns and Beams-image-4](./Attachments/2025-03-18_Concrete%20-%20Intro,%20Columns%20and%20Beams/2025-03-18_Concrete%20-%20Intro,%20Columns%20and%20Beams-image-4.webp)
-	- ![2025-03-18_Concrete - Intro, Columns and Beams-image-5](./Attachments/2025-03-18_Concrete%20-%20Intro,%20Columns%20and%20Beams/2025-03-18_Concrete%20-%20Intro,%20Columns%20and%20Beams-image-5.webp)
+	- ![[./Attachments/2025-03-18_Concrete - Intro, Columns and Beams/2025-03-18_Concrete - Intro, Columns and Beams-image-4.webp|2025-03-18_Concrete - Intro, Columns and Beams-image-4]]
+	- ![[./Attachments/2025-03-18_Concrete - Intro, Columns and Beams/2025-03-18_Concrete - Intro, Columns and Beams-image-5.webp|2025-03-18_Concrete - Intro, Columns and Beams-image-5]]
 	- 
 
 ---

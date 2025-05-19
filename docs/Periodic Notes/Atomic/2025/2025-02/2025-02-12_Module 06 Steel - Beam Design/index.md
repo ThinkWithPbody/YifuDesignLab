@@ -3,6 +3,7 @@ excalidraw-plugin:
 excalidraw-open-md: true
 tags:
   - note_atomic
+  - course
 title: 2025-02-12_Module 06 Steel - Beam Design
 description: 
 date: 2025-02-12
@@ -14,10 +15,10 @@ time:
 share: true
 hidden: true
 ---
-%%[parents:: [2025-02-12_Module 06 Steel - Beam Design](index.md)]%%
+%%[parents:: [[index|2025-02-12_Module 06 Steel - Beam Design]]]%%
 ### Module 06 Steel - Beam Design
 
-![2025-02-12_Module 06 Steel - Beam Design.png](Periodic%20Notes/Atomic/2025/2025-02-12_Module%2006%20Steel%20-%20Beam%20Design/2025-02-12_Module%2006%20Steel%20-%20Beam%20Design.png)
+![[Periodic Notes/Atomic/2025/2025-02-12_Module 06 Steel - Beam Design/2025-02-12_Module 06 Steel - Beam Design.png|Periodic Notes/Atomic/2025/2025-02-12_Module 06 Steel - Beam Design/2025-02-12_Module 06 Steel - Beam Design.png]]
 
 #### Lateral Torsional Buckling
 
@@ -56,7 +57,7 @@ hidden: true
 #### Total Steel Beam Capacity $V_r$ & $M_r$
 
 ##### Moment (Plastic… If Elastic, $M_p$ becomes $M_y$)
-- **Moment Resistance [Class 1 & 2](index.md#36391f)**
+- **Moment Resistance [[index#^36391f|Class 1 & 2]]**
 	- $M_r$
 		- If $M_u<=0.67M_p$
 			- $M_r=\phi M_u$
@@ -67,7 +68,7 @@ hidden: true
 		- $\phi=0.9$
 		- $M_u$ = Buckling moment at the unsupported length
 		- $M_p$ = Plastic Moment (with no reduction factor) $Z$
-- **Moment Resistance [Class 3](index.md#3044ad)**
+- **Moment Resistance [[index#^3044ad|Class 3]]**
 	- $M_r$
 		- If $M_u<=0.67M_y$
 			- $M_r=\phi M_u$
@@ -79,7 +80,7 @@ hidden: true
 		- $M_u$ = Buckling moment at the unsupported length
 		- $M_y$ = Elastic Moment (with no reduction factor) $S$
 - Moment Resistance Curve
-	- ![371x248](./Attachments/2025-02-12_Module%2006%20Steel%20-%20Beam%20Design/image.webp)
+	- ![[./Attachments/2025-02-12_Module 06 Steel - Beam Design/image.webp|371x248]]
 
 ##### Shear
 - $V_r=\phi A_wF_s$
@@ -89,7 +90,7 @@ hidden: true
 	- $F_s$ = ultimate shear stress, varies depending on slenderness of web
 		- = $0.66\times Fy$ for stocky members
 - Tips
-	- Use [BEAM LOADING DIAGRAMS](../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/BEAM%20LOADING%20DIAGRAMS.pdf) to determine $M_f$ and $V_f$
+	- Use [[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/BEAM LOADING DIAGRAMS.pdf|BEAM LOADING DIAGRAMS]] to determine $M_f$ and $V_f$
 
 
 %%
