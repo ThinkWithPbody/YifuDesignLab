@@ -6,7 +6,7 @@ hide:
 tags:
   - navigation
 title: Home
-icon: ":FasHouse:"
+icon: FasHouse
 ---
 
 	One bright day in the middle of the night
@@ -29,7 +29,7 @@ Architecture & Design Services
 My [[./Wiki/Rhino|Rhino]] custom settings and scripts
 My [[./Projects/2024/Yifu Design Lab/Attachments/Home/Resonant Orbit Calculator.py|Resonant Orbit Calculator]] for KSP
 A guide on using [[./Projects/2024/Escape From Tarkov/index|SPT]]
-Or some Obsidian related [[./Guides/index|Guides]]
+Or some Obsidian reldated [[./Guides/index|Guides]]
 
 **What have I been up to?**
 
