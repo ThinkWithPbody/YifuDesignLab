@@ -14,49 +14,64 @@ site_author: Yifu
 #       - Project B: projects/project-b.md
 
 theme:
-    name: 'material'
-    logo: _assets/meta/logo.png
-    favicon: _assets/meta/favicons.png
-    custom_dir: overrides
-    font:
-        text: Roboto
-        code: Fira Code
-    # language: en
-    palette:
-    # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
-      scheme: default
-      primary: custom
-      accent: amber
-      toggle:
-        icon: material/lightbulb
-        name: Switch to light mode
-    # Light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: custom
-      accent: amber
-      toggle:
-        icon: material/lightbulb-outline
-        name: Switch to dark mode
+  name: 'material'
+  logo: _assets/meta/logo.png
+  favicon: _assets/meta/favicons.png
+  custom_dir: overrides
+  font:
+      text: Roboto
+      code: Fira Code
+  # language: en
+  palette:
+  # Palette toggle for automatic mode
+  - media: "(prefers-color-scheme)"
+    scheme: default
+    primary: custom
+    accent: amber
+    toggle:
+      icon: material/lightbulb
+      name: Switch to light mode
+  # Light mode
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    primary: custom
+    accent: amber
+    toggle:
+      icon: material/lightbulb-outline
+      name: Switch to dark mode
 
-    # Dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: custom
-      accent: amber
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to system preference
-    features:
-        - navigation.indexes
-        - navigation.top
-        - navigation.tabs
-        - navigation.tabs.sticky
-        - navigation.path
-        - toc.follow
-        - search.suggest
-        - search.highlight
+  # Dark mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: custom
+    accent: amber
+    toggle:
+      icon: material/brightness-auto
+      name: Switch to system preference
+
+  icon:
+    tag:
+      project: fontawesome/regular/chart-bar
+      guide: fontawesome/regular/life-ring
+      wiki: fontawesome/solid/book
+      people: fontawesome/solid/address-book
+      course: fontawesome/solid/box-archive
+      family: fontawesome/solid/house-user
+      recipe: fontawesome/solid/bowl-food
+      navigation: fontawesome/solid/house
+      excalidraw: fontawesome/solid/pen
+      note: fontawesome/regular/calendar
+      note_atomic: fontawesome/regular/calendar-plus
+    
+features:
+    - navigation.indexes
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - toc.follow
+    - search.suggest
+    - search.highlight
 # Extensions
 markdown_extensions:
   - footnotes
@@ -171,6 +186,19 @@ extra:
       file: "file.svg"
       folder: "folder-open.svg"
       index: "index.svg"
+      extra:
+  tags:
+    project: project
+    guide: guide
+    wiki: wiki
+    people: people
+    course: course
+    family: family
+    recipe: recipe
+    navigation: navigation
+    excalidraw: excalidraw
+    note: note
+    note_atomic: note_atomic
   social:
     - icon: fontawesome/solid/envelope
       link: mailto:yifuding.twp@gmail.com
