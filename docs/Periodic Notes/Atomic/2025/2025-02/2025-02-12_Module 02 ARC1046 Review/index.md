@@ -14,7 +14,7 @@ time:
 share: true
 hidden: true
 ---
-%%[parents:: [ARC2046H](../../../../../Courses/2025/ARC2046H/ARC2046H-Structures_2.md)]%%
+%%[parents:: [ARC2046H](../../../../../Courses/2025/ARC2046H/index.md)]%%
 ### Module 02 ARC1046 Review
 
 ![2025-02-12_Module 02 ARC1046 Review.png](Periodic%20Notes/Atomic/2025/2025-02-12_Module%2002%20ARC1046%20Review/2025-02-12_Module%2002%20ARC1046%20Review.png)
