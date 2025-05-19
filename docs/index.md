@@ -1,7 +1,7 @@
 ---
 share: true
-tags: []
-title: Home
+tags: 
+title: index
 ---
 
 Hi there, thanks for stopping by (人´∀\`)
