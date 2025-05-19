@@ -3,6 +3,7 @@ excalidraw-plugin: parsed
 excalidraw-open-md: true
 tags:
   - note_atomic
+  - course
 title: 2025-02-12_Stress and Strain - Part 02
 description: 
 date: 2025-02-12
@@ -14,10 +15,10 @@ time:
 share: true
 hidden: true
 ---
-%%[parents:: [2025-02-12_Stress and Strain - Part 02](index.md)]%%
+%%[parents:: [[index|2025-02-12_Stress and Strain - Part 02]]]%%
 ### Stress and Strain - Part 02
 
-![2025-02-12_Stress and Strain - Part 02.png](Periodic%20Notes/Atomic/2025/2025-02-12_Stress%20and%20Strain%20-%20Part%2002/2025-02-12_Stress%20and%20Strain%20-%20Part%2002.png)
+![[Periodic Notes/Atomic/2025/2025-02-12_Stress and Strain - Part 02/2025-02-12_Stress and Strain - Part 02.png|Periodic Notes/Atomic/2025/2025-02-12_Stress and Strain - Part 02/2025-02-12_Stress and Strain - Part 02.png]]
 
 - Recap
 	- Principals of Stress and Strain (Using Axial)
@@ -52,7 +53,7 @@ hidden: true
 		- Precedent design existed until the Eiffel Tower and Ferris Wheel were designed (1890’s)
 		- https://en.wikipedia.org/wiki/Euler%E2%80%93Bernoulli_beam_theory
 	1. Plane sections remain plane
-		- ![Pasted image 20250129112341](./Attachments/2025-02-12_Stress%20and%20Strain%20-%20Part%2002/Pasted%20image%2020250129112341.png)
+		- ![[./Attachments/2025-02-12_Stress and Strain - Part 02/Pasted image 20250129112341.png|Pasted image 20250129112341]]
 		- For beam-like elements, transverse cross sections perpendicular to the neutral axis remain plane and perpendicular to the neutral axis.
 	2. To remain plane, the strain must vary linearly with the distance from the neutral axis
 	3. In normal ranges, we know stress and strain are proportional (Modulus of Elasticity). Therefore, the stress must also vary linearly with it’s distance from the neutral axis
@@ -80,9 +81,9 @@ hidden: true
 			- $r=\frac{d}{\sqrt{12}}$
 		- I Beam50/
 	- For I Beam
-		- ![500](./Attachments/2025-02-12_Stress%20and%20Strain%20-%20Part%2002/Pasted%20image%2020250129142127.png)
+		- ![[./Attachments/2025-02-12_Stress and Strain - Part 02/Pasted image 20250129142127.png|500]]
 	- For other Geometric Sections
-		- ![600](./Attachments/2025-02-12_Stress%20and%20Strain%20-%20Part%2002/Pasted%20image%2020250129142735.png)
+		- ![[./Attachments/2025-02-12_Stress and Strain - Part 02/Pasted image 20250129142735.png|600]]
 	- Take away
 		- Deformation and strength are related for each material and we have data on most materials when they are in a normal range of behaviour.
 		- There are section properties that allow us to calculate strength and deformation of shapes.
