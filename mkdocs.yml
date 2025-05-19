@@ -3,14 +3,15 @@ site_description: Shared pages by Yifu
 site_url: https://thinkwithpbody.github.io/YifuDesignLab # Change this to your site URL
 site_author: Yifu
 
-nav:
-  - Projects: Projects/
-  - Guides: Guides/
-  - Wiki: Wiki/
-  - Courses: Courses/
-  # - Projects:
-  #     - Project A: Courses/project-a.md
-  #     - Project B: projects/project-b.md
+# nav:
+#   - Projects: Projects/
+#   - Guides: Guides/
+#   - Wiki: Wiki/
+#   - Courses: Courses/
+#   - Recipes: Family/Recipe/Recipes/
+#   - Projects:
+#       - Project A: Courses/project-a.md
+#       - Project B: projects/project-b.md
 
 theme:
     name: 'material'
@@ -52,8 +53,10 @@ theme:
         - navigation.top
         - navigation.tabs
         - navigation.tabs.sticky
+        - navigation.path
+        - toc.follow
         - search.suggest
-        - search. ghlight
+        - search.highlight
 # Extensions
 markdown_extensions:
   - footnotes
@@ -108,7 +111,9 @@ plugins:
   - meta-descriptions
   - awesome-pages
   - blog:
-      blog_dir: blog
+      enabled: true
+      blog_dir: 'Periodic Notes' # . for blog only
+      # post_dir: "{blog}/articles"
       blog_toc: true
       post_readtime_words_per_minute: 300
   - git-revision-date-localized:
@@ -148,21 +153,15 @@ extra_css:
     - stylesheets/extra.css
 extra:
   SEO: '_assets/meta/logo.png'
-  comments: True
-  attachments: '_assets/img/'
-  no-auto-h1: True
-  social:
-    - icon: fontawesome/solid/envelope
-      link: mailto:yifuding.twp@gmail.com
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/yifu-ding/
-    - icon: fontawesome/brands/instagram
-      link: https://www.instagram.com/yifu_ding_/
+  comments: True #disable comments globally
+  generate_graph: True #generate the graph of the site
+  attachments: '_assets/img/' #path to the folder where the attachments are stored
+  no-auto-h1: False #disable the automatic generation of h1 if no h1 is found
   blog_list:
-    pagination: true
-    pagination_message: true
-    pagination_translation: 'posts in'
-    no_page_found: 'No pages found!'
+    pagination: true #enable pagination
+    pagination_message: true #display the message "Showing x posts out of y"
+    pagination_translation: 'posts in' #message to display before the number of posts ; Add your own translation!
+    no_page_found: 'No pages found!' #message to display when no pages are found ; Add your own translation!
   hooks:
     strip_comments: true
     fix_heading: true
@@ -172,3 +171,11 @@ extra:
       file: "file.svg"
       folder: "folder-open.svg"
       index: "index.svg"
+  social:
+    - icon: fontawesome/solid/envelope
+      link: mailto:yifuding.twp@gmail.com
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/yifu-ding/
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/yifu_ding_/
+copyright: Copyright &copy; 2025 Yifu Ding
