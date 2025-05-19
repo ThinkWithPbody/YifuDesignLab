@@ -15,7 +15,7 @@ weekday:
 time: 
 ---
 
-%%[parents:: [ARC2046H](../../../../../Courses/2025/ARC2046H/ARC2046H-Structures_2.md)]%%
+%%[parents:: [ARC2046H](../../../../../Courses/2025/ARC2046H/index.md)]%%
 
 ### Assignment 01
 
