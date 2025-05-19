@@ -9,11 +9,6 @@ title: Home
 icon: FasHouse
 ---
 
-	One bright day in the middle of the night
-	Two dead boys got up to a fight
-	Back to back they faced each other
-	Drew their swords and shot each other
-
 Hi there, thanks for stopping by (人´∀\`)
 
 My name is Yifu, and this is a small part of my digital lab where I organize, retain, and share knowledge.
