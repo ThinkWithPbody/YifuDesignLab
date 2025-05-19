@@ -5,8 +5,8 @@ tags:
   - navigation
   - recipe
 title: Recipes
-database-plugin: basic
 parents: "[[index]]"
+database-plugin: basic
 ---
 
 # Shared Recipes
