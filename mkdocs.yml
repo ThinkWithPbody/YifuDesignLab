@@ -61,7 +61,7 @@ theme:
       navigation: fontawesome/solid/house
       excalidraw: fontawesome/solid/pen
       note: fontawesome/regular/calendar
-      note_atomic: fontawesome/regular/calendar-plus
+      note_atomic: fontawesome/solid/atom
     
   features:
     - navigation.indexes
