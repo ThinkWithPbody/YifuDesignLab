@@ -296,4 +296,4 @@ for filename in os.listdir():
 print("✅ Renaming Complete.")
 ```
 
-I then use [Plex Media Server](../../2024/Plex_Media_Server/Plex%20Media%20Server.md) to host them in my Library.
+I then use [Plex Media Server](../../2024/Plex_Media_Server/index.md) to host them in my Library.
