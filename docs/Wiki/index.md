@@ -4,7 +4,7 @@ hidden: false
 tags:
   - navigation
   - wiki
-icon: ":FasBook:"
+icon: FasBook
 parents: "[[index]]"
 ---
 
