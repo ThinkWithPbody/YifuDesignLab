@@ -17,6 +17,7 @@ excalidraw-open-md
 tags
 title
 description
+icon
 code
 name
 slug
