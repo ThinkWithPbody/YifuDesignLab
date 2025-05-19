@@ -3,6 +3,7 @@ excalidraw-plugin: parsed
 excalidraw-open-md: true
 tags:
   - note_atomic
+  - course
 title: 
 description: 
 date: 2025-03-12
@@ -15,10 +16,10 @@ time:
 share: true
 hidden: true
 ---
-%%[parents:: [2025-03-12_Module 09 Composite Materials](../2025-03-12_Module%2009%20Composite%20Materials/index.md)]%%
+%%[parents:: [[../2025-03-12_Module 09 Composite Materials/index|2025-03-12_Module 09 Composite Materials]]]%%
 ### Assignment 09
 
-![2025-03-12_Assignment 09.svg](Periodic%20Notes/Atomic/2025/2025-03-12_Assignment%2009/2025-03-12_Assignment%2009.svg)
+![[Periodic Notes/Atomic/2025/2025-03-12_Assignment 09/2025-03-12_Assignment 09.svg|Periodic Notes/Atomic/2025/2025-03-12_Assignment 09/2025-03-12_Assignment 09.svg]]
 
 #### Question 1
 
@@ -71,7 +72,7 @@ A W150x37 has been cast in a 305 mm Diameter sonotube. This is below grade, so w
 
 NOTE: The Steel code has been updated for W150x37. The area is 4730mm2
 
-![640x819](./W150x37.webp)
+![[./W150x37.webp|640x819]]
 
 #### Question 6
 
@@ -171,14 +172,14 @@ $C_f=1500kN\times 68.4\%=1,026kN>C_r=888kN$
 
 Did you complete this question?
 
-![ARC2046 Assignment 08 Question 15](./ARC2046%20Assignment%2008%20Question%2015.pdf)
+![[./ARC2046 Assignment 08 Question 15.pdf|ARC2046 Assignment 08 Question 15]]
 
 ✔️Yes  
 No
 
 #### Questions 16 to 23 refer to the following:
 
-![640x311](./Concrete%20beam%20section.webp)
+![[./Concrete beam section.webp|640x311]]
 
 #### Question 16
 
