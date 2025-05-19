@@ -1,54 +1,56 @@
 ---
+share: true
+hidden: true
 excalidraw-plugin: parsed
 excalidraw-open-md: true
 tags:
   - note_atomic
+  - course
 title: 2025-02-12_Module 02 ARC1046 Review
 description: 
-date: 2025-02-12
 name: Module 02 ARC1046 Review
+date: 2025-02-12
 people: 
 location: 
 weekday: 
 time: 
-share: true
-hidden: true
 ---
-%%[parents:: [ARC2046H](../../../../../Courses/2025/ARC2046H/index.md)]%%
+
+%%[parents:: [[../../../../../Courses/2025/ARC2046H/index|ARC2046H]]]%%
+
 ### Module 02 ARC1046 Review
 
-![2025-02-12_Module 02 ARC1046 Review.png](Periodic%20Notes/Atomic/2025/2025-02-12_Module%2002%20ARC1046%20Review/2025-02-12_Module%2002%20ARC1046%20Review.png)
-
+![[Periodic Notes/Atomic/2025/2025-02-12_Module 02 ARC1046 Review/2025-02-12_Module 02 ARC1046 Review.png|Periodic Notes/Atomic/2025/2025-02-12_Module 02 ARC1046 Review/2025-02-12_Module 02 ARC1046 Review.png]]
 
 - Dead load (kPa)
 	- Hollow Core
-		- ![DEAD LOADS, p.1|100](../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/DEAD%20LOADS.pdf.md#page1andrect76462158484)
+		- ![[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/DEAD LOADS.pdf#page=1&rect=76,462,158,484|DEAD LOADS, p.1|100]]
 		- Do not require interpolation - use 8" as is for standard, flick back and forth
 - Snow load (kPa)
-	- ==S = Is \[Ss (Cb Cw C s Ca ) + Sr \]== ([p.1](../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW%20LOAD.pdf.md#page1andselection13401561))
-		-  ==Is = importance factor for snow load as provided in Table 4.1.6.2.,== ([p.1](../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW%20LOAD.pdf.md#page1andselection158016462))
-		- ==Ss = 1-in-50-year ground snow load, in kPa, determined in accordance with Subsection 1.1.2.,== ([p.1](../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW%20LOAD.pdf.md#page1andselection165017087))
-		- ==Cb = basic roof snow load factor in Sentence (2),== ([p.1](../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW%20LOAD.pdf.md#page1andselection171017644))
+	- ==S = Is \[Ss (Cb Cw C s Ca ) + Sr \]== ([[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW LOAD.pdf#page=1&selection=134,0,156,1|p.1]])
+		- ==Is = importance factor for snow load as provided in Table 4.1.6.2.,== ([[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW LOAD.pdf#page=1&selection=158,0,164,62|p.1]])
+		- ==Ss = 1-in-50-year ground snow load, in kPa, determined in accordance with Subsection 1.1.2.,== ([[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW LOAD.pdf#page=1&selection=165,0,170,87|p.1]])
+		- ==Cb = basic roof snow load factor in Sentence (2),== ([[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW LOAD.pdf#page=1&selection=171,0,176,44|p.1]])
 			- Usually 0.8
 			- A certain amount of snow falls down from the roof, the given snow load is for ground and needs to be factored
 			- Will rise towards 1.0 if roof is very large or is internal
-		- ==Cw = wind exposure factor in Sentences (3) and (4),== ([p.2](../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW%20LOAD.pdf.md#page2andselection10646))
+		- ==Cw = wind exposure factor in Sentences (3) and (4),== ([[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW LOAD.pdf#page=2&selection=1,0,6,46|p.2]])
 			- Usually 1.0
-		- ==Cs = slope factor in Sentences (5), (6) and (7),== ([p.2](../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW%20LOAD.pdf.md#page2andselection701243))
+		- ==Cs = slope factor in Sentences (5), (6) and (7),== ([[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW LOAD.pdf#page=2&selection=7,0,12,43|p.2]])
 			- Usually 1.0
-			- ==(5) Except as provided for in Sentences (6) and (7), the slope factor, Cs , shall be, (a) 1.0 where the roof slope, , is equal to or less than 30°, (b) (70° - )/40° where  is greater than 30° but not greater than 70°, and (c) 0 where  exceeds 70°. (6) The slope factor, Cs , for unobstructed slippery roofs where snow and ice can slide completely off the roof shall be, (a) 1.0 when the roof slope, , is equal to or less than 15°, (b) (60° - )/45° when  is greater than 15°, but not greater than 60°, and (c) 0 when  exceeds 60°. (7) The slope factor, Cs , shall be 1.0 when used in conjunction with shape factors for increased snow loads as given in Clauses (8)(b) and (e).== ([p.2](../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW%20LOAD.pdf.md#page2andselection183023723))
-		- ==Ca = shape factor in Sentence (8),== ([p.2](../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW%20LOAD.pdf.md#page2andselection1301829))
+			- ==(5) Except as provided for in Sentences (6) and (7), the slope factor, Cs , shall be, (a) 1.0 where the roof slope, , is equal to or less than 30°, (b) (70° - )/40° where  is greater than 30° but not greater than 70°, and (c) 0 where  exceeds 70°. (6) The slope factor, Cs , for unobstructed slippery roofs where snow and ice can slide completely off the roof shall be, (a) 1.0 when the roof slope, , is equal to or less than 15°, (b) (60° - )/45° when  is greater than 15°, but not greater than 60°, and (c) 0 when  exceeds 60°. (7) The slope factor, Cs , shall be 1.0 when used in conjunction with shape factors for increased snow loads as given in Clauses (8)(b) and (e).== ([[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW LOAD.pdf#page=2&selection=183,0,237,23|p.2]])
+		- ==Ca = shape factor in Sentence (8),== ([[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW LOAD.pdf#page=2&selection=13,0,18,29|p.2]])
 			- Usually 1.0
 			- Accumulation factor
-		- ==Sr = 1-in-50-year associated rain load, in kPa, determined in accordance with Subsection 1.1.2., but not greater than Ss (Cb C w Cs Ca )== ([p.2](../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW%20LOAD.pdf.md#page2andselection190411))
+		- ==Sr = 1-in-50-year associated rain load, in kPa, determined in accordance with Subsection 1.1.2., but not greater than Ss (Cb C w Cs Ca )== ([[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW LOAD.pdf#page=2&selection=19,0,41,1|p.2]])
 - Ultimate Limit States
 	- UDSL likely govern
 	- UD = 1.4DL
 	- UDL = 1.25DL + 1.5LL
 	- UDS = 1.25DL + 1.5SL
 	- UDLS = 1.25DL + 1.5LL + 1.0SL
-	- UDSL = 1.25DL  + 1.5SL + 1.0LL
-	- ![400](./Attachments/2025-02-12_Module%2002%20ARC1046%20Review/2024-03-05T15_12_48-05_00_TWP-X570-WIN10(vlc).jpg)
+	- UDSL = 1.25DL + 1.5SL + 1.0LL
+	- ![[./Attachments/2025-02-12_Module 02 ARC1046 Review/2024-03-05T15_12_48-05_00_TWP-X570-WIN10(vlc).jpg|400]]
 	- Have to check all combinations
 - Serviceability
 	- Uses different SL from Importance Factor
@@ -60,16 +62,18 @@ hidden: true
 - Line Load (kN/m)
 	- Keep track of Serviceability (kN/m)
 	- Method of Section
-	- ![570x655](Periodic%20Notes/Daily/2025/2025-01/Attachments/2025-01-15/2025-01-15.png)
-
+	- ![[Periodic Notes/Daily/2025/2025-01/Attachments/2025-01-15/2025-01-15.png|570x655]]
 
 ---
 
 # Excalidraw Data
 
 ## Text Elements
+
 %%
+
 ## Drawing
+
 ```compressed-json
 N4KAkARALgngDgUwgLgAQQQDwMYEMA2AlgCYBOuA7hADTgQBuCpAzoQPYB2KqATLZMzYBXUtiRoIACyhQ4zZAHoFAc0JRJQgEYA6bGwC2CgF7N6hbEcK4OCtptbErHALRY8RMpWdx8Q1TdIEfARcZgRmBShcZQUebQA2bQAOGjoghH0EDihmbgBtcDBQMBKIEm4IAHlneIBFSoBHAGsGgGEAVQaAKwARdopNAGZamDYYVJLIWEQK3FJSNip+Usxu
 
@@ -87,4 +91,5 @@ SKsE072OYgMETUtdSif0fuPNSmltJmT0pJEe89U4HmlCZHSsCJDWUWLPB+C8UEUEivAdukg5hwDjswbA
 
 GEkJYSdinAAJRmkXggZQBY5gVH8UEyE9JeCDUiTk1AMT4kKPvsfCeCAd5QD7MrP2WYr4IESSWUgClJHSQ4A4pxm5SDbnRNgIgpjUBS3RK0z2aABlBmEFAL8mUpZFNKHYLoCAcrMD1K0uA1jbH2McY5K2rjICigqYwSK4j8DNJjBlae6Qcp9jNAnRkBh8EzBNirM2AEWTOJcjss2TENKXIOUcyS7lwAeToNqYIKZgC2zckAA=
 ```
+
 %%
