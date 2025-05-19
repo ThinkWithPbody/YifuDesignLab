@@ -1,8 +1,7 @@
 ---
 share: true
 hidden: true
-hide:
-  - navigation
+hide: []
 tags:
   - project
 title: mINeCraFT club Guide
