@@ -62,7 +62,45 @@ sudo systemctl enable --now snapd.apparmor
 sudo snap install plexmediaserver
 ```
 
-Page WIP...
+### PPP
+
+`PPP.sh`
+
+```bash
+#!/bin/bash
+set -e
+
+# Move to the script directory (PPP)
+cd "$(dirname "$0")"
+
+# Extract local_playlists path from variables.json
+playlist_dir=$(jq -r '.local_playlists' variables.json)
+
+# Check if the directory exists
+if [ ! -d "$playlist_dir" ]; then
+  echo "Playlist directory not found: $playlist_dir"
+  exit 1
+fi
+
+echo "Processing .m3u8 files in: $playlist_dir"
+
+# Convert .m3u8 files to .m3 with UTF-8 encoding
+for file in "$playlist_dir"/*.m3u8; do
+  [ -e "$file" ] || continue  # skip if no files
+  base=$(basename "$file" .m3u8)
+  target="$playlist_dir/$base.m3u"
+  echo "Converting $file → $target"
+  iconv -f UTF-8 -t UTF-8 "$file" -o "$target" && rm -f "$file"
+done
+
+echo "Preprocessing complete. Running PPP..."
+python3 PPP.py
+```
+
+`sudo zypper install jq glibc-locale`
+`chmod 700 "/home/nugget/Sync/Plex Media Server/PPP/PPP.sh"`
+
+`bash "/home/nugget/Sync/Plex Media Server/PPP/PPP.sh"`
 
 ## Moving Plex Media Server to Pi4
 
