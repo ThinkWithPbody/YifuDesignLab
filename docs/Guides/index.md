@@ -4,7 +4,7 @@ hidden: false
 tags:
   - navigation
 title: Guides
-icon: ":FarLifeRing:"
+icon: FarLifeRing
 parents: "[[index]]"
 ---
 
