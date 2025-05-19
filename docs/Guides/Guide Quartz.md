@@ -1,12 +1,14 @@
 ---
-date: 2025-02-20
 share: true
+date: 2025-02-20
 ---
+
 ### Explorer
 
 I use the following settings to hide notes with any tag, and notes with the frontmatter hide: true along with their parent folder. If a folder has only one file, that folder is renamed and linked to the note instead, hiding the original file from the Explorer.
 
 `quartz.layout.ts`
+
 ```
 Component.Explorer({
             folderClickBehavior: "link",

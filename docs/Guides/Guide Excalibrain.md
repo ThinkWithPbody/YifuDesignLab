@@ -1,9 +1,10 @@
 ---
+share: true
 tags:
   - guide
-share: true
 title: Guide Excalibrain
 ---
+
 ### Ontology
 
 **Parents**
