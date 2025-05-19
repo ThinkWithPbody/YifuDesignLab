@@ -3,7 +3,7 @@ share: true
 tags:
   - project
 title: Yifu Design Lab
-status: DONE
+status: IN_PROGRESS
 ---
 
 %%[parents:: [Yifu Ding](../../../../Yifu%20Ding.md)]%%
