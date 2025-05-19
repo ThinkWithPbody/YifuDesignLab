@@ -1236,6 +1236,13 @@
 </a>
 </li>
 <li class="md-nav__item">
+<a class="md-nav__link" href="#ppp">
+<span class="md-ellipsis">
+      PPP
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="#moving-plex-media-server-to-pi4">
 <span class="md-ellipsis">
       Moving Plex Media Server to Pi4
@@ -1307,7 +1314,40 @@
 <h3 id="plex-media-server">Plex Media Server<a class="headerlink" href="#plex-media-server" title="Permanent link">¶</a></h3>
 <div class="highlight"><pre><span></span><code><a href="#__codelineno-6-1" id="__codelineno-6-1" name="__codelineno-6-1"></a>sudo snap install plexmediaserver
 </code></pre></div>
-<p>Page WIP…</p>
+<h3 id="ppp">PPP<a class="headerlink" href="#ppp" title="Permanent link">¶</a></h3>
+<p><code>PPP.sh</code></p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-7-1" id="__codelineno-7-1" name="__codelineno-7-1"></a><span class="ch">#!/bin/bash</span>
+<a href="#__codelineno-7-2" id="__codelineno-7-2" name="__codelineno-7-2"></a><span class="nb">set</span><span class="w"> </span>-e
+<a href="#__codelineno-7-3" id="__codelineno-7-3" name="__codelineno-7-3"></a>
+<a href="#__codelineno-7-4" id="__codelineno-7-4" name="__codelineno-7-4"></a><span class="c1"># Move to the script directory (PPP)</span>
+<a href="#__codelineno-7-5" id="__codelineno-7-5" name="__codelineno-7-5"></a><span class="nb">cd</span><span class="w"> </span><span class="s2">"</span><span class="k">$(</span>dirname<span class="w"> </span><span class="s2">"</span><span class="nv">$0</span><span class="s2">"</span><span class="k">)</span><span class="s2">"</span>
+<a href="#__codelineno-7-6" id="__codelineno-7-6" name="__codelineno-7-6"></a>
+<a href="#__codelineno-7-7" id="__codelineno-7-7" name="__codelineno-7-7"></a><span class="c1"># Extract local_playlists path from variables.json</span>
+<a href="#__codelineno-7-8" id="__codelineno-7-8" name="__codelineno-7-8"></a><span class="nv">playlist_dir</span><span class="o">=</span><span class="k">$(</span>jq<span class="w"> </span>-r<span class="w"> </span><span class="s1">'.local_playlists'</span><span class="w"> </span>variables.json<span class="k">)</span>
+<a href="#__codelineno-7-9" id="__codelineno-7-9" name="__codelineno-7-9"></a>
+<a href="#__codelineno-7-10" id="__codelineno-7-10" name="__codelineno-7-10"></a><span class="c1"># Check if the directory exists</span>
+<a href="#__codelineno-7-11" id="__codelineno-7-11" name="__codelineno-7-11"></a><span class="k">if</span><span class="w"> </span><span class="o">[</span><span class="w"> </span>!<span class="w"> </span>-d<span class="w"> </span><span class="s2">"</span><span class="nv">$playlist_dir</span><span class="s2">"</span><span class="w"> </span><span class="o">]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<a href="#__codelineno-7-12" id="__codelineno-7-12" name="__codelineno-7-12"></a><span class="w">  </span><span class="nb">echo</span><span class="w"> </span><span class="s2">"Playlist directory not found: </span><span class="nv">$playlist_dir</span><span class="s2">"</span>
+<a href="#__codelineno-7-13" id="__codelineno-7-13" name="__codelineno-7-13"></a><span class="w">  </span><span class="nb">exit</span><span class="w"> </span><span class="m">1</span>
+<a href="#__codelineno-7-14" id="__codelineno-7-14" name="__codelineno-7-14"></a><span class="k">fi</span>
+<a href="#__codelineno-7-15" id="__codelineno-7-15" name="__codelineno-7-15"></a>
+<a href="#__codelineno-7-16" id="__codelineno-7-16" name="__codelineno-7-16"></a><span class="nb">echo</span><span class="w"> </span><span class="s2">"Processing .m3u8 files in: </span><span class="nv">$playlist_dir</span><span class="s2">"</span>
+<a href="#__codelineno-7-17" id="__codelineno-7-17" name="__codelineno-7-17"></a>
+<a href="#__codelineno-7-18" id="__codelineno-7-18" name="__codelineno-7-18"></a><span class="c1"># Convert .m3u8 files to .m3 with UTF-8 encoding</span>
+<a href="#__codelineno-7-19" id="__codelineno-7-19" name="__codelineno-7-19"></a><span class="k">for</span><span class="w"> </span>file<span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="s2">"</span><span class="nv">$playlist_dir</span><span class="s2">"</span>/*.m3u8<span class="p">;</span><span class="w"> </span><span class="k">do</span>
+<a href="#__codelineno-7-20" id="__codelineno-7-20" name="__codelineno-7-20"></a><span class="w">  </span><span class="o">[</span><span class="w"> </span>-e<span class="w"> </span><span class="s2">"</span><span class="nv">$file</span><span class="s2">"</span><span class="w"> </span><span class="o">]</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="k">continue</span><span class="w">  </span><span class="c1"># skip if no files</span>
+<a href="#__codelineno-7-21" id="__codelineno-7-21" name="__codelineno-7-21"></a><span class="w">  </span><span class="nv">base</span><span class="o">=</span><span class="k">$(</span>basename<span class="w"> </span><span class="s2">"</span><span class="nv">$file</span><span class="s2">"</span><span class="w"> </span>.m3u8<span class="k">)</span>
+<a href="#__codelineno-7-22" id="__codelineno-7-22" name="__codelineno-7-22"></a><span class="w">  </span><span class="nv">target</span><span class="o">=</span><span class="s2">"</span><span class="nv">$playlist_dir</span><span class="s2">/</span><span class="nv">$base</span><span class="s2">.m3u"</span>
+<a href="#__codelineno-7-23" id="__codelineno-7-23" name="__codelineno-7-23"></a><span class="w">  </span><span class="nb">echo</span><span class="w"> </span><span class="s2">"Converting </span><span class="nv">$file</span><span class="s2"> → </span><span class="nv">$target</span><span class="s2">"</span>
+<a href="#__codelineno-7-24" id="__codelineno-7-24" name="__codelineno-7-24"></a><span class="w">  </span>iconv<span class="w"> </span>-f<span class="w"> </span>UTF-8<span class="w"> </span>-t<span class="w"> </span>UTF-8<span class="w"> </span><span class="s2">"</span><span class="nv">$file</span><span class="s2">"</span><span class="w"> </span>-o<span class="w"> </span><span class="s2">"</span><span class="nv">$target</span><span class="s2">"</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>rm<span class="w"> </span>-f<span class="w"> </span><span class="s2">"</span><span class="nv">$file</span><span class="s2">"</span>
+<a href="#__codelineno-7-25" id="__codelineno-7-25" name="__codelineno-7-25"></a><span class="k">done</span>
+<a href="#__codelineno-7-26" id="__codelineno-7-26" name="__codelineno-7-26"></a>
+<a href="#__codelineno-7-27" id="__codelineno-7-27" name="__codelineno-7-27"></a><span class="nb">echo</span><span class="w"> </span><span class="s2">"Preprocessing complete. Running PPP..."</span>
+<a href="#__codelineno-7-28" id="__codelineno-7-28" name="__codelineno-7-28"></a>python3<span class="w"> </span>PPP.py
+</code></pre></div>
+<p><code>sudo zypper install jq glibc-locale</code><br/>
+<code>chmod 700 "/home/nugget/Sync/Plex Media Server/PPP/PPP.sh"</code></p>
+<p><code>bash "/home/nugget/Sync/Plex Media Server/PPP/PPP.sh"</code></p>
 <h2 id="moving-plex-media-server-to-pi4">Moving Plex Media Server to Pi4<a class="headerlink" href="#moving-plex-media-server-to-pi4" title="Permanent link">¶</a></h2>
 <p><a href="https://support.plex.tv/articles/201370363-move-an-install-to-another-system/">Move an Install to Another System</a></p>
 <ol>
@@ -1337,7 +1377,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <small>
 <!-- mkdocs-git-revision-date-localized-plugin -->
 <u>Last update</u> :
-        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">18 mai 2025</span>
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">19 mai 2025</span>
 <!-- mkdocs-git-revision-date-plugin -->
 <br/>
 <u>Created</u> :
