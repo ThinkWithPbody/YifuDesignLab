@@ -3,6 +3,7 @@ excalidraw-plugin: parsed
 excalidraw-open-md: true
 tags:
   - note_atomic
+  - course
 title: 
 description: 
 date: 2025-04-09
@@ -15,10 +16,10 @@ time:
 share: true
 hidden: true
 ---
-%%[parents:: [ARC2046H](../../../../../Courses/2025/ARC2046H/index.md)]%%
+%%[parents:: [[../../../../../Courses/2025/ARC2046H/index|ARC2046H]]]%%
 ### Final Exam
 
-![2025-04-09_Final Exam.svg](Periodic%20Notes/Atomic/2025/2025-04/2025-04-09_Final%20Exam/2025-04-09_Final%20Exam.svg)
+![[Periodic Notes/Atomic/2025/2025-04/2025-04-09_Final Exam/2025-04-09_Final Exam.svg|Periodic Notes/Atomic/2025/2025-04/2025-04-09_Final Exam/2025-04-09_Final Exam.svg]]
 
 ## Question 1
 
@@ -44,7 +45,7 @@ Assuming multiple members work, which member should you select?
 
 Select the appropriate labels for the elements in the Steel Column Interaction diagram below:
 
-![/Periodic Notes/Atomic/2025/2025-04/2025-04-09_Final Exam/2025-04-09_Final Exam-Steel Column Interaction Diagram.webp](./2025-04-09_Final%20Exam-Steel%20Column%20Interaction%20Diagram.webp)
+![[./2025-04-09_Final Exam-Steel Column Interaction Diagram.webp|/Periodic Notes/Atomic/2025/2025-04/2025-04-09_Final Exam/2025-04-09_Final Exam-Steel Column Interaction Diagram.webp]]
 
 - a. Label Y Axis
 - b. Label X-Axis
@@ -56,7 +57,7 @@ Select the appropriate labels for the elements in the Steel Column Interaction d
 
 Select the appropriate Material for the various Stress Profiles below:
 
-![/Periodic Notes/Atomic/2025/2025-04/2025-04-09_Final Exam/2025-04-09_Final Exam-Stress Profiles.webp](./2025-04-09_Final%20Exam-Stress%20Profiles.webp)
+![[./2025-04-09_Final Exam-Stress Profiles.webp|/Periodic Notes/Atomic/2025/2025-04/2025-04-09_Final Exam/2025-04-09_Final Exam-Stress Profiles.webp]]
 
 - A
 	- Steel Beam Bending at Elastic Limit
@@ -83,7 +84,7 @@ In a preliminary drawing set, what would be a good spacing for columns supportin
 
 Remembering that in a 2D plane, we need to restrain 3 degrees of movement. The Structural Element is Stable. True or False?
 
-![/Periodic Notes/Atomic/2025/2025-04/2025-04-09_Final Exam/2025-04-09_Final Exam-Stability 03.webp](./2025-04-09_Final%20Exam-Stability%2003.webp)
+![[./2025-04-09_Final Exam-Stability 03.webp|/Periodic Notes/Atomic/2025/2025-04/2025-04-09_Final Exam/2025-04-09_Final Exam-Stability 03.webp]]
 
 - True
 - ✔️False
@@ -162,7 +163,7 @@ Knowing we can rearrange the formula for calculating the deflection of a simply 
 
 IMPORTANT: Write the answer XX.Xx10^6mm4. The answer will include the x10^6 for you. Only write the answer to one decimal place.
 
-![/Periodic Notes/Atomic/2025/2025-04/2025-04-09_Final Exam/2025-04-09_Final Exam-UDL Beam Diagram.webp](./2025-04-09_Final%20Exam-UDL%20Beam%20Diagram.webp)
+![[./2025-04-09_Final Exam-UDL Beam Diagram.webp|/Periodic Notes/Atomic/2025/2025-04/2025-04-09_Final Exam/2025-04-09_Final Exam-UDL Beam Diagram.webp]]
 
 
 $\Delta=\frac{5wL^4}{384\times E I}$
@@ -188,7 +189,7 @@ For an HSS141x4.8 steel column with fy=350MPa indicate the Reduced Capacity of t
 - 589 kN
 - 347 kN
 
-$P_y=f_yA$ or find in [STEEL COLUMN TABLES](../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/STEEL%20COLUMN%20TABLES.pdf)
+$P_y=f_yA$ or find in [[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/STEEL COLUMN TABLES.pdf|STEEL COLUMN TABLES]]
 
 ## Question 18
 
@@ -340,7 +341,7 @@ Give the answer in mm, with no decimal places, but do NOT round up to the neares
 
 ## Question 32
 
-![/Periodic Notes/Atomic/2025/2025-04/2025-04-09_Final Exam/2025-04-09_Final Exam-Concrete Column-1.webp](./2025-04-09_Final%20Exam-Concrete%20Column-1.webp)
+![[./2025-04-09_Final Exam-Concrete Column-1.webp|/Periodic Notes/Atomic/2025/2025-04/2025-04-09_Final Exam/2025-04-09_Final Exam-Concrete Column-1.webp]]
 
 There is not enough data
 34
@@ -352,7 +353,7 @@ There is not enough data
 
 For the concrete beam shown, calculate Mr (kNm)
 
-![/Periodic Notes/Atomic/2025/2025-04/2025-04-09_Final Exam/2025-04-09_Final Exam-Concrete Beam.webp](./2025-04-09_Final%20Exam-Concrete%20Beam.webp)
+![[./2025-04-09_Final Exam-Concrete Beam.webp|/Periodic Notes/Atomic/2025/2025-04/2025-04-09_Final Exam/2025-04-09_Final Exam-Concrete Beam.webp]]
 
 
 164.0 kNm
@@ -372,7 +373,7 @@ DNF
 
 For the concrete beam shown, calculate Vr (kN)
 
-![/Periodic Notes/Atomic/2025/2025-04/2025-04-09_Final Exam/2025-04-09_Final Exam-Concrete Beam-1.webp](./2025-04-09_Final%20Exam-Concrete%20Beam-1.webp)
+![[./2025-04-09_Final Exam-Concrete Beam-1.webp|/Periodic Notes/Atomic/2025/2025-04/2025-04-09_Final Exam/2025-04-09_Final Exam-Concrete Beam-1.webp]]
 
 
 285.5 kN
@@ -386,7 +387,7 @@ DNF
 
 If we took advantage of the natural construction process for concrete and made our beam continuous, where else would we have to add steel (and check the design)?
 
-![/Periodic Notes/Atomic/2025/2025-04/2025-04-09_Final Exam/2025-04-09_Final Exam-Concrete Beam-1.webp](./2025-04-09_Final%20Exam-Concrete%20Beam-1.webp)
+![[./2025-04-09_Final Exam-Concrete Beam-1.webp|/Periodic Notes/Atomic/2025/2025-04/2025-04-09_Final Exam/2025-04-09_Final Exam-Concrete Beam-1.webp]]
 
 More Stirrups/Ties
 No extra Steel needed
@@ -398,7 +399,7 @@ More Bottom Steel
 
 For the following Roofing Assembly, what is the Dead Load in kPa?
 
-![/Periodic Notes/Atomic/2025/2025-04/2025-04-09_Final Exam/2025-04-09_Final Exam-Roof Load 03-1.webp](./2025-04-09_Final%20Exam-Roof%20Load%2003-1.webp)
+![[./2025-04-09_Final Exam-Roof Load 03-1.webp|/Periodic Notes/Atomic/2025/2025-04/2025-04-09_Final Exam/2025-04-09_Final Exam-Roof Load 03-1.webp]]
 
 $0.27+0.04+0.11+0.1+0.18+0.2+0.19+0.08*2=1.25kPa$
 ## Question 37
@@ -412,7 +413,7 @@ $S = 1 (1.1 (0.8 ) + 0.4 )=1.28$
 
 Assuming the Dead Load was 3.23 kPa and the Snow Load was 1.66 kPa what is the factored uniformly distributed line load, wf (kN/m), on beam RB04 in the following Partial Roof Plan?
 
-![/Periodic Notes/Atomic/2025/2025-04/2025-04-09_Final Exam/2025-04-09_Final Exam-Roof UDL-1-1.webp](./2025-04-09_Final%20Exam-Roof%20UDL-1-1.webp)
+![[./2025-04-09_Final Exam-Roof UDL-1-1.webp|/Periodic Notes/Atomic/2025/2025-04/2025-04-09_Final Exam/2025-04-09_Final Exam-Roof UDL-1-1.webp]]
 49
 ## Question 39
 
