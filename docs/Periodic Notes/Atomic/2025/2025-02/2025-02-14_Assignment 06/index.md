@@ -3,6 +3,7 @@ excalidraw-plugin: parsed
 excalidraw-open-md: true
 tags:
   - note_atomic
+  - course
 title: 
 description: 
 date: 2025-02-14
@@ -15,15 +16,15 @@ time:
 share: true
 hidden: true
 ---
-%%[parents:: [ARC2046H](../../../../../Courses/2025/ARC2046H/index.md)]%%
+%%[parents:: [[../../../../../Courses/2025/ARC2046H/index|ARC2046H]]]%%
 ### Assignment 06
 
-![2025-02-14_Assignment 06.png](Periodic%20Notes/Atomic/2025/2025-02-14_Assignment%2006/2025-02-14_Assignment%2006.png)
+![[Periodic Notes/Atomic/2025/2025-02-14_Assignment 06/2025-02-14_Assignment 06.png|Periodic Notes/Atomic/2025/2025-02-14_Assignment 06/2025-02-14_Assignment 06.png]]
 
 ## Question 1
 Did you give this question a try? No points are assigned to it.
-![479x76](./Attachments/2025-02-14_Assignment%2006/A05%20Q01.webp)
-![482x261](./Attachments/2025-02-14_Assignment%2006/A05%20Table%2001.webp)
+![[./Attachments/2025-02-14_Assignment 06/A05 Q01.webp|479x76]]
+![[./Attachments/2025-02-14_Assignment 06/A05 Table 01.webp|482x261]]
 
 Try using this Excel tool: [ARC2046H Calculations.xlsx](https://utoronto-my.sharepoint.com/:x:/g/personal/yifu_ding_mail_utoronto_ca/EUIvkUthhINNmcpESFCSjlQBWeMs9bx2KItOYbW56wy0DQ)
 
@@ -87,7 +88,7 @@ Write you answer in **kNm** to one decimal place (XXX.X). Do not write the units
 
 
 Even though the beam is Class 1-2, $S$ is needed to calculate $M_y$.
-Find $S$ under [STEEL SECTIONS](../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/STEEL%20SECTIONS.pdf)
+Find $S$ under [[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/STEEL SECTIONS.pdf|STEEL SECTIONS]]
 $M_y=345\times 415000=143,175,000Nmm=143.2kNm$
 
 ## Question 7
@@ -123,7 +124,7 @@ Write you answer in **kNm** to one decimal place (XXX.X). Do not write the units
 Note that there are no points for this questions
 
 ##### Moment (Plastic… If Elastic, $M_p$ becomes $M_y$)
-- **Moment Resistance [Class 1 & 2](.md#36391f)**
+- **Moment Resistance [[#^36391f|Class 1 & 2]]**
 	- $M_r$
 		- If $M_u<=0.67M_p$
 			- $M_r=\phi M_u$
@@ -134,7 +135,7 @@ Note that there are no points for this questions
 		- $\phi=0.9$
 		- $M_u$ = Buckling moment at the unsupported length
 		- $M_p$ = Plastic Moment (with no reduction factor) $Z$
-- **Moment Resistance [Class 3](.md#3044ad)**
+- **Moment Resistance [[#^3044ad|Class 3]]**
 	- $M_r$
 		- If $M_u<=0.67M_y$
 			- $M_r=\phi M_u$
@@ -146,7 +147,7 @@ Note that there are no points for this questions
 		- $M_u$ = Buckling moment at the unsupported length
 		- $M_y$ = Elastic Moment (with no reduction factor) $S$
 - Moment Resistance Curve
-	- ![371x248](Periodic%20Notes/Atomic/2025/2025-02/2025-02-12_Module%2006%20Steel%20-%20Beam%20Design/Attachments/2025-02-12_Module%2006%20Steel%20-%20Beam%20Design/image.webp)
+	- ![[../2025-02-12_Module 06 Steel - Beam Design/Attachments/2025-02-12_Module 06 Steel - Beam Design/image.webp|371x248]]
 
 
 
@@ -167,7 +168,7 @@ Verified using [ARC2046H Calculations.xlsx](https://utoronto-my.sharepoint.com/:
 What is the Mr for the W310x33 with Lu=2500mm? Use the steel beam tables for Mr.
 Write you answer in **kNm** to no decimal places (XXX). Do not write the units.
 
-[STEEL BEAM TABLES](../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/STEEL%20BEAM%20TABLES.pdf)
+[[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/STEEL BEAM TABLES.pdf|STEEL BEAM TABLES]]
 $Mr_{2500}=104$
 
 ## Question 13
@@ -181,7 +182,7 @@ Did you try and do this question? (This is the only way I can make a question a 
 
 Plot the Moment Resistance of a W310x39 vs it’s unbraced length, looking up the Mr in the Steel Beam Tables. Look up the Shear resistance as well.
 
-![398x213](./Attachments/2025-02-14_Assignment%2006/A05%20Table%2002.webp)
+![[./Attachments/2025-02-14_Assignment 06/A05 Table 02.webp|398x213]]
 
 ## Question 15
 Did you try and do this question? (This is the only way I can make a question a Participation Question)
@@ -191,7 +192,7 @@ If the beam doesn’t work, look up what new beam we could replace it with (fy=3
 
 $M_r=93.44<105$, Won't work
 
-![image](./Attachments/2025-02-14_Assignment%2006/image.webp)
+![[./Attachments/2025-02-14_Assignment 06/image.webp|image]]
 
 The beam $M_r>105$ at $L_u=3000$ with similar flange width and lower mass is W360x33 ($M_r=113$)
 
