@@ -1,23 +1,26 @@
 ---
+share: true
+hidden: true
 excalidraw-plugin: parsed
 excalidraw-open-md: true
 tags:
   - note_atomic
+  - course
 title: 2025-02-12_Assignment 05
 description: 
-date: 2025-02-12
 name: Assignment 05
+date: 2025-02-12
 people: 
 location: 
 weekday: 
 time: 
-share: true
-hidden: true
 ---
-%%[parents:: [2025-02-12_Assignment 05](index.md)]%%
+
+%%[parents:: [[index|2025-02-12_Assignment 05]]]%%
+
 ### Assignment 05
 
-![2025-02-12_Assignment 05.png](Periodic%20Notes/Atomic/2025/2025-02-12_Assignment%2005/2025-02-12_Assignment%2005.png)
+![[Periodic Notes/Atomic/2025/2025-02-12_Assignment 05/2025-02-12_Assignment 05.png|Periodic Notes/Atomic/2025/2025-02-12_Assignment 05/2025-02-12_Assignment 05.png]]
 
 Questions 1 to 8
 
@@ -68,7 +71,6 @@ mass 15.3 kg/m (one decimal place)
 
 ---
 
-
 **Question 6**
 WT205x23
 
@@ -78,7 +80,6 @@ nominal mass 23 kg/m (no decimal places)
 
 ---
 
-
 **Question 7**
 HSS254x152x9.5
 
@@ -87,7 +88,6 @@ width 152 mm (no decimal places)
 mass 56.1 kg/m (one decimal place)
 
 ---
-
 
 **Question 8**
 HSS152x6.4
@@ -101,8 +101,7 @@ mass 23.2 kg/m (one decimal place)
 **Question 9**
 The following tension brace has a bolt hole, 20mm in diameter through it. What is the load the steel brace can handle? Assume 300W steel in the elastic zone. 
 
-![300](./Attachments/2025-02-12_Assignment%2005/Pasted%20image%2020250205175554.png)
-
+![[./Attachments/2025-02-12_Assignment 05/Pasted image 20250205175554.png|300]]
 
 4,002 kN
 4,447 kN
@@ -112,7 +111,6 @@ The following tension brace has a bolt hole, 20mm in diameter through it. What i
 $T_r=\phi A_g f_y=0.9\times(175mm\times75mm)\times300MPa|N/mm^2=3,543,750N=3,544kN$
 $T_r=0.85\times\phi A_\text{ne}f_u=0.85\times0.9\times((175mm-20mm)\times75mm)\times450MPa|N/mm^2=4,001,906N=4,002kN$
 
-
 ---
 
 **Question 10**
@@ -121,17 +119,16 @@ Match the Loading Diagram with the appropriate bending shape of the column
 
 Loading Diagrams
 
-![300](./Attachments/2025-02-12_Assignment%2005/Pasted%20image%2020250205175705.png)
+![[./Attachments/2025-02-12_Assignment 05/Pasted image 20250205175705.png|300]]
 
 Bent Shapes
 
-![300](./Attachments/2025-02-12_Assignment%2005/Pasted%20image%2020250205175714.png)
+![[./Attachments/2025-02-12_Assignment 05/Pasted image 20250205175714.png|300]]
 
-
-Monday    <span style="color:purple">Purple</span>
-Tuesday   <span style="color:magenta">Pink</span>
+Monday <span style="color:purple">Purple</span>
+Tuesday <span style="color:magenta">Pink</span>
 Wednesday <span style="color:orange">Orange</span>
-Thursday  <span style="color:lightblue">Blue</span>
+Thursday <span style="color:lightblue">Blue</span>
 
 ---
 
@@ -197,8 +194,11 @@ $C_r=0.9\cdot 7420mm^2 \cdot 230N/mm^2 \cdot (1 + (\frac{6000mm}{50.4mm}\cdot\sq
 # Excalidraw Data
 
 ## Text Elements
+
 %%
+
 ## Drawing
+
 ```compressed-json
 N4KAkARALgngDgUwgLgAQQQDwMYEMA2AlgCYBOuA7hADTgQBuCpAzoQPYB2KqATLZMzYBXUtiRoIACyhQ4zZAHoFAc0JRJQgEYA6bGwC2CgF7N6hbEcK4OCtptbErHALRY8RMpWdx8Q1TdIEfARcZgRmBShcZQUebQA2bQAOGjoghH0EDihmbgBtcDBQMBKIEm4IAHlneIBFSoBHAGsGgGEAVQaAKwARdopNAGZamDYYVJLIWEQK3FJSNip+Usxu
 
@@ -216,4 +216,5 @@ SKsE072OYgMETUtdSif0fuPNSmltJmT0pJEe89U4HmlCZHSsCJDWUWLPB+C8UEUEivAdukg5hwDjswbA
 
 GEkJYSdinAAJRmkXggZQBY5gVH8UEyE9JeCDUiTk1AMT4kKPvsfCeCAd5QD7MrP2WYr4IESSWUgClJHSQ4A4pxm5SDbnRNgIgpjUBS3RK0z2aABlBmEFAL8mUpZFNKHYLoCAcrMD1K0uA1jbH2McY5K2rjICigqYwSK4j8DNJjBlae6Qcp9jNAnRkBh8EzBNirM2AEWTOJcjss2TENKXIOUcyS7lwAeToNqYIKZgC2zckAA=
 ```
+
 %%
