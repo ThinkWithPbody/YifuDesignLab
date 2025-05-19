@@ -6,6 +6,7 @@ hide:
 tags:
   - navigation
 title: 
+icon: ":FasHouse:"
 ---
 
 	One bright day in the middle of the night
@@ -20,15 +21,15 @@ My name is Yifu, and this is a small part of my digital lab where I organize, re
 **I am a creative offering:**
 
 Architecture & Design Services
-[Peer 3D Printing Service](./Projects/2024/Yifu%20Design%20Lab/index.md)
+[[./Projects/2024/Yifu Design Lab/index|Peer 3D Printing Service]]
 [Blender Files & Scripts](https://30salt.gumroad.com/)
 
 **Or... you might be looking for:**
 
-My [Rhino](./Wiki/Rhino.md) custom settings and scripts
-My [Resonant Orbit Calculator](./Projects/2024/Yifu%20Design%20Lab/Attachments/Home/Resonant%20Orbit%20Calculator.py) for KSP
-A guide on using [SPT](./Projects/2024/Escape%20From%20Tarkov/index.md)
-Or some Obsidian related [Guides](./Guides/index.md)
+My [[./Wiki/Rhino|Rhino]] custom settings and scripts
+My [[./Projects/2024/Yifu Design Lab/Attachments/Home/Resonant Orbit Calculator.py|Resonant Orbit Calculator]] for KSP
+A guide on using [[./Projects/2024/Escape From Tarkov/index|SPT]]
+Or some Obsidian related [[./Guides/index|Guides]]
 
 **What have I been up to?**
 
