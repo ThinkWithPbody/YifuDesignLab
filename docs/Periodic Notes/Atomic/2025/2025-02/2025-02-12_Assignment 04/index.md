@@ -3,6 +3,7 @@ excalidraw-plugin: parsed
 excalidraw-open-md: true
 tags:
   - note_atomic
+  - course
 title: 2025-02-12_Assignment 04
 description: 
 date: 2025-02-12
@@ -14,10 +15,10 @@ time:
 share: true
 hidden: true
 ---
-%%[parents:: [2025-02-12_Assignment 04](index.md)]%%
+%%[parents:: [[index|2025-02-12_Assignment 04]]]%%
 ### Assignment 04
 
-![2025-02-12_Assignment 04.png](Periodic%20Notes/Atomic/2025/2025-02-12_Assignment%2004/2025-02-12_Assignment%2004.png)
+![[Periodic Notes/Atomic/2025/2025-02-12_Assignment 04/2025-02-12_Assignment 04.png|Periodic Notes/Atomic/2025/2025-02-12_Assignment 04/2025-02-12_Assignment 04.png]]
 
 Answers are posted every Thursday - as always please let me know if you spot a potential mistake
 
@@ -57,7 +58,7 @@ Rupture Strain
 **Question 4**
 What is the final length of a 4.2m long brace (section shown), if it has 300kN of tension applied to it?
 Assume the section is steel, with an E of 200,000MPa.
-![200](./Attachments/2025-02-12_Assignment%2004/Pasted%20image%2020250129164516.png)
+![[./Attachments/2025-02-12_Assignment 04/Pasted image 20250129164516.png|200]]
 
 ✔️2.48 mm
 4.198 m
@@ -112,7 +113,7 @@ not move
 
 **Question 9**
 Shannon (135lb) and Dave (190lb) are standing at the tip of a 2.0m cantilevered concrete balcony of the new condo you’ve just designed. What is the moment where the balcony connects to the wall? The Free Body Diagram has been provided.
-![300](./Attachments/2025-02-12_Assignment%2004/Pasted%20image%2020250129164135.png)
+![[./Attachments/2025-02-12_Assignment 04/Pasted image 20250129164135.png|300]]
 Write your answer in kNm to 2 decimal places (X.XX). Do not write the units.
 
 
@@ -126,7 +127,7 @@ $R_M=P\times2m=2,891.34Nm=2.89kNm$
 
 **Question 10**
 Where is the centroid of the stress distribution shown?
-![300](./Attachments/2025-02-12_Assignment%2004/Pasted%20image%2020250129164114.png)
+![[./Attachments/2025-02-12_Assignment 04/Pasted image 20250129164114.png|300]]
 Measure from the left hand side. Give your answer in mm to 0 decimal places (XXX). Do not write the units.
 
 $500mm\times\frac{2}{3}=333mm$
@@ -145,9 +146,9 @@ $P=w\cdot l=10MPa|N/mm^2\times500mm=5000N/mm$
 There are NO MARKS for this question.
 For the following images, where is the centroid of the stress distribution and what is the Equivalent Point Load? Pay attention to units.
 
-![200](./Attachments/2025-02-12_Assignment%2004/Pasted%20image%2020250129164218.png)
-![200](./Attachments/2025-02-12_Assignment%2004/Pasted%20image%2020250129164229.png)
-![200](./Attachments/2025-02-12_Assignment%2004/Pasted%20image%2020250129164239.png)
+![[./Attachments/2025-02-12_Assignment 04/Pasted image 20250129164218.png|200]]
+![[./Attachments/2025-02-12_Assignment 04/Pasted image 20250129164229.png|200]]
+![[./Attachments/2025-02-12_Assignment 04/Pasted image 20250129164239.png|200]]
 
 ---
 
@@ -193,7 +194,7 @@ $Z=\frac{M}{\sigma}=480,000,000Nmm\div240N/mm^2=2,000,000mm^3$
 
 **Question 16**
 Assuming we keep the design in the ELASTIC range, would this section work?
-![200](./Attachments/2025-02-12_Assignment%2004/Pasted%20image%2020250129171928.png)
+![[./Attachments/2025-02-12_Assignment 04/Pasted image 20250129171928.png|200]]
 
 Yes
 ✔️No
@@ -204,7 +205,7 @@ $S_\text{rectangular section}=bd^2/6=1,500,000mm^3<2,000,000mm^3$
 
 **Question 17**
 Assuming we allow the design to make use of the PLASTIC range, would this section work?
-![200](./Attachments/2025-02-12_Assignment%2004/Pasted%20image%2020250129171928.png)
+![[./Attachments/2025-02-12_Assignment 04/Pasted image 20250129171928.png|200]]
 
 ✔️Yes
 No
@@ -215,7 +216,7 @@ $Z_\text{rectangular section}=bd^2/4=2,250,000mm^3>2,000,000mm^3$
 
 **Question 18**
 Assuming we keep the design in the ELASTIC range, would this section work?
-![200](./Attachments/2025-02-12_Assignment%2004/Pasted%20image%2020250129172018.png)
+![[./Attachments/2025-02-12_Assignment 04/Pasted image 20250129172018.png|200]]
 
 ✔️Yes
 No
@@ -238,7 +239,7 @@ They are hoping to use 200mm by 200mm solid steel as their girders, for a boxy l
 Yes
 ✔️No
 
-Using [Ultimate Limit States Calculator](index.md#ultimate-limit-states-calculator)
+Using [[index#Ultimate Limit States Calculator|Ultimate Limit States Calculator]]
 $Ultimate Limit State: UDL = 9.7 kPa|kN/m^2$
 $w=9.7kN/m^2\times\frac{1}{2}3000mm=14.55kN/m$
 $M(kNm|1,000,000 Nmm)=\frac{W(kN/m)\cdot L^2(m^2)}{8}=\frac{14.55\times16^2}{8}=465.6kNm|465,600,000Nmm$
