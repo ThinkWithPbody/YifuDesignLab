@@ -3,6 +3,15 @@ site_description: Shared pages by Yifu
 site_url: https://thinkwithpbody.github.io/YifuDesignLab # Change this to your site URL
 site_author: Yifu
 
+nav:
+  - Projects: Projects/
+  - Guides: Guides/
+  - Wiki: Wiki/
+  - Courses: Courses/
+  # - Projects:
+  #     - Project A: Courses/project-a.md
+  #     - Project B: projects/project-b.md
+
 theme:
     name: 'material'
     logo: _assets/meta/logo.png
