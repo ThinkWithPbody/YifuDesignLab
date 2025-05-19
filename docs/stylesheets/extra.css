@@ -22,6 +22,14 @@ h6 {
     color: #9e86c8;
 }
 
+[data-md-color-scheme="default"] {
+    --md-hue: 45deg;
+}
+
+[data-md-color-scheme="slate"] {
+    --md-hue: 45deg;
+}
+
 :root>* {
 
     --md-primary-fg-color: hsla(var(--md-hue), 15%, 9%, 1);
@@ -38,14 +46,6 @@ h6 {
     --md-code-hl-color--light: var(--md-accent-fg-color);
 
     --md-typeset-a-color: var(--md-primary-fg-color);
-}
-
-[data-md-color-scheme="default"] {
-    --md-hue: 45deg;
-}
-
-[data-md-color-scheme="slate"] {
-    --md-hue: 45deg;
 }
 
 /* 
