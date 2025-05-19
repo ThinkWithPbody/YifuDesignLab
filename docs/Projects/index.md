@@ -1,6 +1,7 @@
 ---
 share: true
 hidden: false
+hide: 
 tags:
   - navigation
   - project

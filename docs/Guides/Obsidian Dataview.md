@@ -1,15 +1,18 @@
 ---
+share: true
 tags:
   - guide
-share: true
-title: Guide Dataview
 ---
+
 ## Standard Fields
+
 status: string = TODO, IN_PROGRESS, DONE, CANCELLED, NON_TASK
 priority: string = lowest, low, normal, medium, high, highest
 
 ## Dataview Basics
+
 For active projects:
+
 ```
 LIST
 FROM "Projects" and #project and !#navigation
@@ -24,20 +27,25 @@ file.inlinks AS "Mentions"
 ```
 \-
 ```
+
 = date(2024-06-19T10:00) - date(2024-06-19T09:00)
 
 ### Inline Calculations
+
 release-date:: 2027-06-18T12:00
+
 ```
 \- until release!!
 ```
-P2Y1M2DT9H12M41.412S until release!!
+
+P2Y1M2DT7H52M41.44S until release!!
 
 ## DataviewJS
 
 dv.date("now").toFormat("x");
 
 ### Rename, Move, AND Link To Main Page
+
 ```
 <%* await app.vault.modify(tp.file.find_tfile(tp.file.path(true)), ""); _%>
 <%*

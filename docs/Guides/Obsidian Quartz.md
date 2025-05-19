@@ -1,5 +1,7 @@
 ---
 share: true
+tags:
+  - guide
 date: 2025-02-20
 ---
 

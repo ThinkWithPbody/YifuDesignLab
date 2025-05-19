@@ -2,7 +2,6 @@
 share: true
 tags:
   - guide
-title: Guide Obsidian
 ---
 
 [Markdown Cheatsheet](https://rentry.org/how)
@@ -96,9 +95,9 @@ ___
 ## References
 
 Reference to a [File](./index.md)
-Reference to a [Heading](Guide%20Obsidian.md#Heading%201)
+Reference to a [Heading](Obsidian.md#Heading%201)
 Reference to a [Paragraph](../../2024-01-01.md#^025433)
-Inline Reference![Guides/Guide Obsidian > Styles](Guide%20Obsidian.md#Styles)
+Inline Reference![Guides/Obsidian > Styles](Obsidian.md#Styles)
 
 ## Latex
 

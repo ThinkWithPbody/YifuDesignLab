@@ -2,7 +2,6 @@
 share: true
 tags:
   - guide
-title: Guide Excalibrain
 ---
 
 ### Ontology

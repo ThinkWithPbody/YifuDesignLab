@@ -1,9 +1,9 @@
 ---
+share: true
 tags:
   - guide
-title: Guide Templater
-share: true
 ---
+
 ## Date
 
 [Date Module](https://silentvoid13.github.io/Templater/internal-functions/internal-modules/date-module.html)
@@ -21,6 +21,7 @@ share: true
 `<% tp.file.cursor() %>`
 
 ### Rename Move
+
 ```
 <%*
 let filename = tp.file.title;
@@ -42,6 +43,7 @@ _%>
 ```
 
 ### File Link Display
+
 ```
 `<%*
 const fileName = "This is the name of a file";
@@ -54,6 +56,7 @@ if (existing) {
 }
 _%>`
 ```
+
 `[[<% createdFileDisplay %>]]`
 
 ### Yearly Tasks
