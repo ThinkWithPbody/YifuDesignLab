@@ -1,6 +1,8 @@
 ---
 share: true
-tags: []
+hidden: false
+tags:
+  - navigation
 title: index
 ---
 
