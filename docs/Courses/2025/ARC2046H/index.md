@@ -157,9 +157,9 @@ Import this calculator to your own vault:
 > [ARC2046 Lecture 06 Steel Design - Beams.pptx](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2025-01%5CARC2046H%5CFiles%5C06%5CARC2046%20Lecture%2006%20Steel%20Design%20-%20Beams.pptx)
 > ![[./Attachments/ARC2046H/STEEL BEAM TABLES.pdf|STEEL BEAM TABLES]]
 
-[[../../../Periodic Notes/Atomic/2025/2025-02/2025-02-12_Module 06 Steel - Beam Design/index#Module 06 Steel - Beam Design|Module 06 Steel - Beam Design]]
+[[../../../Periodic Notes/Atomic/2025/2025-02/2025-02-12_Module 06 Steel - Beam Design/index|Module 06 Steel - Beam Design]]
 
-[[../../../Periodic Notes/Atomic/2025/2025-02/2025-02-14_Assignment 06/index#Assignment 06|Assignment 06]]
+[[../../../Periodic Notes/Atomic/2025/2025-02/2025-02-14_Assignment 06/index|Assignment 06]]
 
 ## Module 07 Wood - Intro and Column Design
 

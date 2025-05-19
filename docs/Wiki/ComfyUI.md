@@ -42,7 +42,8 @@ title: ComfyUI
 
 ## Github
 
-- git clone <https://github.com/TheMistoAI/MistoControlNet-Flux-dev.git>
+- <https://github.com/TheMistoAI/MistoControlNet-Flux-dev.git>
+- <https://huggingface.co/Shakker-Labs/FLUX.1-dev-ControlNet-Union-Pro-2.0/tree/main>
 
 ## Module Manager
 
