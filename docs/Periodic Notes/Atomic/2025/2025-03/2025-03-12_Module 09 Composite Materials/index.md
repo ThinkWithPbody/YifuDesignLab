@@ -16,7 +16,7 @@ time:
 share: true
 hidden: true
 ---
-%%[parents:: [ARC2046H](../../../../../Courses/2025/ARC2046H/ARC2046H-Structures_2.md)]%%
+%%[parents:: [ARC2046H](../../../../../Courses/2025/ARC2046H/index.md)]%%
 ### Composite Materials
 
 ![2025-03-12_Module 09 Composite Materials.svg](Periodic%20Notes/Atomic/2025/2025-03-12_Module%2009%20Composite%20Materials/2025-03-12_Module%2009%20Composite%20Materials.svg)
