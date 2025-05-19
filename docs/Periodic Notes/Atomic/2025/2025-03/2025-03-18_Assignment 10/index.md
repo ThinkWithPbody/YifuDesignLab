@@ -3,6 +3,7 @@ excalidraw-plugin: parsed
 excalidraw-open-md: true
 tags:
   - note_atomic
+  - course
 title: 
 description: 
 date: 2025-03-18
@@ -15,10 +16,10 @@ time:
 share: true
 hidden: true
 ---
-%%[parents:: [ARC2046H](../../../../../Courses/2025/ARC2046H/index.md)]%%
+%%[parents:: [[../../../../../Courses/2025/ARC2046H/index|ARC2046H]]]%%
 ### Assignment 10
 
-![2025-03-18_Assignment 10.svg](Periodic%20Notes/Atomic/2025/2025-03/2025-03-18_Assignment%2010/2025-03-18_Assignment%2010.svg)
+![[Periodic Notes/Atomic/2025/2025-03/2025-03-18_Assignment 10/2025-03-18_Assignment 10.svg|Periodic Notes/Atomic/2025/2025-03/2025-03-18_Assignment 10/2025-03-18_Assignment 10.svg]]
 
 #### This is for determining the answers to Questions 1 to 14
 
@@ -64,15 +65,7 @@ What is the diameter of the main reinforcing (mm)?
 
 What is the dimension $\gamma$h (mm)?
 
-- $\gamma h=h - 2\times(Cover + \unicode{x2300}Ties + \frac{1}{2}\unicode{x2300}Bars)$### Interaction Diagram
-
-![2025-03-19_Interaction Diagram.svg](Periodic%20Notes/Atomic/2025/2025-03/2025-03-19_Interaction%20Diagram/2025-03-19_Interaction%20Diagram.svg)
-
-
-
----
-
-
+- $\gamma h=h - 2\times(Cover + \unicode{x2300}Ties + \frac{1}{2}\unicode{x2300}Bars)$
 
 $\gamma h=200 - 2\times(25 + 10 + \frac{1}{2}20)=110$
 
@@ -115,15 +108,7 @@ Write your answer to 2 decimal places (X.XX)
 
 $P_r/A_g(MPa)=20$
 $M_r/A_{gh}(MPa)=1.4$
-### Interaction Diagram
-
-![2025-03-19_Interaction Diagram.svg](Periodic%20Notes/Atomic/2025/2025-03/2025-03-19_Interaction%20Diagram/2025-03-19_Interaction%20Diagram.svg)
-
-
-
----
-
-
+![[../../../../../../2025-03-19_Interaction Diagram#Interaction Diagram|2025-03-19_Interaction Diagram]]
 $P_g=0.03$
 
 #### Question 13
@@ -150,7 +135,7 @@ $N_{Bars}=A_s{req} \div A_{Bars}=1200/300=4$
 
 Which of the following is an appropriate stress block (stress profile) of an idealized under-reinforced concrete beam?
 
-![2025-03-18_Assignment 10-Stress Profile](./Attachments/2025-03-18_Assignment%2010/2025-03-18_Assignment%2010-Stress%20Profile.webp)
+![[./Attachments/2025-03-18_Assignment 10/2025-03-18_Assignment 10-Stress Profile.webp|2025-03-18_Assignment 10-Stress Profile]]
 
 
 - ✔️Orange
@@ -161,7 +146,7 @@ Which of the following is an appropriate stress block (stress profile) of an ide
 
 #### For Questions 16 to 24, use the following diagram
 
-![2025-03-18_Assignment 10-Concrete Beam](./Attachments/2025-03-18_Assignment%2010/2025-03-18_Assignment%2010-Concrete%20Beam.webp)
+![[./Attachments/2025-03-18_Assignment 10/2025-03-18_Assignment 10-Concrete Beam.webp|2025-03-18_Assignment 10-Concrete Beam]]
 
 #### Question 16
 
