@@ -1,20 +1,22 @@
 ---
+share: true
+hidden: true
 excalidraw-plugin: parsed
 excalidraw-open-md: true
 tags:
   - note_atomic
 title: 2025-02-12_Assignment 02
 description: 
-date: 2025-02-12
 name: Assignment 02
+date: 2025-02-12
 people: 
 location: 
 weekday: 
 time: 
-share: true
-hidden: true
 ---
-%%[parents:: [ARC2046H](../../../../../Courses/2025/ARC2046H/ARC2046H-Structures_2.md)]%%
+
+%%[parents:: [ARC2046H](../../../../../Courses/2025/ARC2046H/index.md)]%%
+
 ### Assignment 02
 
 ![2025-02-12_Assignment 02.png](Periodic%20Notes/Atomic/2025/2025-02-12_Assignment%2002/2025-02-12_Assignment%2002.png)
@@ -103,6 +105,7 @@ L = 11.2 m
 	$R1=\lfloor\frac{7.9\times11.2}{2}\rfloor=44.24$
 	$R1-7.9X-V=0$
 	$V = 44.24 - 7.9x$
+
 ```chart
 type: line
 labels: [0, 2.8, 5.6, 8.4, 11.2]
@@ -118,6 +121,7 @@ bestFit: false
 bestFitTitle: undefined
 bestFitNumber: 0
 ```
+
 <pre class="dataview dataview-error">Evaluation Error: ReferenceError: Chart is not defined
     at eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:18:1)
     at DataviewInlineApi.eval (plugin:dataview:19027:16)
@@ -154,6 +158,7 @@ L = 9.6 m
 	$M_f=-3.9x^2+37.44x$
 	$\arg\max_{x \in (0,9.6)} M_f(x)=-\frac{b}{2a}=4.8$
 	$\max_{x \in (0,9.6)} M_f(x)=M_f(4.8)=89.856$
+
 <pre class="dataview dataview-error">Evaluation Error: ReferenceError: Chart is not defined
     at eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:18:1)
     at DataviewInlineApi.eval (plugin:dataview:19027:16)
@@ -177,6 +182,7 @@ L = 13 m
 	$\sum_M=0=9.7\times x\times \frac{1}{2}x-63.05x+M_f$
 	$M_f=-4.85x^2+63.05x$
 	$\arg\max_{x \in (0,9.6)} M_f(x)=-\frac{b}{2a}=6.5$
+
 <pre class="dataview dataview-error">Evaluation Error: ReferenceError: Chart is not defined
     at eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:18:1)
     at DataviewInlineApi.eval (plugin:dataview:19027:16)
@@ -214,8 +220,11 @@ z`
 # Excalidraw Data
 
 ## Text Elements
+
 %%
+
 ## Drawing
+
 ```compressed-json
 N4KAkARALgngDgUwgLgAQQQDwMYEMA2AlgCYBOuA7hADTgQBuCpAzoQPYB2KqATLZMzYBXUtiRoIACyhQ4zZAHoFAc0JRJQgEYA6bGwC2CgF7N6hbEcK4OCtptbErHALRY8RMpWdx8Q1TdIEfARcZgRmBShcZQUebQA2bQAOGjoghH0EDihmbgBtcDBQMBKIEm4IAHlneIBFSoBHAGsGgGEAVQaAKwARdopNAGZamDYYVJLIWEQK3FJSNip+Usxu
 
@@ -233,4 +242,5 @@ SKsE072OYgMETUtdSif0fuPNSmltJmT0pJEe89U4HmlCZHSsCJDWUWLPB+C8UEUEivAdukg5hwDjswbA
 
 GEkJYSdinAAJRmkXggZQBY5gVH8UEyE9JeCDUiTk1AMT4kKPvsfCeCAd5QD7MrP2WYr4IESSWUgClJHSQ4A4pxm5SDbnRNgIgpjUBS3RK0z2aABlBmEFAL8mUpZFNKHYLoCAcrMD1K0uA1jbH2McY5K2rjICigqYwSK4j8DNJjBlae6Qcp9jNAnRkBh8EzBNirM2AEWTOJcjss2TENKXIOUcyS7lwAeToNqYIKZgC2zckAA=
 ```
+
 %%
