@@ -22,8 +22,24 @@ h6 {
     color: #9e86c8;
 }
 
+.md-typeset a {
+  font-weight: 600;
+  /* text-decoration: underline dotted; */
+}
+
+
+
 [data-md-color-scheme="default"] {
     --md-hue: 45deg;
+    --md-primary-fg-color: hsla(var(--md-hue), 15%, 9%, 1);
+    --md-primary-fg-color--light: hsla(var(--md-hue), 15%, 9%, 0.55);
+    --md-primary-fg-color--lighter: hsla(var(--md-hue), 15%, 9%, 0.35);
+    --md-primary-fg-color--lightest: hsla(var(--md-hue), 15%, 9%, 0.15);
+    --md-primary-fg-color--dark: hsla(var(--md-hue), 15%, 9%, 1);
+    --md-primary-bg-color: hsla(var(--md-hue), 15%, 100%, 1);
+    --md-primary-bg-color--light: hsla(var(--md-hue), 15%, 100%, 0.7);
+    --md-primary-bg-color--lighter: hsla(var(--md-hue), 15%, 100%, 0.3);
+    --md-primary-bg-color--lightest: hsla(var(--md-hue), 15%, 100%, 0.1);
 }
 
 [data-md-color-scheme="default"] ::selection {
@@ -33,39 +49,37 @@ h6 {
 
 [data-md-color-scheme="slate"] {
     --md-hue: 45deg;
-    
+    --md-primary-fg-color: hsla(var(--md-hue), 15%, 9%, 1);
+    --md-primary-fg-color--light: hsla(var(--md-hue), 15%, 9%, 0.54);
+    --md-primary-fg-color--dark: hsla(var(--md-hue), 15%, 9%, 1);
+    --md-primary-bg-color: hsla(var(--md-hue), 15%, 100%, 1);
+    --md-primary-bg-color--light: hsla(var(--md-hue), 15%, 100%, 0.7);
 }
 
-[data-md-color-scheme="default"] ::selection {
+[data-md-color-scheme="slate"] ::selection {
     background-color: var(--md-accent-fg-color);
     color: var(--md-accent-bg-color);
 }
 
 :root>* {
 
-    --md-primary-fg-color: hsla(var(--md-hue), 15%, 9%, 1);
-    --md-primary-fg-color--light: hsla(var(--md-hue), 15%, 9%, 0.54);
-    --md-primary-fg-color--dark: hsla(var(--md-hue), 15%, 9%, 1);
-    --md-primary-bg-color: hsla(var(--md-hue), 15%, 100%, 1);
-    --md-primary-bg-color--light: hsla(var(--md-hue), 15%, 100%, 0.7);
-
-
-    /* Code highlighting color shades */
-    /* --md-code-hl-color: hsla(#{hex2hsl($clr-blue-a200)}, 1); */
-    --md-code-hl-color: var(--md-accent-fg-color);
-    /* --md-code-hl-color--light: hsla(#{hex2hsl($clr-blue-a200)}, 0.1); */
-    --md-code-hl-color--light: var(--md-accent-fg-color);
-
     --md-typeset-a-color: var(--md-primary-fg-color);
 }
+
+
+
+
 
 /* 
 [data-md-color-scheme="twp"] {
 
 } */
 
+
+
+
 /* Define primary colors for black */
-[data-md-color-primary="black"] {
+/* [data-md-color-primary="black"] {
     /* --md-primary-fg-color: hsla(var(--md-hue), 15%, 9%, 1); */
     /* --md-primary-fg-color--light: hsla(var(--md-hue), 15%, 9%, 0.54); */
     /* --md-primary-fg-color--dark: hsla(var(--md-hue), 15%, 9%, 1); */
@@ -73,7 +87,7 @@ h6 {
     /* --md-primary-bg-color--light: hsla(var(--md-hue), 15%, 100%, 0.7); */
 
     /* Typeset `a` color shades */
-    --md-typeset-a-color: hsl(40, 50%, 50%);
+    /* --md-typeset-a-color: hsl(40, 50%, 50%); */
 
     /* Form button */
     /* .md-button {
@@ -118,4 +132,4 @@ h6 {
             background-color: hsla(var(--md-hue), 15%, 9%, 1);
         }
     } */
-}
+} */
