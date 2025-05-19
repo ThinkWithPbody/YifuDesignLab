@@ -71,5 +71,5 @@ title: ComfyUI
 | 313  | [**Shakker-Labs/FLUX.1-dev-ControlNet-Union-Pro (fp8_e4m3fn) by Kijai**](https://huggingface.co/Kijai/flux-fp8)         |
 | 366  | [**kijai/FLUX.1 [dev] Diffusion model (float8_e4m3fn)**](https://huggingface.co/Kijai/flux-fp8)                         |
 | 367  | [**Comfy Org/FLUX.1 [dev] Checkpoint model (fp8)**](https://huggingface.co/Comfy-Org/flux1-dev/tree/main)               |
-| 379? | [**city96/flux1-dev-Q8_0.gguf**](https://huggingface.co/city96/FLUX.1-dev-gguf)                                         |
+| 379  | [**city96/flux1-dev-Q8_0.gguf**](https://huggingface.co/city96/FLUX.1-dev-gguf)                                         |
 | 391  | [**ViT-L-14-TEXT-detail-improved-hiT-GmP-HF.safetensors [Long CLIP L]**](https://huggingface.co/zer0int)                |
