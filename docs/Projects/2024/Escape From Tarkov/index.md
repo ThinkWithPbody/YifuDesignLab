@@ -173,6 +173,9 @@ Manual install locations are marked with ğŸŒ for **"/BepInEx/plugins"** and ğŸ¥
 - O: Check Time
 	- OO: Check Bosses
 	- I: Task List
+- M: Map
+	- LC + M: Minimap
+	- +/-: Minimap Zoom
 - M1: Fire
 	- F: Interact
 - M2: Scope
