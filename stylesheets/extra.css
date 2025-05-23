@@ -66,37 +66,37 @@
 
 
 
-.md-typeset h1 {
+.md-typeset h2 {
     color: #d04255;
     font-weight: 900;
     font-variation-settings: "wght" 900;
 }
 
-.md-typeset h2 {
+.md-typeset h3 {
     color: #d5763f;
     font-weight: 800;
     font-variation-settings: "wght" 800;
 }
 
-.md-typeset h3 {
+.md-typeset h4 {
     color: #e5b567;
     font-weight: 700;
     font-variation-settings: "wght" 700;
 }
 
-.md-typeset h4 {
+.md-typeset h5 {
     color: #a8c373;
     font-weight: 600;
     font-variation-settings: "wght" 600;
 }
 
-.md-typeset h5 {
+.md-typeset h6 {
     color: #6c99bb;
     font-weight: 500;
     font-variation-settings: "wght" 500;
 }
 
-.md-typeset h6 {
+.md-typeset h1 {
     color: #9e86c8;
     font-weight: 400;
     font-variation-settings: "wght" 400;
