@@ -55,17 +55,17 @@ title: Rhino
 
 #### I/O
 
-[BatchExportSTLByObj.py](../Projects/2024/Yifu%20Design%20Lab/Attachments/Yifu%20Design%20Lab/BatchExportSTLByObj.py)
+[[../Projects/2024/Yifu Design Lab/Attachments/Yifu Design Lab/BatchExportSTLByObj.py|BatchExportSTLByObj.py]]
 
 #### View
 
-[FindAllHiddenClippingPlaneLayers.py](./Attachments/Rhino/FindAllHiddenClippingPlaneLayers.py)
+[[./Attachments/Rhino/FindAllHiddenClippingPlaneLayers.py|FindAllHiddenClippingPlaneLayers.py]]
 
 #### Geo
 
-[HatchFromCenterline.py](./Attachments/Rhino/HatchFromCenterline.py)
+[[./Attachments/Rhino/HatchFromCenterline.py|HatchFromCenterline.py]]
 
-![HatchFromCenterline](./Attachments/Rhino/HatchFromCenterline.gif)
+![[./Attachments/Rhino/HatchFromCenterline.gif|HatchFromCenterline]]
 
 ### Plugins
 
@@ -88,6 +88,7 @@ human
 [Ngon](https://www.food4rhino.com/en/app/ngon)
 [pOd](https://www.food4rhino.com/en/app/podghbutton)
 [Pufferfish](https://www.food4rhino.com/en/app/pufferfish)
+[Dendro](https://www.food4rhino.com/en/app/dendro#)
 
 ### Commands
 
