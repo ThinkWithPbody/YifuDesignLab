@@ -24,7 +24,7 @@ status: DONE
 
 The mod list is compatible with **Mod Organizer** for profile management, meaning more than one instance of the game can be stored without taking excessive disk space. It is the easiest way to stay up to date, but it is not mandatory.
 
-## Mod Organizer 2
+### Mod Organizer 2
 
 1. Download and install [MO2](https://github.com/ModOrganizer2/modorganizer/releases).
 	- Download and install [SPT ModOrganizer Integration](https://hub.sp-tarkov.com/files/file/1314-spt-modorganizer-integration/#overview) by extracting it to the MO install location (`%appdata%\Local\ModOrganizer\`).
@@ -48,9 +48,10 @@ To join local server, change URL back to `http://127.0.0.1:6969`.
 > [!tip]
 > If you want to use your own profile on our server or download the one in use on our server for your local server, contact me.
 
-## Modlist
+### Modlist
 
 For downloads, head down to [[index#Patch Note & Downloads|Download]]
+For key mapping, see [[index#Default Hotkeys|Default Hotkeys]]
 
 Manual install locations are marked with 🍌 for **"/BepInEx/plugins"** and 🥒 for **"/user/mods"**.
 
@@ -141,7 +142,7 @@ Manual install locations are marked with 🍌 for **"/BepInEx/plugins"** and �
 [Pause](https://hub.sp-tarkov.com/files/file/1793-pause-reupload/) 🍌 (P to pause, may cause death)
 [Headshot Damage Redirection](https://hub.sp-tarkov.com/files/file/1809-headshot-damage-redirection-hdr/) 🍌 (We don't need that)
 
-## Default Hotkeys
+### Default Hotkeys
 
 - Z: Prone
 - X: Crouch
@@ -218,7 +219,7 @@ Manual install locations are marked with 🍌 for **"/BepInEx/plugins"** and �
 - M2: Gift item from stash to other accounts
 	- Alt Shift M1: Automatically sell item from stash to most profitable market
 
-## Patch Note & Downloads
+### Patch Note & Downloads
 
 ##### 3.11.3_1.0
 
