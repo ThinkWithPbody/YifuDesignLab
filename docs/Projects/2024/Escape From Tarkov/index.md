@@ -143,36 +143,77 @@ Manual install locations are marked with üçå for **"/BepInEx/plugins"** and ü•
 
 ## Default Hotkeys
 
-- C to mount weapon
+- Z: Prone
+- X: Crouch
+	- Q: Toggle Lean Left
+	- E: Toggle Lean Right
+	- T: Shoulder Transition
+	- LA + W: Blind Fire Overhead
+	- LA + S: Blind Fire Right Side
+	- LA + A: Sidestep Left
+	- LA + D: Sidestep Right
+- C: Mount Weapon
+	- LC + C: Bipod%%
 	- Ctrl + M4 to dial optic in
-	- Ctrl + M5 to dial optic out
-- G to prepare grenades
-- Alt to look around
-	- Ctrl + Scroll to cycle High-ready Low-ready stance
+	- Ctrl + M5 to dial optic out%%
+- C + Scroll: Walk Speed
+	- CC: Walk
+- V: Melee Weapon
+	- VV: Quick Melee
+- R: Reload
+	- RR: Quick Reload
+	- LC + R: Check Magazine
+	- LS + R: Check Chamber / Fix Malfunction
+	- LC + LS + R: Unload Chamber
+	- LA + R: Detach Magazine
+- G: Prepare Grenades
+	- LC + G: Discard Item
+- L: Inspect Weapon
+	- LC + L: Fold / Unfold Stock
+- O: Check Time
+	- OO: Check Bosses
+	- I: Task List
+- M1: Fire
+	- F: Interact
+- M2: Scope
+	- LC + M2: Switch Scope
+	- LS + M2: Change Scope Magnification
+	- LA + Scroll: Scope Zoom In / Out
+	- LA: Hold Breath
+	- PgUp: Scope Elevation Up
+	- PgDn: Scope Elevation Down
+- M3: Toggle Tactical Device
+	- LC + M3: Tactical Device Mode
+	- B + M3: Tactical Device Activation Mode
+	- N: Toggle Head Equipment
+	- H: Toggle Head Tactical Device
+		- LC + H: Head Tactical Device Mode
+- M4: Free Look%%
+	- Ctrl + Scroll: Cycle High-ready Low-ready stance
 	- M5 to Active Aim stance
 	- M4 to Short-stock stance
-	- J to Patrol stance
-- V to use melee weapon
-	- Double V to quick melee
-	- Hold V to hold melee weapon
-- F12 to change Fika Core settings such as health bar, damage multiplier, and AI range
-	- T to ping
-	- F9 to enter free cam
-		- M1/M2 to jump to player
-		- Space while jumping to snap to head
-		- Ctrl while jumping to snap to back
-		- T to teleport to free cam
-- M2 item in stash to gift to other accounts
-- Alt Shift M1 item in stash to automatically sell to most profitable market
-- O to check bosses
-- F1 to Mumble
-	- F2 to Command Follow Me (ask a member of faction or squad to follow)
-	- F3 to Command Cover Me (regroup, follow closely, cover me)
-	- F4 to Command On Your Own (initial tactic and patrol)
-	- F5 to Command Go Forward (push)
-	- F6 to Command Stop (stop)
-	- F7 to Command Spread Out (find cover)
-	- F8 to Command Attention (reset target)
+	- J to Patrol stance%%
+- M5: Ping
+	- Y: Quick Phrase
+		- YY: Phrase Menu
+	- F1: Mumble
+		- F2: Command Follow Me (ask a member of faction or squad to follow)
+		- F3: Command Cover Me (regroup, follow closely, cover me)
+		- F4: Command On Your Own (initial tactic and patrol)
+		- F5: Command Go Forward (push)
+		- F6: Command Stop (stop)
+		- F7: Command Spread Out (find cover)
+		- F8: Command Attention (reset target)
+- F5: Revive
+- F9: Pause
+- F12: BepInEx Menu
+	- F9: Free Cam
+		- M1/M2: Jump to player
+		- Space + M1: Snap to head
+		- LC + M1: Snap to back
+		- T: Teleport to free cam
+- M2: Gift item from stash to other accounts
+	- Alt Shift M1: Automatically sell item from stash to most profitable market
 
 ## Patch Note & Downloads
 
