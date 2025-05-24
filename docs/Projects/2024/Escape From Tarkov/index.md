@@ -32,12 +32,9 @@ The mod list is compatible with **Mod Organizer** for profile management, meanin
 	![[./Escape From Tarkov_image-2.png|/Projects/2024/Escape From Tarkov/Escape From Tarkov_image-2.png]]
 	- **Packages** are named `SPT <SPTVersion>_<Package>`. They contain all mods of a major version.
 	- **Patches** are named `SPT <SPTVersion>_<Package>.<Patch>`. They are smaller and incomplete, meant to be installed sequentially after packages to distribute mod and config updates quickly.
-	- The **PersistentFiles** mod is how default configs are distributed and also functions as an archive for your SPT settings and profile when you start playing. Be ware of SPT profile incompatibilities between major version updates.
 5. **Select** the MO profile for the current patch (or package if no patch has been distributed yet).
 	- Profiles are the fastest way to switch between mod lists, but they only work if you've already imported all mods they reference first.
-6. Click `Run` to launch SPT.
-	- Don't forget to change SPT Launcher settings on Game Path and URL.
-	- Optionally, add the launch shortcut to your Desktop.
+	- The **PersistentFiles** mod is how default configs are distributed and also functions as an archive for your SPT settings and profile when you start playing. Be ware of SPT profile incompatibilities between major version updates.
 
 ### Modlist
 
