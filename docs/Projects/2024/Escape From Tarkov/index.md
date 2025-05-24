@@ -32,12 +32,13 @@ The mod list is compatible with **Mod Organizer** for profile management, meanin
 4. [[index#Patch Note & Downloads|Download]] a **package** or **patch** and extract files to the MO instance location under `%appdata%\Local\ModOrganizer\<InstanceName>\`, then refresh MO.
 	![[./Attachments/Escape From Tarkov/2024-06-04T22_27_17-05_00_TWP-X570-WIN10(Obsidian).jpg|2024-06-04T22_27_17-05_00_TWP-X570-WIN10(Obsidian)]]
 	- **Packages** are named `SPT <SPTVersion>_<Package>`. They contain all mods of a major version.
-	- **Patches** are named `SPT <SPTVersion>_<Package>.<Patch>`. They are smaller and incomplete, meant to be installed sequentially after packages to distribute mod updates quickly.
-	- The **PersistentFiles** mod is how default configs are distributed and also functions as an archihve for your SPT settings and profile as soon as you start playing. Simply copy the files in this mod from `MO\<InstanceName>\mods\PersistentFiles-*\` as well as any extra files you want to keep from `MO\<InstanceName>\overwrite\` into an archive, then install it in MO as a mod and set to a high priority to keep files across updates. Be ware of SPT profile incompatibilities between major version updates.
-5. **Profiles** are the fastest way to switch between mod lists, but they only work if you've already imported all mods they reference first. Select the profile for the current patch (or package if no patch has been distributed yet).
+	- **Patches** are named `SPT <SPTVersion>_<Package>.<Patch>`. They are smaller and incomplete, meant to be installed sequentially after packages to distribute mod and config updates quickly.
+	- The **PersistentFiles** mod is how default configs are distributed and also functions as an archive for your SPT settings and profile when you start playing. Be ware of SPT profile incompatibilities between major version updates.
+5. **Select** the MO profile for the current patch (or package if no patch has been distributed yet).
+	- Profiles are the fastest way to switch between mod lists, but they only work if you've already imported all mods they reference first.
 6. Click `Run` to launch SPT.
 	- Don't forget to change SPT Launcher settings on Game Path and URL.
-	- Optionally, add the launch shortcut to your Desktop
+	- Optionally, add the launch shortcut to your Desktop.
 
 ### Modlist
 
@@ -63,7 +64,7 @@ Manual install locations are marked with 🍌 for **"/BepInEx/plugins"** and �
 [Project Fika](https://discord.gg/project-fika) ([Documentation](https://project-fika.gitbook.io/wiki)) 🍌🥒
 [Geko's Better Progression](https://hub.sp-tarkov.com/files/file/2773-geko-s-better-progression/) 🍌🥒 (Play-to-win)
 [Health Per Level](https://hub.sp-tarkov.com/files/file/2327-health-per-level/) 🥒
-[Revival Mod](https://hub.sp-tarkov.com/files/file/2725-revivalmod-second-chance-survival-system-for-single-player-tarkov/?highlight=revival) 🍌🥒
+[Revival Mod](https://hub.sp-tarkov.com/files/file/2725-revivalmod-second-chance-survival-system-for-single-player-tarkov/?highlight=revival) 🍌🥒 (Bring Portable Defibrillator)
 [Friendly PMC](https://hub.sp-tarkov.com/files/file/989-friendly-pmc/) 🍌🥒
 [Virtual's Custom Quest Loader](https://hub.sp-tarkov.com/files/file/885-virtual-s-custom-quest-loader/) 🍌🥒
 [Late to the Party](https://hub.sp-tarkov.com/files/file/1099-late-to-the-party/) 🍌🥒 (Realistic Scav runs)
