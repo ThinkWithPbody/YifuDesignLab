@@ -188,8 +188,7 @@ endlocal
 	- LA + S: Blind Fire Right Side
 	- LA + A: Sidestep Left
 	- LA + D: Sidestep Right
-- C: Mount Weapon
-	- LC + C: Bipod%%
+- C: Mount Weapon%%
 	- Ctrl + M4 to dial optic in
 	- Ctrl + M5 to dial optic out%%
 - C + Scroll: Walk Speed
@@ -200,12 +199,13 @@ endlocal
 	- RR: Quick Reload
 	- LC + R: Check Magazine
 	- LS + R: Check Chamber / Fix Malfunction
-	- LC + LS + R: Unload Chamber
+	- LC + LS + R: Inspect Weapon
 	- LA + R: Detach Magazine
-- G: Prepare Grenades
-	- LC + G: Discard Item
-- L: Inspect Weapon
+	- LA + LC + R: Unload Chamber
+- L: Bipod
 	- LC + L: Fold / Unfold Stock
+- G: Discard Item
+	- LS + G: Prepare Grenades
 - O: Check Time
 	- OO: Check Bosses
 	- I: Task List
@@ -241,8 +241,8 @@ endlocal
 		- F3: Command Cover Me (regroup, follow closely, cover me)
 		- F4: Command On Your Own (initial tactic and patrol)
 		- F5: Command Go Forward (push)
-		- F6: Command Stop (stop)
-		- F7: Command Spread Out (find cover)
+		- F6: Command Hold Position (hold)
+		- F7: Command Stop (stop)
 		- F8: Command Attention (reset target)
 - F5: Revive
 - F9: Pause
@@ -259,7 +259,7 @@ endlocal
 
 ##### 3.11.3_1.0
 
-[Package Download](http://www.mediafire.com/view/lsnuhc29ii4gsig)
+[Package Download](http://www.mediafire.com/view/5cgy25rp1h811x9)
 Bump bump bump SPT version to 3.11.3
 
 ##### 3.8.3_2.2
