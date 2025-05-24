@@ -136,20 +136,21 @@ Manual install locations are marked with ðŸŒ for **"/BepInEx/plugins"** and ðŸ¥
 
 #### To Join Our Modded Fika Server
 
-- Modify the start script
-	- Locate the `sptvfsbridge.bat` under the SPT install directory and **comment** out the server related lines by adding `REM` to the start of the lines (line 8 and 11)
-- Select the **Launch SP Tarkov** option from MO and click **Run**
-	- Do not simply use `Aki.Launcher.exe` - it will not load any mods
+- Add an executable for **just the client** to MO
+	- Open the **Modify Executables** screen using **Ctrl + E** or clicking Tools > Executables
+	- **Add executable from file** for `SPT.Launcher.exe` and give it a memorable name (e.g. "Launch Client")
+		- ![[./Escape From Tarkov_image.png|/Projects/2024/Escape From Tarkov/Escape From Tarkov_image.png]]
+- Select the **Launch Client** option from MO and click **Run**
+	- Do not simply use `SPT.Launcher.exe` (unless you installed mods normally without MO)
+	- Optionally, add it as a shortcut
+		- ![[./Escape From Tarkov_image-1.png|/Projects/2024/Escape From Tarkov/Escape From Tarkov_image-1.png]]
 - In **Launcher Settings**, change URL to `http://173.32.64.239:6969`
 
 #### To Start and Join a Modded Local Server
 
-- Modify the start script
-	- Locate the `sptvfsbridge.bat` under the SPT install directory and **un-comment** the server related lines
-	- Optionally, set aside a separate script to be ran from MO to run both server and client
-	- Optionally, set affinity for the client and server - see example file below
 - Select the **Launch SP Tarkov** option from MO and click **Run**
-	- Do not simply use `Aki.Launcher.exe` - it will not load any mods
+	- Do not simply use `SPT.Server.exe` or `SPT.Launcher.exe` (unless you installed mods normally without MO)
+	- Optionally, set affinity for the client and server by modifying `sptvfsbridge.bat` - see example file below
 - In **Launcher Settings**, change URL back to `http://127.0.0.1:6969`
 
 `sptvfsbridge.bat`
@@ -165,7 +166,7 @@ REM Launch the server.exe
 start "" /affinity F "%server_path%"
 
 REM Wait for a moment to ensure the server.exe has started
-timeout /t 5 /nobreak >nul
+timeout /t 25 /nobreak >nul
 
 REM Launch the launcher.exe
 start "" /affinity F0 "%launcher_path%"
