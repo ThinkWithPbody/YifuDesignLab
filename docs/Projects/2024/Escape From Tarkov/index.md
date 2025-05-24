@@ -27,15 +27,15 @@ The mod list is compatible with **Mod Organizer** for profile management, meanin
 ### Mod Organizer 2
 
 1. Download and install [MO2](https://github.com/ModOrganizer2/modorganizer/releases).
-	- Download and install [SPT ModOrganizer Integration](https://hub.sp-tarkov.com/files/file/1314-spt-modorganizer-integration/#overview) by extracting it to the MO install location (`%appdata%\Local\ModOrganizer\`).
-2. Create a new global instance directed to the folder you just installed SPT in (e.g. `Game/EFT/SPT 3.11.3/`). Settings can be kept default, ignore pop-ups.
-3. [[index#Patch Note & Downloads|Download]] a **package** or **patch** and extract files to the MO instance location under `%appdata%\Local\ModOrganizer\<InstanceName>\`, then refresh MO.
+2. Download and install [SPT ModOrganizer Integration](https://hub.sp-tarkov.com/files/file/1314-spt-modorganizer-integration/#overview) by extracting the `plugins` folder to the MO2 Install Directory.
+3. Create a new **global instance** directed to the folder you just installed SPT in (e.g. `Game/EFT/SPT 3.11.3/`). Settings can be kept default, ignore pop-ups.
+4. [[index#Patch Note & Downloads|Download]] a **package** or **patch** and extract files to the MO instance location under `%appdata%\Local\ModOrganizer\<InstanceName>\`, then refresh MO.
 	![[./Attachments/Escape From Tarkov/2024-06-04T22_27_17-05_00_TWP-X570-WIN10(Obsidian).jpg|2024-06-04T22_27_17-05_00_TWP-X570-WIN10(Obsidian)]]
 	- **Packages** are named `SPT <SPTVersion>_<Package>`. They contain all mods of a major version.
 	- **Patches** are named `SPT <SPTVersion>_<Package>.<Patch>`. They are smaller and incomplete, meant to be installed sequentially after packages to distribute mod updates quickly.
 	- The **PersistentFiles** mod is how default configs are distributed and also functions as an archihve for your SPT settings and profile as soon as you start playing. Simply copy the files in this mod from `MO\<InstanceName>\mods\PersistentFiles-*\` as well as any extra files you want to keep from `MO\<InstanceName>\overwrite\` into an archive, then install it in MO as a mod and set to a high priority to keep files across updates. Be ware of SPT profile incompatibilities between major version updates.
-4. **Profiles** are the fastest way to switch between mod lists, but they only work if you've already imported all mods they reference first. Select the profile for the current patch (or package if no patch has been distributed yet).
-5. Click `Run` to launch SPT.
+5. **Profiles** are the fastest way to switch between mod lists, but they only work if you've already imported all mods they reference first. Select the profile for the current patch (or package if no patch has been distributed yet).
+6. Click `Run` to launch SPT.
 	- Don't forget to change SPT Launcher settings on Game Path and URL.
 	- Optionally, add the launch shortcut to your Desktop
 
