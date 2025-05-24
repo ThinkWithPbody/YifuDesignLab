@@ -8,9 +8,9 @@ status: DONE
 
 ## SPT Install and Update
 
-1. Use BsgLauncher.exe to install or update official EFT matching server version to your best SSD
+1. Use BsgLauncher.exe to install or update official EFT to your best SSD, use matching server version
 2. Download SPT AKI automated installer [here](https://sp-tarkov.com/#download)
-3. Move SPT installer to a separate empty folder affixed with version number (e.g. `Game/EFT/SPT 3.11.3/`) and install SPT files
+3. Move SPT installer to a separate empty folder on your best SSD, affixed with the SPT version number (e.g. `Game/EFT/SPT 3.11.3/`), then run the SPT automatic install executable
 %%	- When updating to minor versions without making changes to the modlist, just copy over the old files to the new location.
 		- Game Settings: "/user/sptSettings"
 		- Launcher settings: "/user/launcher"
@@ -38,15 +38,6 @@ The mod list is compatible with **Mod Organizer** for profile management, meanin
 5. Click `Run` to launch SPT.
 	- Don't forget to change SPT Launcher settings on Game Path and URL.
 	- Optionally, add the launch shortcut to your Desktop
-
-
-## Project Fika (MPT)
-
-To join my Fika server, run Aki.Launcher.exe and in "Settings", change URL to `http://173.32.64.239:6969`.
-To join local server, change URL back to `http://127.0.0.1:6969`.
-
-> [!tip]
-> If you want to use your own profile on our server or download the one in use on our server for your local server, contact me.
 
 ### Modlist
 
@@ -130,7 +121,6 @@ Manual install locations are marked with 🍌 for **"/BepInEx/plugins"** and �
 
 ##### Disabled Mods
 
-
 ###### Outdated
 
 [Amands's Sense](https://hub.sp-tarkov.com/files/file/1361-amands-sense/#overview) 🍌 (Optional loot helper)
@@ -141,6 +131,14 @@ Manual install locations are marked with 🍌 for **"/BepInEx/plugins"** and �
 [No Grenade ESP](https://hub.sp-tarkov.com/files/file/1029-no-grenade-esp/) 🍌 (Incompatible with SAIN)
 [Pause](https://hub.sp-tarkov.com/files/file/1793-pause-reupload/) 🍌 (P to pause, may cause death)
 [Headshot Damage Redirection](https://hub.sp-tarkov.com/files/file/1809-headshot-damage-redirection-hdr/) 🍌 (We don't need that)
+
+## Project Fika (MPT)
+
+To join my Fika server, run Aki.Launcher.exe and in "Settings", change URL to `http://173.32.64.239:6969`.
+To join local server, change URL back to `http://127.0.0.1:6969`.
+
+> [!tip]
+> If you want to use your own profile on our server or download the one in use on our server for your local server, contact me.
 
 ### Default Hotkeys
 
@@ -175,8 +173,9 @@ Manual install locations are marked with 🍌 for **"/BepInEx/plugins"** and �
 	- OO: Check Bosses
 	- I: Task List
 - M: Map
+	- +/-: Map Zoom
 	- LC + M: Minimap
-	- +/-: Minimap Zoom
+	- Num8/Num5: Minimap Zoom
 - M1: Fire
 	- F: Interact
 - M2: Scope
