@@ -1609,26 +1609,29 @@ For key mapping, see <a href="./#default-hotkeys" title="Default Hotkeys">Defaul
 <h3 id="project-fika-mpt">Project Fika (MPT)<a class="headerlink" href="#project-fika-mpt" title="Permanent link">¶</a></h3>
 <h5 id="to-join-our-modded-fika-server">To Join Our Modded Fika Server<a class="headerlink" href="#to-join-our-modded-fika-server" title="Permanent link">¶</a></h5>
 <ul>
-<li>Modify the start script<ul>
-<li>Locate the <code>sptvfsbridge.bat</code> under the SPT install directory and <strong>comment</strong> out the server related lines by adding <code>REM</code> to the start of the lines (line 8 and 11)</li>
+<li>Add an executable for <strong>just the client</strong> to MO<ul>
+<li>Open the <strong>Modify Executables</strong> screen using <strong>Ctrl + E</strong> or clicking Tools &gt; Executables</li>
+<li><strong>Add executable from file</strong> for <code>SPT.Launcher.exe</code> and give it a memorable name (e.g. “Launch Client”)<ul>
+<li><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="Escape%20From%20Tarkov_image.png"><img alt="/Projects/2024/Escape From Tarkov/Escape From Tarkov_image.png" src="Escape%20From%20Tarkov_image.png" title="/Projects/2024/Escape From Tarkov/Escape From Tarkov_image.png"/></a></li>
 </ul>
 </li>
-<li>Select the <strong>Launch SP Tarkov</strong> option from MO and click <strong>Run</strong><ul>
-<li>Do not simply use <code>Aki.Launcher.exe</code> - it will not load any mods</li>
+</ul>
+</li>
+<li>Select the <strong>Launch Client</strong> option from MO and click <strong>Run</strong><ul>
+<li>Do not simply use <code>SPT.Launcher.exe</code> (unless you installed mods normally without MO)</li>
+<li>Optionally, add it as a shortcut<ul>
+<li><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="Escape%20From%20Tarkov_image-1.png"><img alt="/Projects/2024/Escape From Tarkov/Escape From Tarkov_image-1.png" src="Escape%20From%20Tarkov_image-1.png" title="/Projects/2024/Escape From Tarkov/Escape From Tarkov_image-1.png"/></a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li>In <strong>Launcher Settings</strong>, change URL to <code>http://173.32.64.239:6969</code></li>
 </ul>
 <h5 id="to-start-and-join-a-modded-local-server">To Start and Join a Modded Local Server<a class="headerlink" href="#to-start-and-join-a-modded-local-server" title="Permanent link">¶</a></h5>
 <ul>
-<li>Modify the start script<ul>
-<li>Locate the <code>sptvfsbridge.bat</code> under the SPT install directory and <strong>un-comment</strong> the server related lines</li>
-<li>Optionally, set aside a separate script to be ran from MO to run both server and client</li>
-<li>Optionally, set affinity for the client and server - see example file below</li>
-</ul>
-</li>
 <li>Select the <strong>Launch SP Tarkov</strong> option from MO and click <strong>Run</strong><ul>
-<li>Do not simply use <code>Aki.Launcher.exe</code> - it will not load any mods</li>
+<li>Do not simply use <code>SPT.Server.exe</code> or <code>SPT.Launcher.exe</code> (unless you installed mods normally without MO)</li>
+<li>Optionally, set affinity for the client and server by modifying <code>sptvfsbridge.bat</code> - see example file below</li>
 </ul>
 </li>
 <li>In <strong>Launcher Settings</strong>, change URL back to <code>http://127.0.0.1:6969</code></li>
@@ -1644,7 +1647,7 @@ For key mapping, see <a href="./#default-hotkeys" title="Default Hotkeys">Defaul
 <a href="#__codelineno-0-8" id="__codelineno-0-8" name="__codelineno-0-8"></a>start<span class="w"> </span><span class="s2">""</span><span class="w"> </span>/affinity<span class="w"> </span>F<span class="w"> </span><span class="s2">"%server_path%"</span>
 <a href="#__codelineno-0-9" id="__codelineno-0-9" name="__codelineno-0-9"></a>
 <a href="#__codelineno-0-10" id="__codelineno-0-10" name="__codelineno-0-10"></a>REM<span class="w"> </span>Wait<span class="w"> </span><span class="k">for</span><span class="w"> </span>a<span class="w"> </span>moment<span class="w"> </span>to<span class="w"> </span>ensure<span class="w"> </span>the<span class="w"> </span>server.exe<span class="w"> </span>has<span class="w"> </span>started
-<a href="#__codelineno-0-11" id="__codelineno-0-11" name="__codelineno-0-11"></a>timeout<span class="w"> </span>/t<span class="w"> </span><span class="m">5</span><span class="w"> </span>/nobreak<span class="w"> </span>&gt;nul
+<a href="#__codelineno-0-11" id="__codelineno-0-11" name="__codelineno-0-11"></a>timeout<span class="w"> </span>/t<span class="w"> </span><span class="m">25</span><span class="w"> </span>/nobreak<span class="w"> </span>&gt;nul
 <a href="#__codelineno-0-12" id="__codelineno-0-12" name="__codelineno-0-12"></a>
 <a href="#__codelineno-0-13" id="__codelineno-0-13" name="__codelineno-0-13"></a>REM<span class="w"> </span>Launch<span class="w"> </span>the<span class="w"> </span>launcher.exe
 <a href="#__codelineno-0-14" id="__codelineno-0-14" name="__codelineno-0-14"></a>start<span class="w"> </span><span class="s2">""</span><span class="w"> </span>/affinity<span class="w"> </span>F0<span class="w"> </span><span class="s2">"%launcher_path%"</span>
