@@ -8,9 +8,9 @@ status: DONE
 
 ## SPT Install and Update
 
-1. Use BsgLauncher.exe to install or update official EFT to your best SSD, use matching server version
-2. Download SPT AKI automated installer [here](https://sp-tarkov.com/#download)
-3. Move SPT installer to a separate empty folder on your best SSD, affixed with the SPT version number (e.g. `Game/EFT/SPT 3.11.3/`), then run the SPT automatic install executable
+1. Use BsgLauncher.exe to install or update official EFT to your best SSD, use matching server version.
+2. Download SPT AKI automated installer [here](https://sp-tarkov.com/#download).
+3. Move SPT installer to a separate empty folder on your best SSD, affixed with the SPT version number (e.g. `Game/EFT/SPT 3.11.3/`), then run the SPT automatic install executable.
 %%	- When updating to minor versions without making changes to the modlist, just copy over the old files to the new location.
 		- Game Settings: "/user/sptSettings"
 		- Launcher settings: "/user/launcher"
@@ -18,7 +18,6 @@ status: DONE
 			**Never delete or replace "/BepInEx/plugins/spt".**
 		- Mod Settings: "/BepInEx/config"
 		- Save Profiles (only if you run a server): "/user/profiles"%%
-%%![|500](https://live.staticflickr.com/65535/53696801218_db324e3ae4_o.jpg)%%
 
 ### SPT Mods Install and Update
 
@@ -29,8 +28,8 @@ The mod list is compatible with **Mod Organizer** for profile management, meanin
 1. Download and install [MO2](https://github.com/ModOrganizer2/modorganizer/releases).
 2. Download and install [SPT ModOrganizer Integration](https://hub.sp-tarkov.com/files/file/1314-spt-modorganizer-integration/#overview) by extracting the `plugins` folder to the MO2 Install Directory.
 3. Create a new **global instance** directed to the SPT install directory in (e.g. `Game/EFT/SPT 3.11.3/`). Settings can be kept default, ignore pop-ups.
-4. [[index#Patch Note & Downloads|Download]] a **package** or **patch** and extract files to the MO instance location under `%appdata%\Local\ModOrganizer\<InstanceName>\`, then refresh MO.
-	![[./Attachments/Escape From Tarkov/2024-06-04T22_27_17-05_00_TWP-X570-WIN10(Obsidian).jpg|2024-06-04T22_27_17-05_00_TWP-X570-WIN10(Obsidian)]]
+4. [[index#Patch Note & Downloads|Download]] a **package** or **patch** and extract files to the **MO Instance** location under `%appdata%\Local\ModOrganizer\<InstanceName>\`, then refresh MO.
+	![[./Escape From Tarkov_image-2.png|/Projects/2024/Escape From Tarkov/Escape From Tarkov_image-2.png]]
 	- **Packages** are named `SPT <SPTVersion>_<Package>`. They contain all mods of a major version.
 	- **Patches** are named `SPT <SPTVersion>_<Package>.<Patch>`. They are smaller and incomplete, meant to be installed sequentially after packages to distribute mod and config updates quickly.
 	- The **PersistentFiles** mod is how default configs are distributed and also functions as an archive for your SPT settings and profile when you start playing. Be ware of SPT profile incompatibilities between major version updates.
