@@ -1399,6 +1399,23 @@
 <nav aria-label="Project Fika (MPT)" class="md-nav">
 <ul class="md-nav__list">
 <li class="md-nav__item">
+<a class="md-nav__link" href="#to-join-our-modded-fika-server">
+<span class="md-ellipsis">
+      To Join Our Modded Fika Server
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#to-start-and-join-a-modded-local-server">
+<span class="md-ellipsis">
+      To Start and Join a Modded Local Server
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="#default-hotkeys">
 <span class="md-ellipsis">
       Default Hotkeys
@@ -1453,9 +1470,6 @@
 </li>
 </ul>
 </nav>
-</li>
-</ul>
-</nav>
 </div>
 </div>
 </div>
@@ -1502,11 +1516,9 @@
 <p>The mod list is compatible with <strong>Mod Organizer</strong> for profile management, meaning more than one instance of the game can be stored without taking excessive disk space. It is the easiest way to stay up to date, but it is not mandatory.</p>
 <h4 id="mod-organizer-2">Mod Organizer 2<a class="headerlink" href="#mod-organizer-2" title="Permanent link">¶</a></h4>
 <ol>
-<li>Download and install <a href="https://github.com/ModOrganizer2/modorganizer/releases">MO2</a>.<ul>
-<li>Download and install <a href="https://hub.sp-tarkov.com/files/file/1314-spt-modorganizer-integration/#overview">SPT ModOrganizer Integration</a> by extracting it to the MO install location (<code>%appdata%\Local\ModOrganizer\</code>).</li>
-</ul>
-</li>
-<li>Create a new global instance directed to the folder you just installed SPT in (e.g. <code>Game/EFT/SPT 3.11.3/</code>). Settings can be kept default, ignore pop-ups.</li>
+<li>Download and install <a href="https://github.com/ModOrganizer2/modorganizer/releases">MO2</a>.</li>
+<li>Download and install <a href="https://hub.sp-tarkov.com/files/file/1314-spt-modorganizer-integration/#overview">SPT ModOrganizer Integration</a> by extracting the <code>plugins</code> folder to the MO2 Install Directory.</li>
+<li>Create a new <strong>global instance</strong> directed to the SPT install directory in (e.g. <code>Game/EFT/SPT 3.11.3/</code>). Settings can be kept default, ignore pop-ups.</li>
 <li><a href="./#patch-note-&amp;-downloads" title="Download">Download</a> a <strong>package</strong> or <strong>patch</strong> and extract files to the MO instance location under <code>%appdata%\Local\ModOrganizer\&lt;InstanceName&gt;\</code>, then refresh MO.<br/>
 <a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="Attachments/Escape%20From%20Tarkov/2024-06-04T22_27_17-05_00_TWP-X570-WIN10%28Obsidian%29.jpg"><img alt="2024-06-04T22_27_17-05_00_TWP-X570-WIN10(Obsidian)" src="Attachments/Escape%20From%20Tarkov/2024-06-04T22_27_17-05_00_TWP-X570-WIN10%28Obsidian%29.jpg" title="2024-06-04T22_27_17-05_00_TWP-X570-WIN10(Obsidian)"/></a><ul>
 <li><strong>Packages</strong> are named <code>SPT &lt;SPTVersion&gt;_&lt;Package&gt;</code>. They contain all mods of a major version.</li>
@@ -1595,13 +1607,55 @@ For key mapping, see <a href="./#default-hotkeys" title="Default Hotkeys">Defaul
 <a href="https://hub.sp-tarkov.com/files/file/1793-pause-reupload/">Pause</a> 🍌 (P to pause, may cause death)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1809-headshot-damage-redirection-hdr/">Headshot Damage Redirection</a> 🍌 (We don’t need that)</p>
 <h3 id="project-fika-mpt">Project Fika (MPT)<a class="headerlink" href="#project-fika-mpt" title="Permanent link">¶</a></h3>
-<p>To join my Fika server, run Aki.Launcher.exe and in “Settings”, change URL to <code>http://173.32.64.239:6969</code>.<br/>
-To join local server, change URL back to <code>http://127.0.0.1:6969</code>.</p>
+<h5 id="to-join-our-modded-fika-server">To Join Our Modded Fika Server<a class="headerlink" href="#to-join-our-modded-fika-server" title="Permanent link">¶</a></h5>
+<ul>
+<li>Modify the start script<ul>
+<li>Locate the <code>sptvfsbridge.bat</code> under the SPT install directory and <strong>comment</strong> out the server related lines by adding <code>REM</code> to the start of the lines (line 8 and 11)</li>
+</ul>
+</li>
+<li>Select the <strong>Launch SP Tarkov</strong> option from MO and click <strong>Run</strong><ul>
+<li>Do not simply use <code>Aki.Launcher.exe</code> - it will not load any mods</li>
+</ul>
+</li>
+<li>In <strong>Launcher Settings</strong>, change URL to <code>http://173.32.64.239:6969</code></li>
+</ul>
+<h5 id="to-start-and-join-a-modded-local-server">To Start and Join a Modded Local Server<a class="headerlink" href="#to-start-and-join-a-modded-local-server" title="Permanent link">¶</a></h5>
+<ul>
+<li>Modify the start script<ul>
+<li>Locate the <code>sptvfsbridge.bat</code> under the SPT install directory and <strong>un-comment</strong> the server related lines</li>
+<li>Optionally, set aside a separate script to be ran from MO to run both server and client</li>
+<li>Optionally, set affinity for the client and server - see example file below</li>
+</ul>
+</li>
+<li>Select the <strong>Launch SP Tarkov</strong> option from MO and click <strong>Run</strong><ul>
+<li>Do not simply use <code>Aki.Launcher.exe</code> - it will not load any mods</li>
+</ul>
+</li>
+<li>In <strong>Launcher Settings</strong>, change URL back to <code>http://127.0.0.1:6969</code></li>
+</ul>
+<p><code>sptvfsbridge.bat</code></p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a>@echo<span class="w"> </span>off
+<a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a>setlocal
+<a href="#__codelineno-0-3" id="__codelineno-0-3" name="__codelineno-0-3"></a>
+<a href="#__codelineno-0-4" id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="nb">set</span><span class="w"> </span><span class="s2">"launcher_path=SPT.Launcher.exe"</span>
+<a href="#__codelineno-0-5" id="__codelineno-0-5" name="__codelineno-0-5"></a><span class="nb">set</span><span class="w"> </span><span class="s2">"server_path=SPT.Server.exe"</span>
+<a href="#__codelineno-0-6" id="__codelineno-0-6" name="__codelineno-0-6"></a>
+<a href="#__codelineno-0-7" id="__codelineno-0-7" name="__codelineno-0-7"></a>REM<span class="w"> </span>Launch<span class="w"> </span>the<span class="w"> </span>server.exe
+<a href="#__codelineno-0-8" id="__codelineno-0-8" name="__codelineno-0-8"></a>start<span class="w"> </span><span class="s2">""</span><span class="w"> </span>/affinity<span class="w"> </span>F<span class="w"> </span><span class="s2">"%server_path%"</span>
+<a href="#__codelineno-0-9" id="__codelineno-0-9" name="__codelineno-0-9"></a>
+<a href="#__codelineno-0-10" id="__codelineno-0-10" name="__codelineno-0-10"></a>REM<span class="w"> </span>Wait<span class="w"> </span><span class="k">for</span><span class="w"> </span>a<span class="w"> </span>moment<span class="w"> </span>to<span class="w"> </span>ensure<span class="w"> </span>the<span class="w"> </span>server.exe<span class="w"> </span>has<span class="w"> </span>started
+<a href="#__codelineno-0-11" id="__codelineno-0-11" name="__codelineno-0-11"></a>timeout<span class="w"> </span>/t<span class="w"> </span><span class="m">5</span><span class="w"> </span>/nobreak<span class="w"> </span>&gt;nul
+<a href="#__codelineno-0-12" id="__codelineno-0-12" name="__codelineno-0-12"></a>
+<a href="#__codelineno-0-13" id="__codelineno-0-13" name="__codelineno-0-13"></a>REM<span class="w"> </span>Launch<span class="w"> </span>the<span class="w"> </span>launcher.exe
+<a href="#__codelineno-0-14" id="__codelineno-0-14" name="__codelineno-0-14"></a>start<span class="w"> </span><span class="s2">""</span><span class="w"> </span>/affinity<span class="w"> </span>F0<span class="w"> </span><span class="s2">"%launcher_path%"</span>
+<a href="#__codelineno-0-15" id="__codelineno-0-15" name="__codelineno-0-15"></a>
+<a href="#__codelineno-0-16" id="__codelineno-0-16" name="__codelineno-0-16"></a>endlocal
+</code></pre></div>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>If you want to use your own profile on our server or download the one in use on our server for your local server, contact me.</p>
 </div>
-<h4 id="default-hotkeys">Default Hotkeys<a class="headerlink" href="#default-hotkeys" title="Permanent link">¶</a></h4>
+<h3 id="default-hotkeys">Default Hotkeys<a class="headerlink" href="#default-hotkeys" title="Permanent link">¶</a></h3>
 <ul>
 <li>Z: Prone</li>
 <li>X: Crouch<ul>
@@ -1711,13 +1765,13 @@ To join local server, change URL back to <code>http://127.0.0.1:6969</code>.</p>
 </ul>
 </li>
 </ul>
-<h4 id="patch-note-downloads">Patch Note &amp; Downloads<a class="headerlink" href="#patch-note-downloads" title="Permanent link">¶</a></h4>
-<h6 id="3113_10">3.11.3_1.0<a class="headerlink" href="#3113_10" title="Permanent link">¶</a></h6>
+<h3 id="patch-note-downloads">Patch Note &amp; Downloads<a class="headerlink" href="#patch-note-downloads" title="Permanent link">¶</a></h3>
+<h5 id="3113_10">3.11.3_1.0<a class="headerlink" href="#3113_10" title="Permanent link">¶</a></h5>
 <p><a href="http://www.mediafire.com/view/lsnuhc29ii4gsig">Package Download</a><br/>
 Bump bump bump SPT version to 3.11.3</p>
-<h6 id="383_22">3.8.3_2.2<a class="headerlink" href="#383_22" title="Permanent link">¶</a></h6>
+<h5 id="383_22">3.8.3_2.2<a class="headerlink" href="#383_22" title="Permanent link">¶</a></h5>
 <p>Removed Headshot Damage Redirection</p>
-<h6 id="383_21">3.8.3_2.1<a class="headerlink" href="#383_21" title="Permanent link">¶</a></h6>
+<h5 id="383_21">3.8.3_2.1<a class="headerlink" href="#383_21" title="Permanent link">¶</a></h5>
 <p><a href="http://www.mediafire.com/view/bnpu2afxpbot90l">Patch Download</a></p>
 <p><strong>Mods and MO Profiles are distributed together.</strong><br/>
 Added Realism Mod<br/>
@@ -1732,7 +1786,7 @@ Updated That’s Lit<br/>
 Updated That’s Lit Sync<br/>
 Updated UI Fixes<br/>
 Updated Stash Search</p>
-<h6 id="383_2">3.8.3_2<a class="headerlink" href="#383_2" title="Permanent link">¶</a></h6>
+<h5 id="383_2">3.8.3_2<a class="headerlink" href="#383_2" title="Permanent link">¶</a></h5>
 <p><a href="http://www.mediafire.com/view/msx1i8v7aqdoxwk">Package</a><br/>
 <a href="http://www.mediafire.com/view/7i0apd7w7ax9rm1">Profile</a></p>
 <p><strong>All mod files turned MO2 compatible and distributed separately.</strong> This means that MO2 is not mandatory and merely makes updating easier.</p>
@@ -1743,7 +1797,7 @@ Removed Declutterer<br/>
 Removed No Grenade ESP<br/>
 Removed Pause<br/>
 Updated Fika</p>
-<h6 id="383_1">3.8.3_1<a class="headerlink" href="#383_1" title="Permanent link">¶</a></h6>
+<h5 id="383_1">3.8.3_1<a class="headerlink" href="#383_1" title="Permanent link">¶</a></h5>
 <p><a href="http://www.mediafire.com/view/c87ornfb1ouw15p">Package</a></p>
 <!-- Source file information -->
 <!-- taken from 
