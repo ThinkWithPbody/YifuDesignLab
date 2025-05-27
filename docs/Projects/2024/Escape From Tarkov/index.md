@@ -24,36 +24,37 @@ The mod list is compatible with **Mod Organizer** for profile management, meanin
 ### Mod Organizer 2
 
 1. Download and install [MO2](https://github.com/ModOrganizer2/modorganizer/releases).
-2. Download and install [SPT ModOrganizer Integration](https://hub.sp-tarkov.com/files/file/1314-spt-modorganizer-integration/#overview) by extracting the `plugins` folder to the MO2 Install Directory.
-3. Create a new **global instance** directed to the SPT install directory in (e.g. `Game/EFT/SPT 3.11.3/`). Settings can be kept default, ignore pop-ups.
-4. [[index#Patch Note & Downloads|Download]] a package or patch and **extract** files to the **MO Instance** location under `%appdata%\Local\ModOrganizer\<InstanceName>\`, then refresh MO.
+2. Download and install [SPT ModOrganizer Integration](https://hub.sp-tarkov.com/files/file/1314-spt-modorganizer-integration/#overview) by extracting the `plugins` folder to the `<MO Install Directory>`.
+3. Create a new **MO Global Instance** directed to the `<SPT Install Directory>` (e.g. `Game/EFT/SPT 3.11.3/`). Settings can be kept default, ignore pop-ups.
+4. [[index#Patch Note & Downloads|Download]] a package or patch and **extract** files to the **MO Global Instance** directory under `%appdata%\Local\ModOrganizer\<InstanceName>\`, then refresh MO.
 	![[./Escape From Tarkov_image-2.png|/Projects/2024/Escape From Tarkov/Escape From Tarkov_image-2.png]]
 	- **Packages** are named `SPT <SPTVersion>_<Package>`. They contain all mods of a major version.
 	- **Patches** are named `SPT <SPTVersion>_<Package>.<Patch>`. They are smaller and incomplete, meant to be installed sequentially after packages to distribute mod and config updates quickly.
 5. **Select** the MO profile for the current patch (or package if no patch has been distributed yet).
-	- Profiles are the fastest way to switch between mod lists, but they only work if you've already imported all mods they reference first.
+	- **Profiles** are the fastest way to switch between mod lists, but they only work if you've already imported all mods they reference first.
 	- The **PersistentFiles** mod is how default configs are distributed and also functions as an archive for your SPT settings and profile when you start playing. Be ware of SPT profile incompatibilities between major version updates.
 
 ## Project Fika (MPT)
 
 #### To Join Our Modded Fika Server
 
-- Add an executable for **just the client** to MO
-	- Open the **Modify Executables** screen using **Ctrl + E** or clicking Tools > Executables
-	- **Add executable from file** for `SPT.Launcher.exe` and give it a memorable name (e.g. "Launch Client")
+- Add an executable for **just the client** to MO.
+	- Open the **Modify Executables** screen using **Ctrl + E** or use Tools > Executables.
+	- **Add executable from file** for `<SPT Install Directory>\SPT.Launcher.exe` and give it a memorable name (e.g. "Launch Client"), then click OK.
 		- ![[./Escape From Tarkov_image.png|/Projects/2024/Escape From Tarkov/Escape From Tarkov_image.png]]
-- Select the **Launch Client** option from MO and click **Run**
-	- Do not simply use `SPT.Launcher.exe` (unless you installed mods normally without MO)
-	- Optionally, add it as a shortcut
+- Select the **Launch Client** option from MO and click **Run**.
+	- Do not simply run `SPT.Launcher.exe` (unless you installed mods normally without MO).
+	- Optionally, add it as a shortcut.
 		- ![[./Escape From Tarkov_image-1.png|/Projects/2024/Escape From Tarkov/Escape From Tarkov_image-1.png]]
-- In **Launcher Settings**, change URL to `http://173.32.64.239:6969`
+- In **Launcher Settings**, change URL to `http://173.32.64.239:6969`.
+	- You are encouraged to start the game with an Unheard profile.
 
 #### To Start and Join a Modded Local Server
 
-- Select the **Launch SP Tarkov** option from MO and click **Run**
-	- Do not simply use `SPT.Server.exe` or `SPT.Launcher.exe` (unless you installed mods normally without MO)
-	- Optionally, set affinity for the client and server by modifying `sptvfsbridge.bat` - see example file below
-- In **Launcher Settings**, change URL back to `http://127.0.0.1:6969`
+- Select the **Launch SP Tarkov** option from MO and click **Run**.
+	- Do not simply run `SPT.Server.exe` or `SPT.Launcher.exe` (unless you installed mods normally without MO).
+	- Optionally, set affinity for the client and server by modifying `sptvfsbridge.bat` - see example file below.
+- In **Launcher Settings**, change URL back to `http://127.0.0.1:6969`.
 
 `sptvfsbridge.bat`
 
@@ -85,7 +86,7 @@ endlocal
 - X: Crouch
 	- Q: Toggle Lean Left
 	- E: Toggle Lean Right
-	- T: Shoulder Transition
+	- LA + X: Shoulder Transition
 	- LA + W: Blind Fire Overhead
 	- LA + S: Blind Fire Right Side
 	- LA + A: Sidestep Left
@@ -93,7 +94,8 @@ endlocal
 - C: Mount Weapon%%
 	- Ctrl + M4 to dial optic in
 	- Ctrl + M5 to dial optic out%%
-- C + Scroll: Walk Speed
+- Scroll: Stance
+	- C + Scroll: Walk Speed
 	- CC: Walk
 - V: Melee Weapon
 	- VV: Quick Melee
@@ -104,38 +106,7 @@ endlocal
 	- LC + LS + R: Inspect Weapon
 	- LA + R: Detach Magazine
 	- LA + LC + R: Unload Chamber
-- L: Bipod
-	- LC + L: Fold / Unfold Stock
-- G: Discard Item
-	- LS + G: Prepare Grenades
-- O: Check Time
-	- OO: Check Bosses
-	- I: Task List
-- M: Map
-	- +/-: Map Zoom
-	- LC + M: Minimap
-	- Num8/Num5: Minimap Zoom
-- M1: Fire
-	- F: Interact
-- M2: Scope
-	- LC + M2: Switch Scope
-	- LS + M2: Change Scope Magnification
-	- LA + Scroll: Scope Zoom In / Out
-	- LA: Hold Breath
-	- PgUp: Scope Elevation Up
-	- PgDn: Scope Elevation Down
-- M3: Toggle Tactical Device
-	- LC + M3: Tactical Device Mode
-	- B + M3: Tactical Device Activation Mode
-	- N: Toggle Head Equipment
-	- H: Toggle Head Tactical Device
-		- LC + H: Head Tactical Device Mode
-- M4: Free Look%%
-	- Ctrl + Scroll: Cycle High-ready Low-ready stance
-	- M5 to Active Aim stance
-	- M4 to Short-stock stance
-	- J to Patrol stance%%
-- M5: Ping
+- T: Ping
 	- Y: Quick Phrase
 		- YY: Phrase Menu
 	- F1: Mumble
@@ -146,14 +117,53 @@ endlocal
 		- F6: Command Hold Position (hold)
 		- F7: Command Stop (stop)
 		- F8: Command Attention (reset target)
+- L: Bipod
+	- LC + L: Fold / Unfold Stock
+- G: Discard Item
+	- LS + G: Prepare Grenades
+- O: Check Time
+	- OO: Check Exits and Bosses
+	- I: Task List
+- M: Map
+	- +/-: Map Zoom
+	- LC + M: Minimap
+	- Num8/Num5: Minimap Zoom
+- Insert: Amands's Graphics Menu
+- Home: Reshade Menu
+- KeypadPlus: Freecam
+	- KeypadEnter: Teleport to Freecam
+	- KeypadPeriod: Freecam Controls
+	- KeypadMultiply: Freecam UI
+- RC: Fika Chat
+- M0: Fire
+	- F: Interact
+	- FF: Sense
+- M1: Scope
+	- LC + M2: Switch Scope
+	- LS + M2: Change Scope Magnification
+	- LA + Scroll: Scope Zoom In / Out
+	- LA: Hold Breath
+	- PgUp: Scope Elevation Up
+	- PgDn: Scope Elevation Down
+- M2: Toggle Tactical Device
+	- LC + M3: Tactical Device Mode
+	- B + M3: Tactical Device Activation Mode
+	- N: Toggle Head Equipment
+	- H: Toggle Head Tactical Device
+		- LC + H: Head Tactical Device Mode
+- M3: Free Look%%
+	- Ctrl + Scroll: Cycle High-ready Low-ready stance
+	- M5 to Active Aim stance
+	- M4 to Short-stock stance
+	- J to Patrol stance%%
+- M4: Zoom
 - F5: Revive
+- F8: Extract
+	- M1/M2: Jump to player
+	- Space + M1: Snap to head
+	- LC + M1: Snap to back
 - F9: Pause
 - F12: BepInEx Menu
-	- F9: Free Cam
-		- M1/M2: Jump to player
-		- Space + M1: Snap to head
-		- LC + M1: Snap to back
-		- T: Teleport to free cam
 - M2: Gift item from stash to other accounts
 	- Alt Shift M1: Automatically sell item from stash to most profitable market
 
@@ -172,48 +182,63 @@ Manual install locations are marked with 🍌 for **"/BepInEx/plugins"** and �
 
 #### Bots
 
+[Acid's Bot Placement System](https://hub.sp-tarkov.com/files/file/2782-abps-acid-s-bot-placement-system/#comments) 🍌🥒
+[Looting Bots](https://hub.sp-tarkov.com/files/file/1096-looting-bots/) 🍌
 [Big Brain](https://hub.sp-tarkov.com/files/file/1219-bigbrain/#overview) 🍌
 [Way Points](https://hub.sp-tarkov.com/files/file/1119-waypoints-expanded-navmesh/) 🍌
-[Looting Bots](https://hub.sp-tarkov.com/files/file/1096-looting-bots/) 🍌
 
 #### Gameplay
 
 [Project Fika](https://discord.gg/project-fika) ([Documentation](https://project-fika.gitbook.io/wiki)) 🍌🥒
 [Geko's Better Progression](https://hub.sp-tarkov.com/files/file/2773-geko-s-better-progression/) 🍌🥒 (Play-to-win)
-[Health Per Level](https://hub.sp-tarkov.com/files/file/2327-health-per-level/) 🥒
+[Health Per Level](https://hub.sp-tarkov.com/files/file/2327-health-per-level/) 🥒 (Health growth)
 [Revival Mod](https://hub.sp-tarkov.com/files/file/2725-revivalmod-second-chance-survival-system-for-single-player-tarkov/?highlight=revival) 🍌🥒 (Bring Portable Defibrillator)
-[Friendly PMC](https://hub.sp-tarkov.com/files/file/989-friendly-pmc/) 🍌🥒
+[Continuous Healing](https://hub.sp-tarkov.com/files/file/2546-continuous-healing/) 🍌
+[Friendly PMC](https://hub.sp-tarkov.com/files/file/989-friendly-pmc/) 🍌🥒 (Command AIs including Knight)
 [Virtual's Custom Quest Loader](https://hub.sp-tarkov.com/files/file/885-virtual-s-custom-quest-loader/) 🍌🥒
+[Random Season](https://hub.sp-tarkov.com/files/file/2610-random-season-ripoff/) 🥒
 [Late to the Party](https://hub.sp-tarkov.com/files/file/1099-late-to-the-party/) 🍌🥒 (Realistic Scav runs)
-[Backdoor Bandit](https://hub.sp-tarkov.com/files/file/2575-backdoor-bandit-bb-updated/) 🍌🥒
-[Shiny Airdrop Guns!](https://hub.sp-tarkov.com/files/file/1572-shiny-airdrop-guns/) 🥒 (Some guns have innate stats)
+[Backdoor Bandit](https://hub.sp-tarkov.com/files/file/2575-backdoor-bandit-bb-updated/) 🍌🥒 (Breach doors)
+[Shiny Airdrop Guns!](https://hub.sp-tarkov.com/files/file/1572-shiny-airdrop-guns/) 🥒 (Some airdrop guns have innate stats)
 [Josh Mate's Better Backpacks](https://hub.sp-tarkov.com/files/file/2764-josh-mate-s-better-backpacks-ported-to-3-11/) 🥒
 [WTT - Pack 'n' Strap](https://hub.sp-tarkov.com/files/file/1790-wtt-pack-n-strap/#tab_f222634d79eef27cc61efe96df69a224f7c465b8) 🍌🥒 (Belts and packs)
 [Boss Notifier](https://hub.sp-tarkov.com/files/file/1737-boss-notifier/#overview) 🍌 (Inter center level 1-3 unlocks)
+[Bosses Have Lega Medals](https://hub.sp-tarkov.com/files/file/2109-bosses-have-lega-medals/) 🥒
 [Live Flea Prices](https://hub.sp-tarkov.com/files/file/1561-live-flea-prices/) 🥒 (Fetch flea prices from live server)
 
 #### QOL
 
 [Dynamic Maps](https://hub.sp-tarkov.com/files/file/1981-dynamic-maps/) 🍌
 [PAUSE](https://hub.sp-tarkov.com/files/file/2729-pause/#overview) 🍌
-[Loot Value](https://hub.sp-tarkov.com/files/file/1606-lootvalue/) 🍌🥒 (Alt Shift M1 to quick sell)
+[UI Fixes](https://hub.sp-tarkov.com/files/file/1860-ui-fixes/) 🍌 (Drag to swap, UI QOL changes)
+[Loot Value](https://hub.sp-tarkov.com/files/file/1606-lootvalue/) 🍌🥒 (Alt Shift M0 to quick sell)
+[QuickSell](https://hub.sp-tarkov.com/files/file/2318-quicksell/) 🍌 (N/M to sell to Flea/Traders)
 [More Checkmarks](https://hub.sp-tarkov.com/files/file/1159-morecheckmarks/) 🍌🥒 (Show requirement for quests, hideout, crafting)
 [All Quests Checkmarks](https://hub.sp-tarkov.com/files/file/2705-all-quests-checkmarks/#overview) 🍌🥒 (Better checkmarks for quests, compatible with More Checkmarks via config)
+[Quest Tracker](https://hub.sp-tarkov.com/files/file/1574-quest-tracker/) 🍌 (M1 to track quests)
 [Ammo Stats in Description](https://hub.sp-tarkov.com/files/file/284-ammo-stats-in-description/) 🥒 (Colorful ammo)
-[Modding Stats Helper](https://hub.sp-tarkov.com/files/file/1814-modding-stats-helper-by-wara/#overview) 🍌
+[Modding Stats Helper](https://hub.sp-tarkov.com/files/file/1814-modding-stats-helper-by-wara/#overview) 🍌 (Show relative stats)
+[Trader Modding And Improved Weapon Building](https://hub.sp-tarkov.com/files/file/1795-trader-modding-and-improved-weapon-building/) 🍌🥒 (Filters & show Flea Prices)
 [AutoDeposit](https://hub.sp-tarkov.com/files/file/2027-autodeposit/) 🍌
-[UI Fixes](https://hub.sp-tarkov.com/files/file/1860-ui-fixes/) 🍌 (Drag to swap, UI QOL changes)
-[QuickSell](https://hub.sp-tarkov.com/files/file/2318-quicksell/) 🍌
-[Quest Tracker](https://hub.sp-tarkov.com/files/file/1574-quest-tracker/) 🍌
-[Skipper](https://hub.sp-tarkov.com/files/file/1861-skipper/) 🍌 (Ctrl to skip quests)
+[Stash Search](https://hub.sp-tarkov.com/files/file/1769-stash-search/) 🍌 (LC + F to search in stash, LC + C to clear)
+[Stash Management Helper](https://hub.sp-tarkov.com/files/file/2514-stash-management-helper/) 🍌
+[Simple Workout](https://hub.sp-tarkov.com/files/file/1989-simple-workout-qte/#overview) 🥒 (SPT balanced fatigue)
+[Skipper](https://hub.sp-tarkov.com/files/file/1861-skipper/) 🍌 (LC to skip quests)
 
 #### Visual
 
 [Vocal Player](https://discord.com/channels/1202292159366037545/1230117857610698772) 🍌 (Announces actions)
+[Film Look for Tarkov (ReShade Preset)](https://hub.sp-tarkov.com/files/file/1013-film-look-for-tarkov-reshade-preset/) 🍌🥒
 [Amands's Graphics](https://hub.sp-tarkov.com/files/file/813-amands-s-graphics/) 🍌 (Less fog, color grading)
+[Amands' Sense](https://hub.sp-tarkov.com/files/file/1361-amands-sense/?highlight=amands#overview) 🍌 (Optional loot helper)
+[FOV and Optics Fix](https://hub.sp-tarkov.com/files/file/942-fontaine-s-fov-fix-variable-optics/) 🍌 (M4/5 to zoom in/out)
 [HollywoodFX](https://hub.sp-tarkov.com/files/file/2683-hollywoodfx/#overview) 🍌 (Bullet impacts)
-[Realistic NVG](https://hub.sp-tarkov.com/files/file/1303-borkel-s-realistic-night-vision-goggles-nvgs-and-t-7/) 🍌🥒
+[Realistic Thermal Scopes](https://hub.sp-tarkov.com/files/file/2739-realistic-thermal-scopes/) 🥒
+[Realistic NVG](https://hub.sp-tarkov.com/files/file/1303-borkel-s-realistic-night-vision-goggles-nvgs-and-t-7/) 🍌🥒%%[Loot Highlighter](https://hub.sp-tarkov.com/files/file/2835-loot-highlighter/) 🍌 (Disabled by default)%%
 [Simple Crosshair](https://hub.sp-tarkov.com/files/file/1920-simple-crosshair/) 🍌
+[Player Encumbrance Bar](https://hub.sp-tarkov.com/files/file/1898-player-encumbrance-bar/) 🍌
+[StatTrack](https://hub.sp-tarkov.com/files/file/2501-stattrack/) 🍌🥒
+[Freecam](https://hub.sp-tarkov.com/files/file/279-freecam/?highlight=free#overview) 🍌 (F10 to Freecam)
 [Hideout Cat](https://hub.sp-tarkov.com/files/file/2720-hideout-cat/#overview) 🍌 (Cat)
 
 #### Archive
@@ -231,8 +256,6 @@ Manual install locations are marked with 🍌 for **"/BepInEx/plugins"** and �
 [Shoulder Swap On Lean](https://discord.com/channels/1202292159366037545/1222463708534407210) 🍌
 [Expanded Task List](https://hub.sp-tarkov.com/files/file/1415-expanded-task-text-ett/) 🥒 (Detailed task list)
 [Item Info](https://hub.sp-tarkov.com/files/file/985-item-info/) 🥒 (Rarity recolor and detailed description)
-[Stash Search](https://hub.sp-tarkov.com/files/file/1769-stash-search/)) 🍌 (Ctrl F in stash)
-[FOV and Optics Fix](https://hub.sp-tarkov.com/files/file/942-fontaine-s-fov-fix-variable-optics/) 🍌🥒 (M4/5 to zoom in/out)
 [Realistic Thermal](https://hub.sp-tarkov.com/files/file/1510-borkel-s-big-realistic-thermal-package-bring-real-life-realism-to-your-thermal-s/) 🥒
 [Visceral Combat](https://discord.com/channels/1202292159366037545/1236748474653872228) 🍌
 [Custom Music Player](https://hub.sp-tarkov.com/files/file/1832-stalker-music-pack/#overview) 🥒 (Distributed with tracks)
@@ -241,7 +264,6 @@ Manual install locations are marked with 🍌 for **"/BepInEx/plugins"** and �
 
 ###### Outdated
 
-[Amands's Sense](https://hub.sp-tarkov.com/files/file/1361-amands-sense/#overview) 🍌 (Optional loot helper)
 [Visceral Bodies](https://discord.com/channels/1202292159366037545/1228199049996402791) (Bodies glitch)
 [Web Map](https://hub.sp-tarkov.com/files/file/1421-techhappy-s-web-minimap/#overview) 🍌 (Replaced by Dynamic Maps)
 [Expanded Door Interactions](https://hub.sp-tarkov.com/files/file/1865-expanded-door-interactions/) 🍌 (Annoying UI)
@@ -252,6 +274,23 @@ Manual install locations are marked with 🍌 for **"/BepInEx/plugins"** and �
 
 ### Patch Note & Downloads
 
+##### 3.11.3_1.1
+
+Added Stash Search
+Added Trader Modding And Improved Weapon Building
+Added FOV-Fix-port-3.11
+Added Amands' Sense
+Added Realistic Thermal Scopes
+Added Stash Management Helper
+Added StatTrack
+Added Player Encumbrance Bar
+Added Random Season
+Added Simple Workout
+Added Continuous Healing
+Added Film Look for Tarkov (ReShade Preset)
+Added Bosses Have Lega Medals
+Added Acid's Bot Placement System
+Added Freecam
 ##### 3.11.3_1.0
 
 [Package Download](http://www.mediafire.com/view/5cgy25rp1h811x9)
