@@ -1428,6 +1428,13 @@
 <nav aria-label="Patch Note &amp; Downloads" class="md-nav">
 <ul class="md-nav__list">
 <li class="md-nav__item">
+<a class="md-nav__link" href="#3113_11">
+<span class="md-ellipsis">
+      3.11.3_1.1
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="#3113_10">
 <span class="md-ellipsis">
       3.11.3_1.0
@@ -1513,16 +1520,16 @@
 <h4 id="mod-organizer-2">Mod Organizer 2<a class="headerlink" href="#mod-organizer-2" title="Permanent link">¶</a></h4>
 <ol>
 <li>Download and install <a href="https://github.com/ModOrganizer2/modorganizer/releases">MO2</a>.</li>
-<li>Download and install <a href="https://hub.sp-tarkov.com/files/file/1314-spt-modorganizer-integration/#overview">SPT ModOrganizer Integration</a> by extracting the <code>plugins</code> folder to the MO2 Install Directory.</li>
-<li>Create a new <strong>global instance</strong> directed to the SPT install directory in (e.g. <code>Game/EFT/SPT 3.11.3/</code>). Settings can be kept default, ignore pop-ups.</li>
-<li><a href="./#patch-note-&amp;-downloads" title="Download">Download</a> a package or patch and <strong>extract</strong> files to the <strong>MO Instance</strong> location under <code>%appdata%\Local\ModOrganizer\&lt;InstanceName&gt;\</code>, then refresh MO.<br/>
+<li>Download and install <a href="https://hub.sp-tarkov.com/files/file/1314-spt-modorganizer-integration/#overview">SPT ModOrganizer Integration</a> by extracting the <code>plugins</code> folder to the <code>&lt;MO Install Directory&gt;</code>.</li>
+<li>Create a new <strong>MO Global Instance</strong> directed to the <code>&lt;SPT Install Directory&gt;</code> (e.g. <code>Game/EFT/SPT 3.11.3/</code>). Settings can be kept default, ignore pop-ups.</li>
+<li><a href="./#patch-note-&amp;-downloads" title="Download">Download</a> a package or patch and <strong>extract</strong> files to the <strong>MO Global Instance</strong> directory under <code>%appdata%\Local\ModOrganizer\&lt;InstanceName&gt;\</code>, then refresh MO.<br/>
 <a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="Escape%20From%20Tarkov_image-2.png"><img alt="/Projects/2024/Escape From Tarkov/Escape From Tarkov_image-2.png" src="Escape%20From%20Tarkov_image-2.png" title="/Projects/2024/Escape From Tarkov/Escape From Tarkov_image-2.png"/></a><ul>
 <li><strong>Packages</strong> are named <code>SPT &lt;SPTVersion&gt;_&lt;Package&gt;</code>. They contain all mods of a major version.</li>
 <li><strong>Patches</strong> are named <code>SPT &lt;SPTVersion&gt;_&lt;Package&gt;.&lt;Patch&gt;</code>. They are smaller and incomplete, meant to be installed sequentially after packages to distribute mod and config updates quickly.</li>
 </ul>
 </li>
 <li><strong>Select</strong> the MO profile for the current patch (or package if no patch has been distributed yet).<ul>
-<li>Profiles are the fastest way to switch between mod lists, but they only work if you’ve already imported all mods they reference first.</li>
+<li><strong>Profiles</strong> are the fastest way to switch between mod lists, but they only work if you’ve already imported all mods they reference first.</li>
 <li>The <strong>PersistentFiles</strong> mod is how default configs are distributed and also functions as an archive for your SPT settings and profile when you start playing. Be ware of SPT profile incompatibilities between major version updates.</li>
 </ul>
 </li>
@@ -1530,32 +1537,35 @@
 <h3 id="project-fika-mpt">Project Fika (MPT)<a class="headerlink" href="#project-fika-mpt" title="Permanent link">¶</a></h3>
 <h5 id="to-join-our-modded-fika-server">To Join Our Modded Fika Server<a class="headerlink" href="#to-join-our-modded-fika-server" title="Permanent link">¶</a></h5>
 <ul>
-<li>Add an executable for <strong>just the client</strong> to MO<ul>
-<li>Open the <strong>Modify Executables</strong> screen using <strong>Ctrl + E</strong> or clicking Tools &gt; Executables</li>
-<li><strong>Add executable from file</strong> for <code>SPT.Launcher.exe</code> and give it a memorable name (e.g. “Launch Client”)<ul>
+<li>Add an executable for <strong>just the client</strong> to MO.<ul>
+<li>Open the <strong>Modify Executables</strong> screen using <strong>Ctrl + E</strong> or use Tools &gt; Executables.</li>
+<li><strong>Add executable from file</strong> for <code>&lt;SPT Install Directory&gt;\SPT.Launcher.exe</code> and give it a memorable name (e.g. “Launch Client”), then click OK.<ul>
 <li><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="Escape%20From%20Tarkov_image.png"><img alt="/Projects/2024/Escape From Tarkov/Escape From Tarkov_image.png" src="Escape%20From%20Tarkov_image.png" title="/Projects/2024/Escape From Tarkov/Escape From Tarkov_image.png"/></a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li>Select the <strong>Launch Client</strong> option from MO and click <strong>Run</strong><ul>
-<li>Do not simply use <code>SPT.Launcher.exe</code> (unless you installed mods normally without MO)</li>
-<li>Optionally, add it as a shortcut<ul>
+<li>Select the <strong>Launch Client</strong> option from MO and click <strong>Run</strong>.<ul>
+<li>Do not simply run <code>SPT.Launcher.exe</code> (unless you installed mods normally without MO).</li>
+<li>Optionally, add it as a shortcut.<ul>
 <li><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="Escape%20From%20Tarkov_image-1.png"><img alt="/Projects/2024/Escape From Tarkov/Escape From Tarkov_image-1.png" src="Escape%20From%20Tarkov_image-1.png" title="/Projects/2024/Escape From Tarkov/Escape From Tarkov_image-1.png"/></a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li>In <strong>Launcher Settings</strong>, change URL to <code>http://173.32.64.239:6969</code></li>
+<li>In <strong>Launcher Settings</strong>, change URL to <code>http://173.32.64.239:6969</code>.<ul>
+<li>You are encouraged to start the game with an Unheard profile.</li>
+</ul>
+</li>
 </ul>
 <h5 id="to-start-and-join-a-modded-local-server">To Start and Join a Modded Local Server<a class="headerlink" href="#to-start-and-join-a-modded-local-server" title="Permanent link">¶</a></h5>
 <ul>
-<li>Select the <strong>Launch SP Tarkov</strong> option from MO and click <strong>Run</strong><ul>
-<li>Do not simply use <code>SPT.Server.exe</code> or <code>SPT.Launcher.exe</code> (unless you installed mods normally without MO)</li>
-<li>Optionally, set affinity for the client and server by modifying <code>sptvfsbridge.bat</code> - see example file below</li>
+<li>Select the <strong>Launch SP Tarkov</strong> option from MO and click <strong>Run</strong>.<ul>
+<li>Do not simply run <code>SPT.Server.exe</code> or <code>SPT.Launcher.exe</code> (unless you installed mods normally without MO).</li>
+<li>Optionally, set affinity for the client and server by modifying <code>sptvfsbridge.bat</code> - see example file below.</li>
 </ul>
 </li>
-<li>In <strong>Launcher Settings</strong>, change URL back to <code>http://127.0.0.1:6969</code></li>
+<li>In <strong>Launcher Settings</strong>, change URL back to <code>http://127.0.0.1:6969</code>.</li>
 </ul>
 <p><code>sptvfsbridge.bat</code></p>
 <div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a>@echo<span class="w"> </span>off
@@ -1585,7 +1595,7 @@
 <li>X: Crouch<ul>
 <li>Q: Toggle Lean Left</li>
 <li>E: Toggle Lean Right</li>
-<li>T: Shoulder Transition</li>
+<li>LA + X: Shoulder Transition</li>
 <li>LA + W: Blind Fire Overhead</li>
 <li>LA + S: Blind Fire Right Side</li>
 <li>LA + A: Sidestep Left</li>
@@ -1593,7 +1603,8 @@
 </ul>
 </li>
 <li>C: Mount Weapon</li>
-<li>C + Scroll: Walk Speed<ul>
+<li>Scroll: Stance<ul>
+<li>C + Scroll: Walk Speed</li>
 <li>CC: Walk</li>
 </ul>
 </li>
@@ -1610,50 +1621,7 @@
 <li>LA + LC + R: Unload Chamber</li>
 </ul>
 </li>
-<li>L: Bipod<ul>
-<li>LC + L: Fold / Unfold Stock</li>
-</ul>
-</li>
-<li>G: Discard Item<ul>
-<li>LS + G: Prepare Grenades</li>
-</ul>
-</li>
-<li>O: Check Time<ul>
-<li>OO: Check Bosses</li>
-<li>I: Task List</li>
-</ul>
-</li>
-<li>M: Map<ul>
-<li>+/-: Map Zoom</li>
-<li>LC + M: Minimap</li>
-<li>Num8/Num5: Minimap Zoom</li>
-</ul>
-</li>
-<li>M1: Fire<ul>
-<li>F: Interact</li>
-</ul>
-</li>
-<li>M2: Scope<ul>
-<li>LC + M2: Switch Scope</li>
-<li>LS + M2: Change Scope Magnification</li>
-<li>LA + Scroll: Scope Zoom In / Out</li>
-<li>LA: Hold Breath</li>
-<li>PgUp: Scope Elevation Up</li>
-<li>PgDn: Scope Elevation Down</li>
-</ul>
-</li>
-<li>M3: Toggle Tactical Device<ul>
-<li>LC + M3: Tactical Device Mode</li>
-<li>B + M3: Tactical Device Activation Mode</li>
-<li>N: Toggle Head Equipment</li>
-<li>H: Toggle Head Tactical Device<ul>
-<li>LC + H: Head Tactical Device Mode</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>M4: Free Look</li>
-<li>M5: Ping<ul>
+<li>T: Ping<ul>
 <li>Y: Quick Phrase<ul>
 <li>YY: Phrase Menu</li>
 </ul>
@@ -1670,18 +1638,69 @@
 </li>
 </ul>
 </li>
+<li>L: Bipod<ul>
+<li>LC + L: Fold / Unfold Stock</li>
+</ul>
+</li>
+<li>G: Discard Item<ul>
+<li>LS + G: Prepare Grenades</li>
+</ul>
+</li>
+<li>O: Check Time<ul>
+<li>OO: Check Exits and Bosses</li>
+<li>I: Task List</li>
+</ul>
+</li>
+<li>M: Map<ul>
+<li>+/-: Map Zoom</li>
+<li>LC + M: Minimap</li>
+<li>Num8/Num5: Minimap Zoom</li>
+</ul>
+</li>
+<li>Insert: Amands’s Graphics Menu</li>
+<li>Home: Reshade Menu</li>
+<li>KeypadPlus: Freecam<ul>
+<li>KeypadEnter: Teleport to Freecam</li>
+<li>KeypadPeriod: Freecam Controls</li>
+<li>KeypadMultiply: Freecam UI</li>
+</ul>
+</li>
+<li>RC: Fika Chat</li>
+<li>M0: Fire<ul>
+<li>F: Interact</li>
+<li>FF: Sense</li>
+</ul>
+</li>
+<li>M1: Scope<ul>
+<li>LC + M2: Switch Scope</li>
+<li>LS + M2: Change Scope Magnification</li>
+<li>LA + Scroll: Scope Zoom In / Out</li>
+<li>LA: Hold Breath</li>
+<li>PgUp: Scope Elevation Up</li>
+<li>PgDn: Scope Elevation Down</li>
+</ul>
+</li>
+<li>M2: Toggle Tactical Device<ul>
+<li>LC + M3: Tactical Device Mode</li>
+<li>B + M3: Tactical Device Activation Mode</li>
+<li>N: Toggle Head Equipment</li>
+<li>H: Toggle Head Tactical Device<ul>
+<li>LC + H: Head Tactical Device Mode</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>M3: Free Look</li>
+<li>M4: Zoom</li>
 <li>F5: Revive</li>
-<li>F9: Pause</li>
-<li>F12: BepInEx Menu<ul>
-<li>F9: Free Cam<ul>
+<li>F8: Extract<ul>
 <li>M1/M2: Jump to player</li>
 <li>Space + M1: Snap to head</li>
 <li>LC + M1: Snap to back</li>
-<li>T: Teleport to free cam</li>
 </ul>
 </li>
-</ul>
-</li>
+<li>F9: Pause</li>
+<li>F12: BepInEx Menu</li>
 <li>M2: Gift item from stash to other accounts<ul>
 <li>Alt Shift M1: Automatically sell item from stash to most profitable market</li>
 </ul>
@@ -1696,42 +1715,57 @@ For key mapping, see <a href="./#default-hotkeys" title="Default Hotkeys">Defaul
 <a href="https://hub.sp-tarkov.com/files/file/184-spt-aki-profile-editor/">Profile Editor</a> (Read installation, player health, quest, and items)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/2724-tarkin-item-exporter/">Tarkin Item Exporter</a></p>
 <h4 id="bots">Bots<a class="headerlink" href="#bots" title="Permanent link">¶</a></h4>
-<p><a href="https://hub.sp-tarkov.com/files/file/1219-bigbrain/#overview">Big Brain</a> 🍌<br/>
-<a href="https://hub.sp-tarkov.com/files/file/1119-waypoints-expanded-navmesh/">Way Points</a> 🍌<br/>
-<a href="https://hub.sp-tarkov.com/files/file/1096-looting-bots/">Looting Bots</a> 🍌</p>
+<p><a href="https://hub.sp-tarkov.com/files/file/2782-abps-acid-s-bot-placement-system/#comments">Acid’s Bot Placement System</a> 🍌🥒<br/>
+<a href="https://hub.sp-tarkov.com/files/file/1096-looting-bots/">Looting Bots</a> 🍌<br/>
+<a href="https://hub.sp-tarkov.com/files/file/1219-bigbrain/#overview">Big Brain</a> 🍌<br/>
+<a href="https://hub.sp-tarkov.com/files/file/1119-waypoints-expanded-navmesh/">Way Points</a> 🍌</p>
 <h4 id="gameplay">Gameplay<a class="headerlink" href="#gameplay" title="Permanent link">¶</a></h4>
 <p><a href="https://discord.gg/project-fika">Project Fika</a> (<a href="https://project-fika.gitbook.io/wiki">Documentation</a>) 🍌🥒<br/>
 <a href="https://hub.sp-tarkov.com/files/file/2773-geko-s-better-progression/">Geko’s Better Progression</a> 🍌🥒 (Play-to-win)<br/>
-<a href="https://hub.sp-tarkov.com/files/file/2327-health-per-level/">Health Per Level</a> 🥒<br/>
+<a href="https://hub.sp-tarkov.com/files/file/2327-health-per-level/">Health Per Level</a> 🥒 (Health growth)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/2725-revivalmod-second-chance-survival-system-for-single-player-tarkov/?highlight=revival">Revival Mod</a> 🍌🥒 (Bring Portable Defibrillator)<br/>
-<a href="https://hub.sp-tarkov.com/files/file/989-friendly-pmc/">Friendly PMC</a> 🍌🥒<br/>
+<a href="https://hub.sp-tarkov.com/files/file/2546-continuous-healing/">Continuous Healing</a> 🍌<br/>
+<a href="https://hub.sp-tarkov.com/files/file/989-friendly-pmc/">Friendly PMC</a> 🍌🥒 (Command AIs including Knight)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/885-virtual-s-custom-quest-loader/">Virtual’s Custom Quest Loader</a> 🍌🥒<br/>
+<a href="https://hub.sp-tarkov.com/files/file/2610-random-season-ripoff/">Random Season</a> 🥒<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1099-late-to-the-party/">Late to the Party</a> 🍌🥒 (Realistic Scav runs)<br/>
-<a href="https://hub.sp-tarkov.com/files/file/2575-backdoor-bandit-bb-updated/">Backdoor Bandit</a> 🍌🥒<br/>
-<a href="https://hub.sp-tarkov.com/files/file/1572-shiny-airdrop-guns/">Shiny Airdrop Guns!</a> 🥒 (Some guns have innate stats)<br/>
+<a href="https://hub.sp-tarkov.com/files/file/2575-backdoor-bandit-bb-updated/">Backdoor Bandit</a> 🍌🥒 (Breach doors)<br/>
+<a href="https://hub.sp-tarkov.com/files/file/1572-shiny-airdrop-guns/">Shiny Airdrop Guns!</a> 🥒 (Some airdrop guns have innate stats)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/2764-josh-mate-s-better-backpacks-ported-to-3-11/">Josh Mate’s Better Backpacks</a> 🥒<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1790-wtt-pack-n-strap/#tab_f222634d79eef27cc61efe96df69a224f7c465b8">WTT - Pack ‘n’ Strap</a> 🍌🥒 (Belts and packs)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1737-boss-notifier/#overview">Boss Notifier</a> 🍌 (Inter center level 1-3 unlocks)<br/>
+<a href="https://hub.sp-tarkov.com/files/file/2109-bosses-have-lega-medals/">Bosses Have Lega Medals</a> 🥒<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1561-live-flea-prices/">Live Flea Prices</a> 🥒 (Fetch flea prices from live server)</p>
 <h4 id="qol">QOL<a class="headerlink" href="#qol" title="Permanent link">¶</a></h4>
 <p><a href="https://hub.sp-tarkov.com/files/file/1981-dynamic-maps/">Dynamic Maps</a> 🍌<br/>
 <a href="https://hub.sp-tarkov.com/files/file/2729-pause/#overview">PAUSE</a> 🍌<br/>
-<a href="https://hub.sp-tarkov.com/files/file/1606-lootvalue/">Loot Value</a> 🍌🥒 (Alt Shift M1 to quick sell)<br/>
+<a href="https://hub.sp-tarkov.com/files/file/1860-ui-fixes/">UI Fixes</a> 🍌 (Drag to swap, UI QOL changes)<br/>
+<a href="https://hub.sp-tarkov.com/files/file/1606-lootvalue/">Loot Value</a> 🍌🥒 (Alt Shift M0 to quick sell)<br/>
+<a href="https://hub.sp-tarkov.com/files/file/2318-quicksell/">QuickSell</a> 🍌 (N/M to sell to Flea/Traders)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1159-morecheckmarks/">More Checkmarks</a> 🍌🥒 (Show requirement for quests, hideout, crafting)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/2705-all-quests-checkmarks/#overview">All Quests Checkmarks</a> 🍌🥒 (Better checkmarks for quests, compatible with More Checkmarks via config)<br/>
+<a href="https://hub.sp-tarkov.com/files/file/1574-quest-tracker/">Quest Tracker</a> 🍌 (M1 to track quests)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/284-ammo-stats-in-description/">Ammo Stats in Description</a> 🥒 (Colorful ammo)<br/>
-<a href="https://hub.sp-tarkov.com/files/file/1814-modding-stats-helper-by-wara/#overview">Modding Stats Helper</a> 🍌<br/>
+<a href="https://hub.sp-tarkov.com/files/file/1814-modding-stats-helper-by-wara/#overview">Modding Stats Helper</a> 🍌 (Show relative stats)<br/>
+<a href="https://hub.sp-tarkov.com/files/file/1795-trader-modding-and-improved-weapon-building/">Trader Modding And Improved Weapon Building</a> 🍌🥒 (Filters &amp; show Flea Prices)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/2027-autodeposit/">AutoDeposit</a> 🍌<br/>
-<a href="https://hub.sp-tarkov.com/files/file/1860-ui-fixes/">UI Fixes</a> 🍌 (Drag to swap, UI QOL changes)<br/>
-<a href="https://hub.sp-tarkov.com/files/file/2318-quicksell/">QuickSell</a> 🍌<br/>
-<a href="https://hub.sp-tarkov.com/files/file/1574-quest-tracker/">Quest Tracker</a> 🍌<br/>
-<a href="https://hub.sp-tarkov.com/files/file/1861-skipper/">Skipper</a> 🍌 (Ctrl to skip quests)</p>
+<a href="https://hub.sp-tarkov.com/files/file/1769-stash-search/">Stash Search</a> 🍌 (LC + F to search in stash, LC + C to clear)<br/>
+<a href="https://hub.sp-tarkov.com/files/file/2514-stash-management-helper/">Stash Management Helper</a> 🍌<br/>
+<a href="https://hub.sp-tarkov.com/files/file/1989-simple-workout-qte/#overview">Simple Workout</a> 🥒 (SPT balanced fatigue)<br/>
+<a href="https://hub.sp-tarkov.com/files/file/1861-skipper/">Skipper</a> 🍌 (LC to skip quests)</p>
 <h4 id="visual">Visual<a class="headerlink" href="#visual" title="Permanent link">¶</a></h4>
 <p><a href="https://discord.com/channels/1202292159366037545/1230117857610698772">Vocal Player</a> 🍌 (Announces actions)<br/>
+<a href="https://hub.sp-tarkov.com/files/file/1013-film-look-for-tarkov-reshade-preset/">Film Look for Tarkov (ReShade Preset)</a> 🍌🥒<br/>
 <a href="https://hub.sp-tarkov.com/files/file/813-amands-s-graphics/">Amands’s Graphics</a> 🍌 (Less fog, color grading)<br/>
+<a href="https://hub.sp-tarkov.com/files/file/1361-amands-sense/?highlight=amands#overview">Amands’ Sense</a> 🍌 (Optional loot helper)<br/>
+<a href="https://hub.sp-tarkov.com/files/file/942-fontaine-s-fov-fix-variable-optics/">FOV and Optics Fix</a> 🍌 (M4/5 to zoom in/out)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/2683-hollywoodfx/#overview">HollywoodFX</a> 🍌 (Bullet impacts)<br/>
+<a href="https://hub.sp-tarkov.com/files/file/2739-realistic-thermal-scopes/">Realistic Thermal Scopes</a> 🥒<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1303-borkel-s-realistic-night-vision-goggles-nvgs-and-t-7/">Realistic NVG</a> 🍌🥒<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1920-simple-crosshair/">Simple Crosshair</a> 🍌<br/>
+<a href="https://hub.sp-tarkov.com/files/file/1898-player-encumbrance-bar/">Player Encumbrance Bar</a> 🍌<br/>
+<a href="https://hub.sp-tarkov.com/files/file/2501-stattrack/">StatTrack</a> 🍌🥒<br/>
+<a href="https://hub.sp-tarkov.com/files/file/279-freecam/?highlight=free#overview">Freecam</a> 🍌 (F10 to Freecam)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/2720-hideout-cat/#overview">Hideout Cat</a> 🍌 (Cat)</p>
 <h4 id="archive">Archive<a class="headerlink" href="#archive" title="Permanent link">¶</a></h4>
 <h5 id="outdated-mods">Outdated Mods<a class="headerlink" href="#outdated-mods" title="Permanent link">¶</a></h5>
@@ -1745,15 +1779,12 @@ For key mapping, see <a href="./#default-hotkeys" title="Default Hotkeys">Defaul
 <a href="https://discord.com/channels/1202292159366037545/1222463708534407210">Shoulder Swap On Lean</a> 🍌<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1415-expanded-task-text-ett/">Expanded Task List</a> 🥒 (Detailed task list)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/985-item-info/">Item Info</a> 🥒 (Rarity recolor and detailed description)<br/>
-<a href="https://hub.sp-tarkov.com/files/file/1769-stash-search/">Stash Search</a>) 🍌 (Ctrl F in stash)<br/>
-<a href="https://hub.sp-tarkov.com/files/file/942-fontaine-s-fov-fix-variable-optics/">FOV and Optics Fix</a> 🍌🥒 (M4/5 to zoom in/out)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1510-borkel-s-big-realistic-thermal-package-bring-real-life-realism-to-your-thermal-s/">Realistic Thermal</a> 🥒<br/>
 <a href="https://discord.com/channels/1202292159366037545/1236748474653872228">Visceral Combat</a> 🍌<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1832-stalker-music-pack/#overview">Custom Music Player</a> 🥒 (Distributed with tracks)</p>
 <h5 id="disabled-mods">Disabled Mods<a class="headerlink" href="#disabled-mods" title="Permanent link">¶</a></h5>
 <h6 id="outdated">Outdated<a class="headerlink" href="#outdated" title="Permanent link">¶</a></h6>
-<p><a href="https://hub.sp-tarkov.com/files/file/1361-amands-sense/#overview">Amands’s Sense</a> 🍌 (Optional loot helper)<br/>
-<a href="https://discord.com/channels/1202292159366037545/1228199049996402791">Visceral Bodies</a> (Bodies glitch)<br/>
+<p><a href="https://discord.com/channels/1202292159366037545/1228199049996402791">Visceral Bodies</a> (Bodies glitch)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1421-techhappy-s-web-minimap/#overview">Web Map</a> 🍌 (Replaced by Dynamic Maps)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1865-expanded-door-interactions/">Expanded Door Interactions</a> 🍌 (Annoying UI)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1785-de-clutterer-updated-by-cj/">Declutterer</a> 🍌 (Optional performance mod)<br/>
@@ -1761,6 +1792,22 @@ For key mapping, see <a href="./#default-hotkeys" title="Default Hotkeys">Defaul
 <a href="https://hub.sp-tarkov.com/files/file/1793-pause-reupload/">Pause</a> 🍌 (P to pause, may cause death)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1809-headshot-damage-redirection-hdr/">Headshot Damage Redirection</a> 🍌 (We don’t need that)</p>
 <h3 id="patch-note-downloads">Patch Note &amp; Downloads<a class="headerlink" href="#patch-note-downloads" title="Permanent link">¶</a></h3>
+<h5 id="3113_11">3.11.3_1.1<a class="headerlink" href="#3113_11" title="Permanent link">¶</a></h5>
+<p>Added Stash Search<br/>
+Added Trader Modding And Improved Weapon Building<br/>
+Added FOV-Fix-port-3.11<br/>
+Added Amands’ Sense<br/>
+Added Realistic Thermal Scopes<br/>
+Added Stash Management Helper<br/>
+Added StatTrack<br/>
+Added Player Encumbrance Bar<br/>
+Added Random Season<br/>
+Added Simple Workout<br/>
+Added Continuous Healing<br/>
+Added Film Look for Tarkov (ReShade Preset)<br/>
+Added Bosses Have Lega Medals<br/>
+Added Acid’s Bot Placement System<br/>
+Added Freecam</p>
 <h5 id="3113_10">3.11.3_1.0<a class="headerlink" href="#3113_10" title="Permanent link">¶</a></h5>
 <p><a href="http://www.mediafire.com/view/5cgy25rp1h811x9">Package Download</a><br/>
 Bump bump bump SPT version to 3.11.3</p>
@@ -1802,7 +1849,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <small>
 <!-- mkdocs-git-revision-date-localized-plugin -->
 <u>Last update</u> :
-        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">24 mai 2025</span>
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">27 mai 2025</span>
 <!-- mkdocs-git-revision-date-plugin -->
 <br/>
 <u>Created</u> :
