@@ -32,7 +32,7 @@ The mod list is compatible with **Mod Organizer** for profile management, meanin
 	- **Patches** are named `SPT <SPTVersion>_<Package>.<Patch>`. They are smaller and incomplete, meant to be installed sequentially after packages to distribute mod and config updates quickly.
 5. **Select** the MO profile for the current patch (or package if no patch has been distributed yet).
 	- **Profiles** are the fastest way to switch between mod lists, but they only work if you've already imported all mods they reference first.
-	- The **PersistentFiles** mod is how default configs are distributed and also functions as an archive for your SPT settings and profile when you start playing. Be ware of SPT profile incompatibilities between major version updates.
+	- The **PersistentFiles** mod is how default configs are distributed and also functions as an archive for your SPT settings and profile when you start playing. **Always load PersistentFiles with a Priority of 0.** Be ware of SPT profile incompatibilities between major version updates.
 
 ## Project Fika (MPT)
 
@@ -46,7 +46,7 @@ The mod list is compatible with **Mod Organizer** for profile management, meanin
 	- Do not simply run `SPT.Launcher.exe` (unless you installed mods normally without MO).
 	- Optionally, add it as a shortcut.
 		- ![[./Escape From Tarkov_image-1.png|/Projects/2024/Escape From Tarkov/Escape From Tarkov_image-1.png]]
-- In **Launcher Settings**, change URL to `http://173.32.64.239:6969`.
+- In **Launcher Settings**, change URL to `https://173.32.64.239:6969`.
 	- You are encouraged to start the game with an Unheard profile.
 
 #### To Start and Join a Modded Local Server
@@ -54,7 +54,7 @@ The mod list is compatible with **Mod Organizer** for profile management, meanin
 - Select the **Launch SP Tarkov** option from MO and click **Run**.
 	- Do not simply run `SPT.Server.exe` or `SPT.Launcher.exe` (unless you installed mods normally without MO).
 	- Optionally, set affinity for the client and server by modifying `sptvfsbridge.bat` - see example file below.
-- In **Launcher Settings**, change URL back to `http://127.0.0.1:6969`.
+- In **Launcher Settings**, change URL back to `https://127.0.0.1:6969`.
 
 `sptvfsbridge.bat`
 
@@ -102,8 +102,8 @@ endlocal
 - R: Reload
 	- RR: Quick Reload
 	- LC + R: Check Magazine
-	- LS + R: Check Chamber / Fix Malfunction
 	- LC + LS + R: Inspect Weapon
+	- LC + LS + R Continuous: Check Chamber / Fix Malfunction
 	- LA + R: Detach Magazine
 	- LA + LC + R: Unload Chamber
 - T: Ping
@@ -130,6 +130,7 @@ endlocal
 	- Num8/Num5: Minimap Zoom
 - Insert: Amands's Graphics Menu
 - Home: Reshade Menu
+- End: Fix "Hands are busy"
 - KeypadPlus: Freecam
 	- KeypadEnter: Teleport to Freecam
 	- KeypadPeriod: Freecam Controls
@@ -182,11 +183,11 @@ Manual install locations are marked with 🍌 for **"/BepInEx/plugins"** and �
 
 #### Bots
 
-[Acid's Bot Placement System](https://hub.sp-tarkov.com/files/file/2782-abps-acid-s-bot-placement-system/#comments) 🍌🥒
+[MOAR + Bagels](https://hub.sp-tarkov.com/files/file/1059-moar-bagels-ultra-lite-spawn-mod/?highlight=MOAR) 🍌🥒
 [Looting Bots](https://hub.sp-tarkov.com/files/file/1096-looting-bots/) 🍌
 [Big Brain](https://hub.sp-tarkov.com/files/file/1219-bigbrain/#overview) 🍌
 [Way Points](https://hub.sp-tarkov.com/files/file/1119-waypoints-expanded-navmesh/) 🍌
-
+[No Bush](https://hub.sp-tarkov.com/files/file/2811-no-bush-updated-for-3-11/) 🍌
 #### Gameplay
 
 [Project Fika](https://discord.gg/project-fika) ([Documentation](https://project-fika.gitbook.io/wiki)) 🍌🥒
@@ -194,9 +195,10 @@ Manual install locations are marked with 🍌 for **"/BepInEx/plugins"** and �
 [Health Per Level](https://hub.sp-tarkov.com/files/file/2327-health-per-level/) 🥒 (Health growth)
 [Revival Mod](https://hub.sp-tarkov.com/files/file/2725-revivalmod-second-chance-survival-system-for-single-player-tarkov/?highlight=revival) 🍌🥒 (Bring Portable Defibrillator)
 [Continuous Healing](https://hub.sp-tarkov.com/files/file/2546-continuous-healing/) 🍌
+[Continuous Load Ammo](https://hub.sp-tarkov.com/files/file/2798-continuous-load-ammo/) 🍌
 [Friendly PMC](https://hub.sp-tarkov.com/files/file/989-friendly-pmc/) 🍌🥒 (Command AIs including Knight)
 [Virtual's Custom Quest Loader](https://hub.sp-tarkov.com/files/file/885-virtual-s-custom-quest-loader/) 🍌🥒
-[Random Season](https://hub.sp-tarkov.com/files/file/2610-random-season-ripoff/) 🥒
+[Tarkov Weather System](https://hub.sp-tarkov.com/files/file/2796-tarkov-weather-system/) 🥒
 [Late to the Party](https://hub.sp-tarkov.com/files/file/1099-late-to-the-party/) 🍌🥒 (Realistic Scav runs)
 [Backdoor Bandit](https://hub.sp-tarkov.com/files/file/2575-backdoor-bandit-bb-updated/) 🍌🥒 (Breach doors)
 [Shiny Airdrop Guns!](https://hub.sp-tarkov.com/files/file/1572-shiny-airdrop-guns/) 🥒 (Some airdrop guns have innate stats)
@@ -216,14 +218,16 @@ Manual install locations are marked with 🍌 for **"/BepInEx/plugins"** and �
 [More Checkmarks](https://hub.sp-tarkov.com/files/file/1159-morecheckmarks/) 🍌🥒 (Show requirement for quests, hideout, crafting)
 [All Quests Checkmarks](https://hub.sp-tarkov.com/files/file/2705-all-quests-checkmarks/#overview) 🍌🥒 (Better checkmarks for quests, compatible with More Checkmarks via config)
 [Quest Tracker](https://hub.sp-tarkov.com/files/file/1574-quest-tracker/) 🍌 (M1 to track quests)
+[Skipper](https://hub.sp-tarkov.com/files/file/1861-skipper/) 🍌 (LC to skip quests)
+[Expanded Task Text](https://hub.sp-tarkov.com/files/file/2853-expanded-task-text-ett/?highlight=expanded) 🥒
 [Ammo Stats in Description](https://hub.sp-tarkov.com/files/file/284-ammo-stats-in-description/) 🥒 (Colorful ammo)
 [Modding Stats Helper](https://hub.sp-tarkov.com/files/file/1814-modding-stats-helper-by-wara/#overview) 🍌 (Show relative stats)
 [Trader Modding And Improved Weapon Building](https://hub.sp-tarkov.com/files/file/1795-trader-modding-and-improved-weapon-building/) 🍌🥒 (Filters & show Flea Prices)
 [AutoDeposit](https://hub.sp-tarkov.com/files/file/2027-autodeposit/) 🍌
 [Stash Search](https://hub.sp-tarkov.com/files/file/1769-stash-search/) 🍌 (LC + F to search in stash, LC + C to clear)
 [Stash Management Helper](https://hub.sp-tarkov.com/files/file/2514-stash-management-helper/) 🍌
+[HandsAreNotBusy](https://hub.sp-tarkov.com/files/file/1810-handsarenotbusy/?highlight=hands) 🍌 （Press End to stop hand busy bug)
 [Simple Workout](https://hub.sp-tarkov.com/files/file/1989-simple-workout-qte/#overview) 🥒 (SPT balanced fatigue)
-[Skipper](https://hub.sp-tarkov.com/files/file/1861-skipper/) 🍌 (LC to skip quests)
 
 #### Visual
 
@@ -252,30 +256,42 @@ Manual install locations are marked with 🍌 for **"/BepInEx/plugins"** and �
 
 [Realism Mod](https://hub.sp-tarkov.com/files/file/606-spt-realism-mod/) 🍌🥒 (Everything overhauled)
 [Quick Throw Grenades](https://hub.sp-tarkov.com/files/file/1695-quick-throw-grenades/?highlight=grenade#overview) 🍌
-[Use Items Anywhere](https://hub.sp-tarkov.com/files/file/1416-use-items-anywhere/) 🍌 (Hotkey backpack items)
 [Shoulder Swap On Lean](https://discord.com/channels/1202292159366037545/1222463708534407210) 🍌
-[Expanded Task List](https://hub.sp-tarkov.com/files/file/1415-expanded-task-text-ett/) 🥒 (Detailed task list)
 [Item Info](https://hub.sp-tarkov.com/files/file/985-item-info/) 🥒 (Rarity recolor and detailed description)
-[Realistic Thermal](https://hub.sp-tarkov.com/files/file/1510-borkel-s-big-realistic-thermal-package-bring-real-life-realism-to-your-thermal-s/) 🥒
 [Visceral Combat](https://discord.com/channels/1202292159366037545/1236748474653872228) 🍌
 [Custom Music Player](https://hub.sp-tarkov.com/files/file/1832-stalker-music-pack/#overview) 🥒 (Distributed with tracks)
 
 ##### Disabled Mods
 
-###### Outdated
-
-[Visceral Bodies](https://discord.com/channels/1202292159366037545/1228199049996402791) (Bodies glitch)
+[Acid's Bot Placement System](https://hub.sp-tarkov.com/files/file/2782-abps-acid-s-bot-placement-system/#comments) 🍌🥒
 [Web Map](https://hub.sp-tarkov.com/files/file/1421-techhappy-s-web-minimap/#overview) 🍌 (Replaced by Dynamic Maps)
 [Expanded Door Interactions](https://hub.sp-tarkov.com/files/file/1865-expanded-door-interactions/) 🍌 (Annoying UI)
+[Use Items Anywhere](https://hub.sp-tarkov.com/files/file/1416-use-items-anywhere/) 🍌 (Hotkey backpack items)
+[Realistic Thermal](https://hub.sp-tarkov.com/files/file/1510-borkel-s-big-realistic-thermal-package-bring-real-life-realism-to-your-thermal-s/) 🥒
+[Headshot Damage Redirection](https://hub.sp-tarkov.com/files/file/1809-headshot-damage-redirection-hdr/) 🍌 (We don't need that)
+[Random Season](https://hub.sp-tarkov.com/files/file/2610-random-season-ripoff/) 🥒 (Replaced by Tarkov Weather System)
+
+###### Outdated
+
 [Declutterer](https://hub.sp-tarkov.com/files/file/1785-de-clutterer-updated-by-cj/) 🍌 (Optional performance mod)
 [No Grenade ESP](https://hub.sp-tarkov.com/files/file/1029-no-grenade-esp/) 🍌 (Incompatible with SAIN)
-[Pause](https://hub.sp-tarkov.com/files/file/1793-pause-reupload/) 🍌 (P to pause, may cause death)
-[Headshot Damage Redirection](https://hub.sp-tarkov.com/files/file/1809-headshot-damage-redirection-hdr/) 🍌 (We don't need that)
 
 ### Patch Note & Downloads
 
+##### 3.11.3_1.2
+
+Removed Random Season
+Removed Acid's Bot Placement System
+Added MOAR + Bagels
+Added HandsAreNotBusy
+Added Continuous Load Ammo
+Added No Bush
+Added Expanded Task Text
+Added Tarkov Weather System
+
 ##### 3.11.3_1.1
 
+[Patch Download](http://www.mediafire.com/view/7pp7gg7vsivec2s)
 Added Stash Search
 Added Trader Modding And Improved Weapon Building
 Added FOV-Fix-port-3.11
@@ -291,6 +307,7 @@ Added Film Look for Tarkov (ReShade Preset)
 Added Bosses Have Lega Medals
 Added Acid's Bot Placement System
 Added Freecam
+
 ##### 3.11.3_1.0
 
 [Package Download](http://www.mediafire.com/view/5cgy25rp1h811x9)
