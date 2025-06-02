@@ -164,9 +164,13 @@ endlocal
 	- Space + M1: Snap to head
 	- LC + M1: Snap to back
 - F9: Pause
+- F10: SAIN
 - F12: BepInEx Menu
 - M2: Gift item from stash to other accounts
 	- Alt Shift M1: Automatically sell item from stash to most profitable market
+
+> [!info]- Tarkov Weather System Chatbot
+> ![[./Escape From Tarkov_3ed45vng.png|/Projects/2024/Escape From Tarkov/Escape From Tarkov_3ed45vng.png]]
 
 ### Modlist
 
@@ -184,18 +188,18 @@ Manual install locations are marked with 🍌 for **"/BepInEx/plugins"** and �
 #### Bots
 
 [MOAR + Bagels](https://hub.sp-tarkov.com/files/file/1059-moar-bagels-ultra-lite-spawn-mod/?highlight=MOAR) 🍌🥒
+[SAIN](https://hub.sp-tarkov.com/files/file/1062-sain-2-0-solarint-s-ai-modifications-full-ai-combat-system-replacement/) 🍌🥒
 [Looting Bots](https://hub.sp-tarkov.com/files/file/1096-looting-bots/) 🍌
 [Big Brain](https://hub.sp-tarkov.com/files/file/1219-bigbrain/#overview) 🍌
 [Way Points](https://hub.sp-tarkov.com/files/file/1119-waypoints-expanded-navmesh/) 🍌
 [No Bush](https://hub.sp-tarkov.com/files/file/2811-no-bush-updated-for-3-11/) 🍌
+
 #### Gameplay
 
 [Project Fika](https://discord.gg/project-fika) ([Documentation](https://project-fika.gitbook.io/wiki)) 🍌🥒
 [Geko's Better Progression](https://hub.sp-tarkov.com/files/file/2773-geko-s-better-progression/) 🍌🥒 (Play-to-win)
 [Health Per Level](https://hub.sp-tarkov.com/files/file/2327-health-per-level/) 🥒 (Health growth)
 [Revival Mod](https://hub.sp-tarkov.com/files/file/2725-revivalmod-second-chance-survival-system-for-single-player-tarkov/?highlight=revival) 🍌🥒 (Bring Portable Defibrillator)
-[Continuous Healing](https://hub.sp-tarkov.com/files/file/2546-continuous-healing/) 🍌
-[Continuous Load Ammo](https://hub.sp-tarkov.com/files/file/2798-continuous-load-ammo/) 🍌
 [Friendly PMC](https://hub.sp-tarkov.com/files/file/989-friendly-pmc/) 🍌🥒 (Command AIs including Knight)
 [Virtual's Custom Quest Loader](https://hub.sp-tarkov.com/files/file/885-virtual-s-custom-quest-loader/) 🍌🥒
 [Tarkov Weather System](https://hub.sp-tarkov.com/files/file/2796-tarkov-weather-system/) 🥒
@@ -211,6 +215,9 @@ Manual install locations are marked with 🍌 for **"/BepInEx/plugins"** and �
 #### QOL
 
 [Dynamic Maps](https://hub.sp-tarkov.com/files/file/1981-dynamic-maps/) 🍌
+[Continuous Healing](https://hub.sp-tarkov.com/files/file/2546-continuous-healing/) 🍌
+[Continuous Load Ammo](https://hub.sp-tarkov.com/files/file/2798-continuous-load-ammo/) 🍌
+[HandsAreNotBusy](https://hub.sp-tarkov.com/files/file/1810-handsarenotbusy/?highlight=hands) 🍌 （Press End to stop hand busy bug)
 [PAUSE](https://hub.sp-tarkov.com/files/file/2729-pause/#overview) 🍌
 [UI Fixes](https://hub.sp-tarkov.com/files/file/1860-ui-fixes/) 🍌 (Drag to swap, UI QOL changes)
 [Loot Value](https://hub.sp-tarkov.com/files/file/1606-lootvalue/) 🍌🥒 (Alt Shift M0 to quick sell)
@@ -226,7 +233,6 @@ Manual install locations are marked with 🍌 for **"/BepInEx/plugins"** and �
 [AutoDeposit](https://hub.sp-tarkov.com/files/file/2027-autodeposit/) 🍌
 [Stash Search](https://hub.sp-tarkov.com/files/file/1769-stash-search/) 🍌 (LC + F to search in stash, LC + C to clear)
 [Stash Management Helper](https://hub.sp-tarkov.com/files/file/2514-stash-management-helper/) 🍌
-[HandsAreNotBusy](https://hub.sp-tarkov.com/files/file/1810-handsarenotbusy/?highlight=hands) 🍌 （Press End to stop hand busy bug)
 [Simple Workout](https://hub.sp-tarkov.com/files/file/1989-simple-workout-qte/#overview) 🥒 (SPT balanced fatigue)
 
 #### Visual
@@ -250,7 +256,6 @@ Manual install locations are marked with 🍌 for **"/BepInEx/plugins"** and �
 ##### Outdated Mods
 
 [SWAG + DONUTS](https://hub.sp-tarkov.com/files/file/878-swag-donuts-dynamic-spawn-waves-and-custom-spawn-points/) 🍌🥒
-[SAIN](https://hub.sp-tarkov.com/files/file/1062-sain-2-0-solarint-s-ai-modifications-full-ai-combat-system-replacement/) 🍌🥒
 [That's Lit](https://hub.sp-tarkov.com/files/file/1453-that-s-lit/) 🍌 (With That's Lit Sync)
 [Questing Bots](https://hub.sp-tarkov.com/files/file/1534-questing-bots/#overview) 🍌🥒
 
@@ -278,8 +283,14 @@ Manual install locations are marked with 🍌 for **"/BepInEx/plugins"** and �
 
 ### Patch Note & Downloads
 
+##### 3.11.3_1.3
+
+[Patch Download](http://www.mediafire.com/view/b5g121v14a2zcdr)
+Added SAIN
+
 ##### 3.11.3_1.2
 
+[Patch Download](http://www.mediafire.com/view/voltjbmp6gdb770)
 Removed Random Season
 Removed Acid's Bot Placement System
 Added MOAR + Bagels
