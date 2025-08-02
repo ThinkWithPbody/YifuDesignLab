@@ -48,11 +48,11 @@ wsl
 
 Once the WSL is started, I use VSCode with the extension `WSL` to access files and CLI easily.
 
-Simply use the command (F1 Key) `Connect to WSL`, then enter this in the terminal.
-
-```
+```bash
 code .
 ```
+
+As an alternative to bash, you can also use VSCode with the command (F1 Key) `Connect to WSL`, then enter the same command in the terminal.
 
 ## Dependencies
 
@@ -76,10 +76,10 @@ python3.11 -m venv venv
 source venv/bin/activate
 ```
 
-**Install pdfminer**
+**Install Dependencies**
 
 ```
-pip install pdfminer.six
+pip install pdfminer.six openai
 ```
 
 **Install MeloTTS Dependencies**
@@ -118,35 +118,35 @@ import torch
 import openai
 from melo.api import TTS
 
-# ✅ User Configurable Options
-LANGUAGE = input("🌐 Language (EN, FR, ES, ZH, JP, KR) (default 'EN'): ") or 'EN'
-ACCENT = input("🎙️ Accent (EN-US, EN-BR, EN-INDIA, EN-AU, EN-Default) (default 'EN-US'): ") or 'EN-US'
-SPEED = float(input("⚡ Speed (default 1.0): ") or 1.0)
-USE_EXISTING_TEXT = input("💾 Use existing 'text.txt'? (y/n, default 'n'): ").lower() == 'y'
-CLEAN_TEXT = input("🧹 Clean text using OpenAI API? (y/n, default 'n'): ").lower() == 'y'
-PROCESS_START = int(input("🔢 Process Start Chunk Index (default 0): ") or 0)
-PROCESS_END = int(input("🔢 Process End Chunk Index (-1 for all, default -1): ") or -1)
-GENERATE_TTS = input("🎧 Generate TTS? (y/n, default 'y'): ").lower() != 'n'
-GENERATE_LRC = input("📝 Generate LRC? (y/n, default 'y'): ").lower() != 'n'
+# User Configurable Options
+LANGUAGE = input("Language (EN, FR, ES, ZH, JP, KR) (default 'EN'): ") or 'EN'
+ACCENT = input("Accent (EN-US, EN-BR, EN-INDIA, EN-AU, EN-Default) (default 'EN-US'): ") or 'EN-US'
+SPEED = float(input("Speed (default 1.0): ") or 1.0)
+USE_EXISTING_TEXT = input("Use existing 'text.txt'? (y/n, default 'n'): ").lower() == 'y'
+CLEAN_TEXT = input("Clean text using OpenAI API? (y/n, default 'n'): ").lower() == 'y'
+PROCESS_START = int(input("Process Start Chunk Index (default 0): ") or 0)
+PROCESS_END = int(input("Process End Chunk Index (-1 for all, default -1): ") or -1)
+GENERATE_TTS = input("Generate TTS? (y/n, default 'y'): ").lower() != 'n'
+GENERATE_LRC = input("Generate LRC? (y/n, default 'y'): ").lower() != 'n'
 
-# ✅ Internal Settings
+# Internal Settings
 CHUNK_SIZE = {"default": 3000, "ZH": 3000, "EN": 15000}
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-# ✅ Device Check
+# Device Check
 if torch.cuda.is_available():
     device = 'cuda:0'
-    print(f"🚀 CUDA is available. Using device: {torch.cuda.get_device_name(0)}")
+    print(f"CUDA is available. Using device: {torch.cuda.get_device_name(0)}")
 else:
     device = 'cpu'
-    print("⚠️ CUDA is NOT available. Running on CPU.")
+    print("CUDA is NOT available. Running on CPU.")
 
-# ✅ 1. Set up paths
+# 1. Set up paths
 BASE_DIR = os.path.expanduser("./files")
 file_bases = ["input", "decrypted", "text", "text_cleaned"]
 file_paths = {name: os.path.join(BASE_DIR, f"{name}.pdf" if name in ["input", "decrypted"] else f"{name}.txt") for name in file_bases}
 
-# ✅ Determine output base name
+# Determine output base name
 exclude_files = ["input.pdf", "decrypted.pdf", "text.txt"]
 if USE_EXISTING_TEXT:
     text_files = [f for f in os.listdir(BASE_DIR) if f.endswith(".txt") and f not in exclude_files]
@@ -154,7 +154,7 @@ if USE_EXISTING_TEXT:
 else:
     pdf_files = [f for f in os.listdir(BASE_DIR) if f.endswith(".pdf") and f not in exclude_files]
     if not pdf_files:
-        print("❌ No valid PDF file found to use as base name.")
+        print("No valid PDF file found to use as base name.")
         exit()
     source_file = pdf_files[0]
 
@@ -167,21 +167,21 @@ if not USE_EXISTING_TEXT and source_file.endswith(".pdf"):
 
     try:
         subprocess.run(["qpdf", "--decrypt", file_paths["input"], file_paths["decrypted"]], check=True)
-        print("🔓 PDF Decrypted Successfully.")
+        print("PDF Decrypted Successfully.")
     except subprocess.CalledProcessError:
-        print("❌ PDF Decryption Failed.")
+        print("PDF Decryption Failed.")
         exit()
 
     try:
         subprocess.run(["pdf2txt.py", "-o", file_paths["text"], file_paths["decrypted"]], check=True)
-        print("📜 Text Extracted Successfully.")
+        print("Text Extracted Successfully.")
     except subprocess.CalledProcessError:
-        print("❌ Text Extraction Failed.")
+        print("Text Extraction Failed.")
         exit()
 else:
     shutil.copy2(source_path, file_paths["text"])
 
-# ✅ 2. Clean Text using OpenAI API
+# 2. Clean Text using OpenAI API
 if CLEAN_TEXT:
     with open(file_paths["text"], "r", encoding="utf-8") as f:
         raw_text = f.read()
@@ -201,14 +201,14 @@ if CLEAN_TEXT:
 
         with open(file_paths["text_cleaned"], "w", encoding="utf-8") as f:
             f.write(cleaned_text)
-        print("🧹 Text cleaned and saved to 'text_cleaned.txt'.")
+        print("Text cleaned and saved to 'text_cleaned.txt'.")
     except Exception as e:
-        print(f"❌ Text Cleaning Failed: {e}")
+        print(f"Text Cleaning Failed: {e}")
         exit()
 else:
     shutil.copy2(file_paths["text"], file_paths["text_cleaned"])
 
-# ✅ 3. Split Text into Chunks
+# 3. Split Text into Chunks
 with open(file_paths["text_cleaned"], "r", encoding="utf-8") as f:
     full_text = f.read()
 
@@ -240,14 +240,14 @@ def split_text_into_chunks(text, chunk_size):
 
 chunks = split_text_into_chunks(full_text, chunk_size=chunk_size)
 
-# ✅ 4. Initialize MeloTTS
+# 4. Initialize MeloTTS
 model = TTS(language=LANGUAGE, device=device)
 speaker_ids = model.hps.data.spk2id
 
 if not isinstance(speaker_ids, dict):
     speaker_ids = vars(speaker_ids)
 
-# ✅ 5. Convert Each Chunk
+# 5. Convert Each Chunk
 start_idx = PROCESS_START
 end_idx = PROCESS_END if PROCESS_END != -1 else len(chunks)
 
@@ -260,19 +260,19 @@ for idx in range(start_idx, end_idx):
         if GENERATE_TTS:
             speaker_id = speaker_ids.get(ACCENT, speaker_ids.get("EN-Default"))
             model.tts_to_file(chunk, speaker_id, output_wav, speed=SPEED)
-            print(f"🎧 WAV File Created: {output_wav}")
+            print(f"WAV File Created: {output_wav}")
 
         if GENERATE_LRC:
             with open(output_lrc, "w", encoding="utf-8", newline='') as lrc_file:
                 for line in chunk.split('\n'):
                     if line.strip():
                         lrc_file.write(f"{line.strip()}\n")
-            print(f"📝 LRC File Created: {output_lrc}")
+            print(f"LRC File Created: {output_lrc}")
 
     except Exception as e:
-        print(f"❌ Processing Failed for Chunk {idx}: {e}")
+        print(f"Processing Failed for Chunk {idx}: {e}")
 
-print("✅ Workflow Complete!")
+print("Workflow Complete!")
 
 ```
 
@@ -303,4 +303,4 @@ for filename in os.listdir():
 print("✅ Renaming Complete.")
 ```
 
-I then use [Plex Media Server](../../2024/Plex_Media_Server/index.md) to host them in my Library.
+I then use [[../../2024/Plex_Media_Server/index|Plex Media Server]] to host them in my Library.
