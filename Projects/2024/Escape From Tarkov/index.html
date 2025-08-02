@@ -448,14 +448,6 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../Guides/Guides%281%29/">
-<svg fill="currentColor" height="16px" viewbox="0 0 24 24" width="16px" xmlns="http://www.w3.org/2000/svg"><path d="M19.903 8.586a.997.997 0 0 0-.196-.293l-6-6a.997.997 0 0 0-.293-.196c-.03-.014-.062-.022-.094-.033a.991.991 0 0 0-.259-.051C13.04 2.011 13.021 2 13 2H6c-1.103 0-2 .897-2 2v16c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V9c0-.021-.011-.04-.013-.062a.952.952 0 0 0-.051-.259c-.01-.032-.019-.063-.033-.093zM16.586 8H14V5.414L16.586 8zM6 20V4h6v5a1 1 0 0 0 1 1h5l.002 10H6z"></path><path d="M8 12h8v2H8zm0 4h8v2H8zm0-8h2v2H8z"></path></svg>
-<span class="md-ellipsis">
-    Guides
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
 <a class="md-nav__link" href="../../../Guides/Obsidian%20Dataview/">
 <svg fill="currentColor" height="16px" viewbox="0 0 24 24" width="16px" xmlns="http://www.w3.org/2000/svg"><path d="M19.903 8.586a.997.997 0 0 0-.196-.293l-6-6a.997.997 0 0 0-.293-.196c-.03-.014-.062-.022-.094-.033a.991.991 0 0 0-.259-.051C13.04 2.011 13.021 2 13 2H6c-1.103 0-2 .897-2 2v16c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V9c0-.021-.011-.04-.013-.062a.952.952 0 0 0-.051-.259c-.01-.032-.019-.063-.033-.093zM16.586 8H14V5.414L16.586 8zM6 20V4h6v5a1 1 0 0 0 1 1h5l.002 10H6z"></path><path d="M8 12h8v2H8zm0 4h8v2H8zm0-8h2v2H8z"></path></svg>
 <span class="md-ellipsis">
@@ -1428,6 +1420,27 @@
 <nav aria-label="Patch Note &amp; Downloads" class="md-nav">
 <ul class="md-nav__list">
 <li class="md-nav__item">
+<a class="md-nav__link" href="#3113_16">
+<span class="md-ellipsis">
+      3.11.3_1.6
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#3113_15">
+<span class="md-ellipsis">
+      3.11.3_1.5
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#3113_14">
+<span class="md-ellipsis">
+      3.11.3_1.4
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="#3113_13">
 <span class="md-ellipsis">
       3.11.3_1.3
@@ -1530,7 +1543,7 @@
 <li>Download SPT AKI automated installer <a href="https://sp-tarkov.com/#download">here</a>.</li>
 <li>Move SPT installer to a separate empty folder on your best SSD, affixed with the SPT version number (e.g. <code>Game/EFT/SPT 3.11.3/</code>), then run the SPT automatic install executable.</li>
 </ol>
-<p>The mod list is compatible with <strong>Mod Organizer</strong> for profile management, meaning more than one instance of the game can be stored without taking excessive disk space. It is the easiest way to stay up to date, but it is not mandatory.</p>
+<p>The mod list is compatible with <strong>Mod Organizer</strong> for profile management, meaning more than one instance of the game can be stored without taking excessive disk space. It is the easiest way to stay up to date, but it is not mandatory. It is also possible to utilize the mod <strong>ModSync</strong> to automatically update the mod list as you join an SPT server.</p>
 <h4 id="mod-organizer-2">Mod Organizer 2<a class="headerlink" href="#mod-organizer-2" title="Permanent link">¶</a></h4>
 <ol>
 <li>Download and install <a href="https://github.com/ModOrganizer2/modorganizer/releases">MO2</a>.</li>
@@ -1604,6 +1617,7 @@
 <p>If you want to use your own profile on our server or download the one in use on our server for your local server, contact me.</p>
 </div>
 <h3 id="default-hotkeys">Default Hotkeys<a class="headerlink" href="#default-hotkeys" title="Permanent link">¶</a></h3>
+<p><strong>Raid</strong></p>
 <ul>
 <li>Z: Prone</li>
 <li>X: Crouch<ul>
@@ -1656,8 +1670,8 @@
 <li>LC + L: Fold / Unfold Stock</li>
 </ul>
 </li>
-<li>G: Discard Item<ul>
-<li>LS + G: Prepare Grenades</li>
+<li>G: Prepare Grenades<ul>
+<li>LS + G: Discard Item</li>
 </ul>
 </li>
 <li>O: Check Time<ul>
@@ -1674,12 +1688,6 @@
 <li>Insert: Amands’s Graphics Menu</li>
 <li>Home: Reshade Menu</li>
 <li>End: Fix “Hands are busy”</li>
-<li>KeypadPlus: Freecam<ul>
-<li>KeypadEnter: Teleport to Freecam</li>
-<li>KeypadPeriod: Freecam Controls</li>
-<li>KeypadMultiply: Freecam UI</li>
-</ul>
-</li>
 <li>RC: Fika Chat</li>
 <li>M0: Fire<ul>
 <li>F: Interact</li>
@@ -1715,10 +1723,18 @@
 </ul>
 </li>
 <li>F9: Pause</li>
-<li>F10: SAIN</li>
+<li>F10: FreeCam</li>
+<li>F11: SAIN</li>
 <li>F12: BepInEx Menu</li>
-<li>M2: Gift item from stash to other accounts<ul>
-<li>Alt Shift M1: Automatically sell item from stash to most profitable market</li>
+</ul>
+<p><strong>Stash</strong></p>
+<ul>
+<li>M1: Gift item from stash to other accounts<ul>
+<li>Alt Shift M0: Automatically sell item from stash to most profitable market</li>
+</ul>
+</li>
+<li>LC + F: Search<ul>
+<li>LC + C: Search Clear</li>
 </ul>
 </li>
 </ul>
@@ -1733,20 +1749,23 @@ For key mapping, see <a href="./#default-hotkeys" title="Default Hotkeys">Defaul
 <h4 id="tools">Tools<a class="headerlink" href="#tools" title="Permanent link">¶</a></h4>
 <p><a href="https://hub.sp-tarkov.com/files/file/379-server-value-modifier-svm/#tab_d24083dde670a53728f69fa322aa580ec032191a">Server Value Modifier</a> 🥒 (Server settings)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/184-spt-aki-profile-editor/">Profile Editor</a> (Read installation, player health, quest, and items)<br/>
-<a href="https://hub.sp-tarkov.com/files/file/2724-tarkin-item-exporter/">Tarkin Item Exporter</a></p>
+<a href="https://github.com/c-orter/modsync/?tab=readme-ov-file">ModSync</a> 🍌🥒<br/>
+<a href="https://hub.sp-tarkov.com/files/file/2724-tarkin-item-exporter/">Tarkin Item Exporter</a> 🍌</p>
 <h4 id="bots">Bots<a class="headerlink" href="#bots" title="Permanent link">¶</a></h4>
 <p><a href="https://hub.sp-tarkov.com/files/file/1059-moar-bagels-ultra-lite-spawn-mod/?highlight=MOAR">MOAR + Bagels</a> 🍌🥒<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1062-sain-2-0-solarint-s-ai-modifications-full-ai-combat-system-replacement/">SAIN</a> 🍌🥒<br/>
+<a href="https://hub.sp-tarkov.com/files/file/1534-questing-bots/#overview">Questing Bots</a> 🍌🥒<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1096-looting-bots/">Looting Bots</a> 🍌<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1219-bigbrain/#overview">Big Brain</a> 🍌<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1119-waypoints-expanded-navmesh/">Way Points</a> 🍌<br/>
-<a href="https://hub.sp-tarkov.com/files/file/2811-no-bush-updated-for-3-11/">No Bush</a> 🍌</p>
+<a href="https://hub.sp-tarkov.com/files/file/2811-no-bush-updated-for-3-11/">No Bush</a> 🍌<br/>
+<a href="https://hub.sp-tarkov.com/files/file/989-friendly-pmc/">Friendly PMC</a> 🍌🥒 (Command AIs including Knight)</p>
 <h4 id="gameplay">Gameplay<a class="headerlink" href="#gameplay" title="Permanent link">¶</a></h4>
 <p><a href="https://discord.gg/project-fika">Project Fika</a> (<a href="https://project-fika.gitbook.io/wiki">Documentation</a>) 🍌🥒<br/>
 <a href="https://hub.sp-tarkov.com/files/file/2773-geko-s-better-progression/">Geko’s Better Progression</a> 🍌🥒 (Play-to-win)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/2327-health-per-level/">Health Per Level</a> 🥒 (Health growth)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/2725-revivalmod-second-chance-survival-system-for-single-player-tarkov/?highlight=revival">Revival Mod</a> 🍌🥒 (Bring Portable Defibrillator)<br/>
-<a href="https://hub.sp-tarkov.com/files/file/989-friendly-pmc/">Friendly PMC</a> 🍌🥒 (Command AIs including Knight)<br/>
+<a href="https://hub.sp-tarkov.com/files/file/2747-underfire-an-adrenaline-effect/#overview">UnderFire</a> 🍌 (Tunnel Vision, Pain Killer, Hand Tremors, Stamina Burst and Regen)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/885-virtual-s-custom-quest-loader/">Virtual’s Custom Quest Loader</a> 🍌🥒<br/>
 <a href="https://hub.sp-tarkov.com/files/file/2796-tarkov-weather-system/">Tarkov Weather System</a> 🥒<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1099-late-to-the-party/">Late to the Party</a> 🍌🥒 (Realistic Scav runs)<br/>
@@ -1756,14 +1775,21 @@ For key mapping, see <a href="./#default-hotkeys" title="Default Hotkeys">Defaul
 <a href="https://hub.sp-tarkov.com/files/file/1790-wtt-pack-n-strap/#tab_f222634d79eef27cc61efe96df69a224f7c465b8">WTT - Pack ‘n’ Strap</a> 🍌🥒 (Belts and packs)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1737-boss-notifier/#overview">Boss Notifier</a> 🍌 (Inter center level 1-3 unlocks)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/2109-bosses-have-lega-medals/">Bosses Have Lega Medals</a> 🥒<br/>
-<a href="https://hub.sp-tarkov.com/files/file/1561-live-flea-prices/">Live Flea Prices</a> 🥒 (Fetch flea prices from live server)</p>
+<a href="https://hub.sp-tarkov.com/files/file/1561-live-flea-prices/">Live Flea Prices</a> 🥒 (Fetch flea prices from live server)<br/>
+<a href="https://hub.sp-tarkov.com/files/file/2572-leave-it-there/#versions">Leave It There</a> 🍌🥒 (Place objects that persist through raids)<br/>
+<a href="https://hub.sp-tarkov.com/files/file/2707-home-comforts/#overview">Home Comforts</a> 🍌🥒 (Safehouse Radio and Space Heater)<br/>
+<a href="https://hub.sp-tarkov.com/files/file/2593-lockable-doors/">Lockable Doors</a> 🍌🥒</p>
 <h4 id="qol">QOL<a class="headerlink" href="#qol" title="Permanent link">¶</a></h4>
 <p><a href="https://hub.sp-tarkov.com/files/file/1981-dynamic-maps/">Dynamic Maps</a> 🍌<br/>
 <a href="https://hub.sp-tarkov.com/files/file/2546-continuous-healing/">Continuous Healing</a> 🍌<br/>
 <a href="https://hub.sp-tarkov.com/files/file/2798-continuous-load-ammo/">Continuous Load Ammo</a> 🍌<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1810-handsarenotbusy/?highlight=hands">HandsAreNotBusy</a> 🍌 （Press End to stop hand busy bug)<br/>
+<a href="https://hub.sp-tarkov.com/files/file/2880-use-items-anywhere/">Use Items Anywhere</a> 🍌 (Hotkey backpack items)<br/>
+<a href="https://hub.sp-tarkov.com/files/file/2884-belt-slot/">Belt Slot</a> 🍌<br/>
 <a href="https://hub.sp-tarkov.com/files/file/2729-pause/#overview">PAUSE</a> 🍌<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1860-ui-fixes/">UI Fixes</a> 🍌 (Drag to swap, UI QOL changes)<br/>
+<a href="https://hub.sp-tarkov.com/files/file/2841-odt-s-item-info-3-11-update-added-colored-name/#overview">Item Info</a> 🥒 (Rarity recolor and detailed description)<br/>
+<a href="https://hub.sp-tarkov.com/files/file/284-ammo-stats-in-description/">Ammo Stats in Description</a> 🥒 (Penetration recolor)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1606-lootvalue/">Loot Value</a> 🍌🥒 (Alt Shift M0 to quick sell)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/2318-quicksell/">QuickSell</a> 🍌 (N/M to sell to Flea/Traders)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1159-morecheckmarks/">More Checkmarks</a> 🍌🥒 (Show requirement for quests, hideout, crafting)<br/>
@@ -1771,11 +1797,9 @@ For key mapping, see <a href="./#default-hotkeys" title="Default Hotkeys">Defaul
 <a href="https://hub.sp-tarkov.com/files/file/1574-quest-tracker/">Quest Tracker</a> 🍌 (M1 to track quests)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1861-skipper/">Skipper</a> 🍌 (LC to skip quests)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/2853-expanded-task-text-ett/?highlight=expanded">Expanded Task Text</a> 🥒<br/>
-<a href="https://hub.sp-tarkov.com/files/file/284-ammo-stats-in-description/">Ammo Stats in Description</a> 🥒 (Colorful ammo)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1814-modding-stats-helper-by-wara/#overview">Modding Stats Helper</a> 🍌 (Show relative stats)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1795-trader-modding-and-improved-weapon-building/">Trader Modding And Improved Weapon Building</a> 🍌🥒 (Filters &amp; show Flea Prices)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/2027-autodeposit/">AutoDeposit</a> 🍌<br/>
-<a href="https://hub.sp-tarkov.com/files/file/1769-stash-search/">Stash Search</a> 🍌 (LC + F to search in stash, LC + C to clear)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/2514-stash-management-helper/">Stash Management Helper</a> 🍌<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1989-simple-workout-qte/#overview">Simple Workout</a> 🥒 (SPT balanced fatigue)</p>
 <h4 id="visual">Visual<a class="headerlink" href="#visual" title="Permanent link">¶</a></h4>
@@ -1784,30 +1808,29 @@ For key mapping, see <a href="./#default-hotkeys" title="Default Hotkeys">Defaul
 <a href="https://hub.sp-tarkov.com/files/file/813-amands-s-graphics/">Amands’s Graphics</a> 🍌 (Less fog, color grading)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1361-amands-sense/?highlight=amands#overview">Amands’ Sense</a> 🍌 (Optional loot helper)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/942-fontaine-s-fov-fix-variable-optics/">FOV and Optics Fix</a> 🍌 (M4/5 to zoom in/out)<br/>
+<a href="https://hub.sp-tarkov.com/files/file/2214-shadow-flicker-fix/">Shadow Flicker Fix</a> 🍌<br/>
 <a href="https://hub.sp-tarkov.com/files/file/2683-hollywoodfx/#overview">HollywoodFX</a> 🍌 (Bullet impacts)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/2739-realistic-thermal-scopes/">Realistic Thermal Scopes</a> 🥒<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1303-borkel-s-realistic-night-vision-goggles-nvgs-and-t-7/">Realistic NVG</a> 🍌🥒<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1920-simple-crosshair/">Simple Crosshair</a> 🍌<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1898-player-encumbrance-bar/">Player Encumbrance Bar</a> 🍌<br/>
 <a href="https://hub.sp-tarkov.com/files/file/2501-stattrack/">StatTrack</a> 🍌🥒<br/>
-<a href="https://hub.sp-tarkov.com/files/file/279-freecam/?highlight=free#overview">Freecam</a> 🍌 (F10 to Freecam)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/2720-hideout-cat/#overview">Hideout Cat</a> 🍌 (Cat)</p>
 <h4 id="archive">Archive<a class="headerlink" href="#archive" title="Permanent link">¶</a></h4>
 <h5 id="outdated-mods">Outdated Mods<a class="headerlink" href="#outdated-mods" title="Permanent link">¶</a></h5>
 <p><a href="https://hub.sp-tarkov.com/files/file/878-swag-donuts-dynamic-spawn-waves-and-custom-spawn-points/">SWAG + DONUTS</a> 🍌🥒<br/>
-<a href="https://hub.sp-tarkov.com/files/file/1453-that-s-lit/">That’s Lit</a> 🍌 (With That’s Lit Sync)<br/>
-<a href="https://hub.sp-tarkov.com/files/file/1534-questing-bots/#overview">Questing Bots</a> 🍌🥒</p>
+<a href="https://hub.sp-tarkov.com/files/file/1453-that-s-lit/">That’s Lit</a> 🍌 (With That’s Lit Sync)</p>
 <p><a href="https://hub.sp-tarkov.com/files/file/606-spt-realism-mod/">Realism Mod</a> 🍌🥒 (Everything overhauled)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1695-quick-throw-grenades/?highlight=grenade#overview">Quick Throw Grenades</a> 🍌<br/>
 <a href="https://discord.com/channels/1202292159366037545/1222463708534407210">Shoulder Swap On Lean</a> 🍌<br/>
-<a href="https://hub.sp-tarkov.com/files/file/985-item-info/">Item Info</a> 🥒 (Rarity recolor and detailed description)<br/>
 <a href="https://discord.com/channels/1202292159366037545/1236748474653872228">Visceral Combat</a> 🍌<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1832-stalker-music-pack/#overview">Custom Music Player</a> 🥒 (Distributed with tracks)</p>
 <h5 id="disabled-mods">Disabled Mods<a class="headerlink" href="#disabled-mods" title="Permanent link">¶</a></h5>
-<p><a href="https://hub.sp-tarkov.com/files/file/2782-abps-acid-s-bot-placement-system/#comments">Acid’s Bot Placement System</a> 🍌🥒<br/>
+<p><a href="https://hub.sp-tarkov.com/files/file/1769-stash-search/">Stash Search</a> 🍌 (Replaced by UI Fixes)<br/>
+<a href="https://hub.sp-tarkov.com/files/file/279-freecam/?highlight=free#overview">Freecam</a> 🍌 (Replaced by Fika Cam)<br/>
+<a href="https://hub.sp-tarkov.com/files/file/2782-abps-acid-s-bot-placement-system/#comments">Acid’s Bot Placement System</a> 🍌🥒<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1421-techhappy-s-web-minimap/#overview">Web Map</a> 🍌 (Replaced by Dynamic Maps)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1865-expanded-door-interactions/">Expanded Door Interactions</a> 🍌 (Annoying UI)<br/>
-<a href="https://hub.sp-tarkov.com/files/file/1416-use-items-anywhere/">Use Items Anywhere</a> 🍌 (Hotkey backpack items)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1510-borkel-s-big-realistic-thermal-package-bring-real-life-realism-to-your-thermal-s/">Realistic Thermal</a> 🥒<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1809-headshot-damage-redirection-hdr/">Headshot Damage Redirection</a> 🍌 (We don’t need that)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/2610-random-season-ripoff/">Random Season</a> 🥒 (Replaced by Tarkov Weather System)</p>
@@ -1815,6 +1838,34 @@ For key mapping, see <a href="./#default-hotkeys" title="Default Hotkeys">Defaul
 <p><a href="https://hub.sp-tarkov.com/files/file/1785-de-clutterer-updated-by-cj/">Declutterer</a> 🍌 (Optional performance mod)<br/>
 <a href="https://hub.sp-tarkov.com/files/file/1029-no-grenade-esp/">No Grenade ESP</a> 🍌 (Incompatible with SAIN)</p>
 <h3 id="patch-note-downloads">Patch Note &amp; Downloads<a class="headerlink" href="#patch-note-downloads" title="Permanent link">¶</a></h3>
+<h5 id="3113_16">3.11.3_1.6<a class="headerlink" href="#3113_16" title="Permanent link">¶</a></h5>
+<p><a href="">Patch Download</a><br/>
+Updated SAIN 4.0.4</p>
+<h5 id="3113_15">3.11.3_1.5<a class="headerlink" href="#3113_15" title="Permanent link">¶</a></h5>
+<p><a href="http://www.mediafire.com/view/bhdpqepyisyljfm">Patch Download</a><br/>
+Updated Fontaine’s FOV Fix 3.1.0<br/>
+Updated MOAR + Bagels 3.1.6<br/>
+Updated Boss Notifier<br/>
+Updated Live Flea Prices 1.5.2 <br/>
+Updated HollywoodFX 1.6.9<br/>
+Updated Friendly PMC 4.4.9 <br/>
+Updated Late to the Party 2.9.2<br/>
+Updated Waypoints 1.7.1<br/>
+Added Questing Bots<br/>
+Added Use Items Anywhere<br/>
+Added Belt Slot<br/>
+Added Shadow Flicker Fix</p>
+<h5 id="3113_14">3.11.3_1.4<a class="headerlink" href="#3113_14" title="Permanent link">¶</a></h5>
+<p><a href="http://www.mediafire.com/view/9m2ckwycjo2q1h5">Patch Download</a><br/>
+Updated friendlypmc-4.4.6<br/>
+Removed FreeCam<br/>
+Removed Stash Search<br/>
+Added Item Info<br/>
+Added Leave It There<br/>
+Added Home Comforts<br/>
+Added Lockable Doors<br/>
+Added Underfire<br/>
+Added ModSync</p>
 <h5 id="3113_13">3.11.3_1.3<a class="headerlink" href="#3113_13" title="Permanent link">¶</a></h5>
 <p><a href="http://www.mediafire.com/view/b5g121v14a2zcdr">Patch Download</a><br/>
 Added SAIN</p>
@@ -1886,7 +1937,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <small>
 <!-- mkdocs-git-revision-date-localized-plugin -->
 <u>Last update</u> :
-        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2 juin 2025</span>
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2 août 2025</span>
 <!-- mkdocs-git-revision-date-plugin -->
 <br/>
 <u>Created</u> :

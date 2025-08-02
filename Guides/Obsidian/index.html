@@ -448,14 +448,6 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../Guides%281%29/">
-<svg fill="currentColor" height="16px" viewbox="0 0 24 24" width="16px" xmlns="http://www.w3.org/2000/svg"><path d="M19.903 8.586a.997.997 0 0 0-.196-.293l-6-6a.997.997 0 0 0-.293-.196c-.03-.014-.062-.022-.094-.033a.991.991 0 0 0-.259-.051C13.04 2.011 13.021 2 13 2H6c-1.103 0-2 .897-2 2v16c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V9c0-.021-.011-.04-.013-.062a.952.952 0 0 0-.051-.259c-.01-.032-.019-.063-.033-.093zM16.586 8H14V5.414L16.586 8zM6 20V4h6v5a1 1 0 0 0 1 1h5l.002 10H6z"></path><path d="M8 12h8v2H8zm0 4h8v2H8zm0-8h2v2H8z"></path></svg>
-<span class="md-ellipsis">
-    Guides
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
 <a class="md-nav__link" href="../Obsidian%20Dataview/">
 <svg fill="currentColor" height="16px" viewbox="0 0 24 24" width="16px" xmlns="http://www.w3.org/2000/svg"><path d="M19.903 8.586a.997.997 0 0 0-.196-.293l-6-6a.997.997 0 0 0-.293-.196c-.03-.014-.062-.022-.094-.033a.991.991 0 0 0-.259-.051C13.04 2.011 13.021 2 13 2H6c-1.103 0-2 .897-2 2v16c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V9c0-.021-.011-.04-.013-.062a.952.952 0 0 0-.051-.259c-.01-.032-.019-.063-.033-.093zM16.586 8H14V5.414L16.586 8zM6 20V4h6v5a1 1 0 0 0 1 1h5l.002 10H6z"></path><path d="M8 12h8v2H8zm0 4h8v2H8zm0-8h2v2H8z"></path></svg>
 <span class="md-ellipsis">
@@ -1627,11 +1619,57 @@
 1. Nested Numbered List</li>
 </ul>
 </li>
-<li class="task-list-item"><label class="task-list-control"><input checked="" disabled="" type="checkbox"/><span class="task-list-indicator"></span></label> Checkbox [completion:: 2024-01-01]</li>
-<li>[p] Pro</li>
-<li>[c] Con</li>
-<li>[I] Idea<br/>
-    Reason</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input checked="" disabled="" type="checkbox"/><span class="task-list-indicator"></span></label> Checkbox [completion:: 2024-01-01]</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input disabled="" type="checkbox"/><span class="task-list-indicator"></span></label> [ ] Todo</p>
+</li>
+<li>[/] [/] In Progress</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input checked="" disabled="" type="checkbox"/><span class="task-list-indicator"></span></label> [x] Done</p>
+</li>
+<li>
+<p>[&lt;] [&lt;] Scheduled</p>
+</li>
+<li>[&gt;] [&gt;] Rescheduled</li>
+<li>
+<p>[-] [-] Cancelled</p>
+</li>
+<li>
+<p>[*] [*] Star</p>
+</li>
+<li>[b] [b] Bookmark </li>
+<li>
+<p>[l] [l] Location</p>
+</li>
+<li>
+<p>[i] [i] Information</p>
+</li>
+<li>[?] [?] Question</li>
+<li>
+<p>[S] [S] Amount</p>
+</li>
+<li>
+<p>[p] [p] Pro</p>
+</li>
+<li>[c] [c] Con</li>
+<li>
+<p>[I] [I] Idea<br/>
+    Reason</p>
+</li>
+<li>
+<p>[u] [u] Up</p>
+</li>
+<li>
+<p>[d] [d] Down</p>
+</li>
+<li>
+<p>[f] [f] Fire</p>
+</li>
+<li>[!] [!] Important</li>
+<li>[k] [k] Key</li>
+<li>[w] [w] Win</li>
 </ul>
 <blockquote>
 <p>Quote<br/>
@@ -1705,9 +1743,9 @@ Multi line</p>
 </div>
 </div>
 <h3 id="references">References<a class="headerlink" href="#references" title="Permanent link">¶</a></h3>
-<p>Reference to a <a href="../">File</a><br/>
-Reference to a <a href="./#heading-1">Heading</a><br/>
-Reference to a <span class="ezlinks_not_found ezlinks_not_found" src="../../../2024-01-01.md#025433">Paragraph</span><br/>
+<p>Reference to a <a href="../" title="File">File</a><br/>
+Reference to a <a href="./#heading-1" title="Heading">Heading</a><br/>
+Reference to a <span class="ezlinks_not_found ezlinks_not_found" src="../../../2024-01-01#^025433" title="Paragraph">Paragraph</span><br/>
 Inline Reference<a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="./#styles"><div class="citation"> <a class="link_citation" href="https://thinkwithpbody.github.io/YifuDesignLab/Guides/Obsidian/"><i class="fas fa-link"></i> </a><h2 id="styles">Styles<a class="headerlink" href="#styles" title="Permanent link">¶</a></h2>
 <p>Body<br/>
 <strong>Bold</strong><br/>
@@ -1818,7 +1856,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <small>
 <!-- mkdocs-git-revision-date-localized-plugin -->
 <u>Last update</u> :
-        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">19 mai 2025</span>
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2 août 2025</span>
 <!-- mkdocs-git-revision-date-plugin -->
 <br/>
 <u>Created</u> :
