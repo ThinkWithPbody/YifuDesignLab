@@ -34,10 +34,35 @@ Body
 2. Numbered List
 	1. Nested Numbered List
 - [x] Checkbox [completion:: 2024-01-01]
-- [p] Pro
-- [c] Con
-- [I] Idea
+
+- [ ] \[ ] Todo
+- [/] \[/] In Progress
+- [x] \[x] Done
+
+- [<] \[<] Scheduled
+- [>] \[>] Rescheduled
+- [-] \[-] Cancelled
+
+- [*] \[\*] Star
+- [b] \[b] Bookmark 
+- [l] \[l] Location
+
+- [i] \[i] Information
+- [?] \[?] Question
+- [S] \[S] Amount
+
+- [p] \[p] Pro
+- [c] \[c] Con
+- [I] \[I] Idea
 	Reason
+
+- [u] \[u] Up
+- [d] \[d] Down
+
+- [f] \[f] Fire
+- [!] \[!] Important
+- [k] \[k] Key
+- [w] \[w] Win
 
 > Quote
 > Multi line
@@ -94,10 +119,10 @@ ___
 
 ## References
 
-Reference to a [File](./index.md)
-Reference to a [Heading](Obsidian.md#heading-1)
-Reference to a [Paragraph](../../2024-01-01.md#025433)
-Inline Reference![Guides/Obsidian > Styles](Obsidian.md#styles)
+Reference to a [[./index|File]]
+Reference to a [[Obsidian#Heading 1|Heading]]
+Reference to a [[../../2024-01-01#^025433|Paragraph]]
+Inline Reference![[Obsidian#Styles|Guides/Obsidian > Styles]]
 
 ## Latex
 

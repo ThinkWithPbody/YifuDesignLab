@@ -19,7 +19,7 @@ status: DONE
 		- Mod Settings: "/BepInEx/config"
 		- Save Profiles (only if you run a server): "/user/profiles"%%
 
-The mod list is compatible with **Mod Organizer** for profile management, meaning more than one instance of the game can be stored without taking excessive disk space. It is the easiest way to stay up to date, but it is not mandatory.
+The mod list is compatible with **Mod Organizer** for profile management, meaning more than one instance of the game can be stored without taking excessive disk space. It is the easiest way to stay up to date, but it is not mandatory. It is also possible to utilize the mod **ModSync** to automatically update the mod list as you join an SPT server.
 
 ### Mod Organizer 2
 
@@ -82,6 +82,8 @@ endlocal
 
 ### Default Hotkeys
 
+**Raid**
+
 - Z: Prone
 - X: Crouch
 	- Q: Toggle Lean Left
@@ -119,8 +121,8 @@ endlocal
 		- F8: Command Attention (reset target)
 - L: Bipod
 	- LC + L: Fold / Unfold Stock
-- G: Discard Item
-	- LS + G: Prepare Grenades
+- G: Prepare Grenades
+	- LS + G: Discard Item
 - O: Check Time
 	- OO: Check Exits and Bosses
 	- I: Task List
@@ -131,10 +133,6 @@ endlocal
 - Insert: Amands's Graphics Menu
 - Home: Reshade Menu
 - End: Fix "Hands are busy"
-- KeypadPlus: Freecam
-	- KeypadEnter: Teleport to Freecam
-	- KeypadPeriod: Freecam Controls
-	- KeypadMultiply: Freecam UI
 - RC: Fika Chat
 - M0: Fire
 	- F: Interact
@@ -164,10 +162,16 @@ endlocal
 	- Space + M1: Snap to head
 	- LC + M1: Snap to back
 - F9: Pause
-- F10: SAIN
+- F10: FreeCam
+- F11: SAIN
 - F12: BepInEx Menu
-- M2: Gift item from stash to other accounts
-	- Alt Shift M1: Automatically sell item from stash to most profitable market
+
+**Stash**
+
+- M1: Gift item from stash to other accounts
+	- Alt Shift M0: Automatically sell item from stash to most profitable market
+- LC + F: Search
+	- LC + C: Search Clear
 
 > [!info]- Tarkov Weather System Chatbot
 > ![[./Escape From Tarkov_3ed45vng.png|/Projects/2024/Escape From Tarkov/Escape From Tarkov_3ed45vng.png]]
@@ -183,16 +187,19 @@ Manual install locations are marked with 🍌 for **"/BepInEx/plugins"** and �
 
 [Server Value Modifier](https://hub.sp-tarkov.com/files/file/379-server-value-modifier-svm/#tab_d24083dde670a53728f69fa322aa580ec032191a) 🥒 (Server settings)
 [Profile Editor](https://hub.sp-tarkov.com/files/file/184-spt-aki-profile-editor/) (Read installation, player health, quest, and items)
-[Tarkin Item Exporter](https://hub.sp-tarkov.com/files/file/2724-tarkin-item-exporter/)
+[ModSync](https://github.com/c-orter/modsync/?tab=readme-ov-file) 🍌🥒
+[Tarkin Item Exporter](https://hub.sp-tarkov.com/files/file/2724-tarkin-item-exporter/) 🍌
 
 #### Bots
 
 [MOAR + Bagels](https://hub.sp-tarkov.com/files/file/1059-moar-bagels-ultra-lite-spawn-mod/?highlight=MOAR) 🍌🥒
 [SAIN](https://hub.sp-tarkov.com/files/file/1062-sain-2-0-solarint-s-ai-modifications-full-ai-combat-system-replacement/) 🍌🥒
+[Questing Bots](https://hub.sp-tarkov.com/files/file/1534-questing-bots/#overview) 🍌🥒
 [Looting Bots](https://hub.sp-tarkov.com/files/file/1096-looting-bots/) 🍌
 [Big Brain](https://hub.sp-tarkov.com/files/file/1219-bigbrain/#overview) 🍌
 [Way Points](https://hub.sp-tarkov.com/files/file/1119-waypoints-expanded-navmesh/) 🍌
 [No Bush](https://hub.sp-tarkov.com/files/file/2811-no-bush-updated-for-3-11/) 🍌
+[Friendly PMC](https://hub.sp-tarkov.com/files/file/989-friendly-pmc/) 🍌🥒 (Command AIs including Knight)
 
 #### Gameplay
 
@@ -200,7 +207,7 @@ Manual install locations are marked with 🍌 for **"/BepInEx/plugins"** and �
 [Geko's Better Progression](https://hub.sp-tarkov.com/files/file/2773-geko-s-better-progression/) 🍌🥒 (Play-to-win)
 [Health Per Level](https://hub.sp-tarkov.com/files/file/2327-health-per-level/) 🥒 (Health growth)
 [Revival Mod](https://hub.sp-tarkov.com/files/file/2725-revivalmod-second-chance-survival-system-for-single-player-tarkov/?highlight=revival) 🍌🥒 (Bring Portable Defibrillator)
-[Friendly PMC](https://hub.sp-tarkov.com/files/file/989-friendly-pmc/) 🍌🥒 (Command AIs including Knight)
+[UnderFire](https://hub.sp-tarkov.com/files/file/2747-underfire-an-adrenaline-effect/#overview) 🍌 (Tunnel Vision, Pain Killer, Hand Tremors, Stamina Burst and Regen)
 [Virtual's Custom Quest Loader](https://hub.sp-tarkov.com/files/file/885-virtual-s-custom-quest-loader/) 🍌🥒
 [Tarkov Weather System](https://hub.sp-tarkov.com/files/file/2796-tarkov-weather-system/) 🥒
 [Late to the Party](https://hub.sp-tarkov.com/files/file/1099-late-to-the-party/) 🍌🥒 (Realistic Scav runs)
@@ -211,6 +218,9 @@ Manual install locations are marked with 🍌 for **"/BepInEx/plugins"** and �
 [Boss Notifier](https://hub.sp-tarkov.com/files/file/1737-boss-notifier/#overview) 🍌 (Inter center level 1-3 unlocks)
 [Bosses Have Lega Medals](https://hub.sp-tarkov.com/files/file/2109-bosses-have-lega-medals/) 🥒
 [Live Flea Prices](https://hub.sp-tarkov.com/files/file/1561-live-flea-prices/) 🥒 (Fetch flea prices from live server)
+[Leave It There](https://hub.sp-tarkov.com/files/file/2572-leave-it-there/#versions) 🍌🥒 (Place objects that persist through raids)
+[Home Comforts](https://hub.sp-tarkov.com/files/file/2707-home-comforts/#overview) 🍌🥒 (Safehouse Radio and Space Heater)
+[Lockable Doors](https://hub.sp-tarkov.com/files/file/2593-lockable-doors/) 🍌🥒
 
 #### QOL
 
@@ -218,8 +228,12 @@ Manual install locations are marked with 🍌 for **"/BepInEx/plugins"** and �
 [Continuous Healing](https://hub.sp-tarkov.com/files/file/2546-continuous-healing/) 🍌
 [Continuous Load Ammo](https://hub.sp-tarkov.com/files/file/2798-continuous-load-ammo/) 🍌
 [HandsAreNotBusy](https://hub.sp-tarkov.com/files/file/1810-handsarenotbusy/?highlight=hands) 🍌 （Press End to stop hand busy bug)
+[Use Items Anywhere](https://hub.sp-tarkov.com/files/file/2880-use-items-anywhere/) 🍌 (Hotkey backpack items)
+[Belt Slot](https://hub.sp-tarkov.com/files/file/2884-belt-slot/) 🍌
 [PAUSE](https://hub.sp-tarkov.com/files/file/2729-pause/#overview) 🍌
 [UI Fixes](https://hub.sp-tarkov.com/files/file/1860-ui-fixes/) 🍌 (Drag to swap, UI QOL changes)
+[Item Info](https://hub.sp-tarkov.com/files/file/2841-odt-s-item-info-3-11-update-added-colored-name/#overview) 🥒 (Rarity recolor and detailed description)
+[Ammo Stats in Description](https://hub.sp-tarkov.com/files/file/284-ammo-stats-in-description/) 🥒 (Penetration recolor)
 [Loot Value](https://hub.sp-tarkov.com/files/file/1606-lootvalue/) 🍌🥒 (Alt Shift M0 to quick sell)
 [QuickSell](https://hub.sp-tarkov.com/files/file/2318-quicksell/) 🍌 (N/M to sell to Flea/Traders)
 [More Checkmarks](https://hub.sp-tarkov.com/files/file/1159-morecheckmarks/) 🍌🥒 (Show requirement for quests, hideout, crafting)
@@ -227,11 +241,9 @@ Manual install locations are marked with 🍌 for **"/BepInEx/plugins"** and �
 [Quest Tracker](https://hub.sp-tarkov.com/files/file/1574-quest-tracker/) 🍌 (M1 to track quests)
 [Skipper](https://hub.sp-tarkov.com/files/file/1861-skipper/) 🍌 (LC to skip quests)
 [Expanded Task Text](https://hub.sp-tarkov.com/files/file/2853-expanded-task-text-ett/?highlight=expanded) 🥒
-[Ammo Stats in Description](https://hub.sp-tarkov.com/files/file/284-ammo-stats-in-description/) 🥒 (Colorful ammo)
 [Modding Stats Helper](https://hub.sp-tarkov.com/files/file/1814-modding-stats-helper-by-wara/#overview) 🍌 (Show relative stats)
 [Trader Modding And Improved Weapon Building](https://hub.sp-tarkov.com/files/file/1795-trader-modding-and-improved-weapon-building/) 🍌🥒 (Filters & show Flea Prices)
 [AutoDeposit](https://hub.sp-tarkov.com/files/file/2027-autodeposit/) 🍌
-[Stash Search](https://hub.sp-tarkov.com/files/file/1769-stash-search/) 🍌 (LC + F to search in stash, LC + C to clear)
 [Stash Management Helper](https://hub.sp-tarkov.com/files/file/2514-stash-management-helper/) 🍌
 [Simple Workout](https://hub.sp-tarkov.com/files/file/1989-simple-workout-qte/#overview) 🥒 (SPT balanced fatigue)
 
@@ -242,13 +254,13 @@ Manual install locations are marked with 🍌 for **"/BepInEx/plugins"** and �
 [Amands's Graphics](https://hub.sp-tarkov.com/files/file/813-amands-s-graphics/) 🍌 (Less fog, color grading)
 [Amands' Sense](https://hub.sp-tarkov.com/files/file/1361-amands-sense/?highlight=amands#overview) 🍌 (Optional loot helper)
 [FOV and Optics Fix](https://hub.sp-tarkov.com/files/file/942-fontaine-s-fov-fix-variable-optics/) 🍌 (M4/5 to zoom in/out)
+[Shadow Flicker Fix](https://hub.sp-tarkov.com/files/file/2214-shadow-flicker-fix/) 🍌
 [HollywoodFX](https://hub.sp-tarkov.com/files/file/2683-hollywoodfx/#overview) 🍌 (Bullet impacts)
 [Realistic Thermal Scopes](https://hub.sp-tarkov.com/files/file/2739-realistic-thermal-scopes/) 🥒
 [Realistic NVG](https://hub.sp-tarkov.com/files/file/1303-borkel-s-realistic-night-vision-goggles-nvgs-and-t-7/) 🍌🥒%%[Loot Highlighter](https://hub.sp-tarkov.com/files/file/2835-loot-highlighter/) 🍌 (Disabled by default)%%
 [Simple Crosshair](https://hub.sp-tarkov.com/files/file/1920-simple-crosshair/) 🍌
 [Player Encumbrance Bar](https://hub.sp-tarkov.com/files/file/1898-player-encumbrance-bar/) 🍌
 [StatTrack](https://hub.sp-tarkov.com/files/file/2501-stattrack/) 🍌🥒
-[Freecam](https://hub.sp-tarkov.com/files/file/279-freecam/?highlight=free#overview) 🍌 (F10 to Freecam)
 [Hideout Cat](https://hub.sp-tarkov.com/files/file/2720-hideout-cat/#overview) 🍌 (Cat)
 
 #### Archive
@@ -257,21 +269,20 @@ Manual install locations are marked with 🍌 for **"/BepInEx/plugins"** and �
 
 [SWAG + DONUTS](https://hub.sp-tarkov.com/files/file/878-swag-donuts-dynamic-spawn-waves-and-custom-spawn-points/) 🍌🥒
 [That's Lit](https://hub.sp-tarkov.com/files/file/1453-that-s-lit/) 🍌 (With That's Lit Sync)
-[Questing Bots](https://hub.sp-tarkov.com/files/file/1534-questing-bots/#overview) 🍌🥒
 
 [Realism Mod](https://hub.sp-tarkov.com/files/file/606-spt-realism-mod/) 🍌🥒 (Everything overhauled)
 [Quick Throw Grenades](https://hub.sp-tarkov.com/files/file/1695-quick-throw-grenades/?highlight=grenade#overview) 🍌
 [Shoulder Swap On Lean](https://discord.com/channels/1202292159366037545/1222463708534407210) 🍌
-[Item Info](https://hub.sp-tarkov.com/files/file/985-item-info/) 🥒 (Rarity recolor and detailed description)
 [Visceral Combat](https://discord.com/channels/1202292159366037545/1236748474653872228) 🍌
 [Custom Music Player](https://hub.sp-tarkov.com/files/file/1832-stalker-music-pack/#overview) 🥒 (Distributed with tracks)
 
 ##### Disabled Mods
 
+[Stash Search](https://hub.sp-tarkov.com/files/file/1769-stash-search/) 🍌 (Replaced by UI Fixes)
+[Freecam](https://hub.sp-tarkov.com/files/file/279-freecam/?highlight=free#overview) 🍌 (Replaced by Fika Cam)
 [Acid's Bot Placement System](https://hub.sp-tarkov.com/files/file/2782-abps-acid-s-bot-placement-system/#comments) 🍌🥒
 [Web Map](https://hub.sp-tarkov.com/files/file/1421-techhappy-s-web-minimap/#overview) 🍌 (Replaced by Dynamic Maps)
 [Expanded Door Interactions](https://hub.sp-tarkov.com/files/file/1865-expanded-door-interactions/) 🍌 (Annoying UI)
-[Use Items Anywhere](https://hub.sp-tarkov.com/files/file/1416-use-items-anywhere/) 🍌 (Hotkey backpack items)
 [Realistic Thermal](https://hub.sp-tarkov.com/files/file/1510-borkel-s-big-realistic-thermal-package-bring-real-life-realism-to-your-thermal-s/) 🥒
 [Headshot Damage Redirection](https://hub.sp-tarkov.com/files/file/1809-headshot-damage-redirection-hdr/) 🍌 (We don't need that)
 [Random Season](https://hub.sp-tarkov.com/files/file/2610-random-season-ripoff/) 🥒 (Replaced by Tarkov Weather System)
@@ -282,6 +293,40 @@ Manual install locations are marked with 🍌 for **"/BepInEx/plugins"** and �
 [No Grenade ESP](https://hub.sp-tarkov.com/files/file/1029-no-grenade-esp/) 🍌 (Incompatible with SAIN)
 
 ### Patch Note & Downloads
+
+##### 3.11.3_1.6
+
+[Patch Download]()
+Updated SAIN 4.0.4
+
+##### 3.11.3_1.5
+
+[Patch Download](http://www.mediafire.com/view/bhdpqepyisyljfm)
+Updated Fontaine's FOV Fix 3.1.0
+Updated MOAR + Bagels 3.1.6
+Updated Boss Notifier
+Updated Live Flea Prices 1.5.2 
+Updated HollywoodFX 1.6.9
+Updated Friendly PMC 4.4.9 
+Updated Late to the Party 2.9.2
+Updated Waypoints 1.7.1
+Added Questing Bots
+Added Use Items Anywhere
+Added Belt Slot
+Added Shadow Flicker Fix
+
+##### 3.11.3_1.4
+
+[Patch Download](http://www.mediafire.com/view/9m2ckwycjo2q1h5)
+Updated friendlypmc-4.4.6
+Removed FreeCam
+Removed Stash Search
+Added Item Info
+Added Leave It There
+Added Home Comforts
+Added Lockable Doors
+Added Underfire
+Added ModSync
 
 ##### 3.11.3_1.3
 

@@ -16,7 +16,7 @@ Default Page
 #### Quote (Default)
 
 ```
-=={{text}}== ({{linkWithDisplay}})
+=={{text}}== ([[{{linktext}}|p.{{pageLabel}}]])
 ```
 
 #### Link
@@ -40,7 +40,7 @@ Default Page
 
 ```
 
-#### Quote in Callout
+#### Quote Callout
 
 ```
 > [!{{calloutType}}|{{color}}]+ {{linkWithDisplay}}
@@ -51,12 +51,17 @@ Default Page
 
 ```
 
+#### Quote Body
+
+```
+{{text}} ([[{{linktext}}|p.{{pageLabel}}]])
+```
 ## Dummy PDF For External Files
 
 #### Modifier Key
 
-Shhift
+`Shift`
 
 #### Path
 
-Attachments
+`Attachments`
