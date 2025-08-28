@@ -135,8 +135,8 @@ plugins:
   - git-revision-date-localized:
       type: date
       fallback_to_build_date: true
-      locale: fr
-      custom_format: "%A %d %B %Y"
+      locale: en
+      custom_format: "%A, %B %d, %Y"
       enable_creation_date: true
   - ezlinks:
       wikilinks: true
