@@ -49,6 +49,7 @@ Body
 
 - [i] \[i] Information
 - [?] \[?] Question
+- ["] \["] Quote
 - [S] \[S] Amount
 
 - [p] \[p] Pro
