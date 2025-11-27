@@ -124,6 +124,9 @@ Reference to a [[./index|File]]
 Reference to a [[Obsidian#Heading 1|Heading]]
 Reference to a [[../../2024-01-01#^025433|Paragraph]]
 Inline Reference![[Obsidian#Styles|Guides/Obsidian > Styles]]
+Property::In-text
+[Property::In-line]
+(Property::In-line Hidden)
 
 ## Latex
 
