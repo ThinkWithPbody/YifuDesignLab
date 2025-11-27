@@ -8,26 +8,28 @@ title: Rhino
 
 ### Keyboard
 
-| Key | Command Macro                                                                                                                     |
-| --- | --------------------------------------------------------------------------------------------------------------------------------- |
-| F1  | ! _PointsOn                                                                                                                       |
-| F2  | ! _PointsOff                                                                                                                      |
-| F3  | '_DisableOsnap _Toggle                                                                                                            |
-| F4  | '_Snap                                                                                                                            |
-| F5  | ! _GumballAlignment _Cycle                                                                                                        |
-| F6  | ! _Camera _Toggle                                                                                                                 |
-| F7  | noecho -_Grid _ShowGrid _ShowGridAxes _Enter  -_RunScript (Rhino.Print "Grid Display Toggled.")                                   |
-| F8  | noecho _PrintDisplay _State  _Toggle _Color _Display _Scale 10000 _Enter _Enter -_RunScript (Rhino.Print "PrintDisplay Toggled.") |
-| F9  | ! _CommandHistory                                                                                                                 |
-| F10 | ! _DocumentProperties                                                                                                             |
-| F11 | '_Help                                                                                                                            |
-| F12 | '_DigClick                                                                                                                        |
+| Key     | Command Macro                                                                                                               |
+| ------- | --------------------------------------------------------------------------------------------------------------------------- |
+| F1      | ! _PointsOn                                                                                                                 |
+| F2      | ! _PointsOff                                                                                                                |
+| F3      | '_DisableOsnap _Toggle                                                                                                      |
+| F4      | '_Snap                                                                                                                      |
+| F5      | ! _GumballAlignment _Cycle                                                                                                  |
+| F6      | ! _Camera _Toggle                                                                                                           |
+| F7      | noecho -_Grid _ShowGrid _ShowGridAxes _Enter  -_RunScript (Rhino.Print "Grid Display Toggled.")                             |
+| F8      | noecho _PrintDisplay _State  _Toggle _Enter -_RunScript (Rhino.Print "PrintDisplay Toggled.")                               |
+| LC + F8 | noecho _PrintDisplay _State  _Toggle _Color _Display _Scale 1 _Enter _Enter -_RunScript (Rhino.Print "PrintDisplay Reset.") |
+| F9      | ! _CommandHistory                                                                                                           |
+| F10     | ! _DocumentProperties                                                                                                       |
+| F11     | '_Help                                                                                                                      |
+| F12     | '_DigClick                                                                                                                  |
 
 ### Aliases
 
 | Alias | Command Macro          |
 | ----- | ---------------------- |
 | B2    | '_Boolean2Objects      |
+| BC    | '_BlendCrv             |
 | BD    | '_BooleanDifference    |
 | BI    | '_BooleanIntersection  |
 | BS    | '_BooleanSplit         |
@@ -35,7 +37,7 @@ title: Rhino
 | CB    | ! \_CurveBoolean       |
 | COi   | '_Copy _Inplace        |
 | DD    | '_Distance             |
-| DI    | '_Dim                  |
+| DI    | '_DimAligned           |
 | DM    | '_Mirror               |
 | EC    | '_ExtrudeCrv           |
 | ES    | '_ExtrudeSrf           |
@@ -71,6 +73,7 @@ title: Rhino
 
 #### Package Manager
 
+byRhinoGadget
 Caribou
 [Flexibility](https://www.food4rhino.com/en/app/flexibility)
 [Metahopper](https://www.food4rhino.com/en/app/metahopper)
