@@ -61,89 +61,89 @@ Pick up at Daniels or 404-Major Mackenzie Dr E.
 **Easy | Brittle | Workable | Renewable**
 
 - **Basic Silver**
-    ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Sliver.webp|Yifu Design Lab_Sliver]]
+    ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Sliver.webp|128]]
     Color: Basic Silver
     Hex Code: `#A6A9AA`
     Price: $22.59/kg
     Stock: 1 kg
     
 - **Basic Bambu Green**
-    ![[./Attachments/Yifu Design Lab/Yifu Design Lab-Bambu_Green.webp|Yifu Design Lab-Bambu_Green]]
+    ![[./Attachments/Yifu Design Lab/Yifu Design Lab-Bambu_Green.webp|128]]
     Color: Basic Bambu Green
     Hex Code: `#00AE42`
     Price: $22.59/kg
     Stock: 0.2 kg
     
 - **Matte Ivory White**
-	![[./Attachments/Yifu Design Lab/Yifu Design Lab-650946feb4e04feda77bc4e5b2c38202.webp|Yifu Design Lab-650946feb4e04feda77bc4e5b2c38202]]
+	![[./Attachments/Yifu Design Lab/Yifu Design Lab-650946feb4e04feda77bc4e5b2c38202.webp|128]]
 	Color: Matte Ivory White
     Hex Code: `#FFFFFF`
     Price: $22.59/kg
     Stock: 3 kg
     
 - **Matte Charcoal Black**
-    ![[./Attachments/Yifu Design Lab/Yifu Design Lab-a1b596fe17af44feb9b6af51c3b6985d.webp|Yifu Design Lab-a1b596fe17af44feb9b6af51c3b6985d]]
+    ![[./Attachments/Yifu Design Lab/Yifu Design Lab-a1b596fe17af44feb9b6af51c3b6985d.webp|128]]
     Color: Matte Charcoal Black
     Hex Code: `#000000`
     Price: $22.59/kg
     Stock: 2 kg
     
 - **Matte Sakura Pink**
-    ![[./Attachments/Yifu Design Lab/Yifu Design Lab-374401f869f3479aa30ba8cdaf8def1d.webp|Yifu Design Lab-374401f869f3479aa30ba8cdaf8def1d]]
+    ![[./Attachments/Yifu Design Lab/Yifu Design Lab-374401f869f3479aa30ba8cdaf8def1d.webp|128]]
     Color: Matte Sakura Pink
     Hex Code: `#E8AFCF`
     Price: $22.59/kg
     Stock: 1 kg
     
 - **Matte Lilac Purple**
-    ![[./Attachments/Yifu Design Lab/Yifu Design Lab-4db28960ac6d445a9920cb1133ef6c39.webp|Yifu Design Lab-4db28960ac6d445a9920cb1133ef6c39]]
+    ![[./Attachments/Yifu Design Lab/Yifu Design Lab-4db28960ac6d445a9920cb1133ef6c39.webp|128]]
     Color: Matte Lilac Purple
     Hex Code: `#AE96D4`
     Price: $22.59/kg
     Stock: 0.8 kg
     
 - **Silk Gold**
-    ![[./Attachments/Yifu Design Lab/Yifu Design Lab-15bee911c43d40828e932f7397d55097.webp|Yifu Design Lab-15bee911c43d40828e932f7397d55097]]
+    ![[./Attachments/Yifu Design Lab/Yifu Design Lab-15bee911c43d40828e932f7397d55097.webp|128]]
     Color: Silk Gold
     Hex Code: `#E5B03D`
     Price: $36.15/kg
     Stock: 0.8 kg
     
 - **Sparkle Crimson Red**
-    ![[./Attachments/Yifu Design Lab/Yifu Design Lab-faf72eb685014a1b94f4048c2388fe0a-1.webp|Yifu Design Lab-faf72eb685014a1b94f4048c2388fe0a-1]]
+    ![[./Attachments/Yifu Design Lab/Yifu Design Lab-faf72eb685014a1b94f4048c2388fe0a-1.webp|128]]
     Color: Sparkle Crimson Red
     Hex Code: `#792B36`
     Price: $36.15/kg
     Stock: 0.8 kg
     
 - **Metal Iron Gray**
-    ![[./Attachments/Yifu Design Lab/Yifu Design Lab-1fdb0b2166d3450ea180a6c83d4acbc6.webp|Yifu Design Lab-1fdb0b2166d3450ea180a6c83d4acbc6]]
+    ![[./Attachments/Yifu Design Lab/Yifu Design Lab-1fdb0b2166d3450ea180a6c83d4acbc6.webp|128]]
     Color: Metal Iron Gray
     Hex Code: `#43403D`
     Price: $36.15/kg
     Stock: 0.8 kg
     
 - **Marble White**
-    ![[./Attachments/Yifu Design Lab/Yifu Design Lab-ca48e1d56ed042b7920cba9912fe5977.webp|Yifu Design Lab-ca48e1d56ed042b7920cba9912fe5977]]
+    ![[./Attachments/Yifu Design Lab/Yifu Design Lab-ca48e1d56ed042b7920cba9912fe5977.webp|128]]
     Color: Marble White
     Hex Code: `#F7F3F0`
     Price: $36.15/kg
     Stock: 1 kg
     
 - **Breakaway Support PLA**
-    ![[./Attachments/Yifu Design Lab/Yifu Design Lab-Support_3.webp|Yifu Design Lab-Support_3]]
+    ![[./Attachments/Yifu Design Lab/Yifu Design Lab-Support_3.webp|128]]
     Color: Breakaway Support PLA
     Price: $67.78/kg
     Stock: 0 kg
     
 - **Breakaway Support PLA/PETG**
-    ![[./Attachments/Yifu Design Lab/Yifu Design Lab-df26d3f606fc46d4bcef831a68970a62.webp|Yifu Design Lab-df26d3f606fc46d4bcef831a68970a62]]
+    ![[./Attachments/Yifu Design Lab/Yifu Design Lab-df26d3f606fc46d4bcef831a68970a62.webp|128]]
     Color: Breakaway Support PLA/PETG
     Price: $101.68/kg
     Stock: 0.5 kg
     
 - **PVA Water-soluble Support**
-    ![[./Attachments/Yifu Design Lab/Yifu Design Lab-9e8efe4a411a461eb30248adf214376e.webp|Yifu Design Lab-9e8efe4a411a461eb30248adf214376e]]
+    ![[./Attachments/Yifu Design Lab/Yifu Design Lab-9e8efe4a411a461eb30248adf214376e.webp|128]]
     Color: PVA Water-soluble Support
     Price: $115.24/kg
     Stock: 0 kg
@@ -153,28 +153,28 @@ Pick up at Daniels or 404-Major Mackenzie Dr E.
 **Fair | Durable | Impact-resistant | Food-safe**
 
 - **Basic White**
-    ![[./Attachments/Yifu Design Lab/Yifu Design Lab_6f0f3ffb6bdb459f97d0f44a6d83fbf6-1.webp|Yifu Design Lab_6f0f3ffb6bdb459f97d0f44a6d83fbf6-1]]
+    ![[./Attachments/Yifu Design Lab/Yifu Design Lab_6f0f3ffb6bdb459f97d0f44a6d83fbf6-1.webp|128]]
     Color: Basic White
     Hex Code: `#FFFFFF`
     Price: $22.59/kg
     Stock: 0.5 kg
     
 - **HF White**
-    ![[./Attachments/Yifu Design Lab/Yifu Design Lab_6f0f3ffb6bdb459f97d0f44a6d83fbf6.webp|Yifu Design Lab_6f0f3ffb6bdb459f97d0f44a6d83fbf6]]
+    ![[./Attachments/Yifu Design Lab/Yifu Design Lab_6f0f3ffb6bdb459f97d0f44a6d83fbf6.webp|128]]
     Color: HF White
     Hex Code: `#FFFFFF`
     Price: $22.59/kg
     Stock: 1 kg
     
 - **Translucent Clear**
-    ![[./Attachments/Yifu Design Lab/Yifu Design Lab_1a74ea492a6f4b8ea23c7d84b145d316.webp|Yifu Design Lab_1a74ea492a6f4b8ea23c7d84b145d316]]
+    ![[./Attachments/Yifu Design Lab/Yifu Design Lab_1a74ea492a6f4b8ea23c7d84b145d316.webp|128]]
     Color: Translucent Clear
     Hex Code: `#F2F2F2`
     Price: $22.59/kg
     Stock: 1 kg
     
 - **Translucent Grey**
-    ![[./Attachments/Yifu Design Lab/Yifu Design Lab_18fb283d551c418f9246a22beec492ce.webp|Yifu Design Lab_18fb283d551c418f9246a22beec492ce]]
+    ![[./Attachments/Yifu Design Lab/Yifu Design Lab_18fb283d551c418f9246a22beec492ce.webp|128]]
     Color: Translucent Grey
     Hex Code: `#8E8E8E`
     Price: $22.59/kg
@@ -185,7 +185,7 @@ Pick up at Daniels or 404-Major Mackenzie Dr E.
 **Difficult | Strong | Chemical-resistant | Industrial**
 
 - **Basic White**
-    ![[./Attachments/Yifu Design Lab/Yifu Design Lab_dcc84bbb1ebb4feab8e7fa3c6776d603-1.webp|Yifu Design Lab_dcc84bbb1ebb4feab8e7fa3c6776d603-1]]
+    ![[./Attachments/Yifu Design Lab/Yifu Design Lab_dcc84bbb1ebb4feab8e7fa3c6776d603-1.webp|128]]
     Color: Basic White
     Hex Code: `#FFFFFF`
     Price: $22.59/kg
