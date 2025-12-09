@@ -282,6 +282,7 @@
 <span class="md-ellipsis">
     ARC1046H Structures 1
   </span>
+<span class="md-status md-status--DONE"></span>
 </a>
 </div>
 <nav aria-expanded="false" aria-labelledby="__nav_3_2_1_label" class="md-nav" data-md-level="3">
@@ -301,6 +302,7 @@
 <span class="md-ellipsis">
     ARC2047H Building Science Materials and Construction 3
   </span>
+<span class="md-status md-status--DONE"></span>
 </a>
 </div>
 <nav aria-expanded="false" aria-labelledby="__nav_3_2_2_label" class="md-nav" data-md-level="3">
@@ -1491,7 +1493,11 @@
 </tr>
 <tr>
 <td>F8</td>
-<td>noecho _PrintDisplay _State  _Toggle _Color _Display _Scale 10000 _Enter _Enter -_RunScript (Rhino.Print “PrintDisplay Toggled.”)</td>
+<td>noecho _PrintDisplay _State  _Toggle _Enter -_RunScript (Rhino.Print “PrintDisplay Toggled.”)</td>
+</tr>
+<tr>
+<td>LC + F8</td>
+<td>noecho _PrintDisplay _State  _Toggle _Color _Display _Scale 1 _Enter _Enter -_RunScript (Rhino.Print “PrintDisplay Reset.”)</td>
 </tr>
 <tr>
 <td>F9</td>
@@ -1525,6 +1531,10 @@
 <td>’_Boolean2Objects</td>
 </tr>
 <tr>
+<td>BC</td>
+<td>’_BlendCrv</td>
+</tr>
+<tr>
 <td>BD</td>
 <td>’_BooleanDifference</td>
 </tr>
@@ -1554,7 +1564,7 @@
 </tr>
 <tr>
 <td>DI</td>
-<td>’_Dim</td>
+<td>’_DimAligned</td>
 </tr>
 <tr>
 <td>DM</td>
@@ -1624,7 +1634,8 @@
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../Attachments/Rhino/HatchFromCenterline.gif"><img alt="HatchFromCenterline" src="../Attachments/Rhino/HatchFromCenterline.gif" title="HatchFromCenterline"/></a></p>
 <h4 id="plugins">Plugins<a class="headerlink" href="#plugins" title="Permanent link">¶</a></h4>
 <h5 id="package-manager">Package Manager<a class="headerlink" href="#package-manager" title="Permanent link">¶</a></h5>
-<p>Caribou<br/>
+<p>byRhinoGadget<br/>
+Caribou<br/>
 <a href="https://www.food4rhino.com/en/app/flexibility">Flexibility</a><br/>
 <a href="https://www.food4rhino.com/en/app/metahopper">Metahopper</a><br/>
 <a href="https://www.food4rhino.com/en/app/opennest">Open Nest</a><br/>
@@ -1652,7 +1663,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <small>
 <!-- mkdocs-git-revision-date-localized-plugin -->
 <u>Last update</u> :
-        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 23, 2025</span>
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 27, 2025</span>
 <!-- mkdocs-git-revision-date-plugin -->
 <br/>
 <u>Created</u> :
