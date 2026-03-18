@@ -79,7 +79,7 @@ Pick up at Daniels or 404-Major Mackenzie Dr E.
 	Color: Matte Ivory White
     Hex Code: `#FFFFFF`
     Price: $22.59/kg
-    Stock: 3 kg
+    Stock: 0.8 kg
     
 - **Matte Charcoal Black**
     ![[./Attachments/Yifu Design Lab/Yifu Design Lab-a1b596fe17af44feb9b6af51c3b6985d.webp|128]]
@@ -130,6 +130,20 @@ Pick up at Daniels or 404-Major Mackenzie Dr E.
     Price: $36.15/kg
     Stock: 1 kg
     
+- **Wood Classic Birch**
+    ![[./Attachments/Yifu Design Lab/Yifu Design Lab_864fe622e7974d069131b6629eda7e62.webp|Yifu Design Lab_864fe622e7974d069131b6629eda7e62]]
+    Color: Classic Birch
+    Hex Code: `#918669`
+    Price: $36.15/kg
+    Stock: 0 kg
+    
+- **Wood White Oak**
+    ![[./Attachments/Yifu Design Lab/Yifu Design Lab_cd1e7de8960046d0a67173cb37407b4e.webp|128]]
+    Color: White Oak
+    Hex Code: `#D6CCA3`
+    Price: $36.15/kg
+    Stock: 0 kg
+    
 - **Breakaway Support PLA**
     ![[./Attachments/Yifu Design Lab/Yifu Design Lab-Support_3.webp|128]]
     Color: Breakaway Support PLA
@@ -157,7 +171,7 @@ Pick up at Daniels or 404-Major Mackenzie Dr E.
     Color: Basic White
     Hex Code: `#FFFFFF`
     Price: $22.59/kg
-    Stock: 0.5 kg
+    Stock: 0.8 kg
     
 - **HF White**
     ![[./Attachments/Yifu Design Lab/Yifu Design Lab_6f0f3ffb6bdb459f97d0f44a6d83fbf6.webp|128]]
