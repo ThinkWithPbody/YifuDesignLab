@@ -341,7 +341,7 @@
 <span class="md-ellipsis">
     ARC2046H
   </span>
-<span class="md-status md-status--TODO"></span>
+<span class="md-status md-status--DONE"></span>
 </a>
 </div>
 <nav aria-expanded="false" aria-labelledby="__nav_3_3_1_label" class="md-nav" data-md-level="3">
@@ -506,6 +506,13 @@
 <a class="md-nav__link" href="#timelog">
 <span class="md-ellipsis">
       +timelog
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#case-transforms-for-valuename">
+<span class="md-ellipsis">
+      Case Transforms for VALUE/NAME
     </span>
 </a>
 </li>
@@ -1275,6 +1282,13 @@
     </span>
 </a>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#case-transforms-for-valuename">
+<span class="md-ellipsis">
+      Case Transforms for VALUE/NAME
+    </span>
+</a>
+</li>
 </ul>
 </nav>
 </div>
@@ -1315,11 +1329,56 @@
 <!-- Page content -->
 <h4 id="timelog">+timelog<a class="headerlink" href="#timelog" title="Permanent link">¶</a></h4>
 <p>Copy the following tag options</p>
-<p><span><p dir="auto"><a class="tag" href="#Projects/2024/Yifu_Design_Lab" rel="noopener nofollow" target="_blank">#Projects/2024/Yifu_Design_Lab</a>,#Courses/2025/ARC2014Y</p></span></p>
+<p><a href="./#Projects/2024/Yifu_Design_Lab">#Projects/2024/Yifu_Design_Lab</a>,#Courses/2026/ARC3405HS,#Courses/2026/ARC3021Y,#Courses/2026/ARC3052H,#Projects/Job_Hunt,#Projects/2026/ARC3405HS_Project-01</p>
 <p>And insert behind <code>{{VALUE:</code></p>
 <div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a> #timelog {{VALUE:}} \n
 </code></pre></div>
 <p>Then, under Quick Add plugin settings, use the entirety of this modified string as the <strong>Capture Format</strong> for <strong>+timelog</strong> &gt; Macro <strong>3: Add Tags</strong></p>
+<h3 id="case-transforms-for-valuename">Case Transforms for VALUE/NAME<a class="headerlink" href="#case-transforms-for-valuename" title="Permanent link">¶</a></h3>
+<p>Use the new <code>|case:&lt;style&gt;</code> pipe syntax to transform any VALUE or NAME token inline — no extra variables or macros needed. Eight styles are supported:</p>
+<table>
+<thead>
+<tr>
+<th>Style</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kebab</code></td>
+<td><code>my-new-blog</code></td>
+</tr>
+<tr>
+<td><code>snake</code></td>
+<td><code>my_new_blog</code></td>
+</tr>
+<tr>
+<td><code>camel</code></td>
+<td><code>myNewBlog</code></td>
+</tr>
+<tr>
+<td><code>pascal</code></td>
+<td><code>MyNewBlog</code></td>
+</tr>
+<tr>
+<td><code>title</code></td>
+<td><code>My New Blog</code></td>
+</tr>
+<tr>
+<td><code>lower</code></td>
+<td><code>my new blog</code></td>
+</tr>
+<tr>
+<td><code>upper</code></td>
+<td><code>MY NEW BLOG</code></td>
+</tr>
+<tr>
+<td><code>slug</code></td>
+<td><code>my-new-blog</code> (filename-safe)</td>
+</tr>
+</tbody>
+</table>
+<p>Combine with other options freely: <code>{{VALUE:title|label:Post Title|case:kebab}}</code>. Each token applies its own transform independently, so you can reuse the same variable with different casing in a single template — for example, <code>{{VALUE:title}}</code> for the heading and <code>{{VALUE:title|case:slug}}</code> for the filename. Autocomplete suggestions appear as you type <code>|case:</code>. (<a href="https://github.com/chhoumann/quickadd/pull/1103">#1103</a>)</p>
 <!-- Source file information -->
 <!-- taken from 
 https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-file.html -->
@@ -1328,7 +1387,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <small>
 <!-- mkdocs-git-revision-date-localized-plugin -->
 <u>Last update</u> :
-        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 19, 2025</span>
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">March 18, 2026</span>
 <!-- mkdocs-git-revision-date-plugin -->
 <br/>
 <u>Created</u> :
