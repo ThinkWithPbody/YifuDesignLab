@@ -5,15 +5,14 @@ excalidraw-plugin: parsed
 excalidraw-open-md: true
 tags:
   - note_atomic
-  - course
 title: 2025-02-12_Module 02 ARC1046 Review
-description: 
+description:
 name: Module 02 ARC1046 Review
 date: 2025-02-12
-people: 
-location: 
-weekday: 
-time: 
+people:
+location:
+weekday:
+time:
 ---
 
 %%[parents:: [[../../../../../Courses/2025/ARC2046H/index|ARC2046H]]]%%
@@ -27,7 +26,7 @@ time:
 		- ![[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/DEAD LOADS.pdf#page=1&rect=76,462,158,484|DEAD LOADS, p.1|100]]
 		- Do not require interpolation - use 8" as is for standard, flick back and forth
 - Snow load (kPa)
-	- ==S = Is \[Ss (Cb Cw C s Ca ) + Sr \]== ([[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW LOAD.pdf#page=1&selection=134,0,156,1|p.1]])
+	- ==S = Is \[Ss (Cb Cw Cs Ca ) + Sr \]== ([[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW LOAD.pdf#page=1&selection=134,0,156,1|p.1]])
 		- ==Is = importance factor for snow load as provided in Table 4.1.6.2.,== ([[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW LOAD.pdf#page=1&selection=158,0,164,62|p.1]])
 		- ==Ss = 1-in-50-year ground snow load, in kPa, determined in accordance with Subsection 1.1.2.,== ([[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW LOAD.pdf#page=1&selection=165,0,170,87|p.1]])
 		- ==Cb = basic roof snow load factor in Sentence (2),== ([[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW LOAD.pdf#page=1&selection=171,0,176,44|p.1]])
