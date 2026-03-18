@@ -5,10 +5,10 @@ excalidraw-plugin: parsed
 excalidraw-open-md: true
 tags:
   - course
-description: 
+description:
 code: ARC2046H
 name: Structures_2
-status: TODO
+status: DONE
 start: 2025-01-05
 due: 2025-05-05
 completion: 2025-04-09
@@ -38,36 +38,38 @@ time: 1300
 > [Lecture 07 Load Combination Example 02.xlsx](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2025-01%5CARC2046H%5CFiles%5C00%5CLecture%2007%20Load%20Combination%20Example%2002.xlsx)
 
 > [!blue]+ Helpful PDF
-> [[./Attachments/ARC2046H/DEAD LOADS.pdf|DEAD LOADS]]
-> [[./Attachments/ARC2046H/LIVE LOADS.pdf|LIVE LOADS]]
-> [[./Attachments/ARC2046H/SNOW LOAD.pdf|SNOW LOAD]]
-> [[./Attachments/ARC2046H/ONTARIO CLIMATIC DATA.pdf|ONTARIO CLIMATIC DATA]]
-> [[./Attachments/ARC2046H/WIND LOAD.pdf|WIND LOAD]]
-> [[./Attachments/ARC2046H/IMPORTANCE FACTORS.pdf|IMPORTANCE FACTORS]]
-> [[./Attachments/ARC2046H/LOAD COMBINATIONS.pdf|LOAD COMBINATIONS]]
+> [Helpful PDF](file:///D:/_twp/Document/Scholar/UTOR/Archive/2025-01/ARC2046H/Files/00/Helpful%20PDF)
+> 
+> DEAD LOADS
+> LIVE LOADS
+> SNOW LOAD
+> ONTARIO CLIMATIC DATA
+> WIND LOAD
+> IMPORTANCE FACTORS
+> LOAD COMBINATIONS
 > ![[../../../Periodic Notes/Atomic/2025/2025-02/2025-02-12_Module 02 ARC1046 Review/Attachments/2025-02-12_Module 02 ARC1046 Review/2024-03-05T15_12_48-05_00_TWP-X570-WIN10(vlc).jpg|200]]
-> [[./Attachments/ARC2046H/SERVICEABILITY LIMITS.pdf|SERVICEABILITY LIMITS]]
-> [[./Attachments/ARC2046H/SIZING GUIDELINES.pdf|SIZING GUIDELINES]]
-> [[./Attachments/ARC2046H/BEAM LOADING DIAGRAMS.pdf|BEAM LOADING DIAGRAMS]]
-> [[./Attachments/ARC2046H/SECTION PROPERTIES.pdf|SECTION PROPERTIES]]
-> [[./Attachments/ARC2046H/STEEL BEAM TABLES.pdf|STEEL BEAM TABLES]]
-> [[./Attachments/ARC2046H/STEEL COLUMN TABLES.pdf|STEEL COLUMN TABLES]]
-> [[./Attachments/ARC2046H/STEEL SECTIONS.pdf|STEEL SECTIONS]]
-> [[./Attachments/ARC2046H/SAWN LUMBER.pdf|SAWN LUMBER]]
-> [[./Attachments/ARC2046H/WOOD COMPRESSION TABLES.pdf|WOOD COMPRESSION TABLES]]
-> [[./Attachments/ARC2046H/WOOD BENDING TABLES.pdf|WOOD BENDING TABLES]]
-> [[./Attachments/ARC2046H/GLULAM.pdf|GLULAM]]
-> [[./Attachments/ARC2046H/CONCRETE COLUMN GRAPHS.pdf|CONCRETE COLUMN GRAPHS]]
-> [[./Attachments/ARC2046H/TYPICAL DETAILS.pdf|TYPICAL DETAILS]]
+> SERVICEABILITY LIMITS
+> SIZING GUIDELINES
+> BEAM LOADING DIAGRAMS
+> SECTION PROPERTIES
+> STEEL BEAM TABLES
+> STEEL COLUMN TABLES
+> STEEL SECTIONS
+> SAWN LUMBER
+> WOOD COMPRESSION TABLES
+> WOOD BENDING TABLES
+> GLULAM
+> CONCRETE COLUMN GRAPHS
+> TYPICAL DETAILS
 
 > [!blue]- Example Drawings
-> [[./Attachments/ARC2046H/060462 CUBE Lofts Steel.pdf|060462 CUBE Lofts Steel]]
-> [[./Attachments/ARC2046H/070435 Goldring Architectural Plans.pdf|070435 Goldring Architectural Plans]]
-> [[./Attachments/ARC2046H/070435 Goldring Structural Drawings.pdf|070435 Goldring Structural Drawings]]
-> [[./Attachments/ARC2046H/Concrete Building.pdf|Concrete Building]]
-> [[./Attachments/ARC2046H/Steel Building.pdf|Steel Building]]
-> [[./Attachments/ARC2046H/060462 CUBE Lofts Architectural.pdf|060462 CUBE Lofts Architectural]]
-> [[./Attachments/ARC2046H/060462 CUBE Lofts Concrete.pdf|060462 CUBE Lofts Concrete]]
+> 060462 CUBE Lofts Steel
+> 070435 Goldring Architectural Plans
+> 070435 Goldring Structural Drawings
+> Concrete Building
+> Steel Building
+> 060462 CUBE Lofts Architectural
+> 060462 CUBE Lofts Concrete
 
 ## Module 01 Strength/Stiffness/Stability
 
@@ -264,7 +266,13 @@ Import this calculator to your own vault:
 
 `#Courses/2025/ARC2046H`
 
+Notes:
 
+Timelog:
+
+Total: 0 Hours, 0 Minutes
+
+Hours:
 
 # Course Brief
 
