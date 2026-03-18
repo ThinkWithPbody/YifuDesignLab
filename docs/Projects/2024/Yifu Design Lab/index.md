@@ -50,6 +50,7 @@ Pick up at Daniels or 404-Major Mackenzie Dr E.
 4. Adjust [[index#Slicing Options|Slicing Options]] as needed.
 5. Send your **ZIP** file, **filament**, **quality preset**, and any **custom slicing options** to Yifu Ding over Teams or [Email](mailto:yifu.ding@mail.utoronto.ca) to place job order.
 6. Email transfer fees to yifuding.twp@gmail.com
+7. Delivery within 2 days of job completion.
 
 #### Filament
 
@@ -205,7 +206,7 @@ Pick up at Daniels or 404-Major Mackenzie Dr E.
     Price: $22.59/kg
     Stock: 0.8 kg
 
-## ASA
+##### ASA
 
 **Difficult | Strong | UV-resistant | Outdoor**
 
@@ -348,23 +349,23 @@ For 1 inch hollow cube with 2 walls:
 
 ### File Preparation
 
-> [!todo]- Step 1: Scale
+> [!todo]+ Step 1: Scale
 >
 > Scale the model to printed size
 > - Double check document tolerances before scaling to avoid inaccuracies.
 
-> [!todo]- Step 2: Orientate
+> [!todo]+ Step 2: Orientate
 > Choose printing **orientation** for maximum smoothness.
 > - Printing a thin, organic piece vertically provides smoother detail and needs less support than laying it flat on the bed.
 
-> [!todo]- Step 3: Divide
+> [!todo]+ Step 3: Divide
 > Divide large models exceeding the **build volume** with a **planar** cutter to provide **flat surfaces** that will adhere to the print bed nicely.
 > - Each model need to be a closed solid with no non-manifold geometry. They should be **watertight**.
 > - For pieces that are thin and tall, width-height ratio is recommended to not exceed 1:8.
 > - Keep in mind that any **overhang** exceeding 25 degrees will need substantial support structure which could be reduced or eliminated if they were divided and orientated differently.
 > - `WireCut` is a great command for dividing your model. If `WireCut` didn't work on your model, chances are it isn't watertight and it won't print properly either.
 
-> [!todo]- Step 4: Export
+> [!todo]+ Step 4: Export
 > Export files as **STL** in **millimetres**.
 > - Rhino files or incorrectly scaled STL will not be accepted.
 > - **Each separated body should be one .stl file** to maximize nesting potential.
