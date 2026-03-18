@@ -1,8 +1,9 @@
 ---
 share: true
 hidden: false
-hide: 
-tags: []
+hide:
+tags:
+  - guide
 date: 2025-05-19
 ---
 
