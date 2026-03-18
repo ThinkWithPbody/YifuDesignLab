@@ -23,6 +23,7 @@ title: Rhino
 | F10     | ! _DocumentProperties                                                                                                       |
 | F11     | '_Help                                                                                                                      |
 | F12     | '_DigClick                                                                                                                  |
+| LC + E  | ! _Extend _Enter                                                                                                            |
 
 ### Aliases
 
@@ -42,6 +43,7 @@ title: Rhino
 | EC    | '_ExtrudeCrv           |
 | ES    | '_ExtrudeSrf           |
 | FL    | '_Fillet _Dynamic=Yes  |
+| HP    | ! _HistoryPurge        |
 | LI    | '_Polyline             |
 | MV    | ! _Move _Vertical=Yes  |
 | SC    | '_Scale                |
