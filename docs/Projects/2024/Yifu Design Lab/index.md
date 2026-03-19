@@ -132,7 +132,7 @@ Pick up at Daniels or 404-Major Mackenzie Dr E.
     Stock: 1 kg
     
 - **Wood Classic Birch**
-    ![[./Attachments/Yifu Design Lab/Yifu Design Lab_864fe622e7974d069131b6629eda7e62.webp|Yifu Design Lab_864fe622e7974d069131b6629eda7e62]]
+    ![[./Attachments/Yifu Design Lab/Yifu Design Lab_864fe622e7974d069131b6629eda7e62.webp|128]]
     Color: Classic Birch
     Hex Code: `#918669`
     Price: $36.15/kg
