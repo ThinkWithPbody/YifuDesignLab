@@ -17,11 +17,6 @@ location:
 weekday:
 time:
 ---
-
-**No Template Applied**
-
-Alt + E to select a template
-
 %%[parents:: [[../index|ARC3052H]]]%%
 ![[Periodic Notes/Atomic/2026/2026-03/ARC3052H_Module-09/ARC3052H_Module-09.svg|Periodic Notes/Atomic/2026/2026-03/ARC3052H_Module-09/ARC3052H_Module-09.svg]]
 

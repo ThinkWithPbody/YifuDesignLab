@@ -15,17 +15,13 @@ slug: ARC3052H-Professional Practice 2
 status: TODO
 start: 2026-01-04
 due: 2026-05-04
-completion:
+completion: 2026-05-04
 people:
   - "[[People/Diarmuid Nash]]"
 location: DA200
 weekday: 4
 time: 1500
 ---
-
-# Tasks
-
-- [x] Complete Course Page: ARC3052H-Professional Practice 2  [priority:: low]  [scheduled:: 2026-01-04]  [completion:: 2026-01-04]
 
 # Modules
 
