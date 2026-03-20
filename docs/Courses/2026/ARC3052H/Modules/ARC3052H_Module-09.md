@@ -5,7 +5,7 @@ hide:
 tags:
   - note_atomic
 icon: FasAtom
-date: ARC3052H
+date:
 excalidraw-plugin: parsed
 excalidraw-open-md: true
 title:
