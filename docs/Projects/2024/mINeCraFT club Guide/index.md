@@ -12,7 +12,7 @@ completion: 2024-06-10
 ---
 
 ![Logo|16](https://live.staticflickr.com/65535/52191413864_3b47958f71_o.png)
-- [ ] Version: mcc-1.21.1-neoforge-1.7
+- [ ] Version: mcc-1.21.1-neoforge-1.8
 Server Address: 75.58.48.249:25565
 
 # Install
