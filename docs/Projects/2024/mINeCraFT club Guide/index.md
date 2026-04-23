@@ -12,15 +12,14 @@ completion: 2024-06-10
 ---
 
 ![Logo|16](https://live.staticflickr.com/65535/52191413864_3b47958f71_o.png)
-- [ ] Version: mcc-1.21.1-neoforge-1.8
-Server Address: 75.58.48.249:25565
+- [ ] Version: [mcc-1.21.1-neoforge-2.0](http://www.mediafire.com/view/qndmcr59klh6j1j)
 
 # Install
 
 ## Curse Forge
 
 1. Download Curse Forge Standalone [Here](https://www.curseforge.com/download/app).
-2. Download the mINeCraFT club modpack [Here](http://www.mediafire.com/view/h5dopvgdwunq6uz).
+2. Download the mINeCraFT club modpack.
 3. Install the modpack on Curse Forge.
 	1. Go to Minecraft
 	2. From the top right, Create Custom Profile
@@ -81,6 +80,7 @@ R = Point Blank Reload Gun
 - F = Switch Scope
 - LS + F = Inspect Gun
 LS + R = Create Mod Block Rotation
+T = Create Aeronautics Physics Staff Rotate Mode
 U = Death History
 O = Autofish
 - LC + O = Autofish GUI
@@ -182,6 +182,18 @@ F12 = Screenshot
 `/trigger tpa set`
 
 # Changelog
+
+## 1.21.1-2.0
+New World Save
+
+Removed:
+- Terralith
+- Apotheosis
+
+Added:
+- Create Aeronautics
+
+
 
 ## 1.21.1-1.8
 Cleaned up world save data
@@ -299,26 +311,7 @@ Client Ignore List:
 - \torohealth*.jar
 - \TravelersTitles*.jar
 - \ToastControl*.jar
-## 1.21.10-1.0
-Bumped version to 1.21.10 neoforge
 
-Removed:
-	Sparse Structures
-
-Added:
-	Actually Harvest
-	Blur
-	Bridging Mod
-	Cool Rain
-	Particular Reforged
-	Searchables
-	Smooth Scrolling Reforged
-	Snow Real Magic
-	Sophisticated Storage
-	Subtle Effects
-	Vanilla Tweaks
-	William Wythers' Overhauled Overworld
-	Xaero's Maps x Waystones
 
 ## 1.21.1-1.0
 
