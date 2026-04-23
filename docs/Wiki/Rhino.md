@@ -8,22 +8,22 @@ title: Rhino
 
 ### Keyboard
 
-| Key     | Command Macro                                                                                                               |
-| ------- | --------------------------------------------------------------------------------------------------------------------------- |
-| F1      | ! _PointsOn                                                                                                                 |
-| F2      | ! _PointsOff                                                                                                                |
-| F3      | '_DisableOsnap _Toggle                                                                                                      |
-| F4      | '_Snap                                                                                                                      |
-| F5      | ! _GumballAlignment _Cycle                                                                                                  |
-| F6      | ! _Camera _Toggle                                                                                                           |
-| F7      | noecho -_Grid _ShowGrid _ShowGridAxes _Enter  -_RunScript (Rhino.Print "Grid Display Toggled.")                             |
-| F8      | noecho _PrintDisplay _State  _Toggle _Enter -_RunScript (Rhino.Print "PrintDisplay Toggled.")                               |
-| LC + F8 | noecho _PrintDisplay _State  _Toggle _Color _Display _Scale 1 _Enter _Enter -_RunScript (Rhino.Print "PrintDisplay Reset.") |
-| F9      | ! _CommandHistory                                                                                                           |
-| F10     | ! _DocumentProperties                                                                                                       |
-| F11     | '_Help                                                                                                                      |
-| F12     | '_DigClick                                                                                                                  |
-| LC + E  | ! _Extend _Enter                                                                                                            |
+| Key     | Command Macro                                                                                             |
+| ------- | --------------------------------------------------------------------------------------------------------- |
+| F1      | ! _PointsOn                                                                                               |
+| F2      | ! _PointsOff                                                                                              |
+| F3      | '_DisableOsnap _Toggle                                                                                    |
+| F4      | '_Snap                                                                                                    |
+| F5      | ! _GumballAlignment _Cycle                                                                                |
+| F6      | ! _Camera _Toggle                                                                                         |
+| F7      | _noecho -_Grid _ShowGrid _ShowGridAxes _Enter  -_RunScript (Rhino.Print "Grid Display Toggled.")          |
+| F8      | _noecho _PrintDisplay _State _On _Scale _echo _Pause _Enter -_RunScript (Rhino.Print "PrintDisplay Set.") |
+| LC + F8 | _noecho _PrintDisplay _State  _Toggle _Enter -_RunScript (Rhino.Print "PrintDisplay Toggled.")            |
+| F9      | ! _CommandHistory                                                                                         |
+| F10     | ! _DocumentProperties                                                                                     |
+| F11     | '_Help                                                                                                    |
+| F12     | '_DigClick                                                                                                |
+| LC + E  | ! _Extend _Enter                                                                                          |
 
 ### Aliases
 
