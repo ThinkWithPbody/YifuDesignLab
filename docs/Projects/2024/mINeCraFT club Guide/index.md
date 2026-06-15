@@ -12,15 +12,14 @@ completion: 2024-06-10
 ---
 
 ![Logo|16](https://live.staticflickr.com/65535/52191413864_3b47958f71_o.png)
-- [ ] Version: mcc-1.21.1-neoforge-1.8
-Server Address: 75.58.48.249:25565
+- [ ] Version: [mcc-1.21.1-neoforge-2.0](http://www.mediafire.com/view/qndmcr59klh6j1j)
 
 # Install
 
 ## Curse Forge
 
 1. Download Curse Forge Standalone [Here](https://www.curseforge.com/download/app).
-2. Download the mINeCraFT club modpack [Here](http://www.mediafire.com/view/h5dopvgdwunq6uz).
+2. Download the mINeCraFT club modpack.
 3. Install the modpack on Curse Forge.
 	1. Go to Minecraft
 	2. From the top right, Create Custom Profile
@@ -48,8 +47,8 @@ Q = Offhand Swap
 E = Sophisticated Backpack
 - Mouse3 = Backpack Sort
 - Alt + Z = Backpack Upgrade Slot 1
-- Alt +X = Backpack Upgrade Slot 2
-- Alt +C = Backpack Upgrade Slot 3
+- Alt + X = Backpack Upgrade Slot 2
+- Alt + C = Backpack Upgrade Slot 3
 T = Delete Item
 	Most recently deleted items are stored in the Trash Slot UI
 - LC + T = Toggle Trash Slot UI
@@ -67,7 +66,7 @@ LC + LS + Mouse3 = Inventory Profiles GUI
 	- LS + F = Move Everything
 		- *Useful for looting*
 - G = Drop Selected
-	- LC + Y = Drop All Selected
+	- Y = Drop All Selected
 	- LS + Y = Drop Everything
 		- *Drops everything from the inventory under cursor*
 		- *Works best with Sophisticated Backpack Pick Up or Magnet Upgrade to quickly transfer to backpack*
@@ -81,22 +80,28 @@ R = Point Blank Reload Gun
 - F = Switch Scope
 - LS + F = Inspect Gun
 LS + R = Create Mod Block Rotation
+T = Create Aeronautics Physics Staff Rotate Mode
+	Y = Linked Typewriter Curio Slot
+	J = Tracks Tuning
 U = Death History
 O = Autofish
 - LC + O = Autofish GUI
 P = List Players (Minimap Icon)
 %%- F = Torch
     > Place torch from hotbar.%%
-K = Toggle Block Randomizer
+%%K = Toggle Block Randomizer%%
 %%K = Quark Placement Orientation Lock
 	*Locks the placement orientation of blocks such as stairs.*%%
+C = Touhou Little Maid Dismount
+	K = STT AI Chat
 L = Advancements
 N + Mouse2 = Carry On
 - *Works on entities within a small range.*
-%%LA = Effortless Building
+. = Reacharound Placement
+LA = Effortless Building
 	LC + Z = Undo
 	LC + Y = Redo
-	- = Modifier Menu%%
+	+ = Modifier Menu
 LA = Create Mod Toolbox (Schematic Overlay)
 Capslock = Push to Talk
 - LC + Capslock = Voice Chat GUI
@@ -104,10 +109,11 @@ Capslock = Push to Talk
 Enter = Chat
 / = Command
 Num 0 = Physics Toggle
-F4 = Exposure Camera Control
+F4 = Exposure Camera Controls
 F6 = Shaderpack Selection
 F7 = Physics Menu
-F8 = Apotheosis World Tier
+%%F8 = Apotheosis World Tier%%
+F9 = Observable Profiler Screen
 
 ## 4. Map
 
@@ -158,7 +164,6 @@ Num 0 = Social Interaction
 F1 = UI
 F2 = Cinematic Camera
 F3 = Information Overlay
-%%F4 = Quark Camera Mode%%
 F5 = Perspective Toggle
 %%F6 = Shoulder Surfing Toggle
     F7 = Shoulder Surfing Swap
@@ -182,6 +187,18 @@ F12 = Screenshot
 `/trigger tpa set`
 
 # Changelog
+
+## 1.21.1-2.0
+New World Save
+
+Removed:
+- Terralith
+- Apotheosis
+
+Added:
+- Create Aeronautics
+
+
 
 ## 1.21.1-1.8
 Cleaned up world save data
@@ -299,26 +316,7 @@ Client Ignore List:
 - \torohealth*.jar
 - \TravelersTitles*.jar
 - \ToastControl*.jar
-## 1.21.10-1.0
-Bumped version to 1.21.10 neoforge
 
-Removed:
-	Sparse Structures
-
-Added:
-	Actually Harvest
-	Blur
-	Bridging Mod
-	Cool Rain
-	Particular Reforged
-	Searchables
-	Smooth Scrolling Reforged
-	Snow Real Magic
-	Sophisticated Storage
-	Subtle Effects
-	Vanilla Tweaks
-	William Wythers' Overhauled Overworld
-	Xaero's Maps x Waystones
 
 ## 1.21.1-1.0
 
