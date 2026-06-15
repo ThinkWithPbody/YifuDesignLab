@@ -197,7 +197,3 @@ N4IgLgngDgpiBcIYA8DGBDANgSwCYCd0B3EAGhADcZ8BnbAewDsEAmcm+gV31TkQAswYKDXgB6MQHNsY
 
 %%
 
-
-**No Template Applied**
-
-Alt + E to select a template
