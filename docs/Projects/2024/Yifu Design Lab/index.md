@@ -73,7 +73,7 @@ Pick up at Daniels or 404-Major Mackenzie Dr E.
     Color: Basic Bambu Green
     Hex Code: `#00AE42`
     Price: $22.59/kg
-    Stock: 0.2 kg
+    Stock: 0.0 kg
     
 - **Matte Ivory White**
 	![[./Attachments/Yifu Design Lab/Yifu Design Lab-650946feb4e04feda77bc4e5b2c38202.webp|128]]
@@ -101,7 +101,7 @@ Pick up at Daniels or 404-Major Mackenzie Dr E.
     Color: Matte Lilac Purple
     Hex Code: `#AE96D4`
     Price: $22.59/kg
-    Stock: 0.8 kg
+    Stock: 0.0 kg
     
 - **Silk Gold**
     ![[./Attachments/Yifu Design Lab/Yifu Design Lab-15bee911c43d40828e932f7397d55097.webp|128]]
@@ -172,7 +172,7 @@ Pick up at Daniels or 404-Major Mackenzie Dr E.
     Color: Basic White
     Hex Code: `#FFFFFF`
     Price: $22.59/kg
-    Stock: 0.8 kg
+    Stock: 0.9 kg
     
 - **HF White**
     ![[./Attachments/Yifu Design Lab/Yifu Design Lab_6f0f3ffb6bdb459f97d0f44a6d83fbf6.webp|128]]
