@@ -10,7 +10,7 @@ status: DONE
 
 1. Use BsgLauncher.exe to install or update official EFT to your best SSD, use matching server version.
 2. Download SPT AKI automated installer [here](https://sp-tarkov.com/#download).
-3. Move SPT installer to a separate empty folder on your best SSD, affixed with the SPT version number (e.g. `Game/EFT/SPT 3.11.3/`), then run the SPT automatic install executable.
+3. Move SPT installer to a separate empty folder on your best SSD, affixed with the SPT version number (e.g. `C:/Game/SPT 4.0.13/`), then run the SPT automatic install executable.
 %%	- When updating to minor versions without making changes to the modlist, just copy over the old files to the new location.
 		- Game Settings: "/user/sptSettings"
 		- Launcher settings: "/user/launcher"
@@ -21,11 +21,23 @@ status: DONE
 
 The mod list is compatible with **Mod Organizer** for profile management, meaning more than one instance of the game can be stored without taking excessive disk space. It is the easiest way to stay up to date, but it is not mandatory. It is also possible to utilize the mod **ModSync** to automatically update the mod list as you join an SPT server.
 
-### Mod Organizer 2
+### Vortex
+
+1. Download the [Vortex Extension](https://forge.sp-tarkov.com/mod/2551/vortex-extension) and install.
+2. Manage EFT SPT and point it to your `<SPT Install Directory>`.
+3. Under `Vortex > Settings > Mods > Mod Staging Folder`, the staging folder is on the same drive as your `<SPT Install Directory>`.
+4. `Fika` need to be installed manually.
+5. Drag and drop all other mods into `Vortex > Mods`.
+6. Click `Manage Rules` to handle any conflicts, load `PersistentFiles` after any other mod.
+7. Click `Deploy Mods`.
+8. Run `SPT.Launcher`.
+
+%%
+### Mod Organizer 2 (Old)
 
 1. Download and install [MO2](https://github.com/ModOrganizer2/modorganizer/releases).
 2. Download and install [SPT ModOrganizer Integration](https://hub.sp-tarkov.com/files/file/1314-spt-modorganizer-integration/#overview) by extracting the `plugins` folder to the `<MO Install Directory>`.
-3. Create a new **MO Global Instance** directed to the `<SPT Install Directory>` (e.g. `Game/EFT/SPT 3.11.3/`). Settings can be kept default, ignore pop-ups.
+3. Create a new **MO Global Instance** directed to the `<SPT Install Directory>` (e.g. `Game/SPT 4.0.13/`). Settings can be kept default, ignore pop-ups.
 4. [[index#Patch Note & Downloads|Download]] a package or patch and **extract** files to the **MO Global Instance** directory under `%appdata%\Local\ModOrganizer\<InstanceName>\`, then refresh MO.
 	![[./Escape From Tarkov_image-2.png|/Projects/2024/Escape From Tarkov/Escape From Tarkov_image-2.png]]
 	- **Packages** are named `SPT <SPTVersion>_<Package>`. They contain all mods of a major version.
@@ -34,7 +46,7 @@ The mod list is compatible with **Mod Organizer** for profile management, meanin
 	- **Profiles** are the fastest way to switch between mod lists, but they only work if you've already imported all mods they reference first.
 	- The **PersistentFiles** mod is how default configs are distributed and also functions as an archive for your SPT settings and profile when you start playing. **Always load PersistentFiles with a Priority of 0.** Be ware of SPT profile incompatibilities between major version updates.
 
-## Project Fika (MPT)
+## Project Fika (MPT) (Old)
 
 #### To Join Our Modded Fika Server
 
@@ -78,8 +90,10 @@ endlocal
 ```
 
 > [!tip]
-> If you want to use your own profile on our server or download the one in use on our server for your local server, contact me.
+> If you want to use your own profile on our server or download the one in use on our server for your local server, contact me. 
+> https://forge.sp-tarkov.com/mod/2510/fikasync
 
+%%
 ### Default Hotkeys
 
 **Raid**
@@ -93,12 +107,13 @@ endlocal
 	- LA + S: Blind Fire Right Side
 	- LA + A: Sidestep Left
 	- LA + D: Sidestep Right
-- C: Mount Weapon%%
+- %%
 	- Ctrl + M4 to dial optic in
 	- Ctrl + M5 to dial optic out%%
 - Scroll: Stance
+	- C: Walk
 	- C + Scroll: Walk Speed
-	- CC: Walk
+	- CC: Mount Weapon
 - V: Melee Weapon
 	- VV: Quick Melee
 - R: Reload
@@ -119,63 +134,72 @@ endlocal
 		- F6: Command Hold Position (hold)
 		- F7: Command Stop (stop)
 		- F8: Command Attention (reset target)
-- L: Bipod
-	- LC + L: Fold / Unfold Stock
-- G: Prepare Grenades
-	- LS + G: Discard Item
+- I: Quest Tracker
 - O: Check Time
 	- OO: Check Exits and Bosses
-	- I: Task List
+- F: Interact
+	- FF: Amand's Sense
+- G: Prepare Grenades
+	- LS + G: Discard Item
+- H: Helmet Tactical Device
+	- LC + H: Switch Helmet Tactical Device
+	- N: On Head Equipment
+- K: Load Ammo
+- L: Bipod
+	- LC + L: Fold / Unfold Stock
 - M: Map
 	- +/-: Map Zoom
 	- LC + M: Minimap
 	- Num8/Num5: Minimap Zoom
-- Insert: Amands's Graphics Menu
-- Home: Reshade Menu
-- End: Fix "Hands are busy"
-- RC: Fika Chat
 - M0: Fire
-	- F: Interact
-	- FF: Sense
 - M1: Scope
-	- LC + M2: Switch Scope
-	- LS + M2: Change Scope Magnification
+	- LC + M1: Switch Scope
+	- LS + M1: Change Scope Magnification
 	- LA + Scroll: Scope Zoom In / Out
 	- LA: Hold Breath
 	- PgUp: Scope Elevation Up
 	- PgDn: Scope Elevation Down
 - M2: Toggle Tactical Device
-	- LC + M3: Tactical Device Mode
-	- B + M3: Tactical Device Activation Mode
+	- LC + M2: Tactical Device Mode
+	- B + M2: Tactical Device Activation Mode
 	- N: Toggle Head Equipment
 	- H: Toggle Head Tactical Device
 		- LC + H: Head Tactical Device Mode
 - M3: Free Look%%
 	- Ctrl + Scroll: Cycle High-ready Low-ready stance
 	- M5 to Active Aim stance
-	- M4 to Short-stock stance
+		- M4 to Short-stock stance
 	- J to Patrol stance%%
 - M4: Zoom
 - F5: Revive
+- F6: Raid Review (May require setup under F12)
 - F8: Extract
-	- M1/M2: Jump to player
-	- Space + M1: Snap to head
-	- LC + M1: Snap to back
+	- M0/M1: Jump to player
+	- Space + M0: Snap to head
+	- LC + M0: Snap to back
 - F9: Pause
 - F10: FreeCam
 - F11: SAIN
 - F12: BepInEx Menu
+	- Insert: Amands's Graphics Menu
+	- Home: Reshade Menu
+	- End: Fix "Hands are busy"
+	- RC: Fika Chat
 
 **Stash**
 
 - M1: Gift item from stash to other accounts
-	- Alt Shift M0: Automatically sell item from stash to most profitable market
+- Q: Quick Sell
+	- Q+ M0: Sell to trader
+	- Q+ M1: Sell on flea market
+	- Q+ M2: Sell at the best price
 - LC + F: Search
 	- LC + C: Search Clear
 
 > [!info]- Tarkov Weather System Chatbot
 > ![[./Escape From Tarkov_3ed45vng.png|/Projects/2024/Escape From Tarkov/Escape From Tarkov_3ed45vng.png]]
 
+%%
 ### Modlist
 
 For downloads, head down to [[index#Patch Note & Downloads|Download]]
@@ -292,7 +316,13 @@ Manual install locations are marked with 🍌 for **"/BepInEx/plugins"** and �
 [Declutterer](https://hub.sp-tarkov.com/files/file/1785-de-clutterer-updated-by-cj/) 🍌 (Optional performance mod)
 [No Grenade ESP](https://hub.sp-tarkov.com/files/file/1029-no-grenade-esp/) 🍌 (Incompatible with SAIN)
 
+%%
 ### Patch Note & Downloads
+
+##### 4.0.13
+
+- Bumped to SPT 4.0.13
+- Switched to Vortex + NarcoNet for easier installation and updates
 
 ##### 3.11.3_1.6
 
