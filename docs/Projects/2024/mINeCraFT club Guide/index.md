@@ -12,7 +12,7 @@ completion: 2024-06-10
 ---
 
 ![Logo|16](https://live.staticflickr.com/65535/52191413864_3b47958f71_o.png)
-- [ ] Version: [mcc-1.21.1-neoforge-2.0](http://www.mediafire.com/view/qndmcr59klh6j1j)
+- [ ] Version: [mcc-1.21.1-neoforge-2.3](http://www.mediafire.com/view/pm6991ah493lyb1)
 
 # Install
 
@@ -187,6 +187,27 @@ F12 = Screenshot
 `/trigger tpa set`
 
 # Changelog
+
+## 1.21.1-2.0
+
+Added:
+- Aero Portals (Create Aeronautics + Portals)
+	- Aero Claims
+		- Open Parties And Claims
+	- Create Aeronautics Curios
+	- Create Treadmill
+	- Aeronautics Replay
+	- Pointblank Aero Compat
+- Touhou Little Maid
+	- Tide Maid
+	- Maid Use Hand Crank
+	- Maid Beacon
+- Creative Sandbox
+- Presence Footsteps
+
+Removed:
+- Just Another Void Dimension
+- Inv Move
 
 ## 1.21.1-2.0
 New World Save
