@@ -12,14 +12,28 @@ completion: 2024-06-10
 ---
 
 ![Logo|16](https://live.staticflickr.com/65535/52191413864_3b47958f71_o.png)
-- [ ] Version: [mcc-1.21.1-neoforge-2.3](http://www.mediafire.com/view/pm6991ah493lyb1)
+- [ ] Version: [mcc-1.21.1-neoforge-2.4](http://www.mediafire.com/view/tt5wcdu0p7itnze)
+
+Wakes
+Footprint
+Torch animation
+Spider
+Wet sand
+Flower resource pack
+Colourful grasses
+Falling leaves
+Ripple (particle interaction)
+Gentler rain sound
+Drip sounds
+Cool rain
+
 
 # Install
 
 ## Curse Forge
 
 1. Download Curse Forge Standalone [Here](https://www.curseforge.com/download/app).
-2. Download the mINeCraFT club modpack.
+2. Download the mINeCraFT club modpack above.
 3. Install the modpack on Curse Forge.
 	1. Go to Minecraft
 	2. From the top right, Create Custom Profile
@@ -46,9 +60,7 @@ Q = Offhand Swap
 - LS + R = Tetra Toolbelt Restock%%
 E = Sophisticated Backpack
 - Mouse3 = Backpack Sort
-- Alt + Z = Backpack Upgrade Slot 1
-- Alt + X = Backpack Upgrade Slot 2
-- Alt + C = Backpack Upgrade Slot 3
+- C = Backpack Upgrade Slot 1
 T = Delete Item
 	Most recently deleted items are stored in the Trash Slot UI
 - LC + T = Toggle Trash Slot UI
@@ -81,7 +93,7 @@ R = Point Blank Reload Gun
 - LS + F = Inspect Gun
 LS + R = Create Mod Block Rotation
 T = Create Aeronautics Physics Staff Rotate Mode
-	Y = Linked Typewriter Curio Slot
+	 \` = Linked Typewriter Curio Slot
 	J = Tracks Tuning
 U = Death History
 O = Autofish
@@ -187,6 +199,12 @@ F12 = Screenshot
 `/trigger tpa set`
 
 # Changelog
+
+## 1.21.1-2.4
+
+Added:
+- Sable: Collision Damage
+
 
 ## 1.21.1-2.3
 
