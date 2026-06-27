@@ -14,19 +14,6 @@ completion: 2024-06-10
 ![Logo|16](https://live.staticflickr.com/65535/52191413864_3b47958f71_o.png)
 - [ ] Version: [mcc-1.21.1-neoforge-2.4](http://www.mediafire.com/view/tt5wcdu0p7itnze)
 
-Wakes
-Footprint
-Torch animation
-Spider
-Wet sand
-Flower resource pack
-Colourful grasses
-Falling leaves
-Ripple (particle interaction)
-Gentler rain sound
-Drip sounds
-Cool rain
-
 
 # Install
 
@@ -200,11 +187,35 @@ F12 = Screenshot
 
 # Changelog
 
+## 1.21.1-2.5
+
+Added:
+
+
 ## 1.21.1-2.4
 
 Added:
-- Sable: Collision Damage
+- ~~Sable: Collision Damage~~ Not ready for implementation
+- Keybind Atlas (K to view all keybinds)
+- Wakes (Visual effeccts in water)
+- Nyf's Spiders (Spider AI)
+- BarSwap (V to swap hotbar rows)
+- Moon events
+	- Peaceful Moon
+	- Ender Moon
+	- Horde Moon
+	- Black Moon
+	- Kaboom Moon
+	- Spider Moon
+- Sable Dynamic Lights
+- Lamb Dynamic Lights
+- Fragrant Flowers Expanded (Resource pack for flowers)
+- Icon Xaero's (Resource pack for map entity icons)
+- Drip sounds (Ambient sounds)
+- More Sound (Compat layer for Sounds)
 
+Removed:
+- Embrace Pixels PBR (Using generated normals instead)
 
 ## 1.21.1-2.3
 
