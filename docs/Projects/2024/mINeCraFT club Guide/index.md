@@ -126,7 +126,7 @@ M = Worldmap Toggle
 	- LS + B = New Quick Waypoint
 	- \[ = Toggle Waypoint In-Game
 	- ] = Toggle Waypoint On-Map
-
+/creative_dim = Creative Sandbox
 ## 5. Information
 
 A = JEI Bookmark
@@ -230,7 +230,7 @@ Added:
 	- Tide Maid
 	- Maid Use Hand Crank
 	- Maid Beacon
-- Creative Sandbox
+- Creative Sandbox (Enter with /creative_dim)
 - Presence Footsteps
 
 Removed:
