@@ -12,8 +12,7 @@ completion: 2024-06-10
 ---
 
 ![Logo|16](https://live.staticflickr.com/65535/52191413864_3b47958f71_o.png)
-- [ ] Version: [mcc-1.21.1-neoforge-2.4](http://www.mediafire.com/view/tt5wcdu0p7itnze)
-
+- [ ] Version: [mcc-1.21.1-neoforge-2.4](http://www.mediafire.com/view/d76q3t9b6urvx8u)
 
 # Install
 
@@ -127,7 +126,7 @@ M = Worldmap Toggle
 	- LS + B = New Quick Waypoint
 	- \[ = Toggle Waypoint In-Game
 	- ] = Toggle Waypoint On-Map
-
+/creative_dim = Creative Sandbox
 ## 5. Information
 
 A = JEI Bookmark
@@ -231,7 +230,7 @@ Added:
 	- Tide Maid
 	- Maid Use Hand Crank
 	- Maid Beacon
-- Creative Sandbox
+- Creative Sandbox (Enter with /creative_dim)
 - Presence Footsteps
 
 Removed:
