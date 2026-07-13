@@ -12,7 +12,7 @@ completion: 2024-06-10
 ---
 
 ![Logo|16](https://live.staticflickr.com/65535/52191413864_3b47958f71_o.png)
-- [ ] Version: [mcc-1.21.1-neoforge-2.4](http://www.mediafire.com/view/d76q3t9b6urvx8u)
+- [ ] Version: [mcc-1.21.1-neoforge-2.5](http://www.mediafire.com/view/7cdnvglqzlgihj5)
 
 # Install
 
@@ -49,8 +49,8 @@ E = Sophisticated Backpack
 - C = Backpack Upgrade Slot 1
 T = Delete Item
 	Most recently deleted items are stored in the Trash Slot UI
-- LC + T = Toggle Trash Slot UI
 - LS + T = Delete All Items of Type
+- , = Toggle Trash Slot UI
 LC + LS + Mouse3 = Inventory Profiles GUI
 - LS + Mouse1 Swipe = Move Items Between Containers
 - Mouse3 = Inventory Sort
@@ -80,7 +80,7 @@ R = Point Blank Reload Gun
 LS + R = Create Mod Block Rotation
 T = Create Aeronautics Physics Staff Rotate Mode
 	 \` = Linked Typewriter Curio Slot
-	J = Tracks Tuning
+	. = Tracks Tuning
 U = Death History
 O = Autofish
 - LC + O = Autofish GUI
@@ -95,11 +95,11 @@ C = Touhou Little Maid Dismount
 L = Advancements
 N + Mouse2 = Carry On
 - *Works on entities within a small range.*
-. = Reacharound Placement
-LA = Effortless Building
+H = Effortless Building
 	LC + Z = Undo
 	LC + Y = Redo
 	+ = Modifier Menu
+J = Reacharound Placement
 LA = Create Mod Toolbox (Schematic Overlay)
 Capslock = Push to Talk
 - LC + Capslock = Voice Chat GUI
@@ -186,10 +186,19 @@ F12 = Screenshot
 
 # Changelog
 
+
+## 1.21.1-2.6
+
+
 ## 1.21.1-2.5
 
 Added:
-
+- Cosmetic Armor Reworked
+- Fancy Waystones Menu
+- Waystone Teletport Pets
+- Maidsoul Kitchen (Maids use kitchen from mods such as Farmer's Delight)
+- Maid Useful Tasks (Logging, locate, revive)
+- Better Carryon Maid (Using saddles won't be necessary, N + Mouse2 would be enough)
 
 ## 1.21.1-2.4
 
