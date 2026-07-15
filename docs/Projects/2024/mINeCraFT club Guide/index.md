@@ -11,12 +11,11 @@ due:
 completion: 2024-06-10
 ---
 
-![Logo|16](https://live.staticflickr.com/65535/52191413864_3b47958f71_o.png)
-- [ ] Version: [mcc-1.21.1-neoforge-2.5](http://www.mediafire.com/view/7cdnvglqzlgihj5)
+![Logo|16](https://live.staticflickr.com/65535/52191413864_3b47958f71_o.png) Modpack Download: [mcc-1.21.1-neoforge-2.5](http://www.mediafire.com/view/ud7xplnpguac20o)
 
 # Install
 
-## Curse Forge
+## Curse Forge  
 
 1. Download Curse Forge Standalone [Here](https://www.curseforge.com/download/app).
 2. Download the mINeCraFT club modpack above.
@@ -76,10 +75,10 @@ R = Point Blank Reload Gun
 - Y = Point Blank Attachment Mode
 - X = Change Fire Mode
 - F = Switch Scope
-- LS + F = Inspect Gun
-LS + R = Create Mod Block Rotation
+- LS + R = Inspect Gun
+LS + F = Create Mod Block Rotation
 T = Create Aeronautics Physics Staff Rotate Mode
-	 \` = Linked Typewriter Curio Slot
+	 H = Linked Typewriter Curio Slot
 	. = Tracks Tuning
 U = Death History
 O = Autofish
@@ -90,12 +89,13 @@ P = List Players (Minimap Icon)
 %%K = Toggle Block Randomizer%%
 %%K = Quark Placement Orientation Lock
 	*Locks the placement orientation of blocks such as stairs.*%%
-C = Touhou Little Maid Dismount
-	K = STT AI Chat
 L = Advancements
+Z = Touhou Little Maid Dismount
+	Enter = STT AI Chat
+	, = Switch Broom Control Mode
 N + Mouse2 = Carry On
 - *Works on entities within a small range.*
-H = Effortless Building
+F = Effortless Building
 	LC + Z = Undo
 	LC + Y = Redo
 	+ = Modifier Menu
@@ -189,16 +189,28 @@ F12 = Screenshot
 
 ## 1.21.1-2.6
 
+Added:
+
 
 ## 1.21.1-2.5
 
-Added:
+### Added:
 - Cosmetic Armor Reworked
-- Fancy Waystones Menu
+- Fast Travel Waypoints
 - Waystone Teletport Pets
 - Maidsoul Kitchen (Maids use kitchen from mods such as Farmer's Delight)
 - Maid Useful Tasks (Logging, locate, revive)
-- Better Carryon Maid (Using saddles won't be necessary, N + Mouse2 would be enough)
+- Better Carryon Maid (N + Mouse2 will use saddle carry animation)
+- Empty Hand Keybind - Hold Onto THIS (\` to empty selected hotbar, again to switch back)
+- Exposure Catalog
+
+### Removed:
+- IPBR+ generated normals (Causing artifacts with TLM assets and general visual noise)
+
+### Changed:
+- Default Hotkeys Remapped
+- Atlas keys information updated
+- New options file distributed
 
 ## 1.21.1-2.4
 
