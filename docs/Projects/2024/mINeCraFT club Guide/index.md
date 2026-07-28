@@ -11,7 +11,7 @@ due:
 completion: 2024-06-10
 ---
 
-![Logo|16](https://live.staticflickr.com/65535/52191413864_3b47958f71_o.png) Modpack Download: [mcc-1.21.1-neoforge-2.5](http://www.mediafire.com/view/ud7xplnpguac20o)
+![Logo|16](https://live.staticflickr.com/65535/52191413864_3b47958f71_o.png) Modpack Download: [mcc-1.21.1-neoforge-2.7](http://www.mediafire.com/view/ndae5bibdbe4375)
 
 # Install
 
@@ -33,6 +33,8 @@ completion: 2024-06-10
 LC = Sneak
 LS = Sprint
 Z = Crawl
+H = Jetpack Engine
+- Ctrl + H = Jetpack Hover Mode
 
 ## 2. Inventory
 
@@ -78,7 +80,7 @@ R = Point Blank Reload Gun
 - LS + R = Inspect Gun
 LS + F = Create Mod Block Rotation
 T = Create Aeronautics Physics Staff Rotate Mode
-	 H = Linked Typewriter Curio Slot
+	 I = Linked Typewriter Curio Slot
 	. = Tracks Tuning
 U = Death History
 O = Autofish
@@ -186,11 +188,29 @@ F12 = Screenshot
 
 # Changelog
 
+## 1.21.1-2.7
+
+Bumped neoforge to 21.1.244.
+
+### Added:
+- XaeroPlus (Performance and misc features)
+- Xaero's Maps: Multiplayer+ (Shared map progress)
+- Compass to Map: Xaero's Minimap & Explorer's Compass & Nature's Compass Addon (Show compass destination on map)
+- Sable x Xaero Bridge (Show sub-levels on map)
+- Ping to Map: Xaero's Minimap & Ping Wheel Addon (Show pings on map)
+- Xaero Map Regions (Regions on map)
+- Xaero's Drawings (Draw on map)
+
+### Removed:
+- Xaero's Maps x Waystones (Deprecated, use XaeroPlus)
+- Critters and Companions (Shell bug and ecosystem mismatch)
 
 ## 1.21.1-2.6
 
-Added:
-
+### Added:
+- Create Jetpack
+- Jade Sable Compat
+- VS/Sable Hose Connectors
 
 ## 1.21.1-2.5
 
