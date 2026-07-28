@@ -15,7 +15,7 @@ completion: 2024-06-10
 
 # Install
 
-## Curse Forge  
+## Curse Forge Install
 
 1. Download Curse Forge Standalone [Here](https://www.curseforge.com/download/app).
 2. Download the mINeCraFT club modpack above.
@@ -26,7 +26,7 @@ completion: 2024-06-10
 	4. Select the modpack
 4. Click Play
 
-## Update
+## Curse Forge Update
 
 ### Backup:
 
@@ -37,13 +37,11 @@ completion: 2024-06-10
 - xaeros-drawings/
 - Distant_Horizons_server_data/
 
-
 ### Optional Backup:
 
 - options.txt
 - servers.dat
 - XaeroWaypoints_BACKUP*/
-
 
 # Default Hotkeys
 
@@ -211,7 +209,7 @@ F12 = Screenshot
 
 Bumped neoforge to 21.1.244.
 
-### Added:
+Added:
 - XaeroPlus (Performance and misc features)
 - Xaero's Maps: Multiplayer+ (Shared map progress)
 - Compass to Map: Xaero's Minimap & Explorer's Compass & Nature's Compass Addon (Show compass destination on map)
@@ -220,20 +218,20 @@ Bumped neoforge to 21.1.244.
 - Xaero Map Regions (Regions on map)
 - Xaero's Drawings (Draw on map)
 
-### Removed:
+Removed:
 - Xaero's Maps x Waystones (Deprecated, use XaeroPlus)
 - Critters and Companions (Shell bug and ecosystem mismatch)
 
 ## 1.21.1-2.6
 
-### Added:
+Added:
 - Create Jetpack
 - Jade Sable Compat
 - VS/Sable Hose Connectors
 
 ## 1.21.1-2.5
 
-### Added:
+Added:
 - Cosmetic Armor Reworked
 - Fast Travel Waypoints
 - Waystone Teletport Pets
@@ -243,10 +241,10 @@ Bumped neoforge to 21.1.244.
 - Empty Hand Keybind - Hold Onto THIS (\` to empty selected hotbar, again to switch back)
 - Exposure Catalog
 
-### Removed:
+Removed:
 - IPBR+ generated normals (Causing artifacts with TLM assets and general visual noise)
 
-### Changed:
+Changed:
 - Default Hotkeys Remapped
 - Atlas keys information updated
 - New options file distributed
