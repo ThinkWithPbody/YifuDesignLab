@@ -26,6 +26,25 @@ completion: 2024-06-10
 	4. Select the modpack
 4. Click Play
 
+## Update
+
+### Backup:
+
+- exposures/
+- schematics/
+- screenshots/
+- xaero/
+- xaeros-drawings/
+- Distant_Horizons_server_data/
+
+
+### Optional Backup:
+
+- options.txt
+- servers.dat
+- XaeroWaypoints_BACKUP*/
+
+
 # Default Hotkeys
 
 ## 1. Movement
