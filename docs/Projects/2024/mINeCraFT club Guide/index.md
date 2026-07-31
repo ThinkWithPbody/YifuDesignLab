@@ -11,7 +11,7 @@ due:
 completion: 2024-06-10
 ---
 
-![Logo|16](https://live.staticflickr.com/65535/52191413864_3b47958f71_o.png) Modpack Download: [mcc-1.21.1-neoforge-2.7.1](http://www.mediafire.com/view/vrxkx8e2lgas4ol)
+![Logo|16](https://live.staticflickr.com/65535/52191413864_3b47958f71_o.png) Modpack Download: [mcc-1.21.1-neoforge-2.7.1](http://www.mediafire.com/view/ocyj8l916k41w21)
 
 # Install
 
