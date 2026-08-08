@@ -11,7 +11,7 @@ due:
 completion: 2024-06-10
 ---
 
-![Logo|16](https://live.staticflickr.com/65535/52191413864_3b47958f71_o.png) Modpack Download: [mcc-1.21.1-neoforge-2.7.2](http://www.mediafire.com/view/qdmgldp7uxw2rqx)
+![Logo|16](https://live.staticflickr.com/65535/52191413864_3b47958f71_o.png) Modpack Download: [mcc-1.21.1-neoforge-2.8](http://www.mediafire.com/view/ssi83v41i8p58t1)
 
 # Install
 
@@ -204,6 +204,29 @@ F12 = Screenshot
 `/trigger tpa set`
 
 # Changelog
+
+## 1.21.1-2.8
+
+Added:
+- Create: Coasters Simulated
+- Create: Advanced Optimization
+- Sophisticated Storage Create Integration
+- Sophisticated Backpacks Create Integration
+- Create Better FPS
+- Sound Physics: Aeronautics
+- Enhanced Celestials 2: Core
+	- Enhanced Celestials 2: Default Lunar Events
+	- Enhanced Celestials 2: Shader Supoport
+
+Removed:
+- Enhanced Celestials (Superceded by Enhanced Celestials 2: Core)
+	- Peaceful Moon
+	- Ender Moon
+	- Horde Moon
+	- Black Moon
+	- Kaboom Moon
+	- Spider Moon
+- Ping to Map (Redundant visual overlay)
 
 ## 1.21.1-2.7.1
 
