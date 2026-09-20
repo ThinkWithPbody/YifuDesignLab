@@ -11,7 +11,7 @@ due:
 completion: 2024-06-10
 ---
 
-![Logo|16](https://live.staticflickr.com/65535/52191413864_3b47958f71_o.png) Modpack Download: [mcc-1.21.1-neoforge-2.8](http://www.mediafire.com/view/ssi83v41i8p58t1)
+![Logo|16](https://live.staticflickr.com/65535/52191413864_3b47958f71_o.png) Modpack Download: [mcc-1.21.1-neoforge-3.0](http://www.mediafire.com/view/zmet885l8kbumcd)
 
 # Install
 
@@ -204,6 +204,27 @@ F12 = Screenshot
 `/trigger tpa set`
 
 # Changelog
+
+## 1.21.1-3.0
+
+Added:
+- Vista
+- Freecam
+- Create: Aeroworks
+- Create Aeronautics: Transmission & Linkage
+
+Removed:
+- Dokimobs
+- Vista Aeronautics Fix
+- More Sounds (JEI Conflict)
+
+## 1.21.1-2.9
+
+Added:
+- Hot's Aero Stuff (Aeronautic must haves)
+
+Removed:
+- Xaero's Maps x Waystones (Deprecated, built in now)
 
 ## 1.21.1-2.8
 
