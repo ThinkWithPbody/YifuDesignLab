@@ -11,7 +11,7 @@ due:
 completion: 2024-06-10
 ---
 
-![Logo|16](https://live.staticflickr.com/65535/52191413864_3b47958f71_o.png) Modpack Download: [mcc-1.21.1-neoforge-3.0](http://www.mediafire.com/view/zmet885l8kbumcd)
+![Logo|16](https://live.staticflickr.com/65535/52191413864_3b47958f71_o.png) Modpack Download: [mcc-1.21.1-neoforge-3.1](http://www.mediafire.com/view/qjs64abj01cbqnd)
 
 # Install
 
@@ -204,6 +204,18 @@ F12 = Screenshot
 `/trigger tpa set`
 
 # Changelog
+
+## 1.21.1-3.1
+
+Added: 
+- Hold Onto THIS (Press \` to swap item with empty hand and back)
+- Whimsy Deco (Furniture and gacha machine)
+- Create Deco (Block palettes, containers, and signs)
+
+Removed:
+- Falling Leaves (Visual redundancy with Subtle Effects)
+- Particular reforged (Visual redundancy with Subtle Effects)
+- Drop Sounds (Auditory redundancy with Dynamic Surroundings)
 
 ## 1.21.1-3.0
 
