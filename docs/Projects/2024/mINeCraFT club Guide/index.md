@@ -11,7 +11,7 @@ due:
 completion: 2024-06-10
 ---
 
-![Logo|16](https://live.staticflickr.com/65535/52191413864_3b47958f71_o.png) Modpack Download: [mcc-1.21.1-neoforge-3.1](http://www.mediafire.com/view/qjs64abj01cbqnd)
+![Logo|16](https://live.staticflickr.com/65535/52191413864_3b47958f71_o.png) Modpack Download: [mcc-1.21.1-neoforge-3.2](http://www.mediafire.com/view/phtv3xjbiwbc43i)
 
 # Install
 
@@ -30,12 +30,12 @@ completion: 2024-06-10
 
 ### Backup:
 
+- Distant_Horizons_server_data/
 - exposures/
 - schematics/
 - screenshots/
 - xaero/
 - xaeros-drawings/
-- Distant_Horizons_server_data/
 
 ### Optional Backup:
 
@@ -204,6 +204,13 @@ F12 = Screenshot
 `/trigger tpa set`
 
 # Changelog
+
+## 1.21.1-3.2
+
+Added:
+- [Distant Horizons SeedGen](https://modrinth.com/mod/distant-horizons-seedgen/versions?g=1.21.1&l=neoforge) (Fast terrain generator plugin)
+- TLM Beacon [Bugfix](https://modrinth.com/mod/touhou-little-maid-beacon/version/1.0.1-bugfix)
+
 
 ## 1.21.1-3.1
 
