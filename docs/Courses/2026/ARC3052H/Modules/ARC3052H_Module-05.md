@@ -19,7 +19,8 @@ time:
 ---
 
 %%[parents:: [[../index|ARC3052H]]]%%
-![[Periodic Notes/Atomic/2026/2026-02/ARC3052H_Module-05/ARC3052H_Module-05.svg|Periodic Notes/Atomic/2026/2026-02/ARC3052H_Module-05/ARC3052H_Module-05.svg]]
+
+![[Courses/2026/ARC3052H/Modules/ARC3052H_Module-05.svg|Courses/2026/ARC3052H/Modules/ARC3052H_Module-05.svg]]
 
 ### Module-05 Small Firms, Big Responsibilities: Independent Practice Models (KCA) + CCDC 2 (Builder–Owner Contracts)
 
