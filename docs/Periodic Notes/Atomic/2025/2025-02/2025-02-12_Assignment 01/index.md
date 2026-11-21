@@ -5,15 +5,14 @@ excalidraw-plugin: parsed
 excalidraw-open-md: true
 tags:
   - note_atomic
-  - course
 title: 2025-02-12_Assignment 01
-description: 
+description:
 name: Assignment 01
 date: 2025-02-12
-people: 
-location: 
-weekday: 
-time: 
+people:
+location:
+weekday:
+time:
 ---
 
 %%[parents:: [[../../../../../Courses/2025/ARC2046H/index|ARC2046H]]]%%
@@ -60,7 +59,7 @@ Cracked Finishes
 For a beam that is 7.6 meters long (L), what deflection is allowed if the steel beam is part of a roof, supporting finishes that can be easily damaged and are susceptible to cracking for Snow Load?
 Provide an answer in mm to one (XX.X) decimal place. Do not write the units.
 
-[[Periodic Notes/Atomic/2025/2025-02/2025-02-12_Assignment 01/Attachments/2025-02-12_Assignment 01/SERVICEABILITY LIMITS.pdf|SERVICEABILITY LIMITS]]
+[SERVICEABILITY LIMITS](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/SERVICEABILITY%20LIMITS.pdf)
 7.6 * 1000 / 360 = 21.1
 
 **Question 5**
@@ -144,7 +143,7 @@ $\sqrt[2]{8.62^2+4.11^2}=9.55$
 **Question 15**
 What is the value of θ if:
 y=16.4 and x=10.9
-![[./Attachments/2025-02-12_Assignment 01/Pasted image 20250108182602.png|200]]
+![[./Attachments/2025-02-12_Assignment 01/Pasted image 20250108182513.png|200]]
 Note: NEW x and y values from Question 14
 Write the answer in degrees to one decimal place.
 
