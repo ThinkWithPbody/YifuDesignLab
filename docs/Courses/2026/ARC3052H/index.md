@@ -67,24 +67,26 @@ Pressures on the Profession: AI, Emerging Technologies + Professional Advocacy
 
 ## [[/Projects/2026/ARC3052H_Project-06/ARC3052H_Project-06|ARC3052H_Project-06]]
 
-# Tagged
+# Context
 
+**Alt + E** : [Action Context Note](Configs/Templater/Template/Action%20Context%20Note) / [Action Context Timelog](Configs/Templater/Template/Action%20Context%20Timelog)  
 `#Courses/2026/ARC3052H`
 
-Notes:
+Notes 0 entries
 
-Timelog:
+No tagged notes found.
 
-Total: 0 Hours, 0 Minutes
+Timelog 00:00 total
 
-Hours:
+No timelog entries found.
 
 # Course Brief
 
-![[./ARC3052H.svg|ARC3052H]]
 
 
 
+
+![[Courses/2026/ARC3052H/ARC3052H.svg|Courses/2026/ARC3052H/ARC3052H.svg]]
 
 %%
 # Excalidraw Data
