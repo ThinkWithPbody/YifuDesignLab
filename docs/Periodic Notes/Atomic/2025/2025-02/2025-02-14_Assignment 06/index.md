@@ -3,16 +3,15 @@ excalidraw-plugin: parsed
 excalidraw-open-md: true
 tags:
   - note_atomic
-  - course
-title: 
-description: 
+title:
+description:
 date: 2025-02-14
 name: Assignment 06
 slug: 2025-02-14_Assignment 06
-people: 
-location: 
-weekday: 
-time: 
+people:
+location:
+weekday:
+time:
 share: true
 hidden: true
 ---
@@ -88,7 +87,7 @@ Write you answer in **kNm** to one decimal place (XXX.X). Do not write the units
 
 
 Even though the beam is Class 1-2, $S$ is needed to calculate $M_y$.
-Find $S$ under [[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/STEEL SECTIONS.pdf|STEEL SECTIONS]]
+Find $S$ under [STEEL SECTIONS](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/STEEL%20SECTIONS.pdf)
 $M_y=345\times 415000=143,175,000Nmm=143.2kNm$
 
 ## Question 7
@@ -168,7 +167,7 @@ Verified using [ARC2046H Calculations.xlsx](https://utoronto-my.sharepoint.com/:
 What is the Mr for the W310x33 with Lu=2500mm? Use the steel beam tables for Mr.
 Write you answer in **kNm** to no decimal places (XXX). Do not write the units.
 
-[[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/STEEL BEAM TABLES.pdf|STEEL BEAM TABLES]]
+[STEEL BEAM TABLES](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/STEEL%20BEAM%20TABLES.pdf)
 $Mr_{2500}=104$
 
 ## Question 13
