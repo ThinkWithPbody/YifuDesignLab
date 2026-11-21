@@ -4,23 +4,23 @@ excalidraw-open-md: true
 tags:
   - note_atomic
   - Courses_2025_ARC2046H_Exam
-  - course
-title: 
-description: 
+title:
+description:
 date: 2025-03-12
 name: Module 09 Composite Materials
 slug: 2025-03-12_Module 09 Composite Materials
-people: 
-location: 
-weekday: 
-time: 
+people:
+location:
+weekday:
+time:
 share: true
 hidden: true
 ---
 %%[parents:: [[../../../../../Courses/2025/ARC2046H/index|ARC2046H]]]%%
 ### Composite Materials
 
-![[Periodic Notes/Atomic/2025/2025-03-12_Module 09 Composite Materials/2025-03-12_Module 09 Composite Materials.svg|Periodic Notes/Atomic/2025/2025-03-12_Module 09 Composite Materials/2025-03-12_Module 09 Composite Materials.svg]]
+
+![[Periodic Notes/Atomic/2025/2025-03/2025-03-12_Module 09 Composite Materials/2025-03-12_Module 09 Composite Materials.svg|Periodic Notes/Atomic/2025/2025-03/2025-03-12_Module 09 Composite Materials/2025-03-12_Module 09 Composite Materials.svg]]
 
 - Load Sharing
 	- When two element or materials are arranged so that they mutually support load they are said to be sharing the load.
