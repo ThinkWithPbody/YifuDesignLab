@@ -7,12 +7,13 @@ start: 2024-01-05
 due:
 completion: 2024-04-01
 people:
-  - "[[People/Dave Bowick|People/Dave Bowick]]"
-  - "[[People/Shannon Hilchie|People/Shannon Hilchie]]"
+  - "[[People/Dave Bowick]]"
+  - "[[People/Shannon Hilchie]]"
 location: DA200
 weekday: 5
 time: 900
 status: DONE
+name: Structures_1
 ---
 
 ## Course Brief
@@ -147,7 +148,7 @@ Typical slab on grade: Br > 24 kPa
 
 ### Module 1
 
-[ARC1046 Lecture 01 Strength, Stiffness, Stability.pptx](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5C2024-01%5CARC1046H%5CLecture%20Slides%5CARC1046%20Lecture%2001%20Strength,%20Stiffness,%20Stability.pptx)
+[ARC1046 Lecture 01 Strength, Stiffness, Stability.pptx](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-01/ARC1046H/Lecture%20Slides/ARC1046%20Lecture%2001%20Strength,%20Stiffness,%20Stability.pptx)
 [Videos](https://www.archdaily.com/797373/these-videos-will-help-you-pass-your-are-structural-exam)
 
 Safe, stable building that is the cheapest possible, while meeting constraints, needs, demands, [[Wiki/NBCC/NBCC|Wiki/NBCC/NBCC]]
@@ -228,7 +229,7 @@ Flexibility is the amount that a structure will deflect or rotate under a fixed 
 - Interface with Building Elements
 
 **Serviceability Limit**
-[SERVICEABILITY LIMITS.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5C2024-01%5CARC1046H%5CFiles%5CReadings%5CSERVICEABILITY%20LIMITS.pdf)
+[SERVICEABILITY LIMITS.pdf](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-01/ARC1046H/Files/Readings/SERVICEABILITY%20LIMITS.pdf)
 
 **Vertical**
 - Live: L/360
@@ -609,9 +610,9 @@ M = 0
 
 ### [[Projects/Structures 1 - Project 1/Structures 1 - Project 1|Project 1]]
 
-- [x] [ARC1046 Project Description.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5C2024-01%5CARC1046H%5CAssignments%5CARC1046%20Project%20Description.pdf) [due:: 2024-04-30] [completion:: 2024-04-18]
-[ARC1046 Project Drawings.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5C2024-01%5CARC1046H%5CAssignments%5CARC1046%20Project%20Drawings.pdf)
-[ARC1046 Project Part 01 Quick Example.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5C2024-01%5CARC1046H%5CAssignments%5CARC1046%20Project%20Part%2001%20Quick%20Example.pdf)
+- [x] [ARC1046 Project Description.pdf](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-01/ARC1046H/Assignments/ARC1046%20Project%20Description.pdf) [due:: 2024-04-30] [completion:: 2024-04-18]
+[ARC1046 Project Drawings.pdf](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-01/ARC1046H/Assignments/ARC1046%20Project%20Drawings.pdf)
+[ARC1046 Project Part 01 Quick Example.pdf](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-01/ARC1046H/Assignments/ARC1046%20Project%20Part%2001%20Quick%20Example.pdf)
 
 ### [[Projects/Structures 1 - Project 2/Structures 1 - Project 2|Project 2]]
 
