@@ -1,17 +1,16 @@
 ---
-excalidraw-plugin: 
+excalidraw-plugin:
 excalidraw-open-md: true
 tags:
   - note_atomic
-  - course
 title: 2025-02-12_Module 06 Steel - Beam Design
-description: 
+description:
 date: 2025-02-12
 name: Module 06 Steel - Beam Design
-people: 
-location: 
-weekday: 
-time: 
+people:
+location:
+weekday:
+time:
 share: true
 hidden: true
 ---
@@ -19,6 +18,8 @@ hidden: true
 ### Module 06 Steel - Beam Design
 
 ![[Periodic Notes/Atomic/2025/2025-02-12_Module 06 Steel - Beam Design/2025-02-12_Module 06 Steel - Beam Design.png|Periodic Notes/Atomic/2025/2025-02-12_Module 06 Steel - Beam Design/2025-02-12_Module 06 Steel - Beam Design.png]]
+
+> Moment is force × distance. See [[../../../../../Courses/2024/ARC1046H Structures 1/index#Moment|Structures 1 · Moment]] and the teeter-totter example.
 
 #### Lateral Torsional Buckling
 
@@ -90,7 +91,7 @@ hidden: true
 	- $F_s$ = ultimate shear stress, varies depending on slenderness of web
 		- = $0.66\times Fy$ for stocky members
 - Tips
-	- Use [[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/BEAM LOADING DIAGRAMS.pdf|BEAM LOADING DIAGRAMS]] to determine $M_f$ and $V_f$
+	- **Use [BEAM LOADING DIAGRAMS](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/BEAM%20LOADING%20DIAGRAMS.pdf#page=1) to determine $M_f$ and $V_f** — cantilever + end load is case 28, p. 638
 
 
 %%
