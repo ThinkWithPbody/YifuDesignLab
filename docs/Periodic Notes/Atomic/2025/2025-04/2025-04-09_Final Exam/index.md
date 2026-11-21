@@ -3,21 +3,21 @@ excalidraw-plugin: parsed
 excalidraw-open-md: true
 tags:
   - note_atomic
-  - course
-title: 
-description: 
+title:
+description:
 date: 2025-04-09
 name: Final Exam
 slug: 2025-04-09_Final Exam
-people: 
-location: 
-weekday: 
-time: 
+people:
+location:
+weekday:
+time:
 share: true
 hidden: true
 ---
 %%[parents:: [[../../../../../Courses/2025/ARC2046H/index|ARC2046H]]]%%
 ### Final Exam
+
 
 ![[Periodic Notes/Atomic/2025/2025-04/2025-04-09_Final Exam/2025-04-09_Final Exam.svg|Periodic Notes/Atomic/2025/2025-04/2025-04-09_Final Exam/2025-04-09_Final Exam.svg]]
 
@@ -189,7 +189,7 @@ For an HSS141x4.8 steel column with fy=350MPa indicate the Reduced Capacity of t
 - 589 kN
 - 347 kN
 
-$P_y=f_yA$ or find in [[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/STEEL COLUMN TABLES.pdf|STEEL COLUMN TABLES]]
+$P_y=f_yA$ or find in [STEEL COLUMN TABLES](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/STEEL%20COLUMN%20TABLES.pdf)
 
 ## Question 18
 
@@ -373,7 +373,7 @@ DNF
 
 For the concrete beam shown, calculate Vr (kN)
 
-![[./2025-04-09_Final Exam-Concrete Beam-1.webp|/Periodic Notes/Atomic/2025/2025-04/2025-04-09_Final Exam/2025-04-09_Final Exam-Concrete Beam-1.webp]]
+![[./2025-04-09_Final Exam-Concrete Beam.webp|2025-04-09_Final Exam-Concrete Beam]]
 
 
 285.5 kN
@@ -387,7 +387,7 @@ DNF
 
 If we took advantage of the natural construction process for concrete and made our beam continuous, where else would we have to add steel (and check the design)?
 
-![[./2025-04-09_Final Exam-Concrete Beam-1.webp|/Periodic Notes/Atomic/2025/2025-04/2025-04-09_Final Exam/2025-04-09_Final Exam-Concrete Beam-1.webp]]
+![[./2025-04-09_Final Exam-Concrete Beam.webp|2025-04-09_Final Exam-Concrete Beam]]
 
 More Stirrups/Ties
 No extra Steel needed
