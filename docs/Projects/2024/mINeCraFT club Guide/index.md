@@ -11,7 +11,7 @@ due:
 completion: 2024-06-10
 ---
 
-![Logo|16](https://live.staticflickr.com/65535/52191413864_3b47958f71_o.png) Modpack Download: [mcc-1.21.1-neoforge-3.2](http://www.mediafire.com/view/phtv3xjbiwbc43i)
+![Logo|16](https://live.staticflickr.com/65535/52191413864_3b47958f71_o.png) Modpack Download: [mcc-1.21.1-neoforge-3.3](http://www.mediafire.com/view/3h25vriomtgthwe)
 
 # Install
 
@@ -204,6 +204,21 @@ F12 = Screenshot
 `/trigger tpa set`
 
 # Changelog
+
+## 1.21.1-3.4
+
+
+## 1.21.1-3.3
+
+Bumped neoforge to 21.1.267.
+
+Added:
+- Maidsoul Kitchen: Neoforge Updated
+- Updated Complementary + Euphoria Patches
+Removed:
+- Maidsoul Kitchen
+- Waystone Teleport Pets (Waystone native setting)
+- Vista (Iris conflicts)
 
 ## 1.21.1-3.2
 
