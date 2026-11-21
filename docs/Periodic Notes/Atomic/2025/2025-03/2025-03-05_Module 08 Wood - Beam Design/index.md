@@ -3,23 +3,23 @@ excalidraw-plugin: parsed
 excalidraw-open-md: true
 tags:
   - note_atomic
-  - course
-title: 
-description: 
+title:
+description:
 date: 2025-03-05
 name: Module 08 Wood - Beam Design
 slug: 2025-03-05_Module 08 Wood - Beam Design
-people: 
-location: 
-weekday: 
-time: 
+people:
+location:
+weekday:
+time:
 share: true
 hidden: true
 ---
 %%[parents:: [[../../../../../Courses/2025/ARC2046H/index|ARC2046H]]]%%
 ### Wood - Beam Design
 
-![[Periodic Notes/Atomic/2025/2025-03-05_Module 08 Wood - Beam Design/2025-03-05_Module 08 Wood - Beam Design.svg|Periodic Notes/Atomic/2025/2025-03-05_Module 08 Wood - Beam Design/2025-03-05_Module 08 Wood - Beam Design.svg]]
+
+![[Periodic Notes/Atomic/2025/2025-03/2025-03-05_Module 08 Wood - Beam Design/2025-03-05_Module 08 Wood - Beam Design.svg|Periodic Notes/Atomic/2025/2025-03/2025-03-05_Module 08 Wood - Beam Design/2025-03-05_Module 08 Wood - Beam Design.svg]]
 
 Refer to details outlined in [[../../2025-02/2025-02-26_Module 07 Wood - Intro and Column Design/index#Module 07 Wood - Intro and Column Design|Module 07 Wood - Intro and Column Design]]
 #### Bending Design
@@ -35,7 +35,7 @@ Refer to details outlined in [[../../2025-02/2025-02-26_Module 07 Wood - Intro a
 			- $K_{Se}$ = Service Factor for stiffness
 			- $K_T$ = Treatment Factor
 	- $S(mm3)$ = Elastic section modulus
-		- Refer to [[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SECTION PROPERTIES.pdf|SECTION PROPERTIES]]
+		- Refer to [SECTION PROPERTIES](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/SECTION%20PROPERTIES.pdf)
 		- Typically rectangles
 			- $S=\frac{bd^2}{6}$
 	- $K_{zb}$ = the size factor in bending
@@ -69,6 +69,7 @@ Refer to details outlined in [[../../2025-02/2025-02-26_Module 07 Wood - Intro a
 
 - $\Delta=\frac{5wL^4}{384\times E I}$
 - $E I=\frac{5wL^4}{384\times \Delta}$
+- For point-load and cantilever cases see **[BEAM LOADING DIAGRAMS](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/BEAM%20LOADING%20DIAGRAMS.pdf#page=10)**, p. 638
 
 #### Calculations / Example
 
