@@ -19,7 +19,8 @@ time:
 ---
 
 %%[parents:: [[../index|ARC3052H]]]%%
-![[Periodic Notes/Atomic/2026/2026-03/ARC3052H_Module-11/ARC3052H_Module-11.svg|Periodic Notes/Atomic/2026/2026-03/ARC3052H_Module-11/ARC3052H_Module-11.svg]]
+
+![[Courses/2026/ARC3052H/Modules/ARC3052H_Module-11.svg|Courses/2026/ARC3052H/Modules/ARC3052H_Module-11.svg]]
 
 ### Module-11
 
