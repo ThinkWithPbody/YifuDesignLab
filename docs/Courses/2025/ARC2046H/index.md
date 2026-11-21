@@ -30,46 +30,75 @@ time: 1300
 ## Module 00 Outline
 
 > [!blue]- Links
-> [[./Attachments/ARC2046H/ARC2046HS 2025 2025.01.06 Graduate Course Outline.pdf|ARC2046HS 2025 2025.01.06 Graduate Course Outline]]
-> [ARC2014 2024 Studio Structural Lecture Residential Structures.pptx](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2025-01%5CARC2046H%5CFiles%5C00%5CARC2014%202024%20Studio%20Structural%20Lecture%20Residential%20Structures.pptx)
+> [ARC2046HS 2025 2025.01.06 Graduate Course Outline](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2025-01/ARC2046H/Files/ARC2046HS%202025%202025.01.06%20Graduate%20Course%20Outline.pdf)
+> [ARC2014 2024 Studio Structural Lecture Residential Structures.pptx](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2025-01/ARC2046H/Files/00/ARC2014%202024%20Studio%20Structural%20Lecture%20Residential%20Structures.pptx)
 >
-> [[Courses/2025/ARC2046H/Attachments/ARC2046H/Shannon Hilchie - ARC2014 2024 Studio Structures Lecture.url|Courses/2025/ARC2046H/Attachments/ARC2046H/Shannon Hilchie - ARC2014 2024 Studio Structures Lecture.url]]
+> [[./Shannon Hilchie - ARC2014 2024 Studio Structures Lecture.url|Shannon Hilchie - ARC2014 2024 Studio Structures Lecture]]
 >
-> [Lecture 07 Load Combination Example 02.xlsx](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2025-01%5CARC2046H%5CFiles%5C00%5CLecture%2007%20Load%20Combination%20Example%2002.xlsx)
+> [Lecture 07 Load Combination Example 02.xlsx](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2025-01/ARC2046H/Files/00/Helpful%20Examples/Lecture%2007%20Load%20Combination%20Example%2002.xlsx)
 
 > [!blue]+ Helpful PDF
-> [Helpful PDF](file:///D:/_twp/Document/Scholar/UTOR/Archive/2025-01/ARC2046H/Files/00/Helpful%20PDF)
+> [Helpful PDF](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF)
+> [SIZING GUIDELINES](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/SIZING%20GUIDELINES.pdf)
+> [SERVICEABILITY LIMITS](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/SERVICEABILITY%20LIMITS.pdf)
+> [IMPORTANCE FACTORS](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/IMPORTANCE%20FACTORS.pdf)
 > 
-> DEAD LOADS
-> LIVE LOADS
-> SNOW LOAD
-> ONTARIO CLIMATIC DATA
-> WIND LOAD
-> IMPORTANCE FACTORS
-> LOAD COMBINATIONS
+> [BEAM LOADING DIAGRAMS](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/BEAM%20LOADING%20DIAGRAMS.pdf)
+> [SECTION PROPERTIES](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/SECTION%20PROPERTIES.pdf)
+> 
 > ![[../../../Periodic Notes/Atomic/2025/2025-02/2025-02-12_Module 02 ARC1046 Review/Attachments/2025-02-12_Module 02 ARC1046 Review/2024-03-05T15_12_48-05_00_TWP-X570-WIN10(vlc).jpg|200]]
-> SERVICEABILITY LIMITS
-> SIZING GUIDELINES
-> BEAM LOADING DIAGRAMS
-> SECTION PROPERTIES
-> STEEL BEAM TABLES
-> STEEL COLUMN TABLES
-> STEEL SECTIONS
-> SAWN LUMBER
-> WOOD COMPRESSION TABLES
-> WOOD BENDING TABLES
-> GLULAM
-> CONCRETE COLUMN GRAPHS
-> TYPICAL DETAILS
+> [LOAD COMBINATIONS](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/LOAD%20COMBINATIONS.pdf)
+> [DEAD LOADS](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/DEAD%20LOADS.pdf)
+> [LIVE LOADS](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/LIVE%20LOADS.pdf)
+> [SNOW LOAD](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/SNOW%20LOAD.pdf)
+> [ONTARIO CLIMATIC DATA](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/ONTARIO%20CLIMATIC%20DATA.pdf)
+> [WIND LOAD](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/WIND%20LOAD.pdf)
+> 
+> [STEEL BEAM TABLES](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/STEEL%20BEAM%20TABLES.pdf)
+> [STEEL COLUMN TABLES](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/STEEL%20COLUMN%20TABLES.pdf)
+> [STEEL SECTIONS](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/STEEL%20SECTIONS.pdf)
+> 
+> [SAWN LUMBER](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/SAWN%20LUMBER.pdf)
+> [WOOD COMPRESSION TABLES](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/WOOD%20COMPRESSION%20TABLES.pdf)
+> [WOOD BENDING TABLES](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/WOOD%20BENDING%20TABLES.pdf)
+> [GLULAM](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/GLULAM.pdf)
+> 
+> [CONCRETE COLUMN GRAPHS](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/CONCRETE%20COLUMN%20GRAPHS.pdf)
+> 
+> [TYPICAL DETAILS](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/TYPICAL%20DETAILS.pdf)
+
+> [!blue]- Source Books
+> The `>> 39`, `>> 224` page refs inside the handouts are pages in these books.
+> 
+> - **Handbook of Steel Construction**, 9th ed., CISC, 2006 — ISBN 978-0-88811-124-1 (0-88811-124-X)
+>   - `STEEL SECTIONS` pp. 224–225 · `STEEL BEAM TABLES` · `STEEL COLUMN TABLES` · `SECTION PROPERTIES` pp. 148–149 · steel weights in `DEAD LOADS` p. 39
+> - **Wood Design Manual 2010**, Canadian Wood Council — ISBN 978-0-9783213-6-9 (0-9783213-6-7)
+>   - `WOOD BENDING TABLES` ch. 2 pp. 15–89 · `WOOD COMPRESSION TABLES` ch. 3 pp. 95+ · `BEAM LOADING DIAGRAMS` pp. 629–639 · wood weights in `DEAD LOADS` p. 36
+> - **CSA O86-14, Engineering Design in Wood**, CSA Group, 2014 — standard O86-14, no ISBN printed on the excerpt
+>   - `SAWN LUMBER` clause 6 · `GLULAM` clause 7
+> - **Concrete Design Handbook**, 3rd ed., Cement Association of Canada, 2010 — ISBN 978-1-896553-20-7 (1-896553-20-6)
+>   - `CONCRETE COLUMN GRAPHS` table 7.10.x interaction diagrams (excerpt is from Bowick's 2004 slides, so likely the 2nd ed.)
+> - **National Building Code of Canada 2015** — ISBN 0-660-03633-5, NRCC 56190, 14th ed.
+>   - `LOAD COMBINATIONS` table 4.1.3.2.A
+> - **National Building Code of Canada 2010** — NRCC 53620
+>   - `ONTARIO CLIMATIC DATA`
+> - **Ontario Building Code 2012** — O. Reg. 332/12, Building Code Act 1992
+>   - `LIVE LOADS` table 4.1.5.3 · `IMPORTANCE FACTORS` tables 4.1.6.2, 4.1.7.1, 4.1.8.5
+> - **Ontario Building Code 2006** — O. Reg. 350/06
+>   - `SNOW LOAD` · `WIND LOAD` (sections 4.1.6, 4.1.7)
+> 
+> Not books — Hilchie course handouts: `SIZING GUIDELINES`, `TYPICAL DETAILS`, `SERVICEABILITY LIMITS`, and `DEAD LOADS` (compiled from the steel, wood and concrete handbooks).
 
 > [!blue]- Example Drawings
-> 060462 CUBE Lofts Steel
-> 070435 Goldring Architectural Plans
-> 070435 Goldring Structural Drawings
-> Concrete Building
-> Steel Building
-> 060462 CUBE Lofts Architectural
-> 060462 CUBE Lofts Concrete
+> [Example Drawings](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Example%20Drawings)
+> 
+> [060462 CUBE Lofts Steel](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Example%20Drawings/060462%20CUBE%20Lofts%20Steel.pdf)
+> [070435 Goldring Architectural Plans](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Example%20Drawings/070435%20Goldring%20Architectural%20Plans.pdf)
+> [070435 Goldring Structural Drawings](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Example%20Drawings/070435%20Goldring%20Structural%20Drawings.pdf)
+> [Concrete Building](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Example%20Drawings/Concrete%20Building.pdf)
+> [Steel Building](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Example%20Drawings/Steel%20Building.pdf)
+> [060462 CUBE Lofts Architectural](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Example%20Drawings/060462%20CUBE%20Lofts%20Architectural.pdf)
+> [060462 CUBE Lofts Concrete](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Example%20Drawings/060462%20CUBE%20Lofts%20Concrete.pdf)
 
 ## Module 01 Strength/Stiffness/Stability
 
@@ -80,13 +109,13 @@ time: 1300
 ## Module 02 ARC1046 Review
 
 > [!blue]- Links
-> [[./Attachments/ARC2046H/ARC1046 Project Part 02 Review.pdf|ARC1046 Project Part 02 Review]]
-> [[./Attachments/ARC2046H/ARC1046 Additional Practice Problems Answers.pdf|ARC1046 Additional Practice Problems Answers]]
-> [[./Attachments/ARC2046H/ARC1046 Additional Practice Problems.pdf|ARC1046 Additional Practice Problems]]
+> [ARC1046 Project Part 02 Review](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2025-01/ARC2046H/Files/02/ARC1046%20Project%20Part%2002%20Review.pdf)
+> [ARC1046 Additional Practice Problems Answers](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2025-01/ARC2046H/Files/02/ARC1046%20Additional%20Practice%20Problems%20Answers.pdf)
+> [ARC1046 Additional Practice Problems](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2025-01/ARC2046H/Files/02/ARC1046%20Additional%20Practice%20Problems.pdf)
 >
-> [ARC1046 and ARC2046 Summary.xlsx](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2025-01%5CARC2046H%5CFiles%5C02%5CARC1046%20and%20ARC2046%20Summary.xlsx)
-> [ARC2046 Lecture 02 Review ARC1046.pptx](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2025-01%5CARC2046H%5CFiles%5C02%5CARC2046%20Lecture%2002%20Review%20ARC1046.pptx)
-> [Lecture 07 Load Combination Example 02.xlsx](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2025-01%5CARC2046H%5CFiles%5C02%5CLecture%2007%20Load%20Combination%20Example%2002.xlsx)
+> [ARC1046 and ARC2046 Summary.xlsx](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2025-01/ARC2046H/Files/02/ARC1046%20and%20ARC2046%20Summary.xlsx)
+> [ARC2046 Lecture 02 Review ARC1046.pptx](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2025-01/ARC2046H/Files/02/ARC2046%20Lecture%2002%20Review%20ARC1046.pptx)
+> [Lecture 07 Load Combination Example 02.xlsx](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2025-01/ARC2046H/Files/00/Helpful%20Examples/Lecture%2007%20Load%20Combination%20Example%2002.xlsx)
 
 #### Ultimate Limit States Calculator
 
@@ -124,7 +153,7 @@ Import this calculator to your own vault:
 ## Module 03 Stress and Strain - Part 01
 
 > [!blue]- Links
-> [ARC2046 Lecture 03 Principals of Stress and Strain (Axial).pptx](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2025-01%5CARC2046H%5CFiles%5C03%5CARC2046%20Lecture%2003%20Principals%20of%20Stress%20and%20Strain%20(Axial).pptx)
+> [ARC2046 Lecture 03 Principals of Stress and Strain (Axial).pptx](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2025-01/ARC2046H/Files/03/ARC2046%20Lecture%2003%20Principals%20of%20Stress%20and%20Strain%20%28Axial%29.pptx)
 
 [[../../../Periodic Notes/Atomic/2025/2025-02/2025-02-12_Stress and Strain/index|Stress and Strain]]
 
@@ -133,9 +162,9 @@ Import this calculator to your own vault:
 ## Module 04 Stress and Strain - Part 02
 
 > [!blue]- Links
-> [ARC2046 Lecture 04 Stress and Strain (Bending).pptx](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2025-01%5CARC2046H%5CFiles%5C04%5CARC2046%20Lecture%2004%20Stress%20and%20Strain%20(Bending).pptx)
-> [[./Attachments/ARC2046H/STEEL SECTIONS.pdf|STEEL SECTIONS]]
-> [[Periodic Notes/Atomic/2025/2025-03-05_Module 08 Wood - Beam Design/Attachments/2025-03-05_Module 08 Wood - Beam Design/SECTION PROPERTIES.pdf|Periodic Notes/Atomic/2025/2025-03-05_Module 08 Wood - Beam Design/Attachments/2025-03-05_Module 08 Wood - Beam Design/SECTION PROPERTIES.pdf]]
+> [ARC2046 Lecture 04 Stress and Strain (Bending).pptx](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2025-01/ARC2046H/Files/04/ARC2046%20Lecture%2004%20Stress%20and%20Strain%20%28Bending%29.pptx)
+> [STEEL SECTIONS](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/STEEL%20SECTIONS.pdf)
+> [SECTION PROPERTIES](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/SECTION%20PROPERTIES.pdf)
 
 [[../../../Periodic Notes/Atomic/2025/2025-02/2025-02-12_Stress and Strain - Part 02/index|Stress and Strain - Part 02]]
 
@@ -144,9 +173,9 @@ Import this calculator to your own vault:
 ## Module 05 Steel - Intro and Column Design
 
 > [!blue]- Links
-> [ARC2046 Lecture 05 Steel Design - Intro and Columns.pptx](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2025-01%5CARC2046H%5CFiles%5C05%5CARC2046%20Lecture%2005%20Steel%20Design%20-%20Intro%20and%20Columns.pptx)
-> [[./Attachments/ARC2046H/STEEL COLUMN TABLES.pdf|STEEL COLUMN TABLES]]
-> [[./Attachments/ARC2046H/STEEL SECTIONS.pdf|STEEL SECTIONS]]
+> [ARC2046 Lecture 05 Steel Design - Intro and Columns.pptx](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2025-01/ARC2046H/Files/05/ARC2046%20Lecture%2005%20Steel%20Design%20-%20Intro%20and%20Columns.pptx)
+> [STEEL COLUMN TABLES](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/STEEL%20COLUMN%20TABLES.pdf)
+> [STEEL SECTIONS](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/STEEL%20SECTIONS.pdf)
 
 [[../../../Periodic Notes/Atomic/2025/2025-02/2025-02-12_Module 05 Steel - Intro and Column Design/index|Module 05 Steel - Intro and Column Design]]
 
@@ -155,9 +184,9 @@ Import this calculator to your own vault:
 ## Module 06 Steel - Beam Design
 
 > [!blue]- Links
-> [06_Shannon Hilchie_ARC2046 2021 Lecture 05.mkv](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2025-01%5CARC2046H%5CFiles%5CARC2046%202022%20Lectures%20Shannon%20Hilchie%5C06_Shannon%20Hilchie_ARC2046%202021%20Lecture%2005.mkv)
-> [ARC2046 Lecture 06 Steel Design - Beams.pptx](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2025-01%5CARC2046H%5CFiles%5C06%5CARC2046%20Lecture%2006%20Steel%20Design%20-%20Beams.pptx)
-> ![[./Attachments/ARC2046H/STEEL BEAM TABLES.pdf|STEEL BEAM TABLES]]
+> [06_Shannon Hilchie_ARC2046 2021 Lecture 05.mkv](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2025-01/ARC2046H/Files/ARC2046%202022%20Lectures%20Shannon%20Hilchie/06_Shannon%20Hilchie_ARC2046%202021%20Lecture%2005.mkv)
+> [ARC2046 Lecture 06 Steel Design - Beams.pptx](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2025-01/ARC2046H/Files/06/ARC2046%20Lecture%2006%20Steel%20Design%20-%20Beams.pptx)
+> [STEEL BEAM TABLES](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/STEEL%20BEAM%20TABLES.pdf)
 
 [[../../../Periodic Notes/Atomic/2025/2025-02/2025-02-12_Module 06 Steel - Beam Design/index|Module 06 Steel - Beam Design]]
 
@@ -262,17 +291,18 @@ Import this calculator to your own vault:
 
 ## [[/Projects/2025/ARC2046H_Project-4/ARC2046H_Project-4|ARC2046H_Project-4]]
 
-# Tagged
+# Context
 
+**Alt + E** : [Action Context Note](Configs/Templater/Template/Action%20Context%20Note) / [Action Context Timelog](Configs/Templater/Template/Action%20Context%20Timelog)  
 `#Courses/2025/ARC2046H`
 
-Notes:
+Notes 0 entries
 
-Timelog:
+No tagged notes found.
 
-Total: 0 Hours, 0 Minutes
+Timelog 00:00 total
 
-Hours:
+No timelog entries found.
 
 # Course Brief
 
