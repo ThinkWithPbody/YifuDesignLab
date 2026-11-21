@@ -19,7 +19,8 @@ time:
 ---
 
 %%[parents:: [[../index|ARC3052H]]]%%
-![[Periodic Notes/Atomic/2026/2026-03/ARC3052H_Module-07/ARC3052H_Module-07.svg|Periodic Notes/Atomic/2026/2026-03/ARC3052H_Module-07/ARC3052H_Module-07.svg]]
+
+![[Courses/2026/ARC3052H/Modules/ARC3052H_Module-07.svg|Courses/2026/ARC3052H/Modules/ARC3052H_Module-07.svg]]
 
 ### Module-07 Who Backs the Project: Surety Bonds + Collaborative Practice Models (SOCA)
 
