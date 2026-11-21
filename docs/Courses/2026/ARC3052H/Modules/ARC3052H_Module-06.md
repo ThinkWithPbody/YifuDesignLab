@@ -19,7 +19,8 @@ time:
 ---
 
 %%[parents:: [[../index|ARC3052H]]]%%
-![[Periodic Notes/Atomic/2026/2026-02/ARC3052H_Module-06/ARC3052H_Module-06.svg|Periodic Notes/Atomic/2026/2026-02/ARC3052H_Module-06/ARC3052H_Module-06.svg]]
+
+![[Courses/2026/ARC3052H/Modules/ARC3052H_Module-06.svg|Courses/2026/ARC3052H/Modules/ARC3052H_Module-06.svg]]
 
 ### Module-06 When Things Go Wrong: Risk Mitigation + Professional Liability Insurance + Contract Administration
 
