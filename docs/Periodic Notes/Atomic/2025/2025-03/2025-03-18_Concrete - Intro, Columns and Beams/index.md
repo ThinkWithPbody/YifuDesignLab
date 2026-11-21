@@ -4,23 +4,23 @@ excalidraw-open-md: true
 tags:
   - note_atomic
   - Courses_2025_ARC2046H_Exam
-  - course
-title: 
-description: 
+title:
+description:
 date: 2025-03-18
 name: Concrete - Intro, Columns and Beams
 slug: 2025-03-18_Concrete - Intro, Columns and Beams
-people: 
-location: 
-weekday: 
-time: 
+people:
+location:
+weekday:
+time:
 share: true
 hidden: true
 ---
 %%[parents:: [[../../../../../Courses/2025/ARC2046H/index|ARC2046H]]]%%
 ### Concrete - Intro, Columns and Beams
 
-![[Periodic Notes/Atomic/2025/2025-03-18_Concrete - Intro, Columns and Beams/2025-03-18_Concrete - Intro, Columns and Beams.svg|Periodic Notes/Atomic/2025/2025-03-18_Concrete - Intro, Columns and Beams/2025-03-18_Concrete - Intro, Columns and Beams.svg]]
+
+![[Periodic Notes/Atomic/2025/2025-03/2025-03-18_Concrete - Intro, Columns and Beams/2025-03-18_Concrete - Intro, Columns and Beams.svg|Periodic Notes/Atomic/2025/2025-03/2025-03-18_Concrete - Intro, Columns and Beams/2025-03-18_Concrete - Intro, Columns and Beams.svg]]
 
 - Concrete Mix
 	- Aggregate
