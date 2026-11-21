@@ -11,6 +11,7 @@ weekday: 1
 time: 900
 share: true
 status: DONE
+name: Building_Science_2
 ---
 ## Course Brief
 
