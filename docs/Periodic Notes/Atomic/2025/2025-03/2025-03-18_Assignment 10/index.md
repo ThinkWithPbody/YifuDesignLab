@@ -3,21 +3,21 @@ excalidraw-plugin: parsed
 excalidraw-open-md: true
 tags:
   - note_atomic
-  - course
-title: 
-description: 
+title:
+description:
 date: 2025-03-18
 name: Assignment 10
 slug: 2025-03-18_Assignment 10
-people: 
-location: 
-weekday: 
-time: 
+people:
+location:
+weekday:
+time:
 share: true
 hidden: true
 ---
 %%[parents:: [[../../../../../Courses/2025/ARC2046H/index|ARC2046H]]]%%
 ### Assignment 10
+
 
 ![[Periodic Notes/Atomic/2025/2025-03/2025-03-18_Assignment 10/2025-03-18_Assignment 10.svg|Periodic Notes/Atomic/2025/2025-03/2025-03-18_Assignment 10/2025-03-18_Assignment 10.svg]]
 

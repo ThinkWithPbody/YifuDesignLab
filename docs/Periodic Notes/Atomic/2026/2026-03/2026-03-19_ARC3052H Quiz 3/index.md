@@ -19,6 +19,7 @@ time:
 ---
 
 %%[parents:: ]%%
+
 ![[Periodic Notes/Atomic/2026/2026-03/2026-03-19_ARC3052H Quiz 3/2026-03-19_ARC3052H Quiz 3.svg|Periodic Notes/Atomic/2026/2026-03/2026-03-19_ARC3052H Quiz 3/2026-03-19_ARC3052H Quiz 3.svg]]
 
 ### ARC3052H Quiz 3

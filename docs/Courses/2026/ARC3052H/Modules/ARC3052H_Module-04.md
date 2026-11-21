@@ -19,7 +19,8 @@ time:
 ---
 
 %%[parents:: [[../index|ARC3052H]]]%%
-![[Periodic Notes/Atomic/2026/2026-01/ARC3052H_Module-04/ARC3052H_Module-04.svg|Periodic Notes/Atomic/2026/2026-01/ARC3052H_Module-04/ARC3052H_Module-04.svg]]
+
+![[Courses/2026/ARC3052H/Modules/ARC3052H_Module-04.svg|Courses/2026/ARC3052H/Modules/ARC3052H_Module-04.svg]]
 
 ### Module-04 How Big Offices Work: Firm Structure (Perkins & Will) + The Future of Practice
 

@@ -9,11 +9,12 @@ start: 2024-09-03
 due: 2025-01-03
 completion: 2024-12-16
 people:
-  - "[[People/Daniel Haeyoung Chung|People/Daniel Haeyoung Chung]]"
+  - "[[People/Daniel Haeyoung Chung]]"
 location: DA200
 weekday: 2
 time: 1000
 status: DONE
+name: Building_Science_Materials_and_Construction_3
 ---
 
 ## Modules
@@ -24,7 +25,7 @@ status: DONE
 
 #### Module 01
 
-[2024+09+02+Week+1+ARC2047+posted 2024-09-03 14_50_12.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C01%5C2024+09+02+Week+1+ARC2047+posted%202024-09-03%2014_50_12.pdf)
+[2024+09+02+Week+1+ARC2047+posted 2024-09-03 14_50_12.pdf](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-09/ARC2047H/Files/01/2024+09+02+Week+1+ARC2047+posted%202024-09-03%2014_50_12.pdf)
 - Methods
 	- lectures and readings
 		- MEEB: *mechanical and electrical equipment for buildings* thirteenth edition by Wiley
@@ -79,17 +80,17 @@ status: DONE
 	- heating & cooling
 	- energy & carbon
 
-[Energy+and+the+Environment+Chapter+1+-+Ristinen+Kraushaar+Brack 2024-09-03 14_49_52.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C01%5CEnergy+and+the+Environment+Chapter+1+-+Ristinen+Kraushaar+Brack%202024-09-03%2014_49_52.pdf)
-[Thermal+Delight+-+chapter+1+-+Heschong 2024-09-03 14_49_32.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C01%5CThermal+Delight+-+chapter+1+-+Heschong%202024-09-03%2014_49_32.pdf)
+[Energy+and+the+Environment+Chapter+1+-+Ristinen+Kraushaar+Brack 2024-09-03 14_49_52.pdf](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-09/ARC2047H/Files/01/Energy+and+the+Environment+Chapter+1+-+Ristinen+Kraushaar+Brack%202024-09-03%2014_49_52.pdf)
+[Thermal+Delight+-+chapter+1+-+Heschong 2024-09-03 14_49_32.pdf](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-09/ARC2047H/Files/01/Thermal+Delight+-+chapter+1+-+Heschong%202024-09-03%2014_49_32.pdf)
 
 #### Module 02
 
 > [!blue]- Links
-> [2024+09+10+Class+2+Lecture+Slides 2024-09-10 14_30_10.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C02%5C2024+09+10+Class+2+Lecture+Slides%202024-09-10%2014_30_10.pdf)
-> [ARC2047+Self+Study+HW1+Psychrometry 2024-09-10 14_30_26.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C02%5CARC2047+Self+Study+HW1+Psychrometry%202024-09-10%2014_30_26.pdf)
-> [ARC2047+Week+2+Lecture+Notes+on+Psychrometric+Processes+v3 2024-09-10 14_30_31.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C02%5CARC2047+Week+2+Lecture+Notes+on+Psychrometric+Processes+v3%202024-09-10%2014_30_31.pdf)
-> [ASHRAE Psychrometric Chart SI Lecture Demonstration problem.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C02%5CASHRAE%20Psychrometric%20Chart%20SI%20Lecture%20Demonstration%20problem.pdf)
-> [ASHRAE Psychrometric Chart SI.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C02%5CASHRAE%20Psychrometric%20Chart%20SI.pdf)
+> [2024+09+10+Class+2+Lecture+Slides 2024-09-10 14_30_10.pdf](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-09/ARC2047H/Files/02/2024+09+10+Class+2+Lecture+Slides%202024-09-10%2014_30_10.pdf)
+> [ARC2047+Self+Study+HW1+Psychrometry 2024-09-10 14_30_26.pdf](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-09/ARC2047H/Files/02/ARC2047+Self+Study+HW1+Psychrometry%202024-09-10%2014_30_26.pdf)
+> [ARC2047+Week+2+Lecture+Notes+on+Psychrometric+Processes+v3 2024-09-10 14_30_31.pdf](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-09/ARC2047H/Files/02/ARC2047+Week+2+Lecture+Notes+on+Psychrometric+Processes+v3%202024-09-10%2014_30_31.pdf)
+> [ASHRAE Psychrometric Chart SI Lecture Demonstration problem.pdf](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-09/ARC2047H/Files/02/ASHRAE%20Psychrometric%20Chart%20SI%20Lecture%20Demonstration%20problem.pdf)
+> [ASHRAE Psychrometric Chart SI.pdf](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-09/ARC2047H/Files/02/ASHRAE%20Psychrometric%20Chart%20SI.pdf)
 > ![[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/ASHRAE Psychrometric Chart SI.jpg|ASHRAE Psychrometric Chart SI]]
 
 Difference between power and energy
@@ -192,9 +193,9 @@ Thermal comfort directly affects productivity
 #### Module 03
 
 > [!blue]- Links
-> [ARC2047 HW1 Solution ASHRAE Psychrometric Chart SI.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C03%5CARC2047%20HW1%20Solution%20ASHRAE%20Psychrometric%20Chart%20SI.pdf)
-> [ARC2047 Psychrometric HW 1 Solutions.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C03%5CARC2047%20Psychrometric%20HW%201%20Solutions.pdf)
-> [ARC2047 Self Study HW 2 on Solar Position.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C03%5CARC2047%20Self%20Study%20HW%202%20on%20Solar%20Position.pdf)
+> [ARC2047 HW1 Solution ASHRAE Psychrometric Chart SI.pdf](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-09/ARC2047H/Files/03/ARC2047%20HW1%20Solution%20ASHRAE%20Psychrometric%20Chart%20SI.pdf)
+> [ARC2047 Psychrometric HW 1 Solutions.pdf](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-09/ARC2047H/Files/03/ARC2047%20Psychrometric%20HW%201%20Solutions.pdf)
+> [ARC2047 Self Study HW 2 on Solar Position.pdf](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-09/ARC2047H/Files/03/ARC2047%20Self%20Study%20HW%202%20on%20Solar%20Position.pdf)
 
 [[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/2024 09 16 week 3 slides v1.pdf|2024 09 16 week 3 slides v1]]
 
@@ -275,9 +276,9 @@ Thermal comfort directly affects productivity
 
 #### Module 04
 
-![Table+of+heat+gains+from+people+and+equipment+-MEEB+Appendix+G1 2024-09-24 14_40_29.jpg](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C04%5CTable+of+heat+gains+from+people+and+equipment+-MEEB+Appendix+G1%202024-09-24%2014_40_29.jpg)
+![Table+of+heat+gains+from+people+and+equipment+-MEEB+Appendix+G1 2024-09-24 14_40_29.jpg](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-09/ARC2047H/Files/04/Table+of+heat+gains+from+people+and+equipment+-MEEB+Appendix+G1%202024-09-24%2014_40_29.jpg)
 
-![Table+of+electric+lighting+heat+gains+-+MEEB+Appendix+G1 2024-09-24 14_40_24.jpg](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C04%5CTable+of+electric+lighting+heat+gains+-+MEEB+Appendix+G1%202024-09-24%2014_40_24.jpg)
+![Table+of+electric+lighting+heat+gains+-+MEEB+Appendix+G1 2024-09-24 14_40_24.jpg](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-09/ARC2047H/Files/04/Table+of+electric+lighting+heat+gains+-+MEEB+Appendix+G1%202024-09-24%2014_40_24.jpg)
 
 - Balance Point Temperature, BPT
 - When Q_i = q_total
@@ -460,16 +461,16 @@ How are material divisions used in LCA? DIVISION 3 - CONCRETE, DIVISION 4 - MASO
 #### Module 06
 
 > [!blue]- Links
-> [2024+10+08+week+6+slides+v2 2024-10-08 14_18_21.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C06%5C2024+10+08+week+6+slides+v2%202024-10-08%2014_18_21.pdf)
-> [ARC2047HF+HW+4+Self+Study+-+Cooling+Load 2024-10-08 14_15_06.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C06%5CARC2047HF+HW+4+Self+Study+-+Cooling+Load%202024-10-08%2014_15_06.pdf)[ARC2047+-+Cooling+Load+-+Metric+Example 2024-10-08 14_12_58.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C06%5CARC2047+-+Cooling+Load+-+Metric+Example%202024-10-08%2014_12_58.pdf)
-> [ARC2047+HW+3+Winter+Balance+Point+Temp+-+Solutions+v1 2024-10-08 14_15_05.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C06%5CARC2047+HW+3+Winter+Balance+Point+Temp+-+Solutions+v1%202024-10-08%2014_15_05.pdf)
+> [2024+10+08+week+6+slides+v2 2024-10-08 14_18_21.pdf](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-09/ARC2047H/Files/06/2024+10+08+week+6+slides+v2%202024-10-08%2014_18_21.pdf)
+> [ARC2047HF+HW+4+Self+Study+-+Cooling+Load 2024-10-08 14_15_06.pdf](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-09/ARC2047H/Files/06/ARC2047HF+HW+4+Self+Study+-+Cooling+Load%202024-10-08%2014_15_06.pdf)[ARC2047+-+Cooling+Load+-+Metric+Example 2024-10-08 14_12_58.pdf](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-09/ARC2047H/Files/06/ARC2047+-+Cooling+Load+-+Metric+Example%202024-10-08%2014_12_58.pdf)
+> [ARC2047+HW+3+Winter+Balance+Point+Temp+-+Solutions+v1 2024-10-08 14_15_05.pdf](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-09/ARC2047H/Files/06/ARC2047+HW+3+Winter+Balance+Point+Temp+-+Solutions+v1%202024-10-08%2014_15_05.pdf)
 >
-> ![Appendix+B1+MEEB+Climatic+Conditions 2024-10-08 14_15_38.jpg](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C06%5CAppendix+B1+MEEB+Climatic+Conditions%202024-10-08%2014_15_38.jpg)
-> ![Table B1 New York State.jpg](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C06%5CTable%20B1%20New%20York%20State.jpg)
-> ![Appendix+G2+MEEB+-+DETD+-+opaque 2024-10-08 14_14_28.jpg](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C06%5CAppendix+G2+MEEB+-+DETD+-+opaque%202024-10-08%2014_14_28.jpg)
-> ![Appendix+G3+MEEB+-+DCLF+-+glass 2024-10-08 14_13_33.jpg](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C06%5CAppendix+G3+MEEB+-+DCLF+-+glass%202024-10-08%2014_13_33.jpg)
-> ![Appendix+G4+MEEB+Inf+and+Vent+Factors 2024-10-08 14_13_19.jpg](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C06%5CAppendix+G4+MEEB+Inf+and+Vent+Factors%202024-10-08%2014_13_19.jpg)
-> ![MEEB+Fig+12-23+Latent+heat+gains 2024-10-08 14_13_15.jpg](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C06%5CMEEB+Fig+12-23+Latent+heat+gains%202024-10-08%2014_13_15.jpg)
+> ![Appendix+B1+MEEB+Climatic+Conditions 2024-10-08 14_15_38.jpg](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-09/ARC2047H/Files/06/Appendix+B1+MEEB+Climatic+Conditions%202024-10-08%2014_15_38.jpg)
+> ![Table B1 New York State.jpg](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-09/ARC2047H/Files/06/Table%20B1%20New%20York%20State.jpg)
+> ![Appendix+G2+MEEB+-+DETD+-+opaque 2024-10-08 14_14_28.jpg](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-09/ARC2047H/Files/06/Appendix+G2+MEEB+-+DETD+-+opaque%202024-10-08%2014_14_28.jpg)
+> ![Appendix+G3+MEEB+-+DCLF+-+glass 2024-10-08 14_13_33.jpg](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-09/ARC2047H/Files/06/Appendix+G3+MEEB+-+DCLF+-+glass%202024-10-08%2014_13_33.jpg)
+> ![Appendix+G4+MEEB+Inf+and+Vent+Factors 2024-10-08 14_13_19.jpg](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-09/ARC2047H/Files/06/Appendix+G4+MEEB+Inf+and+Vent+Factors%202024-10-08%2014_13_19.jpg)
+> ![MEEB+Fig+12-23+Latent+heat+gains 2024-10-08 14_13_15.jpg](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-09/ARC2047H/Files/06/MEEB+Fig+12-23+Latent+heat+gains%202024-10-08%2014_13_15.jpg)
 
 Cooling Loads
 	- **Tons of cooling** = q_total ÷ 12000
@@ -607,11 +608,11 @@ Cooling Loads
 
 > [!Blue]- Links
 >
-> [2024+10+14+ARC2047+week+7+slides+v1 2024-10-15 14_11_29.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C07%5C2024+10+14+ARC2047+week+7+slides+v1%202024-10-15%2014_11_29.pdf)
-> [ARC2047+-+Cross+Ventilation%2C+Degree+Days%2C+Cost+-+Metric+Example 2024-10-15 14_11_35.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C07%5CARC2047+-+Cross+Ventilation%2C+Degree+Days%2C+Cost+-+Metric+Example%202024-10-15%2014_11_35.pdf)
-> [ARC2047HF+Homework+4+Solutions+-+final 2024-10-15 14_11_40.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C07%5CARC2047HF+Homework+4+Solutions+-+final%202024-10-15%2014_11_40.pdf)
-> [ARC2047HF+HW5+Self+Study 2024-10-15 14_11_45.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C07%5CARC2047HF+HW5+Self+Study%202024-10-15%2014_11_45.pdf)
-> [Week 7 study questions.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C07%5CWeek%207%20study%20questions.pdf)
+> [2024+10+14+ARC2047+week+7+slides+v1 2024-10-15 14_11_29.pdf](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-09/ARC2047H/Files/07/2024+10+14+ARC2047+week+7+slides+v1%202024-10-15%2014_11_29.pdf)
+> [ARC2047+-+Cross+Ventilation%2C+Degree+Days%2C+Cost+-+Metric+Example 2024-10-15 14_11_35.pdf](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-09/ARC2047H/Files/07/ARC2047+-+Cross+Ventilation%252C+Degree+Days%252C+Cost+-+Metric+Example%202024-10-15%2014_11_35.pdf)
+> [ARC2047HF+Homework+4+Solutions+-+final 2024-10-15 14_11_40.pdf](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-09/ARC2047H/Files/07/ARC2047HF+Homework+4+Solutions+-+final%202024-10-15%2014_11_40.pdf)
+> [ARC2047HF+HW5+Self+Study 2024-10-15 14_11_45.pdf](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-09/ARC2047H/Files/07/ARC2047HF+HW5+Self+Study%202024-10-15%2014_11_45.pdf)
+> [Week 7 study questions.pdf](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-09/ARC2047H/Files/07/Week%207%20study%20questions.pdf)
 
 **Cooling via Cross Ventilation (Natural Ventilation)**
 - q_crossvent (Btu/h) = V (cfm) × Heat capacity of air (Btu·min/(ft3·°F·h)) × ∆T (°F)
@@ -819,7 +820,7 @@ Cooling Loads
 #### Module 08
 
 > [!blue]- Links
-> [[Projects/2024/ARC2047H_Project-1_Cheatsheet/Attachments/ARC2047H_Cheatsheet/2024+10+22+week+8+slides+v3 2024-10-22 14_37_23.pdf|Projects/2024/ARC2047H_Project-1_Cheatsheet/Attachments/ARC2047H_Cheatsheet/2024+10+22+week+8+slides+v3 2024-10-22 14_37_23.pdf]]
+> [[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/2024+10+22+week+8+slides+v3 2024-10-22 14_37_23.pdf|2024+10+22+week+8+slides+v3 2024-10-22 14_37_23]]
 >
 > [[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/20241022 week 8 slides v3 2024-10-22 14_42_07.pdf|20241022 week 8 slides v3 2024-10-22 14_42_07]]
 >
@@ -837,7 +838,7 @@ HVAC Distribution
 	- Flow Efficiency
 		- Circular > Oval | Elliptical > Square > Rectangular
 - Diameter at each section of duct
-	- ==Critical Path: Duct Size and Shape== [[Projects/2024/ARC2047H_Project-1_Cheatsheet/Attachments/ARC2047H_Cheatsheet/2024+10+22+week+8+slides+v3 2024-10-22 14_37_23.pdf#page=31&selection=0,34,0,34|(p.31)]]
+	- ==Critical Path: Duct Size and Shape== [[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/2024+10+22+week+8+slides+v3 2024-10-22 14_37_23.pdf#page=31&selection=0,34,0,34|(p.31)]]
 	- 2in of insulation on each surface
 	- Turning radius is usually twice the duct diameter
 	- Air Velocity (fpm) at each section of duct
@@ -868,7 +869,7 @@ HVAC Distribution
 								- 54 (L/s/kW)
 							- q_1ton (Btu/h) = V/ton × Heat Capacity of Air (Btu·min/ft3·F·h) × ∆T
 								- 12000 = V/ton × 1.08 × ∆T_register
-									- ==Often the difference at the register is about 20°F. Due to losses along the length we can estimate the temperature difference at the air handler to be about 40% greater, 28°F== [[Projects/2024/ARC2047H_Project-1_Cheatsheet/Attachments/ARC2047H_Cheatsheet/2024+10+22+week+8+slides+v3 2024-10-22 14_37_23.pdf#page=3&selection=30,0,36,2|(p.3)]]
+									- ==Often the difference at the register is about 20°F. Due to losses along the length we can estimate the temperature difference at the air handler to be about 40% greater, 28°F== [[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/2024+10+22+week+8+slides+v3 2024-10-22 14_37_23.pdf#page=3&selection=30,0,36,2|(p.3)]]
 					- V_each = V_sum ÷ number of vent openings
 
 ![[./ARC2047H-Duct Friction Chart.svg|ARC2047H-Duct Friction Chart.excalidraw]]
@@ -1232,9 +1233,9 @@ HVAC Distribution
 #### Module 13
 
 > [!blue]- Links
-> [BCIT Virtual Tour Nov 2022.mp4](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C13%5CBCIT%20Virtual%20Tour%20Nov%202022.mp4)
-> [Lab example.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C13%5CLab%20example.pdf)
-> [Bahen-Centre.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C13%5CBahen-Centre.pdf)
+> [BCIT Virtual Tour Nov 2022.mp4](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-09/ARC2047H/Files/13/BCIT%20Virtual%20Tour%20Nov%202022.mp4)
+> [Lab example.pdf](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-09/ARC2047H/Files/13/Lab%20example.pdf)
+> [Bahen-Centre.pdf](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-09/ARC2047H/Files/13/Bahen-Centre.pdf)
 
 Geo Exchange
 - Under construction
@@ -1318,13 +1319,14 @@ Geo Exchange
 
 ### [[/Projects/2024/ARC2047H_Project-4/ARC2047H_Project-4|ARC2047H_Project-4]]
 
-## Tagged
+# Context
 
+**Alt + E** : [Action Context Note](Configs/Templater/Template/Action%20Context%20Note) / [Action Context Timelog](Configs/Templater/Template/Action%20Context%20Timelog)  
 `#Courses/2024/ARC2047H-Building_Science_Materials_and_Construction_3`
 
-Notes:
+Notes 3 entries
 
-Notes from [2024-11-26](Periodic%20Notes/Daily/2024/2024-11-26.md): BCIT Virtual Tour
+BCIT Virtual Tour - Building Mechanical Systems Control Panel … [2024-11-26](Periodic%20Notes/Daily/2024/2024-11-26.md)
 
 - Building Mechanical Systems Control Panel
     - Water Systems
@@ -1356,7 +1358,7 @@ Notes from [2024-11-26](Periodic%20Notes/Daily/2024/2024-11-26.md): BCIT Virtual
     - Misc Systems
     - Floor Plans
 
-Notes from [2024-11-25](Periodic%20Notes/Daily/2024/2024-11-25.md): Geoexchange project visit
+Geoexchange project visit Lab before 10 and present at tutorial … [2024-11-25](Periodic%20Notes/Daily/2024/2024-11-25.md)
 
 Lab before 10 and present at tutorial  
 Watch video before quiz  
@@ -1404,7 +1406,7 @@ Street, Room 320
 - Campus natural gas to electrical
     
 
-Notes from [2024-11-19](Periodic%20Notes/Daily/2024/2024-11-19.md): Tour 255 McCaul St.
+Tour 255 McCaul St. - Tilt … [2024-11-19](Periodic%20Notes/Daily/2024/2024-11-19.md)
 
 - Tilt
     - More tilt - more spacing
@@ -1422,11 +1424,9 @@ Notes from [2024-11-19](Periodic%20Notes/Daily/2024/2024-11-19.md): Tour 255 McC
     - Avoiding thermal bridge
     - more structure means more load
 
-Timelog:
+Timelog 00:00 total
 
-Total: 0 Hours, 0 Minutes
-
-Hours:
+No timelog entries found.
 
 ## Course Brief
 
@@ -1434,4 +1434,4 @@ code:: ARC2047HF
 title:: Building_Science_Materials_and_Construction_3
 Building Science 3: Environmental Systems
 Course average last year 89
-[ARC2047HF+Chung+Outline+2024+09+02+v3 2024-09-03 14_49_22.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5CARC2047HF+Chung+Outline+2024+09+02+v3%202024-09-03%2014_49_22.pdf)
+[ARC2047HF+Chung+Outline+2024+09+02+v3 2024-09-03 14_49_22.pdf](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2024-09/ARC2047H/Files/ARC2047HF+Chung+Outline+2024+09+02+v3%202024-09-03%2014_49_22.pdf)

@@ -3,15 +3,14 @@ excalidraw-plugin: parsed
 excalidraw-open-md: true
 tags:
   - note_atomic
-  - course
 title: 2025-02-12_Stress and Strain - Part 02
-description: 
+description:
 date: 2025-02-12
 name: Stress and Strain - Part 02
-people: 
-location: 
-weekday: 
-time: 
+people:
+location:
+weekday:
+time:
 share: true
 hidden: true
 ---
@@ -71,6 +70,7 @@ hidden: true
 		- $\Delta(mm)=\frac{5 \cdot w(kN/m|N/mm) \cdot l^4(mm^4)}{384 \cdot E(MPa|N/mm^2) \cdot I(mm^4)}$
 			- $I_{req}(mm^4)=\frac{5 \cdot w(kN/m|N/mm) \cdot l^4(mm^4)}{384 \cdot E(MPa|N/mm^2) \cdot \Delta(mm)}$
 		- Use only if **UDL** Uniformly Distributed Load
+		- For point-load and cantilever cases see **[BEAM LOADING DIAGRAMS](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/BEAM%20LOADING%20DIAGRAMS.pdf#page=10)**, p. 638
 	- $r$
 		- $M=\sigma r$
 	- Shapes

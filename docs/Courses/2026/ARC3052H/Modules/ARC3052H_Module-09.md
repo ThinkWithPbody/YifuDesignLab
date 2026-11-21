@@ -18,7 +18,8 @@ weekday:
 time:
 ---
 %%[parents:: [[../index|ARC3052H]]]%%
-![[Periodic Notes/Atomic/2026/2026-03/ARC3052H_Module-09/ARC3052H_Module-09.svg|Periodic Notes/Atomic/2026/2026-03/ARC3052H_Module-09/ARC3052H_Module-09.svg]]
+
+![[Courses/2026/ARC3052H/Modules/ARC3052H_Module-09.svg|Courses/2026/ARC3052H/Modules/ARC3052H_Module-09.svg]]
 
 ### Module-09 Money, Power, and Pay: Firm Finances + Architecture Union (FARE Wage)
 

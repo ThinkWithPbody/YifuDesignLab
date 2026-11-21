@@ -181,7 +181,7 @@ time:
 	- OAA
 	- Other organizations
 
-- [ ] Check out TSA  [due:: 2026-01-22]
+- [ ] Check out Toronto Society of Architects  [due:: 2026-01-22]
 ### Quiz
 
 1. **In architectural practice, marketing is best understood as:** A strategic process of positioning, relationships, and communicating value

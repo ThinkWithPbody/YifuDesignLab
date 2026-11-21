@@ -23,25 +23,25 @@ time:
 
 - Dead load (kPa)
 	- Hollow Core
-		- ![[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/DEAD LOADS.pdf#page=1&rect=76,462,158,484|DEAD LOADS, p.1|100]]
+		- [DEAD LOADS, p.1](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/DEAD%20LOADS.pdf#page=1)
 		- Do not require interpolation - use 8" as is for standard, flick back and forth
 - Snow load (kPa)
-	- ==S = Is \[Ss (Cb Cw Cs Ca ) + Sr \]== ([[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW LOAD.pdf#page=1&selection=134,0,156,1|p.1]])
-		- ==Is = importance factor for snow load as provided in Table 4.1.6.2.,== ([[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW LOAD.pdf#page=1&selection=158,0,164,62|p.1]])
-		- ==Ss = 1-in-50-year ground snow load, in kPa, determined in accordance with Subsection 1.1.2.,== ([[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW LOAD.pdf#page=1&selection=165,0,170,87|p.1]])
-		- ==Cb = basic roof snow load factor in Sentence (2),== ([[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW LOAD.pdf#page=1&selection=171,0,176,44|p.1]])
+	- ==S = Is \[Ss (Cb Cw Cs Ca ) + Sr \]== ([p.1](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/SNOW%20LOAD.pdf#page=1))
+		- ==Is = importance factor for snow load as provided in Table 4.1.6.2.,== ([p.1](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/SNOW%20LOAD.pdf#page=1))
+		- ==Ss = 1-in-50-year ground snow load, in kPa, determined in accordance with Subsection 1.1.2.,== ([p.1](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/SNOW%20LOAD.pdf#page=1))
+		- ==Cb = basic roof snow load factor in Sentence (2),== ([p.1](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/SNOW%20LOAD.pdf#page=1))
 			- Usually 0.8
 			- A certain amount of snow falls down from the roof, the given snow load is for ground and needs to be factored
 			- Will rise towards 1.0 if roof is very large or is internal
-		- ==Cw = wind exposure factor in Sentences (3) and (4),== ([[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW LOAD.pdf#page=2&selection=1,0,6,46|p.2]])
+		- ==Cw = wind exposure factor in Sentences (3) and (4),== ([p.2](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/SNOW%20LOAD.pdf#page=2))
 			- Usually 1.0
-		- ==Cs = slope factor in Sentences (5), (6) and (7),== ([[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW LOAD.pdf#page=2&selection=7,0,12,43|p.2]])
+		- ==Cs = slope factor in Sentences (5), (6) and (7),== ([p.2](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/SNOW%20LOAD.pdf#page=2))
 			- Usually 1.0
-			- ==(5) Except as provided for in Sentences (6) and (7), the slope factor, Cs , shall be, (a) 1.0 where the roof slope, , is equal to or less than 30°, (b) (70° - )/40° where  is greater than 30° but not greater than 70°, and (c) 0 where  exceeds 70°. (6) The slope factor, Cs , for unobstructed slippery roofs where snow and ice can slide completely off the roof shall be, (a) 1.0 when the roof slope, , is equal to or less than 15°, (b) (60° - )/45° when  is greater than 15°, but not greater than 60°, and (c) 0 when  exceeds 60°. (7) The slope factor, Cs , shall be 1.0 when used in conjunction with shape factors for increased snow loads as given in Clauses (8)(b) and (e).== ([[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW LOAD.pdf#page=2&selection=183,0,237,23|p.2]])
-		- ==Ca = shape factor in Sentence (8),== ([[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW LOAD.pdf#page=2&selection=13,0,18,29|p.2]])
+			- ==(5) Except as provided for in Sentences (6) and (7), the slope factor, Cs , shall be, (a) 1.0 where the roof slope, , is equal to or less than 30°, (b) (70° - )/40° where  is greater than 30° but not greater than 70°, and (c) 0 where  exceeds 70°. (6) The slope factor, Cs , for unobstructed slippery roofs where snow and ice can slide completely off the roof shall be, (a) 1.0 when the roof slope, , is equal to or less than 15°, (b) (60° - )/45° when  is greater than 15°, but not greater than 60°, and (c) 0 when  exceeds 60°. (7) The slope factor, Cs , shall be 1.0 when used in conjunction with shape factors for increased snow loads as given in Clauses (8)(b) and (e).== ([p.2](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/SNOW%20LOAD.pdf#page=2))
+		- ==Ca = shape factor in Sentence (8),== ([p.2](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/SNOW%20LOAD.pdf#page=2))
 			- Usually 1.0
 			- Accumulation factor
-		- ==Sr = 1-in-50-year associated rain load, in kPa, determined in accordance with Subsection 1.1.2., but not greater than Ss (Cb C w Cs Ca )== ([[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW LOAD.pdf#page=2&selection=19,0,41,1|p.2]])
+		- ==Sr = 1-in-50-year associated rain load, in kPa, determined in accordance with Subsection 1.1.2., but not greater than Ss (Cb C w Cs Ca )== ([p.2](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/SNOW%20LOAD.pdf#page=2))
 - Ultimate Limit States
 	- UDSL likely govern
 	- UD = 1.4DL
@@ -61,7 +61,7 @@ time:
 - Line Load (kN/m)
 	- Keep track of Serviceability (kN/m)
 	- Method of Section
-	- ![[Periodic Notes/Daily/2025/2025-01/Attachments/2025-01-15/2025-01-15.png|570x655]]
+	- ![[./Attachments/2025-02-12_Module 02 ARC1046 Review/2025-01-15.png|570x655]]
 
 ---
 

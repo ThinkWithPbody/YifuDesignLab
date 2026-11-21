@@ -19,12 +19,13 @@ time:
 ---
 
 %%[parents:: [[../index|ARC3052H]]]%%
-![[Periodic Notes/Atomic/2026/2026-03/ARC3052H_Module-10/ARC3052H_Module-10.svg|Periodic Notes/Atomic/2026/2026-03/ARC3052H_Module-10/ARC3052H_Module-10.svg]]
+
+![[Courses/2026/ARC3052H/Modules/ARC3052H_Module-10.svg|Courses/2026/ARC3052H/Modules/ARC3052H_Module-10.svg]]
 
 ### Module-10 What Gets Built: Specifications + Drawing Representation
 
-[20260312_ARC3052_Winter2026_W10_Construction_Documents_Representation.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2026-01%5CARC3052H%5CFiles%5C10%5C20260312_ARC3052_Winter2026_W10_Construction_Documents_Representation.pdf)
-[20260312_ARC3052_Winter2026_W10_Construction_Documents_Specifications.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2026-01%5CARC3052H%5CFiles%5C10%5C20260312_ARC3052_Winter2026_W10_Construction_Documents_Specifications.pdf)
+[20260312_ARC3052_Winter2026_W10_Construction_Documents_Representation.pdf](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2026-01/ARC3052H/Files/10/20260312_ARC3052_Winter2026_W10_Construction_Documents_Representation.pdf)
+[20260312_ARC3052_Winter2026_W10_Construction_Documents_Specifications.pdf](file:///D:/_twp/Document/Scholar/Archive/UTOR/Archive/2026-01/ARC3052H/Files/10/20260312_ARC3052_Winter2026_W10_Construction_Documents_Specifications.pdf)
 
 Skipped lecture
 

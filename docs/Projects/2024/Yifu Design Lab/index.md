@@ -7,8 +7,8 @@ status: IN_PROGRESS
 ---
 
 %%[parents:: [[../../../../Yifu Ding|Yifu Ding]]]%%
-%%<https://bit.ly/45WKQSC%%>
-%%<https://thinkwithpbody.github.io/Yifu-Pages/Projects/2024/Yifu-Design-Lab/Yifu-Design-Lab%%>
+%%<https://bit.ly/45WKQSC>%%
+%%<https://thinkwithpbody.github.io/Yifu-Pages/Projects/2024/Yifu-Design-Lab/Yifu-Design-Lab>%%
 
 ### Service
 
@@ -168,7 +168,7 @@ Pick up at Daniels or 404-Major Mackenzie Dr E.
 **Fair | Durable | Impact-resistant | Food-safe**
 
 - **Basic White**
-    ![[./Attachments/Yifu Design Lab/Yifu Design Lab_6f0f3ffb6bdb459f97d0f44a6d83fbf6-1.webp|128]]
+    ![[./Attachments/Yifu Design Lab/Yifu Design Lab_6f0f3ffb6bdb459f97d0f44a6d83fbf6.webp|128]]
     Color: Basic White
     Hex Code: `#FFFFFF`
     Price: $22.59/kg

@@ -19,7 +19,8 @@ time:
 ---
 
 %%[parents:: [[../index|ARC3052H]]]%%
-![[Periodic Notes/Atomic/2026/2026-01/ARC3052H_Module-01/ARC3052H_Module-01.svg|Periodic Notes/Atomic/2026/2026-01/ARC3052H_Module-01/ARC3052H_Module-01.svg]]
+
+![[Courses/2026/ARC3052H/Modules/ARC3052H_Module-01 How Practices Begin and End_ Course Introduction + Practice Succession or Sell.svg|Courses/2026/ARC3052H/Modules/ARC3052H_Module-01 How Practices Begin and End_ Course Introduction + Practice Succession or Sell.svg]]
 
 ### Module-01 How Practices Begin and End: Course Introduction + Practice Succession or Sell
 
