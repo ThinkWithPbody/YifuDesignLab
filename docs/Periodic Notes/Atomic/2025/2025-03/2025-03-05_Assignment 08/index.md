@@ -3,23 +3,23 @@ excalidraw-plugin: parsed
 excalidraw-open-md: true
 tags:
   - note_atomic
-  - course
-title: 
-description: 
+title:
+description:
 date: 2025-03-05
 name: Assignment 08
 slug: 2025-03-05_Assignment 08
-people: 
-location: 
-weekday: 
-time: 
+people:
+location:
+weekday:
+time:
 share: true
 hidden: true
 ---
 %%[parents:: [[../2025-03-05_Module 08 Wood - Beam Design/index|2025-03-05_Module 08 Wood - Beam Design]]]%%
 # Assignment 08
 
-![[Periodic Notes/Atomic/2025/2025-03-05_Assignment 08/2025-03-05_Assignment 08.svg|Periodic Notes/Atomic/2025/2025-03-05_Assignment 08/2025-03-05_Assignment 08.svg]]
+
+![[Periodic Notes/Atomic/2025/2025-03/2025-03-05_Assignment 08/2025-03-05_Assignment 08.svg|Periodic Notes/Atomic/2025/2025-03/2025-03-05_Assignment 08/2025-03-05_Assignment 08.svg]]
 
 ### Questions 1 to 8 make use of the following information:
 
@@ -47,7 +47,7 @@ $w_{l}=1\times8=8(kN/m)$
 
 What is the maximum factored moment Mf (kNm) on the beam. You do NOT need to do Method of Sections. Write your answer to two decimal places (XX.XX). Do not write the units.
 
-Refer to [[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/BEAM LOADING DIAGRAMS.pdf|BEAM LOADING DIAGRAMS]]
+Refer to **[BEAM LOADING DIAGRAMS](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/BEAM%20LOADING%20DIAGRAMS.pdf#page=10)**
 
 $M_{MAX}=\frac{wl^2}{8}=\frac{18.25\times5.4^2}{8}=66.52(kNm)$
 
@@ -93,7 +93,7 @@ The bedroom of a modern summer house is cantilevered out over the patio. Since t
 
 Assuming you add up the dead loads (you can do this... all the info is there) and you get a floor Dead Load of 0.32kPa, and you noted that the joists are at 16" c/c, what is the factored line load wf (kN/m) on the joist? Write your answer to two decimal places (X.XX). Do not write the units.
 
-Refer to [[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/DEAD LOADS.pdf|DEAD LOADS]]
+Refer to [DEAD LOADS](file:///D:/_twp/Document/Library/Design/Structure%2C%20Construction/Helpful%20PDF/DEAD%20LOADS.pdf)
 $16in*25.4mm/in=406.4mm=0.4064m$
 $q_{UD}=1.4\times0.32=0.448kPa$
 $q_{UDL}=1.25\times0.32+1.5\times1.9=3.25kPa$
